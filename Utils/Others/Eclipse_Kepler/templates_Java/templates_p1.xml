@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="p1">String message = "${message}";&#13;
+String label = "[" + Thread.currentThread().getStackTrace()[1].getFileName() + " : " &#13;
+					+ Thread.currentThread().getStackTrace()[1].getMethodName()&#13;
+					+ " : "&#13;
+					+ Thread.currentThread().getStackTrace()[1].getLineNumber()&#13;
+        			+ "]";&#13;
+System.out.println(label + " " + message);&#13;
+${cursor}</template></templates>

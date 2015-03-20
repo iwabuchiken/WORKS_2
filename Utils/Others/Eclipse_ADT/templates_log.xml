@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="log">// Log&#13;
+String msg_Log;&#13;
+&#13;
+msg_Log = "${message}";&#13;
+Log.${d}("${file}" + "["&#13;
+	+ Thread.currentThread().getStackTrace()[2].getLineNumber()&#13;
+	+ "]", msg_Log);</template></templates>

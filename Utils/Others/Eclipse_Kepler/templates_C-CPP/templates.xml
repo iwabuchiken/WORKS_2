@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="ubun">#ifndef UBUNTU&#13;
+&#13;
+	${code};&#13;
+&#13;
+#endif&#13;
+${cursor}</template></templates>

@@ -1,0 +1,338 @@
+Starting MainActv...[MainActv.java : 84] Starting MainActv...
+[MainActv.java : 84] Starting MainActv...
+[2014/09/02 10:12:47.283] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:15:08.791] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:18:34.018] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:27:18.428] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:31:45.770] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:32:43.818] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:33:38.919] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 11:37:43.317] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 13:33:33.054] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 13:37:26.631] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 13:42:27.804] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 13:44:57.144] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 13:46:04.274] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:35:13.365] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:35:37.958] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:40:58.282] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:51:41.727] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:54:29.962] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:55:24.593] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:57:43.107] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 14:59:53.538] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 15:01:09.276] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 15:19:25.903] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 15:26:36.313] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 16:50:45.343] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 16:55:13.230] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 16:55:27.085] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 16:59:03.242] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 17:04:18.159] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 17:06:13.227] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 17:09:10.581] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 17:10:44.006] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 19:04:52.639] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 19:07:58.064] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 19:12:14.789] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 19:14:12.258] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 19:16:14.011] [MainActv.java : 84] Starting MainActv...
+[2014/09/02 19:26:15.394] [DBUtils.java : 3334] Delete from DB => done: 2014-09-01_19-10-08_880.jpg (result = 1)
+[2014/09/02 19:27:24.614] [Task_FTP.java : 384] Upload => done: 2014-08-15_17-13-04_870.jpg
+[2014/09/02 19:30:29.323] [DBUtils.java : 3334] Delete from DB => done: 2014-08-15_17-13-04_870.jpg (result = 1)
+[2014/09/02 19:31:29.831] [Task_FTP.java : 384] Upload => done: 2014-08-15_17-13-22_25.jpg
+[2014/09/02 19:33:54.767] [DBUtils.java : 3334] Delete from DB => done: 2014-08-15_17-13-22_25.jpg (result = 1)
+[2014/09/02 19:38:01.268] [Task_FTP.java : 423] Upload => Exception occurred: 2014-08-09_06-25-08_554.jpg
+[2014/09/02 19:41:15.265] [Task_FTP.java : 384] Upload => done: 2014-08-09_06-24-26_444.jpg
+[2014/09/02 22:27:57.427] [DBUtils.java : 3334] Delete from DB => done: 2014-08-09_06-24-26_444.jpg (result = 1)
+[2014/09/02 23:36:38.765] [Task_FTP.java : 387] Upload => done: 2014-08-09_06-24-44_811.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/02 23:37:22.919] [Task_FTP.java : 387] Upload => done: 2014-08-09_06-25-08_554.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/02 23:38:47.779] [Task_FTP.java : 387] Upload => done: 2014-08-09_06-26-26_73.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 00:11:30.514] [DBUtils.java : 3336] Delete from DB => done: 2014-08-09_06-26-26_73.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 00:11:36.344] [DBUtils.java : 3336] Delete from DB => done: 2014-08-09_06-25-08_554.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 00:11:41.143] [DBUtils.java : 3336] Delete from DB => done: 2014-08-09_06-24-44_811.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 00:12:20.378] [Task_FTP.java : 426] Upload => Exception occurred: 2014-08-09_06-26-42_731.jpg
+[2014/09/03 00:15:09.050] [Task_FTP.java : 426] Upload => Exception occurred: 2014-08-09_06-26-37_992.jpg
+[2014/09/03 08:59:44.199] [Task_FTP.java : 433] Upload result => 200(File not deleted: can't delete) (table = ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/03 09:10:53.040] [DBUtils.java : 3337] Delete from DB => done: 2014-08-09_06-26-37_992.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 09:11:33.733] [DBUtils.java : 3337] Delete from DB => done: 2014-08-09_06-26-42_731.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 09:11:33.903] [Task_FTP.java : 462] Upload result => 200(deleted from DB)(File deleted) (2014-08-09_06-26-42_731.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/03 09:20:20.836] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-15-53_653.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 09:20:20.961] [Task_FTP.java : 466] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-15-53_653.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/03 09:52:30.842] [Task_FTP.java : 534] Upload => Exception occurred: 2014-08-16_16-43-55_759.jpg
+[2014/09/03 09:53:26.429] [Task_FTP.java : 495] Upload result => 200(File kept) (2014-08-16_16-43-55_759.jpg, ifm11__DES) ()
+[2014/09/03 21:30:59.285] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-00_397.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 21:30:59.420] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-00_397.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/03 21:31:02.429] [Task_FTP.java : 514] Upload => done, record not saved: 2014-08-11_07-16-00_397.jpg
+[2014/09/03 21:33:23.930] [Task_FTP.java : 534] Upload => Exception occurred: 2014-08-11_07-16-24_577.jpg
+[2014/09/03 21:35:30.969] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-24_577.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/03 21:35:31.068] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-24_577.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 00:03:22.506] [Task_FTP.java : 534] Upload => Exception occurred: 2014-08-11_07-16-35_4.jpg
+[2014/09/04 00:04:08.135] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-07_711.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 00:04:08.336] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-07_711.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 08:15:24.335] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-16_983.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 08:15:24.520] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-16_983.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 08:15:34.197] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-31_228.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 08:15:34.326] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-31_228.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 08:15:40.324] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-35_4.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 08:15:40.462] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-35_4.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 08:17:41.697] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-17-04_178.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 08:17:41.834] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-17-04_178.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 08:18:02.799] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_07-16-45_961.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 08:18:02.883] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_07-16-45_961.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 08:18:10.624] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_07-11-35_880.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 08:18:10.754] [Task_FTP.java : 495] Upload result => 200(deleted from DB)(File deleted) (2014-08-12_07-11-35_880.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 09:46:56.857] [Methods.java : 5524] File => Stored (2014-08-12_07-11-45_38.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 09:47:21.363] [Methods.java : 5524] File => Stored (2014-08-12_07-12-02_669.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 11:07:37.378] [Methods.java : 5397] File => Stored (2014-08-12_07-12-11_805.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 11:08:10.188] [Methods.java : 5397] File => Stored (2014-08-12_07-12-48_19.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 11:08:10.193] [Methods.java : 5257] FTP done => 2 items
+[2014/09/04 11:11:18.625] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_07-12-48_19.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 11:11:30.718] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_07-12-11_805.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 11:52:10.940] [Methods.java : 5457] IOException in stroing image to remote
+[2014/09/04 12:10:18.308] [Methods.java : 5398] File => Stored (2014-08-12_07-11-45_38.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 12:13:22.271] [Methods.java : 5457] IOException in stroing image to remote
+[2014/09/04 12:13:22.293] [Methods.java : 5457] IOException in stroing image to remote
+[2014/09/04 12:13:22.312] [Methods.java : 5258] FTP done => 0 items
+[2014/09/04 12:15:38.694] [Methods.java : 5398] File => Stored (2014-08-12_07-12-02_669.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 12:15:38.697] [Methods.java : 5258] FTP done => 2 items
+[2014/09/04 12:15:40.851] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_07-11-45_38.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 17:13:35.096] [Methods.java : 5398] File => Stored (2014-08-12_07-12-02_669.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 17:14:27.601] [Methods.java : 5398] File => Stored (2014-08-13_07-13-25_8.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 17:15:06.122] [Methods.java : 5398] File => Stored (2014-08-13_07-13-29_680.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 17:15:06.127] [Methods.java : 5258] FTP done => 3 items
+[2014/09/04 17:15:07.744] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_07-12-02_669.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:22:17.789] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-13-42_771.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:22:17.874] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-13-42_771.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:22:33.810] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-13-56_442.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:22:33.892] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-13-56_442.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:22:40.809] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-14-13_986.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:22:40.913] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-14-13_986.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:23:45.591] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-14-22_298.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:23:45.693] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-14-22_298.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:24:00.897] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-15-20_64.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:24:00.986] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-15-20_64.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:24:16.442] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-15-24_685.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:24:16.546] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-15-24_685.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:24:42.941] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-14_30.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:24:43.035] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-14_30.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:25:23.851] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-21_105.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:25:23.919] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-21_105.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:26:08.748] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-33_769.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:26:08.818] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-33_769.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:28:01.131] [DBUtils.java : 3337] Delete from DB => done: 2014-08-24_09-17-35_77.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:28:01.246] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-24_09-17-35_77.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:28:15.445] [DBUtils.java : 3337] Delete from DB => done: 2014-08-24_09-17-28_419.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:28:15.512] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-24_09-17-28_419.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:28:24.150] [DBUtils.java : 3337] Delete from DB => done: 2014-08-24_09-17-24_744.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:28:24.214] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-24_09-17-24_744.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:30:00.720] [DBUtils.java : 3337] Delete from DB => done: 2014-08-24_09-17-21_375.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:30:00.787] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-24_09-17-21_375.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:30:12.065] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-17-32_25.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:30:12.245] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-17-32_25.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:30:16.759] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-16-49_689.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:30:16.874] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-16-49_689.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:31:33.591] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-16-36_27.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:31:33.758] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-16-36_27.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:31:49.090] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-16-32_803.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:31:49.144] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-16-32_803.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/04 23:31:49.503] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-16-11_834.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/04 23:31:49.600] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-16-11_834.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 07:08:31.153] [Task_FTP.java : 581] Upload => Exception occurred: 2014-08-23_07-15-43_781.jpg
+[2014/09/05 07:08:36.562] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-16-06_231.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 07:08:36.643] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-16-06_231.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 07:08:51.202] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-15-48_574.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 07:08:51.276] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-15-48_574.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 07:09:30.868] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-15-43_781.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 07:09:30.923] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-15-43_781.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 07:10:06.200] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-13-56_663.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 07:10:06.268] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-13-56_663.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 07:10:18.541] [DBUtils.java : 3337] Delete from DB => done: 2014-08-23_07-13-52_30.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 07:10:18.618] [Task_FTP.java : 542] Upload result => 200(deleted from DB)(File deleted) (2014-08-23_07-13-52_30.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 07:10:18.637] [Task_FTP.java : 561] Upload => done, record not saved: 2014-08-23_07-13-52_30.jpg
+[2014/09/05 09:23:23.495] [Methods.java : 5342] File => Stored (2014-08-22_07-19-38_749.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:23:51.268] [Methods.java : 5342] File => Stored (2014-08-22_07-19-33_730.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:23:51.275] [Methods.java : 5194] FTP done => 2 items
+[2014/09/05 09:23:51.279] [Methods.java : 5221] Uploading image data... => 2 items
+[2014/09/05 09:23:54.010] [DBUtils.java : 3337] Delete from DB => done: 2014-08-22_07-19-38_749.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:32:19.701] [Methods.java : 5342] File => Stored (2014-08-22_07-19-33_730.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:33:48.062] [Methods.java : 5342] File => Stored (2014-08-22_07-19-12_651.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:33:48.068] [Methods.java : 5194] FTP done => 2 items
+[2014/09/05 09:33:48.072] [Methods.java : 5221] Uploading image data... => 2 items
+[2014/09/05 09:33:50.024] [Methods.java : 6209] Posting image data done. Deleting from DB... (2014-08-22_07-19-33_730.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:33:50.124] [DBUtils.java : 3337] Delete from DB => done: 2014-08-22_07-19-33_730.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:33:51.721] [Methods.java : 6209] Posting image data done. Deleting from DB... (2014-08-22_07-19-12_651.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:33:51.768] [DBUtils.java : 3337] Delete from DB => done: 2014-08-22_07-19-12_651.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:33:51.772] [Task_FTP.java : 320] res_i => 2
+[2014/09/05 09:35:36.000] [Methods.java : 5342] File => Stored (2014-08-22_07-19-09_653.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:35:40.716] [Methods.java : 5342] File => Stored (2014-08-22_07-18-59_181.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:35:40.721] [Methods.java : 5194] FTP done => 2 items
+[2014/09/05 09:35:40.727] [Methods.java : 5221] Uploading image data... => 2 items
+[2014/09/05 09:35:42.280] [Methods.java : 6209] Posting image data done. Deleting from DB... (2014-08-22_07-19-09_653.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:35:42.359] [DBUtils.java : 3337] Delete from DB => done: 2014-08-22_07-19-09_653.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:41:05.697] [Methods.java : 5342] File => Stored (2014-08-22_07-18-59_181.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:58:55.732] [Methods.java : 5401] IOException in stroing image to remote
+[2014/09/05 09:58:55.734] [Methods.java : 5194] FTP done => 1 items
+[2014/09/05 09:58:55.737] [Methods.java : 5221] Uploading image data... => 1 items
+[2014/09/05 09:59:10.091] [Methods.java : 6209] Posting image data done. Deleting from DB... (2014-08-22_07-18-59_181.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:59:10.152] [DBUtils.java : 3337] Delete from DB => done: 2014-08-22_07-18-59_181.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 09:59:10.158] [Task_FTP.java : 331] res_i => 1
+[2014/09/05 10:08:05.969] [Methods.java : 5594] File => Stored (2014-08-19_07-14-56_257.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:08:05.974] [Methods.java : 5372] FTP done => 0 items
+[2014/09/05 10:08:05.978] [Methods.java : 5399] Uploading image data... => 0 items
+[2014/09/05 10:08:07.728] [Task_FTP.java : 332] res_i => 1
+[2014/09/05 10:19:12.152] [Methods.java : 5650] File => Stored (2014-08-19_07-14-56_257.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:19:12.154] [Methods.java : 5372] FTP done => 0 items
+[2014/09/05 10:19:12.157] [Methods.java : 5399] Uploading image data... => 0 items
+[2014/09/05 10:19:13.801] [Methods.java : 5416] Posting image data done
+[2014/09/05 10:19:13.858] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-14-56_257.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:19:13.863] [Task_FTP.java : 332] res_i => 1
+[2014/09/05 10:22:34.922] [Methods.java : 5650] File => Stored (2014-08-19_07-13-42_817.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:22:34.927] [Methods.java : 5372] FTP done => 0 items
+[2014/09/05 10:22:34.934] [Methods.java : 5399] Uploading image data... => 0 items
+[2014/09/05 10:22:36.567] [Methods.java : 5416] Posting image data done
+[2014/09/05 10:22:36.650] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-13-42_817.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:22:36.656] [Methods.java : 5709] IOException in stroing image to remote
+[2014/09/05 10:22:36.661] [Task_FTP.java : 332] res_i => 1
+[2014/09/05 10:58:32.544] [Methods.java : 5650] File => Stored (2014-08-19_07-13-38_298.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:58:32.547] [Methods.java : 5372] FTP done => 0 items
+[2014/09/05 10:58:32.549] [Methods.java : 5399] Uploading image data... => 0 items
+[2014/09/05 10:58:34.387] [Methods.java : 5416] Posting image data done
+[2014/09/05 10:58:34.458] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-13-38_298.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 10:58:34.463] [Methods.java : 5709] IOException in stroing image to remote
+[2014/09/05 10:58:34.467] [Methods.java : 5709] IOException in stroing image to remote
+[2014/09/05 10:58:34.475] [Task_FTP.java : 332] res_i => 1
+[2014/09/05 11:04:44.740] [Methods.java : 5650] File => Stored (2014-08-19_07-13-18_247.jpg, ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:04:44.746] [Methods.java : 5372] FTP done => 0 items
+[2014/09/05 11:04:44.751] [Methods.java : 5399] Uploading image data... => 0 items
+[2014/09/05 11:04:46.379] [Methods.java : 5416] Posting image data done
+[2014/09/05 11:04:46.468] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-13-18_247.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:04:46.476] [Methods.java : 5709] IOException in stroing image to remote
+[2014/09/05 11:04:46.486] [Methods.java : 5709] IOException in stroing image to remote
+[2014/09/05 11:04:46.492] [Methods.java : 5709] IOException in stroing image to remote
+[2014/09/05 11:04:46.498] [Task_FTP.java : 332] res_i => 1
+[2014/09/05 11:07:49.065] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-12-39_533.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:07:49.187] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-12-39_533.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:07:52.504] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-12-50_737.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:07:52.717] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-12-50_737.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:08:00.065] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-12-10_704.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:08:00.121] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-12-10_704.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:35:01.716] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-42_370.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:35:01.755] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-42_370.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:35:27.643] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-59_468.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:35:27.683] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-59_468.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:35:28.621] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-17_946.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:35:28.661] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-17_946.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:35:37.547] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-53_505.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:35:37.604] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-53_505.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:53:16.199] [DBUtils.java : 3337] Delete from DB => done: 2014-08-19_07-11-10_541.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:53:16.245] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-19_07-11-10_541.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:53:55.174] [DBUtils.java : 3337] Delete from DB => done: 2014-08-18_07-37-51_698.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:53:55.208] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-18_07-37-51_698.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:53:56.247] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-15-44_475.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:53:56.280] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-15-44_475.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 11:53:56.454] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-13-39_746.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 11:53:56.480] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-13-39_746.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 12:03:37.907] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-13-29_680.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 12:03:37.932] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-13_07-13-29_680.jpg, ifm11__PHOTO__TANAKA_SAN) ()
+[2014/09/05 12:03:45.818] [DBUtils.java : 3337] Delete from DB => done: 2014-08-13_07-13-25_8.jpg (table = ifm11__PHOTO__TANAKA_SAN)
+[2014/09/05 23:35:35.356] [DBUtils.java : 3337] Delete from DB => done: 2014-08-16_16-43-55_759.jpg (table = ifm11__DES)
+[2014/09/05 23:35:35.524] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-16_16-43-55_759.jpg, ifm11__DES) ()
+[2014/09/05 23:35:37.778] [DBUtils.java : 3337] Delete from DB => done: 2014-08-16_07-51-41_162.jpg (table = ifm11__DES)
+[2014/09/05 23:35:37.941] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-16_07-51-41_162.jpg, ifm11__DES) ()
+[2014/09/06 00:08:13.754] [DBUtils.java : 3337] Delete from DB => done: 2014-08-16_00-11-16_680.jpg (table = ifm11__DES)
+[2014/09/06 00:08:13.896] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-16_00-11-16_680.jpg, ifm11__DES) ()
+[2014/09/06 00:08:14.310] [DBUtils.java : 3337] Delete from DB => done: 2014-08-16_07-45-39_829.jpg (table = ifm11__DES)
+[2014/09/07 09:33:10.437] [Task_RefreshDB.java : 77] Refresh => done: 14
+[2014/09/07 09:34:00.214] [DBUtils.java : 3337] Delete from DB => done: 2014-08-17_17-31-45_634.jpg (table = ifm11__PHOTO)
+[2014/09/07 09:34:00.334] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-17_17-31-45_634.jpg, ifm11__PHOTO) ()
+[2014/09/07 09:34:21.686] [DBUtils.java : 3337] Delete from DB => done: 2014-08-17_17-31-34_207.jpg (table = ifm11__PHOTO)
+[2014/09/07 09:34:21.716] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-17_17-31-34_207.jpg, ifm11__PHOTO) ()
+[2014/09/07 09:34:31.168] [DBUtils.java : 3337] Delete from DB => done: 2014-08-17_17-31-24_627.jpg (table = ifm11__PHOTO)
+[2014/09/07 09:34:31.210] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-17_17-31-24_627.jpg, ifm11__PHOTO) ()
+[2014/09/07 09:35:18.516] [DBUtils.java : 3337] Delete from DB => done: 2014-08-17_17-31-18_229.jpg (table = ifm11__PHOTO)
+[2014/09/07 09:35:18.539] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-17_17-31-18_229.jpg, ifm11__PHOTO) ()
+[2014/09/07 09:35:22.883] [Task_FTP.java : 577] Upload => done, record not saved: 2014-08-17_17-31-18_229.jpg
+[2014/09/07 09:35:26.389] [DBUtils.java : 3337] Delete from DB => done: 2014-08-17_17-31-12_388.jpg (table = ifm11__PHOTO)
+[2014/09/07 21:39:33.994] [Task_RefreshDB.java : 77] Refresh => done: 10
+[2014/09/08 00:30:24.281] [Task_RefreshDB.java : 77] Refresh => done: 2
+[2014/09/08 00:33:18.289] [DBUtils.java : 3337] Delete from DB => done: 2014-08-10_20-10-59_177.jpg (table = ifm11__PLANTS)
+[2014/09/08 00:34:55.960] [Task_FTP.java : 597] Upload => Exception occurred: 2014-08-12_12-16-57_687.jpg
+[2014/09/08 00:35:06.819] [Task_FTP.java : 597] Upload => Exception occurred: 2014-08-10_20-10-53_24.jpg
+[2014/09/08 00:35:16.963] [Task_FTP.java : 597] Upload => Exception occurred: 2014-08-11_08-27-52_41.jpg
+[2014/09/08 00:50:02.180] [Task_FTP.java : 597] Upload => Exception occurred: 2014-08-12_12-17-06_960.jpg
+[2014/09/08 00:50:25.048] [Task_FTP.java : 597] Upload => Exception occurred: 2014-08-12_12-17-02_69.jpg
+[2014/09/08 00:50:48.882] [Task_FTP.java : 597] Upload => Exception occurred: 2014-08-12_12-17-13_686.jpg
+[2014/09/08 16:00:38.811] [Task_RefreshDB.java : 77] Refresh => done: 1
+[2014/09/08 16:00:46.676] [DBUtils.java : 3337] Delete from DB => done: 2014-09-08_00-21-07_14.jpg (table = ifm11)
+[2014/09/08 16:00:51.296] [DBUtils.java : 3337] Delete from DB => done: 2014-09-07_20-16-45_97.jpg (table = ifm11)
+[2014/09/08 16:00:59.784] [DBUtils.java : 3337] Delete from DB => done: 2014-09-07_22-12-01_660.jpg (table = ifm11)
+[2014/09/08 16:02:27.181] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_12-17-13_686.jpg (table = ifm11__PLANTS)
+[2014/09/08 16:02:27.310] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-12_12-17-13_686.jpg, ifm11__PLANTS) ()
+[2014/09/08 16:02:45.476] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_12-17-06_960.jpg (table = ifm11__PLANTS)
+[2014/09/08 16:02:45.536] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-12_12-17-06_960.jpg, ifm11__PLANTS) ()
+[2014/09/08 16:02:52.149] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_12-17-02_69.jpg (table = ifm11__PLANTS)
+[2014/09/08 16:02:52.303] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-12_12-17-02_69.jpg, ifm11__PLANTS) ()
+[2014/09/08 18:51:53.929] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_12-16-57_687.jpg (table = ifm11__PLANTS)
+[2014/09/08 18:51:54.049] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-12_12-16-57_687.jpg, ifm11__PLANTS) ()
+[2014/09/08 18:52:02.676] [DBUtils.java : 3337] Delete from DB => done: 2014-08-12_12-16-50_77.jpg (table = ifm11__PLANTS)
+[2014/09/08 18:52:02.706] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-12_12-16-50_77.jpg, ifm11__PLANTS) ()
+[2014/09/08 18:52:07.618] [DBUtils.java : 3337] Delete from DB => done: 2014-08-11_08-27-52_41.jpg (table = ifm11__PLANTS)
+[2014/09/08 18:52:07.660] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-11_08-27-52_41.jpg, ifm11__PLANTS) ()
+[2014/09/08 21:47:08.563] [DBUtils.java : 3337] Delete from DB => done: 2014-08-10_20-10-53_24.jpg (table = ifm11__PLANTS)
+[2014/09/10 23:17:41.879] [DBUtils.java : 3337] Delete from DB => done: 2014-09-08_15-59-31_436.jpg (table = ifm11)
+[2014/09/10 23:19:04.001] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-12-22_602.jpg (table = ifm11__PHOTO)
+[2014/09/10 23:19:04.045] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-12-22_602.jpg, ifm11__PHOTO) ()
+[2014/09/10 23:26:52.674] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-12-26_634.jpg (table = ifm11__PHOTO)
+[2014/09/10 23:26:52.916] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-12-26_634.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:33:31.946] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-12-36_460.jpg (table = ifm11__PHOTO)
+[2014/09/11 08:33:32.072] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-12-36_460.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:33:45.392] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-13-14_995.jpg (table = ifm11__PHOTO)
+[2014/09/11 08:33:45.504] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-13-14_995.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:33:51.591] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-13-31_337.jpg (table = ifm11__PHOTO)
+[2014/09/11 08:33:51.760] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-13-31_337.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:35:56.769] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-14-44_860.jpg (table = ifm11__PHOTO)
+[2014/09/11 08:35:56.821] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-14-44_860.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:36:00.863] [Task_FTP.java : 577] Upload => done, record not saved: 2014-08-21_07-14-44_860.jpg
+[2014/09/11 08:36:03.890] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-14-54_596.jpg (table = ifm11__PHOTO)
+[2014/09/11 08:36:04.009] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-14-54_596.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:36:20.047] [DBUtils.java : 3337] Delete from DB => done: 2014-08-21_07-15-19_380.jpg (table = ifm11__PHOTO)
+[2014/09/11 08:36:20.180] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-21_07-15-19_380.jpg, ifm11__PHOTO) ()
+[2014/09/11 08:38:08.474] [Task_FTP.java : 774] Uploading... 2014-08-14_08-23-37_758.jpg
+[2014/09/11 08:38:14.193] [Task_FTP.java : 774] Uploading... 2014-08-14_10-01-27_753.jpg
+[2014/09/11 08:38:19.843] [Task_FTP.java : 774] Uploading... 2014-08-14_10-05-45_48.jpg
+[2014/09/11 08:38:45.479] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_08-23-37_758.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:38:45.662] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_08-23-37_758.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:38:54.321] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-05-45_48.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:38:54.577] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-05-45_48.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:38:58.186] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-01-27_753.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:38:58.307] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-01-27_753.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:39:11.221] [Task_FTP.java : 774] Uploading... 2014-08-14_10-05-56_923.jpg
+[2014/09/11 08:39:19.101] [Task_FTP.java : 774] Uploading... 2014-08-14_10-06-00_189.jpg
+[2014/09/11 08:39:24.596] [Task_FTP.java : 774] Uploading... 2014-08-14_10-07-10_589.jpg
+[2014/09/11 08:39:32.025] [Task_FTP.java : 774] Uploading... 2014-08-14_10-10-37_315.jpg
+[2014/09/11 08:39:41.565] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-05-56_923.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:39:41.746] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-05-56_923.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:39:44.537] [Task_FTP.java : 774] Uploading... 2014-08-14_10-11-16_856.jpg
+[2014/09/11 08:39:59.638] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-06-00_189.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:39:59.782] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-06-00_189.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:40:03.441] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-07-10_589.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:40:03.611] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-07-10_589.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:40:11.493] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-11-16_856.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:40:11.596] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-11-16_856.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:40:34.648] [Task_FTP.java : 774] Uploading... 2014-08-14_10-10-37_315.jpg
+[2014/09/11 08:40:41.968] [Task_FTP.java : 774] Uploading... 2014-08-14_10-11-38_601.jpg
+[2014/09/11 08:40:47.206] [Task_FTP.java : 774] Uploading... 2014-08-14_10-14-11_350.jpg
+[2014/09/11 08:40:55.129] [Task_FTP.java : 774] Uploading... 2014-08-14_10-22-25_998.jpg
+[2014/09/11 08:41:00.698] [Task_FTP.java : 774] Uploading... 2014-08-14_10-36-14_342.jpg
+[2014/09/11 08:41:05.813] [Task_FTP.java : 774] Uploading... 2014-08-14_11-04-37_366.jpg
+[2014/09/11 08:41:09.729] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-10-37_315.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:41:09.792] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-10-37_315.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:41:20.430] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-11-38_601.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:41:20.488] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-11-38_601.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:41:48.235] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-22-25_998.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:41:48.292] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-22-25_998.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:41:56.663] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_10-36-14_342.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:41:56.727] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_10-36-14_342.jpg, ifm11__MEMO__OS_reinstall) ()
+[2014/09/11 08:42:02.678] [DBUtils.java : 3337] Delete from DB => done: 2014-08-14_11-04-37_366.jpg (table = ifm11__MEMO__OS_reinstall)
+[2014/09/11 08:42:02.762] [Task_FTP.java : 558] Upload result => 200(deleted from DB)(File deleted) (2014-08-14_11-04-37_366.jpg, ifm11__MEMO__OS_reinstall) ()
