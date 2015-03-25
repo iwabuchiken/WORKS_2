@@ -42,9 +42,9 @@ SET ADB_HOME=C:\WORKS\Programs\android_sdk_r24.0.2\platform-tools
 PATH=%PATH%;%ADB_HOME%;
 
 
-REM ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
-REM SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
-REM PATH=%PATH%;%ANT_BIN_HOME%;
+ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.8.4\bin
+SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.8.4\bin
+PATH=%PATH%;%ANT_BIN_HOME%;
 
 REM ECHO Setting a var: JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
 REM SET JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
@@ -71,8 +71,8 @@ REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 REM SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 REM PATH=%PATH%;%RUBY_BIN_HOME%;
 
-REM ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
-REM SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.9.4\bin
+REM ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.8.4\bin
+REM SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.8.4\bin
 REM PATH=%PATH%;%ANT_BIN_HOME%;
 
 ECHO Setting a var: CLISP_BIN_HOME=C:\WORKS\Programs\clisp-2.49
