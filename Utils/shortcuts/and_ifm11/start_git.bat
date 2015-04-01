@@ -1,5 +1,6 @@
 @ECHO OFF
-pushd C:\WORKS\WS\Eclipse_ADT\IFM11
+REM pushd C:\WORKS\WS\Eclipse_ADT\IFM11
+pushd C:\WORKS\WS\WS_Android\IFM11
 
 call a.bat
 
