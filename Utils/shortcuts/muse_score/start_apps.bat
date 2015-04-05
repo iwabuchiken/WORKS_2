@@ -1,6 +1,7 @@
 @ECHO OFF
 
-pushd C:\WORKS\Programs\MuseScore_1.3\bin
+REM pushd C:\WORKS\Programs\MuseScore_1.3\bin
+pushd C:\WORKS\Programs\MuseScore\bin
 start mscore.exe
 
 
