@@ -9,4 +9,6 @@ taskkill /f /IM xampp-control.exe
 
 taskkill /IM github.exe
 
+taskkill /IM sqlitebrowser.exe
+
 exit

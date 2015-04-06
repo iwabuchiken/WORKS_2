@@ -1,5 +1,8 @@
 @ECHO OFF
 
+REM sql browser
+start_sql_browser
+
 pushd C:\WORKS\Programs\eclipse_luna_lisp
 start eclipse.exe
 
