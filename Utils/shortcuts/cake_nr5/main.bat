@@ -11,4 +11,4 @@ start_git
 
 REM start start_git_lib
 
-exit
+REM exit
