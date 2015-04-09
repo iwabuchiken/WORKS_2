@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="p1">printf("[%s:%d] ${msg}\n", __FILE__, __LINE__${args});&#13;
+${cursor}</template></templates>
