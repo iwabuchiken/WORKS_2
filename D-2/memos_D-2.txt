@@ -1,0 +1,195 @@
+fpath = 'C:\WORKS\WS\WS_SciLab\D-1'
+//exec(fpath+'/text_mputl.txt')
+
+load(fpath+'/funcs.sci')
+		[] = resume(%__resumeList__(:))
+		  !--error 274 
+		左辺の命令: 名前を入力してください.
+		in  execstr instruction    called by :  
+		at line     981 of function %_sodload called by :  
+		load(fpath+'\funcs.sci')
+
+exec(fpath+'/funcs.sci')
+
+//REF http://home.hit.no/~finnh/scilab_scicos/scilab/
+ax1=gca();ax1.grid=[0,0]
+
+-----------------------------------------------------
+25/02/2015 10:04:36
+
+plotcomplex
+
+plot3d
+
+//REF http://usingscilab.blogspot.jp/2009/06/plot-3d-surface.html
+x = -5:0.1:5;
+y = 0:0.1:10;
+[xc yc] = meshgrid(x, y);
+w = %pi/4;
+b = -0.5;
+z = exp(b*yc).*sin(w*xc);
+plot3d(x, y, z);
+
+//REF http://help.scilab.org/docs/5.3.2/en_US/xgrid.html
+xgrid(2)
+
+-----------------------------------------------------
+26/02/2015 16:19:09
+
+fpath = 'C:\WORKS\WS\WS_SciLab\D-1'
+exec(fpath+'\funcs.sci')
+
+sinxc = sin(xc)
+plot3d(xc, sinxc)
+plot3d(x, y, sinxc)
+
+
+-----------------------------------------------------
+28/02/2015 15:38:49
+
+fpath = 'C:\WORKS\WS\WS_SciLab\D-1'
+exec(fpath+'\funcs.sci')
+
+palabora
+x = palabora()
+[x y] = palabora();
+plot(x,y);
+
+[range1, y1 range1, y2] = palabora2();
+
+[range1, y1, range1, y2] = palabora3();
+
+mtlb_axis([0, 5, -3.5, 3.5]);
+
+plot(range1, y1, range1, y2);
+
+[range1, y1, range1, y2, rng2] = palabora3();
+
+plot(rng1, y1, rng1, y2);
+
+plot(rng1, y1, rng1, y2, rng2, y3, rng2, y4);
+
+mtlb_axis([0, 5, -3, 3]);
+mtlb_axis([-5, 5, -3, 3]);
+
+[range1, y1, range1, y2, rng2] = palabora4();
+
+plot(rng1, y1, rng1, y2, rng2, y3, rng2, y4);
+
+-----------------------------------------------------
+01/03/2015 09:49:24
+
+fpath = 'C:\WORKS\WS\WS_SciLab\D-1'
+exec(fpath+'\funcs.sci')
+
+[x1, x2, rng1]=palabora_crossY()
+
+plot(x1, rng1);
+plot(x1, rng1, x2, rng1);
+
+mtlb_axis([-1.5, 1.5, -3.5, 3.5]);
+
+xgrid(2);
+
+[a, b]=lorenz_trans_time();
+
+[beta, beta_gamma]=lorenz_beta_gamma()
+
+plot(beta, beta_gamma);
+
+[x, y1, y2, x2, y3, y4, r, im]=sin2sinh()
+
+plot(x, y2, x2, y4);
+
+mtlb_axis([-3.5, 3.5, -10, 10]);
+
+-----------------------------------------------------
+03/03/2015 08:51:28
+
+fpath = 'C:\WORKS\WS\WS_SciLab\D-1'
+exec(fpath+'\funcs.sci')
+
+x=[1;2;3];
+[J,H]=derivative(F,x)
+
+t = poly(0,"t");
+p = t^2+t+1;
+q = derivat(p);
+
+t2 = poly(1:4,"t2");
+t2 = poly(4,"t2");
+t2 = poly(4,"t2", "coeff");
+t2 = poly(4,"t2", "r"); t2;
+
+m0 = poly(0,"m0");
+c = poly(0,"c");
+v = poly(0,"v");
+
+exec(fpath+'\lib\evalpoly.sci')
+
+a = 1 + v^2;
+
+evalpoly(a,2);
+
+x = poly(0,"x");
+
+y = 1+x+x^2;
+
+C = coeff(y);
+
+[nr,nc] = size(y);
+
+ret = my_evalpoly(y, x, 2);
+
+-----------------------------------------------------
+04/03/2015 12:42:57
+
+fpath = 'C:\WORKS\WS\WS_SciLab\D-1'
+exec(fpath+'\funcs.sci')
+
+plot(x,y);
+plot(x,y,x,y2);
+plot(x,y,x,y2,x,sum);
+
+[x, y, y2,y3,sum]=sin_cos();
+clf();
+plot(x,y,x,y2,x,y3,x,sum);
+xgrid(1);
+
+[x, y, y2,y3,y4,sum]=sin_cos()
+clf();
+plot(x,y,x,y2,x,y3,x,y4,x,sum);
+xgrid(1);
+
+-----------------------------------------------------
+05/03/2015 08:08:49
+
+plot(x,y1,x,y2,x,sum);
+
+-----------------------------------------------------
+
+print('C:\WORKS\WS\WS_SciLab\D-1\log.data',a);
+
+mtlb_axis([0, 0, 65,1.5]);
+
+-----------------------------------------------------
+
+fpath = 'C:\WORKS\WS\WS_SciLab\D-2'
+exec(fpath+'/text_mputl.txt')
+
+
+-----------------------------------------------------
+10/04/2015 09:25:05
+fpath = 'C:\WORKS\WS\WS_SciLab\D-2'
+exec(fpath+'/funcs_D-2.sci')
+
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
