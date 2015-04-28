@@ -1,5 +1,5 @@
 @ECHO OFF
-pushd C:\WORKS\WS\WS_SciLab
+pushd C:\WORKS\WS\Eclipse_Luna\Learn_gnuplot
 
 call a.bat
 

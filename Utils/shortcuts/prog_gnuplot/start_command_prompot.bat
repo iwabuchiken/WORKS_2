@@ -60,7 +60,7 @@ REM else if %temp%==b (
 echo arg=%arg%
 
 :execute
-start C:\WORKS\Utils\shortcuts\prog_SciLab\"Command Prompt.lnk" /k %arg%
+start C:\WORKS\Utils\shortcuts\prog_gnuplot\"Command Prompt.lnk" /k %arg%
 REM start C:\WORKS\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir"
 
 
