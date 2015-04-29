@@ -75,6 +75,8 @@ sub test_D_4_V_1_0_Split {
     	
   	}
 	
+	my $no_eclipse = "start C:/WORKS/Utils/shortcuts/prog_Maxima/start_apps.no_eclipse.bat";
+	
 	if($eclipse_running != 1) {
 		
 #		printf("[%d] starting => %s\n", __LINE__, "start_apps");
@@ -86,6 +88,7 @@ sub test_D_4_V_1_0_Split {
 #		printf("[%d] starting => %s\n", __LINE__, "start_apps.no_eclipse");
 		
 		my $res = `start C:/WORKS/Utils/shortcuts/prog_Maxima/start_apps.no_eclipse.bat`;
+		#my $res = `$no_eclipse`;
 		
 	}
 	
