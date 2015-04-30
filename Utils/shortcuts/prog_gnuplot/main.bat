@@ -11,8 +11,10 @@ start start_apps
 REM start start_applications.pl
 
 REM "call" is necessary; otherwise, start_git won't be executed
-call start_command_prompot.bat
+REM call start_command_prompot.bat
 REM call start_command_prompot.bat "a && clisp"
+
+start_apps.no_eclipse.bat
 
 REM open_folder
 
