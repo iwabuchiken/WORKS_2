@@ -1,6 +1,6 @@
 @ECHO OFF
 
 
-start C:\WORKS\WS\WS_SciLab
+start C:\WORKS\WS\WS_Science\Maxima
 
-exit
+REM exit
