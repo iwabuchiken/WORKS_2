@@ -22,6 +22,10 @@ call C:\WORKS\Utils\commands\push_mylyn_Kepler
 echo push_embedded
 call C:\WORKS\Utils\commands\push_embedded
 
+echo push_Research.Science
+call C:\WORKS\Utils\commands\push_Research.Science
+
+
 REM echo.
 REM echo push_MuseScore
 REM call C:\WORKS\Utils\commands\push_MuseScore
