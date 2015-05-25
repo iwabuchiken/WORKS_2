@@ -13,8 +13,8 @@ start xampp-control.exe
 pushd C:\WORKS\Programs\FileZilla\FileZilla_FTP_Client
 start filezilla.exe
 
-pushd C:\WORKS\Utils\shortcuts\cake_nr5
-start start_sql_browser
+REM pushd C:\WORKS\Utils\shortcuts\cake_nr5
+REM start start_sql_browser
 
 
 REM exit
