@@ -54,4 +54,4 @@ REM firefox http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3 h
 
 
 :end
-exit
+REM exit

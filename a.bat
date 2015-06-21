@@ -20,13 +20,15 @@ ECHO Setting a var: SAKURA_HOME=C:\WORKS\Programs\sakura
 SET SAKURA_HOME=C:\WORKS\Programs\sakura
 PATH=%PATH%;%SAKURA_HOME%;
 
-ECHO Setting a var: JAVA_HOME=C:\WORKS\Programs\Java_1.7
-SET JAVA_HOME=C:\WORKS\Programs\Java_1.7
-PATH=%PATH%;%JAVA_HOME%;
+ECHO Setting a var: JAVA_HOME=C:\WORKS\Programs\Java
+SET JAVA_HOME=C:\WORKS\Programs\Java
+REM PATH=%PATH%;%JAVA_HOME%;
+PATH=%JAVA_HOME%;%PATH%;
 
-ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS\Programs\Java_1.7\bin
-SET JAVA_HOME_BIN=C:\WORKS\Programs\Java_1.7\bin
-PATH=%PATH%;%JAVA_HOME_BIN%;
+ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS\Programs\Java\jdk1.7.0_79\bin
+SET JAVA_HOME_BIN=C:\WORKS\Programs\Java\jdk1.7.0_79\bin
+REM PATH=%PATH%;%JAVA_HOME_BIN%;
+PATH=%JAVA_HOME_BIN%;%PATH%;
 
 ECHO Setting a var: COMMANDS=C:\WORKS\Utils\commands
 SET COMMANDS=C:\WORKS\Utils\commands
