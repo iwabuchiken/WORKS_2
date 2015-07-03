@@ -15,11 +15,11 @@ REM call start_apps.no_eclipse
 pushd C:\WORKS\Programs\eclipse_luna_lisp
 start eclipse.exe
 
-pushd C:\WORKS\Programs\xampp
-start xampp-control.exe
+REM pushd C:\WORKS\Programs\xampp
+REM start xampp-control.exe
 
-pushd C:\WORKS\Programs\FileZilla\FileZilla_FTP_Client
-start filezilla.exe
+REM pushd C:\WORKS\Programs\FileZilla\FileZilla_FTP_Client
+REM start filezilla.exe
 
 pushd C:\Maxima-5.31.2\wxMaxima
 start wxmaxima.exe
