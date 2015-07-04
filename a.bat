@@ -85,6 +85,10 @@ ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby22-x64\bin
 SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby22-x64\bin
 PATH=%PATH%;%RUBY_BIN_HOME%;
 
+ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS\Programs\freeware\IrfanView
+SET IRFAN_BIN_HOME=C:\WORKS\Programs\freeware\IrfanView
+PATH=%PATH%;%IRFAN_BIN_HOME%;
+
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
