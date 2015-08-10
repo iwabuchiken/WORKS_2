@@ -1,6 +1,6 @@
 @ECHO OFF
 
-pushd C:\WORKS\WS\Eclipse_Luna\Cake_NR5
+pushd C:\WORKS\WS\Eclipse_Luna\Cake_IG
 
 git config --global credential.helper wincred
 
