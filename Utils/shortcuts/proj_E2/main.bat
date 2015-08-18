@@ -1,6 +1,6 @@
 @ECHO OFF
 
-pushd C:\WORKS\Utils\shortcuts\proj_Arduino
+pushd C:\WORKS\Utils\shortcuts\proj_E2
 
 start open_folder
 
