@@ -11705,3 +11705,61 @@
 2015-08-20 14:08:53 4036 4 状態: 369 バイト (1 秒) のファイル転送に成功しました
 2015-08-20 14:09:53 4036 3 状態: サーバから切断されました
 2015-08-20 14:09:53 4036 4 状態: サーバから切断されました
+2015-08-21 13:57:38 5260 2 状態: サーバから切断されました
+2015-08-21 13:57:38 5260 2 状態: /update.php?platform=x86_64-w64-mingw32&version=3.12.0.2&osversion=6.1&osarch=64&cpuid=sse,sse2,sse3,ssse3,sse4.1,sse4.2,avx,aes,pclmulqdq,bmi2 をダウンロード中
+2015-08-21 13:57:38 5260 2 状態: update.filezilla-project.org のアドレスを解決中
+2015-08-21 13:57:38 5260 2 状態: 62.75.138.232:443 に接続中...
+2015-08-21 13:57:38 5260 2 状態: 接続を確立しました, TLS を初期化中...
+2015-08-21 13:57:40 5260 2 状態: 証明書を検証中...
+2015-08-21 13:57:40 5260 2 状態: TLS 接続が確立されました, HTTP リクエストを送っています
+2015-08-21 13:57:40 5260 2 コマンド: GET /update.php?platform=x86_64-w64-mingw32&version=3.12.0.2&osversion=6.1&osarch=64&cpuid=sse,sse2,sse3,ssse3,sse4.1,sse4.2,avx,aes,pclmulqdq,bmi2 HTTP/1.1
+2015-08-21 13:57:40 5260 2 レスポンス: HTTP/1.1 200 OK
+2015-08-21 13:57:40 5260 2 レスポンス: Date: Fri, 21 Aug 2015 04:58:25 GMT
+2015-08-21 13:57:40 5260 2 レスポンス: Server: Apache/2.2.3 (Debian) PHP/5.2.0-8+etch16 mod_ssl/2.2.3 OpenSSL/0.9.8c
+2015-08-21 13:57:40 5260 2 レスポンス: X-Powered-By: PHP/5.2.0-8+etch16
+2015-08-21 13:57:40 5260 2 レスポンス: Content-Length: 1821
+2015-08-21 13:57:40 5260 2 レスポンス: Connection: close
+2015-08-21 13:57:40 5260 2 レスポンス: Content-Type: text/plain; charset=UTF-8
+2015-08-21 13:57:40 5260 2 状態: サーバから切断されました
+2015-08-21 13:57:40 5260 2 状態: 1,821 バイト (1 秒) のファイル転送に成功しました
+2015-08-21 13:57:40 5260 2 状態: サーバから切断されました
+2015-08-21 13:57:40 5260 2 状態: /filezilla/FileZilla_3.13.0_win64-setup.exe をダウンロード中
+2015-08-21 13:57:40 5260 2 状態: downloads.sourceforge.net のアドレスを解決中
+2015-08-21 13:57:40 5260 2 状態: 216.34.181.59:80 に接続中...
+2015-08-21 13:57:40 5260 2 状態: 接続を確立しました, HTTP リクエストを送信中です
+2015-08-21 13:57:40 5260 2 コマンド: GET /filezilla/FileZilla_3.13.0_win64-setup.exe HTTP/1.1
+2015-08-21 13:57:40 5260 2 レスポンス: HTTP/1.1 301 Moved Permanently
+2015-08-21 13:57:40 5260 2 レスポンス: Server: nginx
+2015-08-21 13:57:40 5260 2 レスポンス: Date: Fri, 21 Aug 2015 04:58:26 GMT
+2015-08-21 13:57:40 5260 2 レスポンス: Content-Type: text/html; charset=UTF-8
+2015-08-21 13:57:40 5260 2 レスポンス: Connection: close
+2015-08-21 13:57:40 5260 2 レスポンス: Location: http://downloads.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_win64-setup.exe
+2015-08-21 13:57:40 5260 2 レスポンス: Content-Length: 204
+2015-08-21 13:57:40 5260 2 状態: downloads.sourceforge.net のアドレスを解決中
+2015-08-21 13:57:40 5260 2 状態: 216.34.181.59:80 に接続中...
+2015-08-21 13:57:41 5260 2 状態: 接続を確立しました, HTTP リクエストを送信中です
+2015-08-21 13:57:41 5260 2 コマンド: GET /project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_win64-setup.exe HTTP/1.1
+2015-08-21 13:57:41 5260 2 レスポンス: HTTP/1.1 302 Found
+2015-08-21 13:57:41 5260 2 レスポンス: Server: nginx
+2015-08-21 13:57:41 5260 2 レスポンス: Date: Fri, 21 Aug 2015 04:58:26 GMT
+2015-08-21 13:57:41 5260 2 レスポンス: Content-Type: text/html; charset=UTF-8
+2015-08-21 13:57:41 5260 2 レスポンス: Connection: close
+2015-08-21 13:57:41 5260 2 レスポンス: content-disposition: attachment; filename="FileZilla_3.13.0_win64-setup.exe"
+2015-08-21 13:57:41 5260 2 レスポンス: Set-Cookie: sf_mirror_attempt="filezilla:jaist:FileZilla_Client/3.13.0/FileZilla_3.13.0_win64-setup.exe"; expires=120; Path=/
+2015-08-21 13:57:41 5260 2 レスポンス: Location: http://jaist.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_win64-setup.exe
+2015-08-21 13:57:41 5260 2 レスポンス: Content-Length: 186
+2015-08-21 13:57:41 5260 2 状態: jaist.dl.sourceforge.net のアドレスを解決中
+2015-08-21 13:57:41 5260 2 状態: 150.65.7.130:80 に接続中...
+2015-08-21 13:57:41 5260 2 状態: 接続を確立しました, HTTP リクエストを送信中です
+2015-08-21 13:57:41 5260 2 コマンド: GET /project/filezilla/FileZilla_Client/3.13.0/FileZilla_3.13.0_win64-setup.exe HTTP/1.1
+2015-08-21 13:57:41 5260 2 レスポンス: HTTP/1.1 200 OK
+2015-08-21 13:57:41 5260 2 レスポンス: Date: Fri, 21 Aug 2015 04:58:26 GMT
+2015-08-21 13:57:41 5260 2 レスポンス: Server: Apache/2.2.22 (Unix)
+2015-08-21 13:57:41 5260 2 レスポンス: Last-Modified: Sat, 15 Aug 2015 14:14:29 GMT
+2015-08-21 13:57:41 5260 2 レスポンス: ETag: "115965-634498-51d5a2fc11b40"
+2015-08-21 13:57:41 5260 2 レスポンス: Accept-Ranges: bytes
+2015-08-21 13:57:41 5260 2 レスポンス: Content-Length: 6505624
+2015-08-21 13:57:41 5260 2 レスポンス: Connection: close
+2015-08-21 13:57:41 5260 2 レスポンス: Content-Type: application/octet-stream
+2015-08-21 13:57:48 5260 2 状態: サーバから切断されました
+2015-08-21 13:57:48 5260 2 状態: 6,505,624 バイト (7 秒) のファイル転送に成功しました
