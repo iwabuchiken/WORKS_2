@@ -1,8 +1,6 @@
 @ECHO OFF
 
-pushd C:\WORKS\Utils\shortcuts\j_SoundProg
-
-REM start C:\WORKS\Utils\shortcuts\and_cm7
+pushd C:\WORKS\Utils\shortcuts\j_ImageProg
 
 start start_apps
 
