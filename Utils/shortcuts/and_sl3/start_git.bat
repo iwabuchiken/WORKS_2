@@ -1,5 +1,5 @@
 @ECHO OFF
-pushd C:\WORKS\WS\Eclipse_ADT\SL3
+pushd C:\WORKS\WS\Eclipse_Luna\SL3
 
 call a.bat
 
