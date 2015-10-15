@@ -1,6 +1,8 @@
 @ECHO OFF
 
-pushd C:\WORKS\WS\Eclipse_Kepler\Cake_SL3
+REM pushd C:\WORKS\WS\Eclipse_Kepler\Cake_SL3
+
+pushd C:\WORKS\WS\Eclipse_Luna\Cake_SL3
 
 git config --global credential.helper wincred
 

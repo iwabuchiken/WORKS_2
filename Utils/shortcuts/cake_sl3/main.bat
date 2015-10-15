@@ -3,7 +3,10 @@
 start C:\WORKS\Utils\shortcuts\cake_sl3\start_command_prompot
 
 REM start "start_eclipse_kepler,filezilla,xampp.bat"
-start start_eclipse_kepler-filezilla-xampp
+REM start start_eclipse_kepler-filezilla-xampp
+
+start start_apps
+
 
 REM start_chrome
 
