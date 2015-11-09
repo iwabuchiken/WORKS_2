@@ -1,10 +1,12 @@
 @ECHO OFF
 
-start C:\WORKS\Utils\shortcuts\emb\start_command_prompot
+start C:\WORKS\Utils\shortcuts\emb_2\start_command_prompot
 
 start start_apps
 
-start C:\WORKS\WS\Embedded
+start start_command_prompot
+
+start C:\WORKS\WS\WS_E2
 
 start_git
 
