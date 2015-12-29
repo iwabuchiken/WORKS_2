@@ -1,6 +1,8 @@
 @ECHO OFF
 
-start C:\WORKS\Utils\shortcuts\emb_2\start_command_prompot
+REM start C:\WORKS\Utils\shortcuts\emb_3\start_command_prompot
+
+pushd C:\WORKS\Utils\shortcuts\emb_3
 
 start start_apps
 
