@@ -1,0 +1,4 @@
+pushd C:\WORKS\WS\FM_2
+
+g pull https://github.com/iwabuchiken/FM_2.git
+
