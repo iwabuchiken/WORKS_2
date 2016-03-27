@@ -7,11 +7,19 @@ if "%1"=="e" (
 
 	echo "yes, e"
 	pushd C:\WORKS\WS\WS_E2
-	
+
+) else if "%1"=="f" (
+
+	echo "yes, f"
+	pushd C:\WORKS\WS\FM_2
 
 ) else (
 
-	echo not e
+REM 	echo not e
 
+	echo [Usage]
+	echo 	e	C:\WORKS\WS\WS_E2
+	echo 	f	C:\WORKS\WS\FM_2
+		
 )
 
