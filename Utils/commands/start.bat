@@ -43,7 +43,11 @@ REM start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+2
 REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3
 REM start chrome.exe chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
 REM start chrome.exe https://www.youtube.com/
-chrome
+REM start chrome
+REM start chrome.exe
+
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+
 REM chrome http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3 http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php https://www.youtube.com/ chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
 
 REM pushd "C:\Program Files (x86)\Mozilla Firefox"
