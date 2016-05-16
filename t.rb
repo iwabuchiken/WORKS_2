@@ -2,6 +2,41 @@
 
 #puts "YES"
 
+def convert_time_string(input)
+
+#  puts "ARGV.length => #{ARGV.length}"
+  
+  # validate
+  if ARGV.length < 2
+   
+    puts "<Usage> t c abc"
+    
+    return
+    
+  end
+    
+#  puts "ARGV[1] => " + ARGV[1];
+#  puts "ARGV[1] => #{ARGV[1]}";
+  
+  # date
+  tokens = ARGV[1].split("_")
+  
+  label_date = tokens[0].split("-").join("/")
+  
+  label_time = tokens[1].split("-").join(":")
+  
+  label_micro = tokens[2].split(".")[0]
+  
+  label_synth = "#{label_date} #{label_time}.#{label_micro}"
+  
+#  puts "date label => #{label_date} / time => #{label_time} / micro => #{label_micro}"
+#    
+#  puts "synth => #{label_synth}"
+  print label_synth
+#  puts label_synth
+  
+end#convert_time_string(input)
+
 #ref http://stackoverflow.com/questions/19280965/copy-to-clipboard-in-ruby-html-or-c-sharp answered Apr 17 '14 at 18:51 
 def pbcopy(input)
  str = input.to_s
@@ -65,6 +100,10 @@ def exec_with_params
     
       show_basic
     
+    elsif  ARGV[0] == "c"
+    
+      convert_time_string(ARGV[1])
+    
     end # ARGV[0] == "s"
   
   else
@@ -87,3 +126,4 @@ end
 #options
 #puts "len => #{ARGV.length}"
 exec_with_params
+
