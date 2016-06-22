@@ -15,4 +15,6 @@ start chrome.exe https://mysqladmin.lolipop.jp/pma/index.php?db=LAA0278957-cakei
 start chrome.exe https://docs.google.com/spreadsheets/d/1GlMjFYCAdSc87V-BhGAM-sz-Kka6AlyxgS-0jqvPlPc/edit#gid=0
 start chrome.exe https://mail.google.com/mail/u/0/?shva=1#inbox
 
+start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
+
 REM start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+22845+22882+22874
