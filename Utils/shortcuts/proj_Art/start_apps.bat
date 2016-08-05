@@ -19,7 +19,7 @@ pushd "C:\Program Files\GIMP 2\bin"
 REM "start" needed => otherwise, the console window stays
 start gimp-2.8.exe
 
-pushd C:\WORKS\Programs\freeware\Blender Foundation\Blender_2.74
-start blender
+REM pushd C:\WORKS\Programs\freeware\Blender Foundation\Blender_2.74
+REM start blender
 
 exit
