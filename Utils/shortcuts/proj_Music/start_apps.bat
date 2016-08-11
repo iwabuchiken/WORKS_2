@@ -14,6 +14,7 @@ start chrome.exe https://en.wikipedia.org/wiki/File:Circle_of_fifths_deluxe_4.sv
 start chrome.exe https://mysqladmin.lolipop.jp/pma/index.php?db=LAA0278957-cakeifm11&server=113&token=d111622579c32be7d61e8cf9219daee5
 start chrome.exe https://docs.google.com/spreadsheets/d/1GlMjFYCAdSc87V-BhGAM-sz-Kka6AlyxgS-0jqvPlPc/edit#gid=0
 start chrome.exe https://mail.google.com/mail/u/0/?shva=1#inbox
+start chrome.exe http://www.ofoct.com/audio-converter/convert-midi-to-mp3-or-wav-ogg-aac-wma.html
 
 REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
 
