@@ -1,6 +1,7 @@
 @ECHO OFF
 
 
-start C:\WORKS\WS\WS_Music
+REM start C:\WORKS\WS\WS_Music
+start C:\WORKS\WS\WS_Music\domino
 
 exit
