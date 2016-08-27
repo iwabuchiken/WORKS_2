@@ -11,7 +11,10 @@ pushd C:\WORKS\Programs\FileZilla\FileZilla_FTP_Client
 start filezilla.exe
 
 REM SqliteBrowser
-pushd C:\WORKS\Programs\SqliteBrowser3\bin
-start sqlitebrowser
+rem pushd C:\WORKS\Programs\SqliteBrowser3\bin
+rem start sqlitebrowser
+
+start "C:\Program Files\DB Browser for SQLite\3.9.0\bin\DB Browser for SQLite"
+
 
 REM exit
