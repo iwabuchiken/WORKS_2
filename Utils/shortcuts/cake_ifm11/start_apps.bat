@@ -14,7 +14,8 @@ REM SqliteBrowser
 rem pushd C:\WORKS\Programs\SqliteBrowser3\bin
 rem start sqlitebrowser
 
-start "C:\Program Files\DB Browser for SQLite\3.9.0\bin\DB Browser for SQLite"
+rem start "C:\Program Files\DB Browser for SQLite\3.9.0\bin\DB Browser for SQLite"
+"C:\Program Files\DB Browser for SQLite\3.9.0\bin\DB Browser for SQLite"
 
 
 REM exit
