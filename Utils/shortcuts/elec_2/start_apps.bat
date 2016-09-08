@@ -27,4 +27,11 @@ REM start mplab_ide --console suppress
 pushd C:\WORKS\Programs\Arduino_1.6.5
 start arduino
 
+REM **********************************
+REM 	web pages
+REM **********************************
+start chrome.exe https://mail.google.com/mail/u/0/?ui=2&view=btop&ver=1nnj51jn5rorm&q=e2%20steps&qs=true&search=query&th=1570008d41119688&qt=e2.1.step.1.steps.1&cvid=3
+start chrome.exe https://docs.zoho.com/sheet/ropen.do?rid=q5uad0a73fab1c47644fcb8922351ea98e80d
+start chrome.exe http://akizukidenshi.com/
+
 exit

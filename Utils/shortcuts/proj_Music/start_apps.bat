@@ -15,6 +15,8 @@ start chrome.exe https://mysqladmin.lolipop.jp/pma/index.php?db=LAA0278957-cakei
 start chrome.exe https://docs.google.com/spreadsheets/d/1GlMjFYCAdSc87V-BhGAM-sz-Kka6AlyxgS-0jqvPlPc/edit#gid=0
 start chrome.exe https://mail.google.com/mail/u/0/?shva=1#inbox
 start chrome.exe http://www.ofoct.com/audio-converter/convert-midi-to-mp3-or-wav-ogg-aac-wma.html
+start chrome.exe http://media.io/
+
 
 REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
 
