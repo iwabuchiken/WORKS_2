@@ -2,13 +2,13 @@
 
 REM echo opening edit_memo.txt ...
 
-REM c:\WORKS\a.bat
-REM sakura C:\WORKS\WS\Eclipse_Luna\Cake_IFM11\edit_memo.txt
+REM c:\WORKS_2\a.bat
+REM sakura C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\edit_memo.txt
 
 
 
-pushd C:\WORKS\Utils\shortcuts\cake_ifm11
-REM start C:\WORKS\Utils\shortcuts\cake_ifm11\start_command_prompot
+pushd C:\WORKS_2\Utils\shortcuts\cake_ifm11
+REM start C:\WORKS_2\Utils\shortcuts\cake_ifm11\start_command_prompot
 
 REM edit_memo.txt
 start start_edit_memo
@@ -23,8 +23,8 @@ REM start_apps
 start_apps
 
 REM memos.txt
-REM c:\WORKS\a.bat
-REM sakura C:\WORKS\WS\Eclipse_Luna\Cake_IFM11\edit_memo.txt
+REM c:\WORKS_2\a.bat
+REM sakura C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\edit_memo.txt
 
 REM start_chrome
 

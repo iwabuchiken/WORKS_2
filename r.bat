@@ -45,9 +45,9 @@ REM echo param is abc!
 
 	echo param is %path_fm_2%!
 	
-	echo changing to ... C:\WORKS\WS\FM_2
+	echo changing to ... C:\WORKS_2\WS\FM_2
 	
-	pushd C:\WORKS\WS\FM_2
+	pushd C:\WORKS_2\WS\FM_2
 
 	goto end
 	
@@ -55,9 +55,9 @@ REM echo param is abc!
 
 	echo param is %path_cake_11%!
 	
-	echo changing to ... C:\WORKS\WS\Eclipse_Luna\Cake_IFM11
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 	
-	pushd C:\WORKS\WS\Eclipse_Luna\Cake_IFM11
+	pushd C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 
 	goto end
 	
@@ -65,9 +65,9 @@ REM echo param is abc!
 
 	echo param is %path_ws_music%!
 	
-	echo changing to ... C:\WORKS\WS\WS_Music
+	echo changing to ... C:\WORKS_2\WS\WS_Music
 	
-	pushd C:\WORKS\WS\WS_Music
+	pushd C:\WORKS_2\WS\WS_Music
 
 	goto end
 	
@@ -78,9 +78,9 @@ REM ******************************
 
 	echo param is %path_ws_art%!
 	
-	echo changing to ... C:\WORKS\WS\WS_Art
+	echo changing to ... C:\WORKS_2\WS\WS_Art
 	
-	pushd C:\WORKS\WS\WS_Art
+	pushd C:\WORKS_2\WS\WS_Art
 
 	goto end
 
@@ -91,9 +91,9 @@ REM ******************************
 
 	echo param is %path_ws_e2%!
 	
-	echo changing to ... C:\WORKS\WS\WS_E2
+	echo changing to ... C:\WORKS_2\WS\WS_E2
 	
-	pushd C:\WORKS\WS\WS_E2
+	pushd C:\WORKS_2\WS\WS_E2
 
 	goto end
 
@@ -104,9 +104,9 @@ REM ******************************
 
 	echo param is %path_ws_hacking%!
 	
-	echo changing to ... C:\WORKS\WS\Eclipse_Luna\Hacking
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\Hacking
 	
-	pushd C:\WORKS\WS\Eclipse_Luna\Hacking
+	pushd C:\WORKS_2\WS\Eclipse_Luna\Hacking
 
 	goto end
 	
@@ -126,13 +126,13 @@ REM ******************************
 
 :show_message
 echo "<Usage>"
-echo 	w	C:\WORKS
-echo 	f	C:\WORKS\WS\FM_2
-echo 	c	C:\WORKS\WS\Eclipse_Luna\Cake_IFM11
-echo 	m	C:\WORKS\WS\WS_Music
-echo 	a	C:\WORKS\WS\WS_Art
-echo 	e	C:\WORKS\WS\WS_E2
-echo 	k	C:\WORKS\WS\Eclipse_Luna\Hacking
+echo 	w	C:\WORKS_2
+echo 	f	C:\WORKS_2\WS\FM_2
+echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
+echo 	m	C:\WORKS_2\WS\WS_Music
+echo 	a	C:\WORKS_2\WS\WS_Art
+echo 	e	C:\WORKS_2\WS\WS_E2
+echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
 
 :end
 

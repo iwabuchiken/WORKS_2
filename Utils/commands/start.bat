@@ -27,11 +27,11 @@ REM start chrome.exe  chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.ht
 REM timeout /t 5
 REM timeout /t 8
 
-start C:\WORKS
+start C:\WORKS_2
 
-REM pushd C:\WORKS\Programs\Freemind_1.0.1\FreeMind
-pushd C:\WORKS\Programs\FreeMind
-REM pushd C:\WORKS\Programs\FreeMind_1.0.0\FreeMind
+REM pushd C:\WORKS_2\Programs\Freemind_1.0.1\FreeMind
+pushd C:\WORKS_2\Programs\FreeMind
+REM pushd C:\WORKS_2\Programs\FreeMind_1.0.0\FreeMind
 start FreeMind
 
 REM timeout /t 8
