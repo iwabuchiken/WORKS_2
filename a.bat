@@ -72,6 +72,10 @@ PATH=%PATH%;%PHP_BIN_HOME%;
 REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 REM SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 REM PATH=%PATH%;%RUBY_BIN_HOME%;
+ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby23-x64\bin
+ECHO yes!
+SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby23-x64\bin
+PATH=%PATH%;%RUBY_BIN_HOME%;
 
 ECHO Setting a var: MINGW_BIN_HOME=C:\MinGW\mingw32\bin
 SET MINGW_BIN_HOME=C:\MinGW\mingw32\bin
@@ -89,9 +93,9 @@ ECHO Setting a var: CLISP_BIN_HOME=C:\WORKS_2\Programs\clisp-2.49
 SET CLISP_BIN_HOME=C:\WORKS_2\Programs\clisp-2.49
 PATH=%PATH%;%CLISP_BIN_HOME%;
 
-ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
-SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
-PATH=%PATH%;%RUBY_BIN_HOME%;
+REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
+REM SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
+REM PATH=%PATH%;%RUBY_BIN_HOME%;
 
 ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
 SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
