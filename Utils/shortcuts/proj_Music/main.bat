@@ -1,8 +1,8 @@
 @ECHO OFF
 
-pushd C:\WORKS\Utils\shortcuts\proj_Music
+pushd C:\WORKS_2\Utils\shortcuts\proj_Music
 
-REM start C:\WORKS\Utils\shortcuts\and_cm7
+REM start C:\WORKS_2\Utils\shortcuts\and_cm7
 
 REM start start_git
 
