@@ -1,8 +1,0 @@
-fpath = 'C:\WORKS\WS\WS_SciLab\FREE\';
-
-exec(fpath + 'funcs_FREE.sci');
-
-subplot(221)
-subplot(222)
-
-#mtlb_axis([0, 0, 65,1.5]);
