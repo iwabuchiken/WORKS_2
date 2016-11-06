@@ -12,6 +12,8 @@ set path_ws_music="m"
 set path_ws_art="a"
 set path_ws_e2="e"
 set path_ws_hacking="k"
+set path_mt4="q"
+
 
 set help="h"
 
@@ -110,6 +112,22 @@ REM ******************************
 
 	goto end
 	
+REM ******************************
+REM path_mt4
+REM ******************************
+) else if "%param%"==%path_mt4% (
+
+	echo param is %path_mt4%!
+	
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\Hacking
+	
+	pushd C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
+
+	goto end
+
+REM ******************************
+REM help
+REM ******************************
 ) else if "%param%"==%help% (
 
 	goto show_message
@@ -133,6 +151,7 @@ echo 	m	C:\WORKS_2\WS\WS_Music
 echo 	a	C:\WORKS_2\WS\WS_Art
 echo 	e	C:\WORKS_2\WS\WS_E2
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
+echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
 
 :end
 

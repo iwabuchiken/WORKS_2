@@ -1,7 +1,5 @@
 @ECHO OFF
 
-REM "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited\terminal.exe"
-
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
 start chrome.exe https://mail.google.com/mail/u/0/#search/22-1+62
 start chrome.exe https://www.moneypartners.co.jp/market/schedule/
@@ -14,11 +12,3 @@ start chrome.exe "https://docs.google.com/spreadsheets/d/1z5Rq680qTlL4SZ6GMQ9dxq
 
 start chrome.exe "https://docs.google.com/spreadsheets/d/1n5XLZ3ns0lInsYgAodVMW6woAEtYumSCVE8qSVUXIeA/edit#gid=671977138"
 
-REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
-
-REM start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+22845+22882+22874
-
-"C:\Program Files (x86)\MT4 Gaitame Finest Company Limited\terminal.exe"
-REM C:\WORKS_2\Programs\MoneyPartners\HyperSpeedNext\AutoUpdateLaunchar.exe
-
-C:\WORKS_2\Programs\MoneyPartners\HyperSpeedNext\HyperSpeedNext.exe
