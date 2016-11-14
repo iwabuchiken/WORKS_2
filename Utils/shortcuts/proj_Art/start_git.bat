@@ -1,9 +1,9 @@
 @ECHO OFF
-pushd C:\WORKS\WS\WS_Art
+pushd C:\WORKS_2\WS\WS_Art
 
 call a.bat
 
-REM C:\WORKS\Programs\Git\cmd\gitk
+REM C:\WORKS_2\Programs\Git\cmd\gitk
 REM gitk
 
 REM "start" added => the console window still stays
@@ -11,7 +11,9 @@ REM start gitk
 
 REM gitk
 
-C:\WORKS\Programs\Git\cmd\gitk
+REM C:\WORKS_2\Programs\Git\cmd\gitk
+
+"C:\Program Files\Git\cmd\gitk.exe"
 
 REM pause 
 

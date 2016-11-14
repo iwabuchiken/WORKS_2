@@ -15,7 +15,9 @@ REM call start_apps.no_eclipse
 REM pushd C:\WORKS\Programs\eclipse_luna_lisp
 REM start eclipse.exe
 
-pushd "C:\Program Files\GIMP 2\bin"
+REM pushd "C:\Program Files\GIMP 2\bin"
+pushd "C:\WORKS_2\Programs\GIMP 2\bin"
+
 REM "start" needed => otherwise, the console window stays
 start gimp-2.8.exe
 

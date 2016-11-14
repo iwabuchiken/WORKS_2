@@ -6,6 +6,8 @@ REM start C:\WORKS\Utils\shortcuts\and_cm7
 
 REM start start_git
 
+start start_command_prompot.bat
+
 start start_git
 
 start start_apps
