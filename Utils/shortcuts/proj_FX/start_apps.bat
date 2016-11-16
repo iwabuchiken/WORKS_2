@@ -19,7 +19,7 @@ start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 start start_command_prompot.bat
 
-start start_git.bat
+REM start start_git.bat
 
 REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
 
