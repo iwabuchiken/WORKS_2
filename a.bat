@@ -43,8 +43,8 @@ SET COMMANDS=C:\WORKS_2\Utils\commands
 PATH=%PATH%;%COMMANDS%;
 
 
-ECHO Setting a var: GIT_CMD=C:\WORKS_2\Programs\Git\cmd
-SET GIT_CMD=C:\WORKS_2\Programs\Git\cmd
+ECHO Setting a var: GIT_CMD="C:\Program Files\Git\cmd"
+SET GIT_CMD="C:\Program Files\Git\cmd"
 PATH=%PATH%;%GIT_CMD%;
 
 ECHO Setting a var: ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
