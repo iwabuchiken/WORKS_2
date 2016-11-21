@@ -37,9 +37,9 @@ if "%param%"==%path_works% (
 REM echo param is abc!
 	echo param is w!
 	
-	echo changing to ... C:\WORKS
+	echo changing to ... C:\WORKS_2
 	
-	pushd C:\WORKS
+	pushd C:\WORKS_2
 
 	goto end
 	
