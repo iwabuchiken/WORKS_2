@@ -1,5 +1,7 @@
 @echo off
 
+call C:\WORKS_2\a
+
 git config --global credential.helper wincred
 echo git config --global credential.helper wincred
 
