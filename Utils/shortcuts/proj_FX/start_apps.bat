@@ -15,6 +15,7 @@ REM start chrome.exe "https://docs.google.com/spreadsheets/d/1z5Rq680qTlL4SZ6GMQ
 start chrome.exe "https://docs.google.com/spreadsheets/d/1n5XLZ3ns0lInsYgAodVMW6woAEtYumSCVE8qSVUXIeA/edit#gid=671977138"
 
 start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
+start C:\WORKS_2\WS\WS_FX
 
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 start start_command_prompot.bat
