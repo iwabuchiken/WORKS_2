@@ -114,6 +114,9 @@ git config --global alias.c commit
 git config --global alias.b branch
 git config --global alias.t tag
 
+REM git config --global alias.o origin
+REM git config --global alias.m master
+
 git config --global core.editor sakura.exe
 
 git config --global credential.helper wincred
