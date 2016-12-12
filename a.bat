@@ -105,6 +105,10 @@ ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
 SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
 PATH=%PATH%;%IRFAN_BIN_HOME%;
 
+ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python27
+SET PYTHON_HOME=C:\WORKS_2\Programs\Python27
+PATH=%PATH%;%PYTHON_HOME%;
+
 
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
@@ -117,6 +121,9 @@ git config --global alias.s status
 git config --global alias.c commit
 git config --global alias.b branch
 git config --global alias.t tag
+
+REM git config --global alias.o origin
+REM git config --global alias.m master
 
 git config --global core.editor sakura.exe
 

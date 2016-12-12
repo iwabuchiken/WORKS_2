@@ -6,10 +6,15 @@ pushd C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 REM C:\WORKS_2\Programs\Git\cmd\gitk
 REM C:\"Program Files"\Git\cmd\gitk
 
-gitk
+REM a
+
+start C:\WORKS_2\gitk.bat
+
+REM gitk
 
 REM pause 
 
 echo "done: git"
 
+REM pause
 REM exit
