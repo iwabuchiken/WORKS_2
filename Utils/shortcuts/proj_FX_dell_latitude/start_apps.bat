@@ -25,7 +25,7 @@ pause
 
 REM start "C:\Program Files\MT4 Gaitame Finest Company Limited\terminal.exe"
 
-pushd "C:\Program Files\MT4 Gaitame Finest Company Limited"
+REM pushd "C:\Program Files\MT4 Gaitame Finest Company Limited"
 
 
 terminal.exe
