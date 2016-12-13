@@ -85,6 +85,11 @@ ECHO Setting a var: MINGW_BIN_HOME=C:\MinGW\mingw32\bin
 SET MINGW_BIN_HOME=C:\MinGW\mingw32\bin
 PATH=%PATH%;%MINGW_BIN_HOME%;
 
+ECHO Setting a var: MINGW_64_BIN_HOME=C:\mingw-w64\x86_64-6.2.0-posix-seh-rt_v5-rev1\mingw64\bin
+SET MINGW_64_BIN_HOME=C:\mingw-w64\x86_64-6.2.0-posix-seh-rt_v5-rev1\mingw64\bin
+PATH=%PATH%;%MINGW_64_BIN_HOME%;
+
+
 REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 REM SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
 REM PATH=%PATH%;%RUBY_BIN_HOME%;

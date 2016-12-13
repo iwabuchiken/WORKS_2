@@ -164,8 +164,8 @@ echo 	m	C:\WORKS_2\WS\WS_Music
 echo 	a	C:\WORKS_2\WS\WS_Art
 echo 	e	C:\WORKS_2\WS\WS_E2
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
-echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
-echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4
+echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
+echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
 
 :end
 
