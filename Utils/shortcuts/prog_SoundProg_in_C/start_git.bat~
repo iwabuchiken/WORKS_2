@@ -1,0 +1,20 @@
+@ECHO OFF
+REM pushd C:\WORKS\WS\Eclipse_Luna\J_SoundProg
+
+pushd C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+
+a.bat
+
+"C:\Program Files\Git\cmd\gitk"
+
+REM start gitk
+
+REM call a.bat
+
+REM C:\WORKS\Programs\Git\cmd\gitk
+REM start gitk
+REM gitk
+
+REM pause 
+
+exit

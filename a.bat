@@ -32,15 +32,21 @@ ECHO Setting a var: SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
 SET SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
 PATH=%PATH%;%SAKURA_HOME_2%;
 
-ECHO Setting a var: JAVA_HOME=C:\WORKS_2\Programs\Java
-SET JAVA_HOME=C:\WORKS_2\Programs\Java
+REM ECHO Setting a var: JAVA_HOME=C:\WORKS_2\Programs\Java
+REM SET JAVA_HOME=C:\WORKS_2\Programs\Java
 REM PATH=%PATH%;%JAVA_HOME%;
-PATH=%JAVA_HOME%;%PATH%;
+REM PATH=%JAVA_HOME%;%PATH%;
 
-ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS_2\Programs\Java\jdk1.7.0_79\bin
-SET JAVA_HOME_BIN=C:\WORKS_2\Programs\Java\jdk1.7.0_79\bin
+ECHO Setting a var: JAVA_1.8_BIN_HOME=C:\WORKS_2\Programs\Java\jdk1.8.0_111\bin
+SET JAVA_1.8_BIN_HOME=C:\WORKS_2\Programs\Java\jdk1.8.0_111\bin
+REM PATH=%PATH%;%JAVA_HOME%;
+PATH=%JAVA_1.8_BIN_HOME%;%PATH%;
+
+
+REM ECHO Setting a var: JAVA_HOME_BIN=C:\WORKS_2\Programs\Java\jdk1.7.0_79\bin
+REM SET JAVA_HOME_BIN=C:\WORKS_2\Programs\Java\jdk1.7.0_79\bin
 REM PATH=%PATH%;%JAVA_HOME_BIN%;
-PATH=%JAVA_HOME_BIN%;%PATH%;
+REM PATH=%JAVA_HOME_BIN%;%PATH%;
 
 ECHO Setting a var: COMMANDS=C:\WORKS_2\Utils\commands
 SET COMMANDS=C:\WORKS_2\Utils\commands

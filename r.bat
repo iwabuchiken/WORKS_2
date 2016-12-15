@@ -15,6 +15,8 @@ set path_ws_hacking="k"
 set path_mt4="q"
 set path_mt4_dell_latidude="q2"
 
+set path_sound_programming_c="s"
+
 set help="h"
 
 REM *******************************
@@ -139,6 +141,19 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_mt4_dell_latidude
+REM ******************************
+) else if "%param%"==%path_sound_programming_c% (
+
+	echo param is %path_sound_programming_c%!
+	
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+	
+	pushd C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+
+	goto end
+
+REM ******************************
 REM help
 REM ******************************
 ) else if "%param%"==%help% (
@@ -166,6 +181,6 @@ echo 	e	C:\WORKS_2\WS\WS_E2
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
-
+echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 :end
 

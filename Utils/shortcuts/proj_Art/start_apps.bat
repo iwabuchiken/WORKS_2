@@ -15,6 +15,10 @@ REM call start_apps.no_eclipse
 REM pushd C:\WORKS\Programs\eclipse_luna_lisp
 REM start eclipse.exe
 
+pushd "C:\Program Files (x86)\Google\Chrome\Application"
+start chrome.exe https://mail.google.com/mail/u/0/?shva=1#search/myself+art
+
+
 REM pushd "C:\Program Files\GIMP 2\bin"
 pushd "C:\WORKS_2\Programs\GIMP 2\bin"
 
