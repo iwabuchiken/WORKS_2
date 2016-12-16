@@ -6,7 +6,7 @@ pushd C:\WORKS_2\Utils\shortcuts\prog_SoundProg_in_C
 
 REM start C:\WORKS\Utils\shortcuts\and_cm7
 
-start start_apps
+REM start start_apps
 
 REM "call" is necessary; otherwise, start_git won't be executed
 call start_command_prompot.bat
