@@ -55,7 +55,7 @@ def show_help
   options
     s serial format 20160220_183145
     b basic format  2016/02/20 18:31:45
-    (no option => basic format) 2016/02/20 18:31:45
+    (no option => serial format) 20160220_183145
     h show help (this text)
 EOF
 
@@ -79,6 +79,8 @@ def exec_with_params
   #puts "len of ARGV => #{ARGV.length}"
   
   len = ARGV.length
+  
+  #puts "len => #{len.to_s}"
   
   if len > 0
   
@@ -108,7 +110,12 @@ def exec_with_params
   
   else
 
-    show_basic
+    #show_basic
+    
+	label = Time.now.strftime("%Y%m%d_%H%M%S")
+    print label
+
+    
     #label = Time.now.strftime("%Y/%m/%d %H:%M:%S")
     #puts label
     #pbcopy(label)
