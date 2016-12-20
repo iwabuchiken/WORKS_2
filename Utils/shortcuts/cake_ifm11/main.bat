@@ -11,7 +11,7 @@ pushd C:\WORKS_2\Utils\shortcuts\cake_ifm11
 REM start C:\WORKS_2\Utils\shortcuts\cake_ifm11\start_command_prompot
 
 REM edit_memo.txt
-start start_edit_memo
+REM start start_edit_memo
 
 start start_command_prompot
 
