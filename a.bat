@@ -57,14 +57,14 @@ ECHO Setting a var: GIT_CMD="C:\Program Files\Git\cmd"
 SET GIT_CMD="C:\Program Files\Git\cmd"
 PATH=%PATH%;%GIT_CMD%;
 
-ECHO Setting a var: ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
-SET ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
-PATH=%PATH%;%ADB_HOME%;
+REM ECHO Setting a var: ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
+REM SET ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
+REM PATH=%PATH%;%ADB_HOME%;
 
 
-ECHO Setting a var: ANT_BIN_HOME=C:\WORKS_2\Programs\apache-ant-1.8.4\bin
-SET ANT_BIN_HOME=C:\WORKS_2\Programs\apache-ant-1.8.4\bin
-PATH=%PATH%;%ANT_BIN_HOME%;
+REM ECHO Setting a var: ANT_BIN_HOME=C:\WORKS_2\Programs\apache-ant-1.8.4\bin
+REM SET ANT_BIN_HOME=C:\WORKS_2\Programs\apache-ant-1.8.4\bin
+REM PATH=%PATH%;%ANT_BIN_HOME%;
 
 REM ECHO Setting a var: JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
 REM SET JDK_BIN_HOME=C:\WORKS\Programs\jdk1.8.0_11\bin
@@ -87,9 +87,9 @@ ECHO yes!
 SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby23-x64\bin
 PATH=%PATH%;%RUBY_BIN_HOME%;
 
-ECHO Setting a var: MINGW_BIN_HOME=C:\MinGW\mingw32\bin
-SET MINGW_BIN_HOME=C:\MinGW\mingw32\bin
-PATH=%PATH%;%MINGW_BIN_HOME%;
+REM ECHO Setting a var: MINGW_BIN_HOME=C:\MinGW\mingw32\bin
+REM SET MINGW_BIN_HOME=C:\MinGW\mingw32\bin
+REM PATH=%PATH%;%MINGW_BIN_HOME%;
 
 ECHO Setting a var: MINGW_64_BIN_HOME=C:\mingw-w64\x86_64-6.2.0-posix-seh-rt_v5-rev1\mingw64\bin
 SET MINGW_64_BIN_HOME=C:\mingw-w64\x86_64-6.2.0-posix-seh-rt_v5-rev1\mingw64\bin
@@ -104,23 +104,23 @@ REM ECHO Setting a var: ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.8.4\bin
 REM SET ANT_BIN_HOME=C:\WORKS\Programs\apache-ant-1.8.4\bin
 REM PATH=%PATH%;%ANT_BIN_HOME%;
 
-ECHO Setting a var: CLISP_BIN_HOME=C:\WORKS_2\Programs\clisp-2.49
-SET CLISP_BIN_HOME=C:\WORKS_2\Programs\clisp-2.49
-PATH=%PATH%;%CLISP_BIN_HOME%;
+REM ECHO Setting a var: CLISP_BIN_HOME=C:\WORKS_2\Programs\clisp-2.49
+REM SET CLISP_BIN_HOME=C:\WORKS_2\Programs\clisp-2.49
+REM PATH=%PATH%;%CLISP_BIN_HOME%;
 
 REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
 REM SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
 REM PATH=%PATH%;%RUBY_BIN_HOME%;
 
-ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
-SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
-PATH=%PATH%;%IRFAN_BIN_HOME%;
+REM ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
+REM SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
+REM PATH=%PATH%;%IRFAN_BIN_HOME%;
 
 ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python27
 SET PYTHON_HOME=C:\WORKS_2\Programs\Python27
 PATH=%PATH%;%PYTHON_HOME%;
 
-
+ECHO.
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
 			status -^> s, commit -^> c
