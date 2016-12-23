@@ -1,0 +1,36 @@
+created at = 2016/12/23  21:57:58
+number of files = 33
+
+a.bat
+CD.consumer-confidence.txt
+clisp.bat
+Command Prompt.lnk
+d.bat
+d2.bat
+directory_list.txt
+elec_2.lnk
+gitk.bat
+m.bat
+math.rb
+prep_from_mac.bat
+prep_switching_from_mac.txt
+prog_SoundProg_in_C.lnk
+proj_Art.lnk
+proj_E2.lnk
+proj_emb.lnk
+proj_FX.lnk
+proj_FX_dell_latitude.lnk
+proj_MuseScore.lnk
+proj_Music.lnk
+r.bat
+README.txt
+start.bat.lnk
+t.bat
+t.rb
+temp.rb
+temp.txt
+test.rb
+test_2.txt
+wallpapers - ショートカット.lnk
+x_2.bat - ショートカット.lnk
+x_push_all.bat - ショートカット.lnk
