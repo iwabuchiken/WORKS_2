@@ -120,6 +120,12 @@ ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python27
 SET PYTHON_HOME=C:\WORKS_2\Programs\Python27
 PATH=%PATH%;%PYTHON_HOME%;
 
+ECHO Setting a var: FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin
+SET FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin
+PATH=%PATH%;%FFMPEG_HOME%;
+
+
+
 ECHO.
 ECHO Setting aliases for git
 ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^

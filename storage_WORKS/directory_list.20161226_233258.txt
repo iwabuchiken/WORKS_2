@@ -1,0 +1,52 @@
+program file path = C:\WORKS_2\WS\WS_Others\prog\D-5\1#\get_folder_list.rb
+version = 1.0
+list file created at = 20161226_233258
+dir path = C:/WORKS_2/storage_WORKS
+dirs = 2
+files = 39
+
+<directories> 2
+emails
+shortcuts
+
+
+<files> 39
+a - コピー.txt
+a.bat~
+and_cm7.lnk
+and_counter.lnk
+and_cp.lnk
+and_cp_tablet.lnk
+and_dist-calc.lnk
+and_ifm11.lnk
+and_lm1.lnk
+and_ndk.lnk
+and_sl3.lnk
+and_ta2.lnk
+art_video.lnk
+audios - ショートカット.lnk
+cake_fm_viewer.lnk
+cake_ifm11.lnk
+cake_ig.lnk
+cake_nr5.lnk
+cake_sl3.lnk
+cake_ta2.lnk
+cake_vm.lnk
+emb.lnk
+emb_2-2.lnk
+emb_2.lnk
+emb_3.lnk
+get_folder_list.20161224_003645.rb
+java_TextAnalyzer.lnk
+j_ImageProg.lnk
+j_SoundProg.lnk
+prog_JavaGUI.lnk
+prog_JIM.lnk
+prog_Lisp.lnk
+prog_Maxima.lnk
+prog_processing.lnk
+proj_Arduino.lnk
+proj_PSoC.lnk
+proj_Research.lnk
+proj_Sketchup.lnk
+Rs_BM.lnk

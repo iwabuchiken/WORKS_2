@@ -12,6 +12,9 @@ set path_ws_music="m"
 set path_ws_art="a"
 set path_ws_e2="e"
 set path_ws_hacking="k"
+
+set path_ws_processing="p"
+
 set path_mt4="q"
 set path_mt4_dell_latidude="q2"
 
@@ -147,9 +150,22 @@ REM ******************************
 
 	echo param is %path_sound_programming_c%!
 	
-	echo changing to ... C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+	echo changing to ... C:\WORKS_2\WS\WS_Processing
 	
-	pushd C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+	pushd C:\WORKS_2\WS\WS_Processing
+
+	goto end
+
+REM ******************************
+REM path_mt4_dell_latidude
+REM ******************************
+) else if "%param%"==%path_ws_processing% (
+
+	echo param is %path_ws_processing%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Processing
+	
+	pushd C:\WORKS_2\WS\WS_Processing
 
 	goto end
 
@@ -172,15 +188,17 @@ REM ******************************
 
 :show_message
 echo "<Usage>"
-echo 	w	C:\WORKS_2
-echo 	f	C:\WORKS_2\WS\FM_2
-echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
-echo 	m	C:\WORKS_2\WS\WS_Music
 echo 	a	C:\WORKS_2\WS\WS_Art
+echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 echo 	e	C:\WORKS_2\WS\WS_E2
+echo 	f	C:\WORKS_2\WS\FM_2
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
+echo 	m	C:\WORKS_2\WS\WS_Music
+echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
 echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+echo 	w	C:\WORKS_2
+
 :end
 
