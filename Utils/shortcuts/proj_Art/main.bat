@@ -1,6 +1,7 @@
 @ECHO OFF
 
-pushd C:\WORKS\Utils\shortcuts\proj_Art
+REM pushd C:\WORKS\Utils\shortcuts\proj_Art
+pushd C:\WORKS_2\Utils\shortcuts\proj_Art
 
 REM start C:\WORKS\Utils\shortcuts\and_cm7
 
