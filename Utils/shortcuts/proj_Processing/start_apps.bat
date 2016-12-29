@@ -11,11 +11,13 @@ processing.exe
 
 REM ============ ImageJ
 pushd C:\WORKS_2\Programs\freeware\ImageJ
-ImageJ
+REM ImageJ
+start ImageJ
 
 REM ============ Eclipse: Luna
 pushd C:\WORKS_2\Programs\eclipse_luna
-eclipse
+REM eclipse
+start eclipse
 
 REM pushd "C:\WORKS_2\Programs\GIMP 2\bin"
 
