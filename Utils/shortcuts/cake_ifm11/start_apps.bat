@@ -20,4 +20,9 @@ REM "C:\Program Files\DB Browser for SQLite\3.9.0\bin\DB Browser for SQLite"
 "C:\WORKS_2\Programs\DB Browser for SQLite\DB Browser for SQLite"
 REM C:\WORKS_2\Programs\DB Browser for SQLite
 
+REM ========================= OpenOffice
+start "C:\Program Files (x86)\OpenOffice 4\program\soffice.exe"
+
+
+
 exit

@@ -11,4 +11,6 @@ taskkill /IM github.exe
 
 taskkill /IM sqlitebrowser.exe
 
+taskkill /IM "DB Browser for SQLite.exe" 
+
 exit
