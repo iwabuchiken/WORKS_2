@@ -17,10 +17,11 @@ start chrome.exe "https://docs.google.com/spreadsheets/d/1n5XLZ3ns0lInsYgAodVMW6
 start "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited\terminal.exe"
 
 REM start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
-start C:\WORKS_2\WS\WS_FX
+REM start C:\WORKS_2\WS\WS_FX
 
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 start start_command_prompot.bat
+
 
 REM start start_git.bat
 

@@ -17,4 +17,8 @@ REM open_folder
 
 start start_apps
 
+REM =========================== open folders
+start open_folder.bat
+
+
 exit
