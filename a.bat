@@ -112,9 +112,9 @@ REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
 REM SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby22-x64\bin
 REM PATH=%PATH%;%RUBY_BIN_HOME%;
 
-REM ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
-REM SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
-REM PATH=%PATH%;%IRFAN_BIN_HOME%;
+ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
+SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
+PATH=%PATH%;%IRFAN_BIN_HOME%;
 
 ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python27
 SET PYTHON_HOME=C:\WORKS_2\Programs\Python27

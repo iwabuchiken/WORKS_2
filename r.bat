@@ -20,6 +20,8 @@ set path_ws_processing="p"
 set path_mt4="q"
 set path_mt4_dell_latidude="q2"
 
+set path_ws_research="r"
+
 set path_sound_programming_c="s"
 
 set help="h"
@@ -185,6 +187,19 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_ws_research
+REM ******************************
+) else if "%param%"==%path_ws_research% (
+
+	echo param is %path_ws_research%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Research
+	
+	pushd C:\WORKS_2\WS\WS_Research
+
+	goto end
+
+REM ******************************
 REM help
 REM ******************************
 ) else if "%param%"==%help% (
@@ -215,6 +230,9 @@ echo 	o	C:\WORKS_2\WS\WS_Others
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
+
+echo 	r	C:\WORKS_2\WS\WS_Research
+
 echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 echo 	w	C:\WORKS_2
 
