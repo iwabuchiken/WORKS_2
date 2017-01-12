@@ -23,7 +23,7 @@ set path_mt4_dell_latidude="q2"
 set path_ws_research="r"
 
 set path_sound_programming_c="s"
-
+aa
 set help="h"
 
 REM *******************************
@@ -148,20 +148,20 @@ REM ******************************
 	goto end
 
 REM ******************************
-REM path_mt4_dell_latidude
+REM path_sound_programming_c
 REM ******************************
 ) else if "%param%"==%path_sound_programming_c% (
 
 	echo param is %path_sound_programming_c%!
 	
-	echo changing to ... C:\WORKS_2\WS\WS_Processing
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 	
-	pushd C:\WORKS_2\WS\WS_Processing
+	pushd C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 
 	goto end
 
 REM ******************************
-REM path_mt4_dell_latidude
+REM path_ws_processing
 REM ******************************
 ) else if "%param%"==%path_ws_processing% (
 
@@ -174,7 +174,7 @@ REM ******************************
 	goto end
 
 REM ******************************
-REM path_mt4_dell_latidude
+REM path_ws_others
 REM ******************************
 ) else if "%param%"==%path_ws_others% (
 
