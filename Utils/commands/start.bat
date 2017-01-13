@@ -46,7 +46,8 @@ REM start chrome.exe https://www.youtube.com/
 REM start chrome
 REM start chrome.exe
 
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+REM "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 
 REM chrome http://benfranklin.chips.jp/cake_apps/Cake_NR5/articles?genre_id=3 http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php https://www.youtube.com/ chrome-extension://ohbfkkmpnlpgbbfdflaiikoohbidaikj/app.html
 

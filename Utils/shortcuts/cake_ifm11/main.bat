@@ -14,12 +14,15 @@ REM edit_memo.txt
 REM start start_edit_memo
 
 start start_command_prompot
+REM start_command_prompot
 
 
 start start_git
+REM start_git
 
 REM start "start_eclipse_kepler,filezilla,xampp.bat"
 REM start_apps
+
 start_apps
 
 REM memos.txt
