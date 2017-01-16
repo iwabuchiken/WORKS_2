@@ -23,7 +23,7 @@ set path_mt4_dell_latidude="q2"
 set path_ws_research="r"
 
 set path_sound_programming_c="s"
-aa
+
 set help="h"
 
 REM *******************************
