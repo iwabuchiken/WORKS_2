@@ -1,5 +1,8 @@
 @ECHO OFF
 
+REM ========================= OpenOffice
+start "C:\Program Files (x86)\OpenOffice 4\program\soffice.exe"
+
 pushd C:\WORKS_2\Programs\eclipse_luna
 REM pushd C:\WORKS_2\Programs\eclipse\java-neon\eclipse
 start eclipse.exe
@@ -21,8 +24,6 @@ REM "C:\WORKS_2\Programs\DB Browser for SQLite\DB Browser for SQLite"
 start "C:\WORKS_2\Programs\DB Browser for SQLite\DB Browser for SQLite"
 REM C:\WORKS_2\Programs\DB Browser for SQLite
 
-REM ========================= OpenOffice
-start "C:\Program Files (x86)\OpenOffice 4\program\soffice.exe"
 
 
 
