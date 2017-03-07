@@ -9,7 +9,7 @@ git config --global user.email "iwabuchi.k.2010@gmail.com"
 git config --global user.name "iwabuchiken"
 
 rem debug
-pause
+rem pause
 
 echo.
 
