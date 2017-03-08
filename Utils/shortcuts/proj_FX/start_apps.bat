@@ -7,6 +7,9 @@ start chrome.exe https://mail.google.com/mail/u/0/#search/22-1+62
 REM start chrome.exe https://www.moneypartners.co.jp/market/schedule/
 REM start chrome.exe http://nikkei225jp.com/oil/
 start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=22-1+62&sort=file_name&direction=desc"
+
+start chrome.exe http://tech-unlimited.com/urlencode.html
+
 REM start chrome.exe http://fx.minkabu.jp/indicators
 REM start chrome.exe "http://info.finance.yahoo.co.jp/fx/detail/?code=EURJPY=FX"
 REM start chrome.exe https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
