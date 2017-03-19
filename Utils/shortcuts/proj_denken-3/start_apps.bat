@@ -11,9 +11,17 @@ start chrome.exe https://translate.google.co.jp/?hl=ja
 start chrome.exe http://tech-unlimited.com/urlencode.html
 
 REM ===============================
+REM 	open folder
+REM ===============================
+start C:\WORKS_2\WS\WS_Others
+
+REM ===============================
 REM 	git
 REM ===============================
-C:\WORKS_2\Utils\shortcuts\proj_denken-3
+pushd C:\WORKS_2\Utils\shortcuts\proj_denken-3
+rem pushd C:\WORKS_2\WS\WS_Others
 start_git.bat
 
-exit
+pause
+
+rem exit
