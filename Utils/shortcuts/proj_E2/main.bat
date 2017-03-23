@@ -1,6 +1,7 @@
 @ECHO OFF
 
-pushd C:\WORKS\Utils\shortcuts\proj_E2
+REM pushd C:\WORKS\Utils\shortcuts\proj_E2
+pushd C:\WORKS_2\Utils\shortcuts\proj_E2
 
 start open_folder
 
