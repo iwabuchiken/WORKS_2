@@ -7,7 +7,9 @@ start chrome.exe "https://ja.wikipedia.org/wiki/ƒwƒuƒ‰ƒCŒê"
 start chrome.exe "https://ja.wikipedia.org/wiki/%%E3%%83%%98%%E3%%83%%96%%E3%%83%%A9%%E3%%82%%A4%%E6%%96%%87%%E5%%AD%%97#.E6.96.87.E5.AD.97"
 start chrome.exe "http://qbible.com/hebrew-old-testament/proverbs/1.html#1"
 start chrome.exe http://biblehub.com/text/proverbs/1-5.htm
+start chrome.exe http://www.biblestudytools.com/proverbs/1.html
 start chrome.exe https://translate.google.co.jp/?hl=ja
 start chrome.exe http://tech-unlimited.com/urlencode.html
+start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
 exit
