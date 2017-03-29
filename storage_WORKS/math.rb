@@ -29,4 +29,4 @@ ary.each {|num|
 
 }
 
-puts $:
+#puts $:

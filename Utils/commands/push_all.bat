@@ -8,6 +8,9 @@ echo git config --global credential.helper wincred
 git config --global user.email "iwabuchi.k.2010@gmail.com"
 git config --global user.name "iwabuchiken"
 
+rem debug
+rem pause
+
 echo.
 
 call C:\WORKS_2\Utils\commands\push_fm.bat

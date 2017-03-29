@@ -1,5 +1,5 @@
 @ECHO OFF
-pushd C:\WORKS\WS\WS_E2
+pushd C:\WORKS_2\WS\WS_E2
 
 call a.bat
 

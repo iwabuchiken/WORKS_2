@@ -17,6 +17,7 @@ REM start eclipse.exe
 
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
 start chrome.exe https://mail.google.com/mail/u/0/?shva=1#search/myself+art
+start chrome.exe http://www.zamzar.com/
 
 REM ------------------------ gimp
 REM pushd "C:\Program Files\GIMP 2\bin"

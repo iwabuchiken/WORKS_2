@@ -6,12 +6,12 @@ REM start start_git
 
 REM start start_apps
 
-call start_command_prompot.bat
+REM call start_command_prompot.bat
 REM call start_command_prompot.bat "a && clisp"
 
 REM open_folder
 
-start start_git
+REM start start_git
 
 REM open_folder
 
