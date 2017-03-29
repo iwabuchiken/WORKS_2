@@ -15,6 +15,9 @@ REM start chrome.exe https://mysqladmin.lolipop.jp/pma/index.php?db=LAA0278957-c
 REM start chrome.exe https://docs.google.com/spreadsheets/d/1GlMjFYCAdSc87V-BhGAM-sz-Kka6AlyxgS-0jqvPlPc/edit#gid=0
 start chrome.exe https://mail.google.com/mail/u/0/?shva=1#search/myself+music
 REM start chrome.exe http://www.ofoct.com/audio-converter/convert-midi-to-mp3-or-wav-ogg-aac-wma.html
+
+start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=music+%3Am&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
+
 start chrome.exe http://www.zamzar.com/
 REM start chrome.exe http://media.io/
 
