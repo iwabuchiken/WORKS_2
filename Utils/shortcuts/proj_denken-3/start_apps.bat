@@ -10,6 +10,7 @@ start chrome.exe "https://ja.wikipedia.org/wiki/ìdå±"
 start chrome.exe https://translate.google.co.jp/?hl=ja
 start chrome.exe http://tech-unlimited.com/urlencode.html
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
+start chrome.exe https://www.youtube.com/
 
 REM ===============================
 REM 	open folder
