@@ -9,8 +9,9 @@ rem start C:\WORKS_2\Programs\freeware\Audacity\audacity.exe
 REM ======================================
 REM 	eclipse neon
 REM ======================================
-pushd C:\WORKS_2\Programs\eclipse\cpp-neon2\eclipse
-rem eclipse
+rem pushd C:\WORKS_2\Programs\eclipse\cpp-neon2\eclipse
+pushd C:\WORKS_2\Programs\eclipse\java-neon_2
+
 start eclipse
 
 REM ======================================

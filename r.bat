@@ -9,6 +9,7 @@ set path_works="w"
 set path_fm_2="f"
 set path_cake_11="c"
 set path_ws_music="m"
+set path_cake_nr5="n"
 set path_ws_art="a"
 set path_ws_e2="e"
 set path_ws_hacking="k"
@@ -200,6 +201,19 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_cake_nr5
+REM ******************************
+) else if "%param%"==%path_cake_nr5% (
+
+	echo param is %path_cake_nr5%!
+	
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
+	
+	pushd C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
+
+	goto end
+
+REM ******************************
 REM help
 REM ******************************
 ) else if "%param%"==%help% (
@@ -224,6 +238,7 @@ echo 	e	C:\WORKS_2\WS\WS_E2
 echo 	f	C:\WORKS_2\WS\FM_2
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
 echo 	m	C:\WORKS_2\WS\WS_Music
+echo 	n	C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
 
 echo 	o	C:\WORKS_2\WS\WS_Others
 

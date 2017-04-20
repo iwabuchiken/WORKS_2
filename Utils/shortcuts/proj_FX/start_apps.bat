@@ -11,6 +11,7 @@ REM start chrome.exe http://nikkei225jp.com/oil/
 start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=22-1+62&sort=file_name&direction=desc"
 
 start chrome.exe http://tech-unlimited.com/urlencode.html
+start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
 REM start chrome.exe http://fx.minkabu.jp/indicators
 REM start chrome.exe "http://info.finance.yahoo.co.jp/fx/detail/?code=EURJPY=FX"
@@ -19,7 +20,10 @@ REM start chrome.exe "https://docs.google.com/spreadsheets/d/1z5Rq680qTlL4SZ6GMQ
 
 REM start chrome.exe "https://docs.google.com/spreadsheets/d/1n5XLZ3ns0lInsYgAodVMW6woAEtYumSCVE8qSVUXIeA/edit#gid=671977138"
 
-start "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited\terminal.exe"
+rem start "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited\terminal.exe"
+
+pushd "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited"
+start terminal.exe
 
 REM start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
 REM start C:\WORKS_2\WS\WS_FX

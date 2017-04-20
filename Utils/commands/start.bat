@@ -36,6 +36,12 @@ start FreeMind
 
 REM timeout /t 8
 
+rem 
+pushd C:\WORKS_2\Programs\xampp
+start xampp-control
+
+
+
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM chrome.exe
 REM start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
