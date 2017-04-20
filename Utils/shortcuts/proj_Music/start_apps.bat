@@ -20,7 +20,7 @@ start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_
 
 start chrome.exe http://www.zamzar.com/
 REM start chrome.exe http://media.io/
-
+start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
 pushd C:\WORKS_2\Programs\Domino143
 start Domino
