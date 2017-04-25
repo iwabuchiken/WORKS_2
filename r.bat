@@ -5,14 +5,15 @@ REM
 REM 	prep: symbol to each path
 REM 
 REM *******************************
-set path_works="w"
-set path_fm_2="f"
+set path_ws_art="a"
 set path_cake_11="c"
+set path_ws_e2="e"
+set path_fm_2="f"
+
+set path_ws_hacking="k"
+set path_ws_lollipop_server="l"
 set path_ws_music="m"
 set path_cake_nr5="n"
-set path_ws_art="a"
-set path_ws_e2="e"
-set path_ws_hacking="k"
 
 set path_ws_others="o"
 
@@ -24,6 +25,8 @@ set path_mt4_dell_latidude="q2"
 set path_ws_research="r"
 
 set path_sound_programming_c="s"
+
+set path_works="w"
 
 set help="h"
 
@@ -214,6 +217,21 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_ws_lollipop_server="l"
+REM ******************************
+) else if "%param%"==%path_ws_lollipop_server% (
+
+	echo param is %path_ws_lollipop_server%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Lollipop_server_files
+	
+	pushd C:\WORKS_2\WS\WS_Lollipop_server_files
+
+	goto end
+
+
+
+REM ******************************
 REM help
 REM ******************************
 ) else if "%param%"==%help% (
@@ -236,10 +254,12 @@ echo 	a	C:\WORKS_2\WS\WS_Art
 echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 echo 	e	C:\WORKS_2\WS\WS_E2
 echo 	f	C:\WORKS_2\WS\FM_2
+echo.
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
+echo 	l	C:\WORKS_2\WS\WS_Lollipop_server_files
 echo 	m	C:\WORKS_2\WS\WS_Music
 echo 	n	C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
-
+echo.
 echo 	o	C:\WORKS_2\WS\WS_Others
 
 echo 	p	C:\WORKS_2\WS\WS_Processing
@@ -249,6 +269,7 @@ echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A6232
 echo 	r	C:\WORKS_2\WS\WS_Research
 
 echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+echo.
 echo 	w	C:\WORKS_2
 
 :end
