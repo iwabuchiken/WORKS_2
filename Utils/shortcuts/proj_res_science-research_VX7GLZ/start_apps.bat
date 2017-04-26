@@ -18,7 +18,7 @@ start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_
 start chrome.exe "https://en.wikipedia.org/wiki/Computer_engineering"
 start chrome.exe "https://www.youtube.com/results?search_query=computer+engineering"
 start chrome.exe https://translate.google.co.jp/?hl=ja
-start chrome.exe http://tech-unlimited.com/urlencode.html
+rem start chrome.exe http://tech-unlimited.com/urlencode.html
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
 rem pushd "C:\WORKS_2\Programs\Mozilla Firefox"
