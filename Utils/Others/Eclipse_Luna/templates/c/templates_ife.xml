@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="" enabled="true" name="ife">if (${condition}) {&#13;
+&#13;
+	${line_1}&#13;
+	&#13;
+} else {//if (${condition})&#13;
+&#13;
+	${line_2}&#13;
+	&#13;
+}//if (${condition})&#13;
+${cursor}</template></templates>
