@@ -6,7 +6,7 @@ REM start C:\WORKS_2\Utils\shortcuts\and_cm7
 
 REM start start_git
 
-start start_git
+rem start start_git
 
 start start_apps
 REM start start_applications.pl
