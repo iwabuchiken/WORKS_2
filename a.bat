@@ -124,6 +124,10 @@ ECHO Setting a var: FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win6
 SET FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin
 PATH=%PATH%;%FFMPEG_HOME%;
 
+ECHO Setting a var: LISPBOX_HOME=C:\WORKS_2\Programs\lispbox-0.7
+SET LISPBOX_HOME=C:\WORKS_2\Programs\lispbox-0.7
+PATH=%PATH%;%LISPBOX_HOME%;
+
 
 
 ECHO.
