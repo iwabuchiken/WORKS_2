@@ -11,6 +11,7 @@ call start_command_prompot.bat
 
 REM start_git
 start start_git
-start_git_c
+
+rem start_git_c
 
 exit

@@ -1,0 +1,16 @@
+rem @ECHO OFF
+rem pushd C:\WORKS_2\WS\Eclipse_Luna\J_SoundProg
+
+a
+
+s
+
+REM call a.bat
+
+REM C:\WORKS\Programs\Git\cmd\gitk
+rem gitk
+
+
+pause 
+
+rem exit

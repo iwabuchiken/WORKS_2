@@ -16,7 +16,7 @@ REM pushd C:\WORKS\Programs\eclipse_luna_lisp
 REM start eclipse.exe
 
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
-start chrome.exe https://mail.google.com/mail/u/0/?shva=1#search/myself+art
+start chrome.exe https://mail.google.com/mail/u/0/?shva=1#search/myself+art+-daylog
 start chrome.exe http://www.zamzar.com/
 
 REM ------------------------ gimp

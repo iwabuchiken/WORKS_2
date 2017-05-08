@@ -1,12 +1,10 @@
 @ECHO OFF
-pushd C:\WORKS\WS\Eclipse_Luna\J_SoundProg
+pushd C:\WORKS_2\Utils\shortcuts\j_SoundProg
 
-REM call a.bat
+call a.bat
 
-REM C:\WORKS\Programs\Git\cmd\gitk
-gitk
+pushd C:\WORKS_2\WS\Eclipse_Luna\J_SoundProg && gitk
 
-
-REM pause 
+rem pause 
 
 exit

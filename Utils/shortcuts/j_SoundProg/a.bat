@@ -1,3 +1,4 @@
 @ECHO OFF
 
-c:\works\a.bat
+rem c:\works\a.bat
+c:\works_2\a.bat
