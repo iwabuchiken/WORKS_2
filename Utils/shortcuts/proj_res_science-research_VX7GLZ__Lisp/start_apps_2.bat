@@ -8,7 +8,7 @@ rem ==========================
 
 rem pushd C:\WORKS_2\WS\WS_Others\free\VX7GLZ_science-research
 
-pause
+rem pause
 
 rem start C:\WORKS_2\a
 
@@ -16,7 +16,7 @@ SET LISPBOX_HOME=C:\WORKS_2\Programs\lispbox-0.7
 PATH=%PATH%;%LISPBOX_HOME%;
 
 echo path set
-pause
+rem pause
 
 C:\WORKS_2\Programs\lispbox-0.7\lispbox.bat
 
@@ -28,6 +28,6 @@ rem 	exit
 rem 
 rem ==========================
 
-pause
+rem pause
 
-exit
+rem exit

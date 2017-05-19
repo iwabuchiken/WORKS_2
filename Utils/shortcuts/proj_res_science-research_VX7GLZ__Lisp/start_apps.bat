@@ -48,15 +48,37 @@ start start_git
 
 rem ==========================
 rem 
+rem 	clisp
+rem 
+rem ==========================
+
+rem pushd C:\WORKS_2\WS\WS_Others\free\VX7GLZ_science-research
+
+rem pause
+
+rem start C:\WORKS_2\a
+
+pushd C:\WORKS_2\WS\WS_Others\free\VX7GLZ_science-research\21_lisp\23_1
+SET LISPBOX_HOME=C:\WORKS_2\Programs\lispbox-0.7
+PATH=%PATH%;%LISPBOX_HOME%;
+
+echo path set
+rem pause
+
+C:\WORKS_2\Programs\lispbox-0.7\lispbox.bat
+
+
+rem ==========================
+rem 
 rem 	xyzzy
 rem 
 rem ==========================
-pushd C:\WORKS_2\Programs\freeware\xyzzy
-start xyzzy
+rem pushd C:\WORKS_2\Programs\freeware\xyzzy
+rem start xyzzy
 
 rem ==========================
 rem 
 rem 	exit
 rem 
 rem ==========================
-exit
+rem exit
