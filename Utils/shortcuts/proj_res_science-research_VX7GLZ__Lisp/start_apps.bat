@@ -35,7 +35,7 @@ rem
 rem 	folder
 rem 
 rem ==========================
-pushd C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ
+pushd C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ__Lisp
 start open_folder
 
 rem ==========================
@@ -43,7 +43,7 @@ rem
 rem 	git
 rem 
 rem ==========================
-pushd C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ
+pushd C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ__Lisp
 start start_git
 
 rem ==========================
