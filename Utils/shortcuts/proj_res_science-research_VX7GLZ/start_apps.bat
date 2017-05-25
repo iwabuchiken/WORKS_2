@@ -51,8 +51,8 @@ rem
 rem 	xyzzy
 rem 
 rem ==========================
-pushd C:\WORKS_2\Programs\freeware\xyzzy
-start xyzzy
+rem pushd C:\WORKS_2\Programs\freeware\xyzzy
+rem start xyzzy
 
 rem ==========================
 rem 

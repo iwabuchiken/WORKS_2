@@ -10,6 +10,7 @@ set path_cake_11="c"
 set path_ws_e2="e"
 set path_fm_2="f"
 
+set path_C_ImageProg="i"
 set path_ws_hacking="k"
 set path_ws_lollipop_server="l"
 set path_ws_music="m"
@@ -229,6 +230,20 @@ REM ******************************
 
 	goto end
 
+REM ******************************
+REM path_C_ImageProg="l"
+REM ******************************
+) else if "%param%"==%path_C_ImageProg% (
+
+	echo param is %path_C_ImageProg%!
+	
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\C_ImageProg
+	
+	pushd C:\WORKS_2\WS\Eclipse_Luna\C_ImageProg
+
+	goto end
+
+
 
 
 REM ******************************
@@ -255,6 +270,7 @@ echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 echo 	e	C:\WORKS_2\WS\WS_E2
 echo 	f	C:\WORKS_2\WS\FM_2
 echo.
+echo 	i	C:\WORKS_2\WS\Eclipse_Luna\C_ImageProg
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
 echo 	l	C:\WORKS_2\WS\WS_Lollipop_server_files
 echo 	m	C:\WORKS_2\WS\WS_Music

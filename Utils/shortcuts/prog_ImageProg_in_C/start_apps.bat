@@ -10,7 +10,7 @@ REM ======================================
 REM 	eclipse neon
 REM ======================================
 rem pushd C:\WORKS_2\Programs\eclipse\cpp-neon2\eclipse
-pushd C:\WORKS_2\Programs\eclipse\java-neon_2
+pushd C:\WORKS_2\Programs\eclipse\java-neon_2\eclipse
 
 start eclipse
 
@@ -18,7 +18,8 @@ REM ======================================
 REM 	web pages
 REM ======================================
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
-start chrome.exe https://mail.google.com/mail/u/0/#search/myself+prog+image+-daylog
+rem start chrome.exe https://mail.google.com/mail/u/0/#search/myself+prog+image+-daylog
+start chrome.exe https://mail.google.com/mail/u/0/?shva=1#search/myself+prog+d-6
 start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=myself+prog+image&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 rem exit
