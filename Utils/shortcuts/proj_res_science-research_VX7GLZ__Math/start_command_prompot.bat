@@ -60,8 +60,10 @@ REM else if %temp%==b (
 echo arg=%arg%
 
 :execute
-start C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ__Lisp\"Command Prompt.lnk" /k %arg%
+start C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ__Math\"Command Prompt.lnk" /k %arg%
 REM start C:\WORKS\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir"
 
+
+pushd C:\WORKS_2\WS\WS_Others\free\VX7GLZ_science-research\27_math
 
 :end

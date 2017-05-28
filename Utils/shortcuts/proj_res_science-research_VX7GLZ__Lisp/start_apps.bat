@@ -13,7 +13,7 @@ rem 	browser
 rem 
 rem ==========================
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
-start chrome.exe "https://mail.google.com/mail/u/0/?shva=1#search/VX7GLZ+myself+-daylog?compose=15a556deef3acd26"
+start chrome.exe "https://mail.google.com/mail/u/0/?shva=1#search/VX7GLZ+myself+-daylog+lisp"
 start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=VX7GLZ&sort=file_name&direction=desc&RBs_AND_OR_Memo=AND"
 start chrome.exe "https://en.wikipedia.org/wiki/Computer_engineering"
 start chrome.exe "https://www.youtube.com/results?search_query=computer+engineering"
@@ -45,6 +45,14 @@ rem
 rem ==========================
 pushd C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ__Lisp
 start start_git
+
+rem ==========================
+rem 
+rem 	command line
+rem 
+rem ==========================
+pushd C:\WORKS_2\Utils\shortcuts\proj_res_science-research_VX7GLZ__Lisp
+start start_command_prompot.bat
 
 rem ==========================
 rem 
