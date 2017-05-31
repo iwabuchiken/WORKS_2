@@ -18,7 +18,7 @@ start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_
 start chrome.exe "https://ja.wikipedia.org/wiki/シュレーディンガー方程式"
 start chrome.exe "https://www.youtube.com/results?search_query=particle+physics"
 start chrome.exe https://translate.google.co.jp/?hl=ja
-start chrome.exe http://tech-unlimited.com/urlencode.html
+rem start chrome.exe http://tech-unlimited.com/urlencode.html
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
 rem pushd "C:\WORKS_2\Programs\Mozilla Firefox"
@@ -51,8 +51,8 @@ rem
 rem 	xyzzy
 rem 
 rem ==========================
-pushd C:\WORKS_2\Programs\freeware\xyzzy
-start xyzzy
+rem pushd C:\WORKS_2\Programs\freeware\xyzzy
+rem start xyzzy
 
 rem ==========================
 rem 
