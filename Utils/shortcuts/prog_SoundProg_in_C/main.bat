@@ -17,8 +17,8 @@ REM start_git_c
 
 start open_folder
 
-pushd C:\WORKS_2\Programs\eclipse\cpp-neon2\eclipse
-eclipse
+rem pushd C:\WORKS_2\Programs\eclipse\cpp-neon2\eclipse
+rem eclipse
 
 
 exit
