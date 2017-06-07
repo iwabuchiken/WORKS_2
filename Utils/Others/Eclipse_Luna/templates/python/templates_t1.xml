@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="" enabled="true" name="t1">###############################################&#13;
+import sys&#13;
+sys.path.append('.')&#13;
+from libs import *&#13;
+&#13;
+import getopt&#13;
+import os&#13;
+import inspect&#13;
+###############################################&#13;
+${cursor}</template></templates>

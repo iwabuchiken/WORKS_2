@@ -159,9 +159,10 @@ REM ******************************
 
 	echo param is %path_sound_programming_c%!
 	
-	echo changing to ... C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+rem 	echo changing to ... C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
 	
-	pushd C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+	pushd C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
 
 	goto end
 
@@ -284,7 +285,8 @@ echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A6232
 
 echo 	r	C:\WORKS_2\WS\WS_Research
 
-echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+rem echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
+echo 	s	C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
 echo.
 echo 	w	C:\WORKS_2
 
