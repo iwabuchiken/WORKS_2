@@ -22,7 +22,7 @@ rem ==========================
 rem 	Eclipse
 rem ==========================
 pushd C:\WORKS_2\Programs\eclipse\java-neon_2
-eclipse
+start eclipse
 
 rem ==========================
 rem 
