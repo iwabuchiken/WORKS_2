@@ -21,7 +21,8 @@ start chrome.exe http://localhost/Eclipse_Luna/Cake_NR5/pieces/
 rem ==========================
 rem 	Eclipse
 rem ==========================
-pushd C:\WORKS_2\Programs\eclipse\java-neon_2
+pushd C:\WORKS_2\Programs\eclipse\java-neon_2\eclipse
+
 start eclipse
 
 rem ==========================
