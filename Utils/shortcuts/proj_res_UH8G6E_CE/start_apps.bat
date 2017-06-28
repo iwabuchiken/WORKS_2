@@ -31,7 +31,7 @@ rem
 rem 	folder
 rem 
 rem ==========================
-pushd C:\WORKS_2\Utils\shortcuts\proj_res_science_VX7GLZ__NLP
+pushd C:\WORKS_2\Utils\shortcuts\proj_res_UH8G6E_CE
 start open_folder
 
 rem ==========================
@@ -39,6 +39,6 @@ rem
 rem 	git
 rem 
 rem ==========================
-pushd C:\WORKS_2\Utils\shortcuts\proj_res_science_VX7GLZ__NLP
+pushd C:\WORKS_2\Utils\shortcuts\proj_res_UH8G6E_CE
 start start_git
 
