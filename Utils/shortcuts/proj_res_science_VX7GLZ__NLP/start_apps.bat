@@ -35,6 +35,13 @@ start open_folder
 
 rem ==========================
 rem 
+rem 	xampp
+rem 
+rem ==========================
+start C:\WORKS_2\WS\WS_Others\works_2\start_xampp.rb
+
+rem ==========================
+rem 
 rem 	git
 rem 
 rem ==========================
