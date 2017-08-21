@@ -28,9 +28,9 @@ ECHO Setting a var: SAKURA_HOME=C:\Program Files (x86)\sakura
 SET SAKURA_HOME=C:\Program Files (x86)\sakura
 PATH=%PATH%;%SAKURA_HOME%;
 
-ECHO Setting a var: SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
-SET SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
-PATH=%PATH%;%SAKURA_HOME_2%;
+REM ECHO Setting a var: SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
+REM SET SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
+REM PATH=%PATH%;%SAKURA_HOME_2%;
 
 REM ECHO Setting a var: JAVA_HOME=C:\WORKS_2\Programs\Java
 REM SET JAVA_HOME=C:\WORKS_2\Programs\Java
