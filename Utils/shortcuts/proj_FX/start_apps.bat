@@ -32,7 +32,7 @@ pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 start start_command_prompot.bat
 
 
-REM start start_git.bat
+start start_git.bat
 
 REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
 
