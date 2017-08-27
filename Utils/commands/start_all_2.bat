@@ -13,6 +13,6 @@ start chrome
 
 :end
 
-pause
+REM pause
 
 REM exit
