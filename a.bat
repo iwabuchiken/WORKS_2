@@ -20,25 +20,17 @@ ECHO Setting a var: WORKS_HOME=C:\WORKS_2
 SET WORKS_HOME=C:\WORKS_2
 PATH=%PATH%;%WORKS_HOME%;
 
-REM ECHO Setting a var: SAKURA_HOME=C:\WORKS\Programs\sakura
-REM SET SAKURA_HOME=C:\WORKS\Programs\sakura
-REM PATH=%PATH%;%SAKURA_HOME%;
-
-ECHO Setting a var: SAKURA_HOME=C:\Program Files (x86)\sakura
-SET SAKURA_HOME=C:\Program Files (x86)\sakura
+ECHO Setting a var: SAKURA_HOME=C:\WORKS_2\Programs\sakura
+SET SAKURA_HOME=C:\WORKS_2\Programs\sakura
 PATH=%PATH%;%SAKURA_HOME%;
-
-REM ECHO Setting a var: SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
-REM SET SAKURA_HOME_2=C:\WORKS_2\Programs\sakura
-REM PATH=%PATH%;%SAKURA_HOME_2%;
 
 REM ECHO Setting a var: JAVA_HOME=C:\WORKS_2\Programs\Java
 REM SET JAVA_HOME=C:\WORKS_2\Programs\Java
 REM PATH=%PATH%;%JAVA_HOME%;
 REM PATH=%JAVA_HOME%;%PATH%;
 
-ECHO Setting a var: JAVA_1.8_BIN_HOME=C:\WORKS_2\Programs\Java\jdk1.8.0_111\bin
-SET JAVA_1.8_BIN_HOME=C:\WORKS_2\Programs\Java\jdk1.8.0_111\bin
+ECHO Setting a var: JAVA_1.8_BIN_HOME=C:\WORKS_2\Programs\Java\jdk1.8.0_144\bin
+SET JAVA_1.8_BIN_HOME=C:\WORKS_2\Programs\Java\jdk1.8.0_144\bin
 REM PATH=%PATH%;%JAVA_HOME%;
 PATH=%JAVA_1.8_BIN_HOME%;%PATH%;
 
@@ -53,9 +45,14 @@ SET COMMANDS=C:\WORKS_2\Utils\commands
 PATH=%PATH%;%COMMANDS%;
 
 
-ECHO Setting a var: GIT_CMD="C:\Program Files\Git\cmd"
-SET GIT_CMD="C:\Program Files\Git\cmd"
+REM ECHO Setting a var: GIT_CMD="C:\Program Files\Git\cmd"
+REM SET GIT_CMD="C:\Program Files\Git\cmd"
+REM PATH=%PATH%;%GIT_CMD%;
+
+ECHO Setting a var: GIT_CMD="C:\WORKS_2\Programs\Git_2.14.1\bin"
+SET GIT_CMD="C:\WORKS_2\Programs\Git_2.14.1\bin"
 PATH=%PATH%;%GIT_CMD%;
+
 
 REM ECHO Setting a var: ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
 REM SET ADB_HOME=C:\WORKS_2\Programs\android_sdk_r24.0.2\platform-tools
@@ -79,12 +76,9 @@ ECHO Setting a var: PHP_BIN_HOME=C:\WORKS_2\Programs\xampp\php
 SET PHP_BIN_HOME=C:\WORKS_2\Programs\xampp\php
 PATH=%PATH%;%PHP_BIN_HOME%;
 
-REM ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
-REM SET RUBY_BIN_HOME=C:\WORKS\Programs\Ruby200-x64\bin
-REM PATH=%PATH%;%RUBY_BIN_HOME%;
-ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby23-x64\bin
+ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby24-x64\bin
 ECHO yes!
-SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby23-x64\bin
+SET RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby24-x64\bin
 PATH=%PATH%;%RUBY_BIN_HOME%;
 
 REM ECHO Setting a var: MINGW_BIN_HOME=C:\MinGW\mingw32\bin
