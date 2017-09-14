@@ -18,6 +18,8 @@ start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/view/21
 
 start chrome.exe http://www.zamzar.com/
 
+start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
+
 REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
 REM start chrome.exe http://www.shamisen.info/chogen.koto1.09/newpage3.html#nogi
 REM start chrome.exe https://en.wikipedia.org/wiki/File:Circle_of_fifths_deluxe_4.svg
@@ -42,6 +44,10 @@ start Domino
 
 pushd C:\WORKS_2\Programs\MuseScore 2\bin
 start MuseScore
+
+REM GIMP
+pushd "C:\WORKS_2\Programs\GIMP 2\bin"
+start gimp-2.8
 
 pause
 
