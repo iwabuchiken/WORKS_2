@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="rubyUniversalTemplateContextType" deleted="false" description="" enabled="true" name="c1">  ####################&#13;
+  # ${message}&#13;
+  ####################&#13;
+  ${cursor}&#13;
+</template></templates>
