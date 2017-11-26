@@ -110,9 +110,13 @@ ECHO Setting a var: IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
 SET IRFAN_BIN_HOME=C:\WORKS_2\Programs\freeware\IrfanView
 PATH=%PATH%;%IRFAN_BIN_HOME%;
 
-ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python27
-SET PYTHON_HOME=C:\WORKS_2\Programs\Python27
+ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python_2.7.5
+SET PYTHON_HOME=C:\WORKS_2\Programs\Python_2.7.5
 PATH=%PATH%;%PYTHON_HOME%;
+
+ECHO Setting a var: PIP_HOME=C:\WORKS_2\Programs\Python_2.7.5\Scripts
+SET PIP_HOME=C:\WORKS_2\Programs\Python_2.7.5\Scripts
+PATH=%PATH%;%PIP_HOME%;
 
 ECHO Setting a var: FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin
 SET FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin
