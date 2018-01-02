@@ -20,6 +20,10 @@ start chrome.exe http://www.zamzar.com/
 
 start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
+start chrome.exe https://docs.zoho.com/sheet/open/4xrgac6165782f2d84501809564b65fe4e895/sheets/Sheet1/ranges/C2
+
+start chrome.exe https://www.onlinepianist.com/virtual-piano
+
 REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
 REM start chrome.exe http://www.shamisen.info/chogen.koto1.09/newpage3.html#nogi
 REM start chrome.exe https://en.wikipedia.org/wiki/File:Circle_of_fifths_deluxe_4.svg
