@@ -27,12 +27,20 @@ REM pushd "C:\WORKS_2\Programs\GIMP 2\bin"
 REM start gimp-2.8
 
 REM **************************************
+REM 	itunes
+REM **************************************
+pushd C:\WORKS_2\Programs\itunes_12.6.2
+start iTunes
+
+REM **************************************
 REM 	git
 REM **************************************
-C:\WORKS_2\Utils\shortcuts\proj_Music
+pushd C:\WORKS_2\Utils\shortcuts\proj_Music
 start start_git.bat
 
 REM pause
+
+
 
 exit
 

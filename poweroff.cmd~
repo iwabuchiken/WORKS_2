@@ -1,0 +1,5 @@
+@ECHO OFF
+Timer start %1
+shutdown -t %1 -s
+
+pause

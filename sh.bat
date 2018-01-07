@@ -10,6 +10,7 @@ IF [%1]==[a] (
 ) else (
 
 	echo Executing 'shutdown /s /t %1'
+REM 	shutdown /s /t /c %1
 	shutdown /s /t %1
 
 )
