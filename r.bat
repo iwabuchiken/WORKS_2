@@ -61,9 +61,10 @@ REM echo param is abc!
 
 	echo param is %path_fm_2%!
 	
-	echo changing to ... C:\WORKS_2\WS\FM_2
+REM 	echo changing to ... C:\WORKS_2\WS\FM_2
+	echo changing to ... C:\WORKS_2\WS\FM_2_20171104_225946
 	
-	pushd C:\WORKS_2\WS\FM_2
+	pushd C:\WORKS_2\WS\FM_2_20171104_225946
 
 	goto end
 	
@@ -269,7 +270,8 @@ echo "<Usage>"
 echo 	a	C:\WORKS_2\WS\WS_Art
 echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 echo 	e	C:\WORKS_2\WS\WS_E2
-echo 	f	C:\WORKS_2\WS\FM_2
+REM echo 	f	C:\WORKS_2\WS\FM_2
+echo 	f	C:\WORKS_2\WS\FM_2_20171104_225946
 echo.
 echo 	i	C:\WORKS_2\WS\Eclipse_Luna\C_ImageProg
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking

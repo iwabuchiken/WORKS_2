@@ -72,8 +72,8 @@ SET SQLITE3_BIN_HOME=C:\WORKS_2\Programs\sqlite-tools-win32-x86-3140200
 PATH=%PATH%;%SQLITE3_BIN_HOME%;
 
 
-ECHO Setting a var: PHP_BIN_HOME=C:\WORKS_2\Programs\xampp\php
-SET PHP_BIN_HOME=C:\WORKS_2\Programs\xampp\php
+ECHO Setting a var: PHP_BIN_HOME=C:\xampp_5.6\php
+SET PHP_BIN_HOME=C:\xampp_5.6\php
 PATH=%PATH%;%PHP_BIN_HOME%;
 
 ECHO Setting a var: RUBY_BIN_HOME=C:\WORKS_2\Programs\Ruby24-x64\bin
