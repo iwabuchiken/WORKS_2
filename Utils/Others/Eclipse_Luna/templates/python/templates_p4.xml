@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="" enabled="true" name="p4">print("[%s:%d] %s" % \&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="" enabled="true" name="p4">print("[%s:%d] ${message}" % \&#13;
 		(os.path.basename(libs.thisfile()), libs.linenum()&#13;
 		${args}&#13;
 		), file=sys.stderr)</template></templates>
