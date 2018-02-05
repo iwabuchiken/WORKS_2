@@ -7,6 +7,7 @@ REM
 REM *******************************
 set path_ws_art="a"
 set path_cake_11="c"
+set path_admin_projects="d"
 set path_ws_e2="e"
 set path_fm_2="f"
 
@@ -245,8 +246,18 @@ REM ******************************
 
 	goto end
 
+REM ******************************
+REM path_C_ImageProg="l"
+REM ******************************
+) else if "%param%"==%path_admin_projects% (
 
+	echo param is %path_admin_projects%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+	
+	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 
+	goto end
 
 REM ******************************
 REM help
@@ -269,6 +280,7 @@ REM ******************************
 echo "<Usage>"
 echo 	a	C:\WORKS_2\WS\WS_Art
 echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
+echo 	d	C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL	http://127.0.0.1:8000/mm/
 echo 	e	C:\WORKS_2\WS\WS_E2
 REM echo 	f	C:\WORKS_2\WS\FM_2
 echo 	f	C:\WORKS_2\WS\FM_2_20171104_225946
