@@ -11,5 +11,6 @@ start thunderbird
 start C:\WORKS_2
 
 pushd C:\WORKS_2
-start start_command_prompot.bat
+REM start start_command_prompot.bat
+start_command_prompot.bat
 
