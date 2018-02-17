@@ -1,7 +1,7 @@
 @ECHO OFF
 pushd C:\WORKS_2\WS\WS_Music
 
-call a.bat
+REM call a.bat
 
 REM C:\WORKS_2\Programs\Git\cmd\gitk
 REM gitk

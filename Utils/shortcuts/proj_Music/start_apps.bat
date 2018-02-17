@@ -32,6 +32,9 @@ start Domino
 
 start C:\WORKS_2\Utils\shortcuts\proj_Music\start_git.bat
 
+pushd C:\WORKS_2\Programs\FreeMind
+start FreeMind
+
 REM pushd C:\WORKS_2\WS\WS_Music
 REM start s2
 REM s2
