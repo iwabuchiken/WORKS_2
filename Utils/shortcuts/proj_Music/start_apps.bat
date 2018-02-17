@@ -30,8 +30,11 @@ rem start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 pushd C:\WORKS_2\Programs\Domino143
 start Domino
 
-pushd C:\WORKS_2\WS\WS_Music
+start C:\WORKS_2\Utils\shortcuts\proj_Music\start_git.bat
 
+REM pushd C:\WORKS_2\WS\WS_Music
+REM start s2
+REM s2
 
 REM start "C:\Program Files\Mozilla Thunderbird\thunderbird.exe"
 pushd "C:\Program Files\Mozilla Thunderbird"

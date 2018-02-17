@@ -7,7 +7,8 @@ REM pushd "C:\Program Files\Git\cmd"
 REM start gitk
 
 REM start gitk2
+start C:\WORKS_2\gitk2
 
-"C:\Program Files\Git\cmd\gitk"
+rEM "C:\Program Files\Git\cmd\gitk"
 
-exit
+REM exit

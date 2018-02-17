@@ -12,7 +12,8 @@ REM start gitk
 REM gitk
 
 REM C:\WORKS_2\Programs\Git\cmd\gitk
-pushd C:\WORKS_2\WS\WS_Music && gitk
+REM pushd C:\WORKS_2\WS\WS_Music && gitk
+pushd C:\WORKS_2\WS\WS_Music && C:\WORKS_2\gitk2
 
 REM pause 
 
