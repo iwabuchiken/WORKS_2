@@ -7,7 +7,8 @@ REM start C:\WORKS\Programs\MuyseScore\MuseScore_2.3.1\bin\MuseScore
 REM pushd C:\WORKS\Programs\FileZilla\FileZilla_FTP_Client
 REM start filezilla.exe
 
-rem pushd "C:\Program Files (x86)\Google\Chrome\Application"
+pushd "C:\Program Files (x86)\Google\Chrome\Application"
+start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
 REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
 REM start chrome.exe http://www.shamisen.info/chogen.koto1.09/newpage3.html#nogi
 REM start chrome.exe https://en.wikipedia.org/wiki/File:Circle_of_fifths_deluxe_4.svg
@@ -28,6 +29,10 @@ rem start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
 pushd C:\WORKS_2\Programs\Domino143
 start Domino
+
+REM start "C:\Program Files\Mozilla Thunderbird\thunderbird.exe"
+pushd "C:\Program Files\Mozilla Thunderbird"
+start thunderbird.exe
 
 REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
 
