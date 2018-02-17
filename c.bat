@@ -14,6 +14,7 @@ set choice_f="f"
 set choice_l="l"
 set choice_m="m"
 set choice_p="p"
+set choice_r="r"
 set choice_s="s"
 
 REM *******************************
@@ -108,6 +109,20 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM 	sakura .gitignore
+REM ******************************
+) else if "%param%"==%choice_r% (
+
+	echo param is %choice_s%!
+	
+	echo starting ... sakura .gitignore
+	
+REM 	call start_gitignore.bat
+	start start_gitignore.bat
+
+	goto end
+
+REM ******************************
 REM 	s.bat
 REM ******************************
 ) else if "%param%"==%choice_s% (
@@ -145,6 +160,7 @@ echo 	f	C:\WORKS_2\WS\f.bat	start %%cd%%
 echo 	l	C:\WORKS_2\WS\l.bat	lispbox.bat
 echo 	m	C:\WORKS_2\WS\m.bat	copy gmail address
 echo 	p	C:\WORKS_2\WS\p.bat	g push origin master
+echo 	r	-------------------	sakura .gitignore
 echo 	s	C:\WORKS_2\WS\s.bat	start gitk
 
 :end

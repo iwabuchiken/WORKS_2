@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="" enabled="true" name="c1">'''###################&#13;
+	${message}		&#13;
+###################'''&#13;
+${cursor}</template></templates>

@@ -102,7 +102,15 @@ def exec_with_params
     
       show_basic
     
+    elsif  ARGV[0] == "b2"
+    
+      show_basic
+    
     elsif  ARGV[0] == "c"
+    
+      convert_time_string(ARGV[1])
+    
+    elsif  ARGV[0] == "c2"
     
       convert_time_string(ARGV[1])
     
