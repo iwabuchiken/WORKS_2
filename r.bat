@@ -11,6 +11,7 @@ set path_cake_11="c"
 set path_admin_projects="d"
 set path_start_django_server_mm="d2"
 set path_start_env="d3"
+set path_start_env2="3"
 
 set path_ws_e2="e"
 set path_fm_2="f"
@@ -296,6 +297,24 @@ REM ******************************
 	start_env.bat
 
 	goto end
+	
+REM ******************************
+REM path_start_env2
+REM ******************************
+) else if "%param%"==%path_start_env2% (
+
+	echo param is %path_start_env2%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+	
+	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+	
+	echo starting env ...
+	
+	start_env.bat
+
+	goto end
+	
 
 REM ******************************
 REM help
@@ -321,7 +340,7 @@ echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 
 echo 	d	C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL	http://127.0.0.1:8000/mm/
 echo 	d2	Start django server at http://127.0.0.1:8000/mm/
-echo 	d3	Start env at C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+echo 	d3, 3	Start env at C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 echo.
 echo 	e	C:\WORKS_2\WS\WS_E2
 REM echo 	f	C:\WORKS_2\WS\FM_2
