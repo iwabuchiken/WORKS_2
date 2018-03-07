@@ -1,7 +1,3 @@
-@ECHO OFF
+@echo off
 
-pushd C:\WORKS\Utils\shortcuts\prog_SciLab
-
-main.stop.bat
-
-exit
+r d2
