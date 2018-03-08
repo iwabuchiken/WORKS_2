@@ -1,0 +1,81 @@
+program file path = C:\WORKS_2\WS\WS_Others\prog\D-5\1#\get_folder_list.rb
+version = 1.0
+list file created at = 20180222_232233
+dir path = C:/WORKS_2
+dirs = 9
+files = 61
+
+<directories> 9
+Downloads
+MQL4_Indicators-EAs
+Programs
+Storage
+storage_WORKS
+Utils
+Utils_shortcuts
+videonews_bookmarks
+WS
+
+
+<files> 61
+(int)
+a.bat
+a.bat.copy
+abc.png
+c.bat
+cake_ifm11.lnk
+ColorConsole.exe
+ColorConsole.exe - ショートカット.lnk
+Command Prompt.lnk
+commands - ショートカット.lnk
+d.bat
+desktop.ini
+directory_list.20161226_233031.txt
+directory_list.txt
+dump.py
+dump.py.data
+e.bat
+elec_2.lnk
+f.bat
+g.bat
+g2.bat
+GetTimerValue.cmd
+get_folder_list.20161224_003645.rb
+gitk.bat
+gitk2.bat
+h.bat
+i.bat
+irfan.bat
+joinwav.exe
+l.bat
+library_books.lnk
+m.bat
+m.bat.data
+m.bat~
+m2.bat
+news - ショートカット.lnk
+p.bat
+p2.bat
+poweroff.bat
+poweroff.cmd~
+r.bat
+README.txt
+s.bat
+s2.bat
+sh.bat
+sh2.bat
+start.bat.lnk
+start_2.bat
+start_2.bat.lnk
+start_command_prompot.bat
+start_gitignore.bat
+start_xampp.rb - ショートカット.lnk
+t.bat
+t.rb
+t2.bat
+test.txt
+Timer.cmd
+wallpapers - ショートカット.lnk
+web_pages - ショートカット.lnk
+x_2.bat - ショートカット.lnk
+x_push_all.bat - ショートカット.lnk
