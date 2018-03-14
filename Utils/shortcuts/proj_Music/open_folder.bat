@@ -2,6 +2,7 @@
 
 
 REM start C:\WORKS_2\WS\WS_Music
-start C:\WORKS_2\WS\WS_Music\domino
+REM start C:\WORKS_2\WS\WS_Music\domino
+start C:\WORKS_2\WS\WS_Music\domino\memo
 
 exit
