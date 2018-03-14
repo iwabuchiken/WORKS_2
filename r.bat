@@ -33,6 +33,8 @@ set path_ws_research="r"
 
 set path_sound_programming_c="s"
 
+set path_upload_cake_image_files="u"
+
 set path_works="w"
 
 set help="h"
@@ -314,6 +316,22 @@ REM ******************************
 	start_env.bat
 
 	goto end
+
+REM ******************************
+REM path_upload_cake_image_files
+REM ******************************
+) else if "%param%"==%path_upload_cake_image_files% (
+
+	echo param is %path_upload_cake_image_files%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	
+	echo remote : /cake_apps/images/ifm11
+	
+	pushd C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	
+	goto end
+
 	
 
 REM ******************************
@@ -357,11 +375,14 @@ echo 	o	C:\WORKS_2\WS\WS_Others
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
+echo.
 
 echo 	r	C:\WORKS_2\WS\WS_Research
 
 rem echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 echo 	s	C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
+echo 	u	C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+echo 		/cake_apps/images/ifm11
 echo.
 echo 	w	C:\WORKS_2
 
