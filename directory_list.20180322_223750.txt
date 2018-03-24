@@ -1,0 +1,50 @@
+program file path = C:\WORKS_2\WS\WS_Others\prog\D-5\1#\get_folder_list.rb
+version = 1.0
+list file created at = 20180322_223750
+dir path = C:/WORKS_2
+dirs = 10
+files = 29
+
+<directories> 10
+batches
+Downloads
+MQL4_Indicators-EAs
+Programs
+Storage
+storage_WORKS
+Utils
+Utils_shortcuts
+videonews_bookmarks
+WS
+
+
+<files> 29
+(int)
+a.bat
+Command Prompt.lnk
+commands - ショートカット.lnk
+desktop.ini
+directory_list.20161226_233031.txt
+directory_list.20180222_232233.txt
+directory_list.txt
+GetTimerValue.cmd
+get_folder_list.20161224_003645.rb
+joinwav.exe
+library_books.lnk
+m.bat.data
+news - ショートカット.lnk
+poweroff.bat
+poweroff.cmd~
+README.txt
+start.bat.lnk
+start_2.bat.lnk
+start_xampp.rb - ショートカット.lnk
+t.bat
+t.rb
+t2.bat
+test.txt
+Timer.cmd
+wallpapers - ショートカット.lnk
+web_pages - ショートカット.lnk
+x_2.bat - ショートカット.lnk
+x_push_all.bat - ショートカット.lnk
