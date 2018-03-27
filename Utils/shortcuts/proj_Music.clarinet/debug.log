@@ -1,0 +1,8 @@
+[0321/095514.661:ERROR:file_io.cc(41)] write: パイプを閉じています。 (0xE8)
+[0325/073450.548:ERROR:file_io.cc(41)] write: パイプを閉じています。 (0xE8)
+[0417/090111.065:ERROR:process_reader_win.cc(142)] SuspendThread: アクセスが拒否されました。 (0x5)
+[0417/090111.092:ERROR:exception_snapshot_win.cc(87)] thread ID 540 not found in process
+[0417/090111.092:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0417/090111.092:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 既存のプロセスにアクセスしようとしました。  (0xc000010a)
+[0424/163826.166:ERROR:exception_snapshot_win.cc(87)] thread ID 5104 not found in process
+[0424/163826.171:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
