@@ -18,3 +18,8 @@ REM 	git
 REM #############################
 REM start C:\WORKS_2\Utils\shortcuts\proj_Music\start_git.bat
 
+REM #############################
+REM 	freemind
+REM #############################
+pushd C:\WORKS_2\Programs\FreeMind_1.0.1
+start FreeMind
