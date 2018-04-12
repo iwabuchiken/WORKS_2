@@ -14,6 +14,7 @@ set choice_f="f"
 set choice_l="l"
 set choice_m="m"
 set choice_p="p"
+set choice_q1="q1"
 set choice_r="r"
 set choice_s="s"
 
@@ -48,7 +49,7 @@ REM ******************************
 
 	echo param is %choice_e%!
 	
-	echo starting ... C:\WORKS_2\e.bat
+	echo starting ... C:\WORKS_2\batches\e.bat
 	
 	e
 
@@ -62,7 +63,7 @@ REM ******************************
 
 	echo param is %choice_f%!
 	
-	echo starting ... C:\WORKS_2\f.bat
+	echo starting ... C:\WORKS_2\batches\f.bat
 	
 	f
 
@@ -76,7 +77,7 @@ REM ******************************
 
 	echo param is %choice_l%!
 	
-	echo starting ... C:\WORKS_2\l.bat
+	echo starting ... C:\WORKS_2\batches\l.bat
 	
 	l
 
@@ -89,7 +90,7 @@ REM ******************************
 
 	echo param is %choice_m%!
 	
-	echo starting ... C:\WORKS_2\m.bat
+	echo starting ... C:\WORKS_2\batches\m.bat
 	
 	m
 
@@ -102,9 +103,22 @@ REM ******************************
 
 	echo param is %choice_p%!
 	
-	echo starting ... C:\WORKS_2\p.bat
+	echo starting ... C:\WORKS_2\batches\p.bat
 	
 	p
+
+	goto end
+
+REM ******************************
+REM 	q1.bat
+REM ******************************
+) else if "%param%"==%choice_q1% (
+
+	echo param is %choice_q1%!
+	
+	echo starting ... C:\WORKS_2\batches\q1.bat
+
+	start C:\WORKS_2\batches\q1.bat
 
 	goto end
 
@@ -129,7 +143,7 @@ REM ******************************
 
 	echo param is %choice_s%!
 	
-	echo starting ... C:\WORKS_2\s.bat
+	echo starting ... C:\WORKS_2\batches\s.bat
 	
 	s
 
@@ -154,14 +168,17 @@ REM ******************************
 
 :show_message
 echo ^<Options^>
-echo 	a	C:\WORKS_2\WS\a.bat	set variables
-echo 	e	C:\WORKS_2\WS\e.bat	git pull
-echo 	f	C:\WORKS_2\WS\f.bat	start %%cd%%
-echo 	l	C:\WORKS_2\WS\l.bat	lispbox.bat
-echo 	m	C:\WORKS_2\WS\m.bat	copy gmail address
-echo 	p	C:\WORKS_2\WS\p.bat	g push origin master
+echo 	a	C:\WORKS_2\a.bat	set variables
+echo 	e	C:\WORKS_2\batches\e.bat	git pull
+echo 	f	C:\WORKS_2\batches\f.bat	start %%cd%%
+echo 	l	C:\WORKS_2\batches\l.bat	lispbox.bat
+echo 	m	C:\WORKS_2\batches\m.bat	copy gmail address
+
+echo 	p	C:\WORKS_2\batches\p.bat	g push origin master
+echo 	q1	C:\WORKS_2\batches\q1.bat	
+echo 			C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 echo 	r	-------------------	sakura .gitignore
-echo 	s	C:\WORKS_2\WS\s.bat	start gitk
+echo 	s	C:\WORKS_2\batches\s.bat	start gitk
 
 :end
 
