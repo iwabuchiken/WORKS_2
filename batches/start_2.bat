@@ -15,3 +15,4 @@ REM start start_command_prompot.bat
 REM start_command_prompot.bat
 start C:\WORKS_2\batches\start_command_prompot.bat
 
+exit
