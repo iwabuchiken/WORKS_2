@@ -103,9 +103,11 @@ REM ******************************
 
 	echo param is %path_ws_art%!
 	
-	echo changing to ... C:\WORKS_2\WS\WS_Art
+REM 	echo changing to ... C:\WORKS_2\WS\WS_Art
+	echo changing to ... C:\WORKS_2\WS\WS_Others.Art
 	
-	pushd C:\WORKS_2\WS\WS_Art
+REM 	pushd C:\WORKS_2\WS\WS_Art
+	pushd C:\WORKS_2\WS\WS_Others.Art
 
 	goto end
 
@@ -353,7 +355,8 @@ REM ******************************
 
 :show_message
 echo "<Usage>"
-echo 	a	C:\WORKS_2\WS\WS_Art
+REM echo 	a	C:\WORKS_2\WS\WS_Art
+echo 	a	C:\WORKS_2\WS\WS_Others.Art
 echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 
 echo 	d	C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL	http://127.0.0.1:8000/mm/
