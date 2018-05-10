@@ -13,6 +13,7 @@ start C:\WORKS_2
 pushd C:\WORKS_2
 REM start start_command_prompot.bat
 REM start_command_prompot.bat
-start C:\WORKS_2\batches\start_command_prompot.bat
+REM start C:\WORKS_2\batches\start_command_prompot.bat
+C:\WORKS_2\batches\start_command_prompot.bat
 
 exit
