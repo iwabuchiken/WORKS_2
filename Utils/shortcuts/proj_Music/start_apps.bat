@@ -42,6 +42,8 @@ REM pushd C:\WORKS_2\WS\WS_Music
 REM start s2
 REM s2
 
+start C:\WORKS_2\WS\WS_Others.Art
+
 REM start "C:\Program Files\Mozilla Thunderbird\thunderbird.exe"
 pushd "C:\Program Files\Mozilla Thunderbird"
 start thunderbird.exe
