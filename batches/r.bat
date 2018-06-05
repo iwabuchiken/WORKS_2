@@ -280,6 +280,10 @@ REM ******************************
 	
 	echo starting django server at 8001 ......
 	
+	echo.
+	
+	echo http://localhost:8001/ip/basics/
+	
 	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
 
 	start_env.bat && start_server.bat
@@ -299,6 +303,10 @@ REM ******************************
 	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 	
 	echo starting server ...
+	
+	echo.
+	
+	echo http://127.0.0.1:8000/im/
 	
 	start_env.bat && start_server.bat
 
