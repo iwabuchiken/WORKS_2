@@ -408,7 +408,7 @@ echo 	d	C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL	http://127.0.0.1:8000/mm/
 echo 	dd	Start django server at http://127.0.0.1:8001/ip/
 echo 	d2	Start django server at http://127.0.0.1:8000/mm/
 echo 	d3, 3	Start env at C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
-echo	d4	Start env at C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
+echo 	d4	Start env at C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
 echo.
 echo 	e	C:\WORKS_2\WS\WS_E2
 REM echo 	f	C:\WORKS_2\WS\FM_2
