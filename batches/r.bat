@@ -26,6 +26,7 @@ set path_ws_music="m"
 set path_cake_nr5="n"
 
 set path_ws_others="o"
+set path_ws_others_prog_D-7_2_2_VIRTUAL="o1"
 
 set path_ws_processing="p"
 
@@ -221,6 +222,22 @@ REM ******************************
 	pushd C:\WORKS_2\WS\WS_Others
 
 	goto end
+
+REM ******************************
+REM path_ws_others_prog_D-7_2_2_VIRTUAL
+REM ******************************
+) else if "%param%"==%path_ws_others_prog_D-7_2_2_VIRTUAL% (
+
+	echo param is %path_ws_others_prog_D-7_2_2_VIRTUAL%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+	
+	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+
+	goto end
+
+
+
 
 REM ******************************
 REM path_ws_research
@@ -437,7 +454,7 @@ echo 	m	C:\WORKS_2\WS\WS_Music
 echo 	n	C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
 echo.
 echo 	o	C:\WORKS_2\WS\WS_Others
-
+echo 	o1	C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
