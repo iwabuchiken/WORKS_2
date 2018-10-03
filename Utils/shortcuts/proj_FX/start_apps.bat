@@ -32,6 +32,6 @@ start start_git
 
 REM start start_git.bat
 
-pause
+REM pause
 
 exit
