@@ -11,6 +11,18 @@ REM pushd "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited"
 REM start terminal.exe
 
 REM *************************************
+REM 	folders
+REM *************************************
+start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\log
+start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\csv_raw
+
+REM *************************************
+REM 	openoffice
+REM *************************************
+pushd "C:\WORKS_2\Programs\OpenOffice 4\program"
+start soffice.exe
+
+REM *************************************
 REM 	Eclipse
 REM *************************************
 pushd C:\WORKS_2\Programs\eclipse\neon_java_for_python
