@@ -2,9 +2,16 @@
 
 start taskmgr.exe
 
+REM *************************
+REM 	browser
+REM *************************
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
-start chrome
+start chrome.exe "https://blog-001.west.edge.storage-yahoo.jp/res/blog-0d-04/kanaamihaiine/folder/1231521/69/39186969/img_0?1360839219"
+start chrome.exe http://127.0.0.1:8000/im/
 
+REM *************************
+REM 	mailer
+REM *************************
 pushd "C:\Program Files (x86)\Mozilla Thunderbird"
 start thunderbird
 
