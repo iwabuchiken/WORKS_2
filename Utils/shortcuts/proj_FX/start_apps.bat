@@ -39,8 +39,8 @@ call "start_command_prompot.(1).bat"
 REM *************************************
 REM 	git
 REM *************************************
-pushd C:\WORKS_2\Utils\shortcuts\proj_FX
-start start_git
+REM pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+REM start start_git
 
 REM start start_git.bat
 
