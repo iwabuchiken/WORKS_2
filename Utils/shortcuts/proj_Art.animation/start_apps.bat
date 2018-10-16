@@ -1,6 +1,18 @@
 @ECHO OFF
 
 REM *************************************
+REM 	folder
+REM *************************************
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\4_animations\1_
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL\Admin_Projects\anims\data
+
+REM *************************************
+REM 	vlc
+REM *************************************
+pushd C:\WORKS_2\Programs\freeware\VideoLAN\VLC
+start vlc.exe
+
+REM *************************************
 REM 	pencil2d
 REM *************************************
 echo starting pencil2d...
@@ -33,10 +45,6 @@ REM pushd C:\WORKS_2
 
 REM a && r dd
 
-REM *************************************
-REM 	folder
-REM *************************************
-start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\4_animations\1_
 
 
 pause
