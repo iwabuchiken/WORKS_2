@@ -47,6 +47,6 @@ REM a && r dd
 
 
 
-pause
+REM pause
 
 exit
