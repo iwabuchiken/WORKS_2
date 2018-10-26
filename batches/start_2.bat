@@ -11,7 +11,7 @@ start chrome.exe
 start chrome.exe http://127.0.0.1:8000/im/
 
 REM DEBUG
-exit
+REM exit
 
 REM *************************
 REM 	mailer
