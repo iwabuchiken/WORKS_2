@@ -15,6 +15,11 @@ REM 	domino
 REM ********************************
 taskkill /im domino.exe
 
+REM ********************************
+REM 	musescore
+REM ********************************
+taskkill /im musescore.exe
+
 
 REM ********************************
 REM 	folder
