@@ -11,6 +11,9 @@ git config --global user.name "iwabuchiken"
 rem debug
 rem pause
 
+REM ################################
+REM 	FreeMind
+REM ################################
 echo.
 
 call C:\WORKS_2\Utils\commands\push_fm.bat
@@ -20,8 +23,18 @@ set PUSH="yes"
 echo PUSH =^> set to "yes"
 
 
+REM ################################
+REM 	WORKS
+REM ################################
 echo.
 call C:\WORKS_2\Utils\commands\push_WORKS.bat
+
+REM ################################
+REM 	cake_ifm11 : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
+REM ################################
+echo.
+call C:\WORKS_2\Utils\commands\push_cakeifm11.bat
+
 
 REM echo push_mylyn
 REM call C:\WORKS_2\Utils\commands\push_mylyn

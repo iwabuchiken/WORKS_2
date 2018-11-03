@@ -1,0 +1,10 @@
+@ECHO OFF
+
+pushd "C:\Program Files\Mozilla Thunderbird"
+start thunderbird.exe
+
+REM start "C:\Program Files\Mozilla Thunderbird\thunderbird.exe"
+
+REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
+
+REM start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+22845+22882+22874

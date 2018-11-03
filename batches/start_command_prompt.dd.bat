@@ -1,11 +1,10 @@
 @ECHO OFF
 
-REM set temp="%1"
 set temp=%1
 
-REM echo %%1=%1
-
-REM goto main
+REM set char_django_server="d"
+REM "dd" ==> port 8001, IP
+set char_django_server="dd"
 
 :test
 REM REF http://ss64.com/nt/if.html
@@ -15,11 +14,11 @@ REM 	ECHO Value Missing
 	
 	echo temp is blank!
 	
-	set arg="a"
+	set arg=%char_django_server%
 	
 REM 	echo arg set to => a
 
-	echo arg set to ... a
+	echo arg set to ... %char_django_server%
 	
 REM 	echo "going to :execute"
 	
@@ -48,7 +47,7 @@ REM 	echo %%temp%%=""
 REM 	echo temp is blank
 	echo is blank
 	
-	set arg="a"
+	set arg=%char_django_server%
 	
 	
 
@@ -68,10 +67,17 @@ REM else if %temp%==b (
 echo arg=%arg%
 
 :execute
+
+REM set arg="a && d"
+set arg="a && r dd"
+
+echo arg is %arg%
+
 start C:\WORKS_2\"Command Prompt.lnk" /k %arg%
 REM start C:\WORKS_2\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir"
 
 
 :end
 
+REM pause
 exit

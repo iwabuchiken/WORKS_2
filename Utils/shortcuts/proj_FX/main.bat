@@ -17,8 +17,11 @@ REM open_folder
 
 start start_apps
 
-REM =========================== open folders
-start open_folder.bat
+REM start start_git.bat
 
+REM =========================== open folders
+REM start open_folder.bat
+
+REM pause
 
 exit

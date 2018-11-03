@@ -17,18 +17,10 @@ REM 	ECHO Value Missing
 	
 	set arg="a"
 	
-REM 	echo arg set to => a
-
-	echo arg set to ... a
-	
-REM 	echo "going to :execute"
+	echo arg set to => a
 	
 	goto execute
 	
-) else (
-
-	echo '%1' is not blank
-
 )
 
 REM goto end
@@ -68,10 +60,8 @@ REM else if %temp%==b (
 echo arg=%arg%
 
 :execute
-start C:\WORKS_2\"Command Prompt.lnk" /k %arg%
-REM start C:\WORKS_2\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir"
+start C:\WORKS_2\Utils\shortcuts\proj_Art\"Command Prompt.lnk" /k %arg%
+REM start C:\WORKS\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir"
 
 
 :end
-
-exit

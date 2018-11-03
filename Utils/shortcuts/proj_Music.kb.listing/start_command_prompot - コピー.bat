@@ -68,10 +68,18 @@ REM else if %temp%==b (
 echo arg=%arg%
 
 :execute
-start C:\WORKS_2\"Command Prompt.lnk" /k %arg%
+
+REM set arg="t c 2017-10-27_06-07-10_000.jpg"
+REM set arg="C:\WORKS_2\t.rb c 2017-10-27_06-07-10_000.jpg"
+
+REM start C:\WORKS_2\Utils\shortcuts\proj_Music\"Command Prompt.lnk" /k %arg%
+
+REM start C:\WORKS_2\Utils\shortcuts\proj_Music\"Command Prompt.lnk" /k %arg%
+REM start C:\WORKS_2\Utils\shortcuts\proj_Music\"Command Prompt.lnk" /k t c 2017-10-27_06-07-10_000.jpg
 REM start C:\WORKS_2\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir"
+
+REM start C:\WORKS_2\Utils\shortcuts\proj_Music\"Command Prompt.lnk" /k C:\WORKS_2\t.rb c 2017-10-27_06-07-10_000.jpg
+REM start C:\WORKS_2\Utils\shortcuts\proj_Music\"Command Prompt.lnk" /k C:\WORKS_2\t.rb c 2017-10-27_06-07-10_000.jpg && exit
 
 
 :end
-
-exit

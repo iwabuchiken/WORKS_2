@@ -13,6 +13,9 @@ set path_start_django_server_mm="d2"
 set path_start_env="d3"
 set path_start_env2="3"
 
+set path_start_env_8001="d4"
+set path_start_django_server_ip="dd"
+
 set path_ws_e2="e"
 set path_fm_2="f"
 
@@ -23,11 +26,17 @@ set path_ws_music="m"
 set path_cake_nr5="n"
 
 set path_ws_others="o"
+set path_ws_others_prog="o1"
+REM set path_ws_others_prog_D-7_2_2_VIRTUAL="o1"
+
 
 set path_ws_processing="p"
 
 set path_mt4="q"
 set path_mt4_dell_latidude="q2"
+set path_mt4_56FC49B0C953127FDE33461B90444E81="q3"
+
+
 
 set path_ws_research="r"
 
@@ -151,6 +160,19 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_mt4_56FC49B0C953127FDE33461B90444E81
+REM ******************************
+) else if "%param%"==%path_mt4_56FC49B0C953127FDE33461B90444E81% (
+
+	echo param is %path_mt4_56FC49B0C953127FDE33461B90444E81%!
+	
+	echo changing to ... C:\Users\iwabuchiken\AppData\...\56FC49B0C953127FDE33461B90444E81\MQL4
+	
+	pushd C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\56FC49B0C953127FDE33461B90444E81\MQL4
+
+	goto end
+
+REM ******************************
 REM path_mt4_dell_latidude
 REM ******************************
 ) else if "%param%"==%path_mt4_dell_latidude% (
@@ -202,6 +224,22 @@ REM ******************************
 	pushd C:\WORKS_2\WS\WS_Others
 
 	goto end
+
+REM ******************************
+REM path_ws_others_prog
+REM ******************************
+) else if "%param%"==%path_ws_others_prog% (
+
+	echo param is %path_ws_others_prog%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.prog
+	
+	pushd C:\WORKS_2\WS\WS_Others.prog
+
+	goto end
+
+
+
 
 REM ******************************
 REM path_ws_research
@@ -269,17 +307,43 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_start_django_server_ip
+REM ******************************
+) else if "%param%"==%path_start_django_server_ip% (
+
+	echo param is %path_start_django_server_ip%!
+	
+	echo starting django server at 8001 ......
+	
+	echo.
+	
+	echo http://localhost:8001/ip/basics/
+	
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
+
+	start_env.bat && start_server.bat
+	
+	goto end
+
+
+REM ******************************
 REM path_admin_projects
 REM ******************************
 ) else if "%param%"==%path_start_django_server_mm% (
 
 	echo param is %path_start_django_server_mm%!
 	
-	echo changing to ... C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+REM 	echo changing to ... C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+	echo changing to ... C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 	
-	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+REM 	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+	pushd C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 	
 	echo starting server ...
+	
+	echo.
+	
+	echo http://127.0.0.1:8000/im/
 	
 	start_env.bat && start_server.bat
 
@@ -301,7 +365,25 @@ REM ******************************
 	start_env.bat
 
 	goto end
+
+REM ******************************
+REM path_start_env_8001
+REM ******************************
+) else if "%param%"==%path_start_env_8001% (
+
+	echo param is %path_start_env_8001%!
 	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
+	
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
+	
+	echo starting env ...
+	
+	start_env.bat
+
+	goto end
+
+
 REM ******************************
 REM path_start_env2
 REM ******************************
@@ -360,8 +442,10 @@ echo 	a	C:\WORKS_2\WS\WS_Others.Art
 echo 	c	C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11
 
 echo 	d	C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL	http://127.0.0.1:8000/mm/
+echo 	dd	Start django server at http://127.0.0.1:8001/ip/
 echo 	d2	Start django server at http://127.0.0.1:8000/mm/
 echo 	d3, 3	Start env at C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+echo 	d4	Start env at C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
 echo.
 echo 	e	C:\WORKS_2\WS\WS_E2
 REM echo 	f	C:\WORKS_2\WS\FM_2
@@ -374,10 +458,12 @@ echo 	m	C:\WORKS_2\WS\WS_Music
 echo 	n	C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
 echo.
 echo 	o	C:\WORKS_2\WS\WS_Others
-
+echo 	o1	C:\WORKS_2\WS\WS_Others.prog
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
+echo 	q3	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\56FC49B0C953127FDE33461B90444E81\MQL4	(mouse computer)
+
 echo.
 
 echo 	r	C:\WORKS_2\WS\WS_Research
