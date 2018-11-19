@@ -32,6 +32,18 @@ REM start chrome.exe http://media.io/
 
 rem start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
+REM ************************************
+REM 	musescore
+REM ************************************
+
+echo starting C:\WORKS\Programs\MuyseScore\MuseScore_2.3.1\bin\MuseScore
+
+start C:\WORKS\Programs\MuyseScore\MuseScore_2.3.1\bin\MuseScore
+
+
+REM ************************************
+REM 	domino
+REM ************************************
 pushd C:\WORKS_2\Programs\Domino143
 start Domino
 
