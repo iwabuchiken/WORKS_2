@@ -75,4 +75,4 @@ REM start C:\WORKS_2\Utils\shortcuts\prog_Lisp\"Command Prompt.lnk" /k "a && dir
 
 :end
 
-pause
+REM pause
