@@ -29,6 +29,12 @@ pushd C:\WORKS_2\Programs\eclipse\neon_java_for_python
 start eclipse
 
 REM *************************************
+REM 	mt4
+REM *************************************
+pushd C:\Program Files (x86)\MT4 Gaitame Finest Company Limited
+start terminal.exe
+
+REM *************************************
 REM 	console
 REM *************************************
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
@@ -39,8 +45,8 @@ call "start_command_prompot.(1).bat"
 REM *************************************
 REM 	git
 REM *************************************
-REM pushd C:\WORKS_2\Utils\shortcuts\proj_FX
-REM start start_git
+pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+start start_git
 
 REM start start_git.bat
 

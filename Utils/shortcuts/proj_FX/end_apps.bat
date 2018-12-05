@@ -5,3 +5,6 @@ taskkill /im soffice.bin
 
 taskkill /im calc.exe
 taskkill /im terminal.exe
+taskkill /im eclipse.exe
+taskkill /im metaeditor.exe
+
