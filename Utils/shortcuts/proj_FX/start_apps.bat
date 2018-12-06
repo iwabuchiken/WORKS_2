@@ -33,6 +33,7 @@ REM 	mt4
 REM *************************************
 pushd C:\Program Files (x86)\MT4 Gaitame Finest Company Limited
 start terminal.exe
+start metaeditor.exe
 
 REM *************************************
 REM 	console
