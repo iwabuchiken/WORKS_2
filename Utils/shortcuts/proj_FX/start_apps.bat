@@ -37,6 +37,14 @@ start terminal.exe
 start metaeditor.exe
 
 REM *************************************
+REM 	git
+REM *************************************
+pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+start start_git
+
+REM start start_git.bat
+
+REM *************************************
 REM 	console
 REM *************************************
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
@@ -44,13 +52,6 @@ REM start start_command_prompot.(1).bat
 REM start "start_command_prompot.(1).bat"
 call "start_command_prompot.(1).bat"
 
-REM *************************************
-REM 	git
-REM *************************************
-pushd C:\WORKS_2\Utils\shortcuts\proj_FX
-start start_git
-
-REM start start_git.bat
 
 REM pause
 
