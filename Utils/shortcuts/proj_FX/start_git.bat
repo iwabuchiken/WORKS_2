@@ -8,10 +8,10 @@ C:\WORKS_2\batches\r.bat o1
 call C:\WORKS_2\batches\s.bat
 
 REM **********************************************
-REM 	git for : C:\Users\iwabuchiken\...\34B08C83A5AAE27A4079DE708E60511E\MQL4
+REM 	git for : C:\Users\iwabuchiken\...\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
 REM **********************************************
 REM C:\WORKS_2\batches\r.bat q && C:\WORKS_2\batches\s.bat
-pushd C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
+pushd C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
 call C:\WORKS_2\batches\s.bat
 
 REM pause
