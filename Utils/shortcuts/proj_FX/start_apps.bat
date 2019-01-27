@@ -54,7 +54,7 @@ pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 REM start start_command_prompot.(1).bat
 REM start "start_command_prompot.(1).bat"
 call "start_command_prompot.(1).bat"
-
+call start_command_prompot.(2).bat
 
 REM pause
 
