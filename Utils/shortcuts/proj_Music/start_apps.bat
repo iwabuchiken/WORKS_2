@@ -36,9 +36,10 @@ REM ************************************
 REM 	musescore
 REM ************************************
 
-echo starting C:\WORKS\Programs\MuyseScore\MuseScore_2.3.1\bin\MuseScore
+echo starting C:\WORKS_2\Programs\MuseScore_2.1\bin\MuseScore
 
-start C:\WORKS\Programs\MuyseScore\MuseScore_2.3.1\bin\MuseScore
+REM start C:\WORKS_2\Programs\MuseScore_2.1\bin\MuseScore
+C:\WORKS_2\Programs\musescore\musescore_3.0.0\bin\MuseScore3
 
 
 REM ************************************
