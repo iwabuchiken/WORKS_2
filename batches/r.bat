@@ -14,6 +14,8 @@ set path_start_env="d3"
 set path_start_env2="3"
 
 set path_start_env_8001="d4"
+set path_start_env_8001_WS_Others_prog="d5"
+
 set path_start_django_server_ip="dd"
 
 set path_ws_e2="e"
@@ -35,6 +37,7 @@ set path_ws_processing="p"
 set path_mt4="q"
 set path_mt4_dell_latidude="q2"
 set path_mt4_56FC49B0C953127FDE33461B90444E81="q3"
+set path_mt4_B9B5D4C0EA7B43E1F3A680F94F757B3D="q4"
 
 
 
@@ -184,6 +187,20 @@ REM ******************************
 	pushd C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4
 
 	goto end
+
+REM ******************************
+REM path_mt4_B9B5D4C0EA7B43E1F3A680F94F757B3D
+REM ******************************
+) else if "%param%"==%path_mt4_B9B5D4C0EA7B43E1F3A680F94F757B3D% (
+
+	echo param is %path_mt4_B9B5D4C0EA7B43E1F3A680F94F757B3D%!
+	
+	echo changing to ... C:\Users\user\...\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
+	
+	pushd C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
+
+	goto end
+
 
 REM ******************************
 REM path_sound_programming_c
@@ -383,6 +400,22 @@ REM ******************************
 
 	goto end
 
+REM ******************************
+REM path_start_env_8001_WS_Others_prog
+REM ******************************
+) else if "%param%"==%path_start_env_8001_WS_Others_prog% (
+
+	echo param is %path_start_env_8001_WS_Others_prog%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
+	
+	pushd C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
+	
+	echo starting env ...
+	
+	start_env.bat
+
+	goto end
 
 REM ******************************
 REM path_start_env2
@@ -446,6 +479,7 @@ echo 	dd	Start django server at http://127.0.0.1:8001/ip/
 echo 	d2	Start django server at http://127.0.0.1:8000/mm/
 echo 	d3, 3	Start env at C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 echo 	d4	Start env at C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\VIRTUAL
+echo 	d5	Start env at C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 echo.
 echo 	e	C:\WORKS_2\WS\WS_E2
 REM echo 	f	C:\WORKS_2\WS\FM_2
@@ -463,6 +497,8 @@ echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
 echo 	q3	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\56FC49B0C953127FDE33461B90444E81\MQL4	(mouse computer)
+
+echo 	q4	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4 (mouse, ezinvest)
 
 echo.
 
