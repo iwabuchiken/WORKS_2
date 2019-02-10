@@ -1,0 +1,50 @@
+program file path = C:/WORKS_2/get_folder_list.[v.2].20190210_091405.rb
+version = 1.0
+list file created at = 20190210_094909
+dir path = C:/WORKS_2
+dirs = 10
+files = 29
+
+<directories> 10 =========================
+1	Downloads
+2	MQL4_Indicators-EAs
+3	Programs
+4	Storage
+5	Utils
+6	Utils_shortcuts
+7	WS
+8	batches
+9	storage_WORKS
+10	videonews_bookmarks
+
+
+<files> 29 =========================
+1	Command Prompt.lnkCommand Prompt.lnk
+2	GetTimerValue.cmdGetTimerValue.cmd
+3	README.txtREADME.txt
+4	Timer.cmdTimer.cmd
+5	a.bata.bat
+6	commands - ショートカット.lnkcommands - ショートカット.lnk
+7	desktop.inidesktop.ini
+8	directory_list.20190210_093950.txtdirectory_list.20190210_093950.txt
+9	directory_list.20190210_094333.txtdirectory_list.20190210_094333.txt
+10	directory_list.20190210_094401.txtdirectory_list.20190210_094401.txt
+11	directory_list.20190210_094617.txtdirectory_list.20190210_094617.txt
+12	e.bate.bat
+13	get_folder_list.20161224_003645.rbget_folder_list.20161224_003645.rb
+14	get_folder_list.[v.2].20190210_091405.rbget_folder_list.[v.2].20190210_091405.rb
+15	library_books.lnklibrary_books.lnk
+16	m.bat.datam.bat.data
+17	news - ショートカット.lnknews - ショートカット.lnk
+18	poweroff.batpoweroff.bat
+19	poweroff.cmd~poweroff.cmd~
+20	start.bat.lnkstart.bat.lnk
+21	start_2.bat.lnkstart_2.bat.lnk
+22	t.batt.bat
+23	t.rbt.rb
+24	t2.batt2.bat
+25	test.txttest.txt
+26	wallpapers - ショートカット.lnkwallpapers - ショートカット.lnk
+27	web_pages - ショートカット.lnkweb_pages - ショートカット.lnk
+28	x_2.bat - ショートカット.lnkx_2.bat - ショートカット.lnk
+29	x_push_all.bat - ショートカット.lnkx_push_all.bat - ショートカット.lnk
