@@ -19,6 +19,7 @@ REM ********************************
 REM 	musescore
 REM ********************************
 taskkill /im musescore.exe
+taskkill /im MuseScore3.exe
 
 
 REM ********************************
