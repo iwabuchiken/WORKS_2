@@ -36,10 +36,11 @@ REM ************************************
 REM 	musescore
 REM ************************************
 
-echo starting C:\WORKS_2\Programs\MuseScore_2.1\bin\MuseScore
+REM echo starting C:\WORKS_2\Programs\MuseScore_2.1\bin\MuseScore
 
 REM start C:\WORKS_2\Programs\MuseScore_2.1\bin\MuseScore
-C:\WORKS_2\Programs\musescore\musescore_3.0.0\bin\MuseScore3
+REM C:\WORKS_2\Programs\musescore\musescore_3.0.0\bin\MuseScore3
+start C:\WORKS_2\Programs\musescore\musescore_3.0.0\bin\MuseScore3
 
 
 REM ************************************
