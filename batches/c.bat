@@ -17,6 +17,7 @@ set choice_p="p"
 set choice_q1="q1"
 set choice_r="r"
 set choice_s="s"
+set choice_t="t"
 
 REM *******************************
 REM 
@@ -137,6 +138,23 @@ REM 	call start_gitignore.bat
 	goto end
 
 REM ******************************
+REM 	t	"git tag -a code-cleanup."
+REM 	ref : https://git-scm.com/book/en/v2/Git-Basics-Tagging
+REM ******************************
+) else if "%param%"==%choice_t% (
+
+	echo param is %choice_t%!
+	
+	echo git tag -a code-cleanup.XXX
+	echo "cleaining up the code. The cleanup will be done in the next commit."
+	
+	C:\WORKS_2\t.bat
+	
+	goto end
+
+
+
+REM ******************************
 REM 	s.bat
 REM ******************************
 ) else if "%param%"==%choice_s% (
@@ -179,6 +197,7 @@ echo 	q1	C:\WORKS_2\batches\q1.bat
 echo 			C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 echo 	r	-------------------	sakura .gitignore
 echo 	s	C:\WORKS_2\batches\s.bat	start gitk
+echo 	t	"git tag -a code-cleanup."
 
 :end
 

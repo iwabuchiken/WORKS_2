@@ -1,0 +1,48 @@
+program file path = C:/WORKS_2/get_folder_list.[v.2].20190210_091405.rb
+version = 1.0
+list file created at = 20190211_062441
+dir path = C:\WORKS_2
+dirs = 10
+files = 27
+
+<directories> 10 =========================
+1	Downloads
+2	MQL4_Indicators-EAs
+3	Programs
+4	Storage
+5	Utils
+6	Utils_shortcuts
+7	WS
+8	batches
+9	storage_WORKS
+10	videonews_bookmarks
+
+
+<files> 27 =========================
+1	Command Prompt.lnk
+2	GetTimerValue.cmd
+3	README.txt
+4	Timer.cmd
+5	a.bat
+6	commands - ショートカット.lnk
+7	desktop.ini
+8	directory_list.20190210_100739.txt
+9	e.bat
+10	get_folder_list.20161224_003645.rb
+11	get_folder_list.[v.2].20190210_091405.bat
+12	get_folder_list.[v.2].20190210_091405.rb
+13	library_books.lnk
+14	m.bat.data
+15	news - ショートカット.lnk
+16	poweroff.bat
+17	poweroff.cmd~
+18	start.bat.lnk
+19	start_2.bat.lnk
+20	t.bat
+21	t.rb
+22	t2.bat
+23	test.txt
+24	wallpapers - ショートカット.lnk
+25	web_pages - ショートカット.lnk
+26	x_2.bat - ショートカット.lnk
+27	x_push_all.bat - ショートカット.lnk

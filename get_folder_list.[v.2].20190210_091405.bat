@@ -5,7 +5,14 @@ REM ******************************************
 REM ******************************************
 REM 	dirpath : source dir
 REM ******************************************
-set dpath_Src="C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\domino\memos\2019-02\dms"
+REM set dpath_Src="C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\domino\memos\2019-02\dms"
+
+REM --------- C:\WORKS_2 ---------
+REM set dpath_Src="C:\WORKS_2"
+
+REM --------- http://127.0.0.1:8000/curr/tester_BuyUps_SellLows/?command=BUSL_3C:\WORKS_2 ---------
+REM set dpath_Src=C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\log
+set dpath_Src=C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\csv_raw
 
 REM ******************************************
 REM 	dirpath : dst dir

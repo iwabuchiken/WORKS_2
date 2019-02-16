@@ -34,8 +34,8 @@ start eclipse
 REM *************************************
 REM 	mt4
 REM *************************************
-REM pushd C:\Program Files (x86)\MT4 Gaitame Finest Company Limited
-pushd "C:\Program Files (x86)\EZInvest Securities"
+pushd C:\Program Files (x86)\MT4 Gaitame Finest Company Limited
+REM pushd "C:\Program Files (x86)\EZInvest Securities"
 start terminal.exe
 start metaeditor.exe
 
