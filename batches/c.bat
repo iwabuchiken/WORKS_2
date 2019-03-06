@@ -146,7 +146,9 @@ REM ******************************
 	echo param is %choice_t%!
 	
 	echo git tag -a code-cleanup.XXX
-	echo "cleaining up the code. The cleanup will be done in the next commit."
+	echo cleaining up the code. The cleanup will be done in the next commit.
+	echo git show code-cleanup.XXX
+	echo git tag -l "code-cleanup.XXX*"
 	
 	C:\WORKS_2\t.bat
 	
