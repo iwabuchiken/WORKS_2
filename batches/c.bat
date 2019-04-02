@@ -20,6 +20,9 @@ set choice_r="r"
 set choice_s="s"
 set choice_t="t"
 
+set choice_x1="x1"
+set choice_x2e="x2e"
+
 REM *******************************
 REM 
 REM 	get: parameters
@@ -166,7 +169,37 @@ REM ******************************
 	
 	goto end
 
+REM ******************************
+REM 	start : project : fx
+REM 	at : 2019/04/02
+REM ******************************
+) else if "%param%"==%choice_x1% (
 
+	echo param is %choice_x1%!
+	
+REM template
+REM 	clip < C:\WORKS_2\Utils\shortcuts\proj_FX\template.txt
+REM 	
+REM 	echo clip the template ---^> complete
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+	main.bat
+
+	
+	goto end
+
+REM ******************************
+REM 	start : project : fx
+REM 	at : 2019/04/02
+REM ******************************
+) else if "%param%"==%choice_x2e% (
+
+	echo param is %choice_x2e%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	end_apps
+
+	goto end
 
 REM ******************************
 REM 	s.bat
@@ -213,6 +246,13 @@ echo 			C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 echo 	r	-------------------	sakura .gitignore
 echo 	s	C:\WORKS_2\batches\s.bat	start gitk
 echo 	t	"git tag -a code-cleanup."
+echo.
+echo 	x1	C:\WORKS_2\Utils\shortcuts\proj_FX\main.bat	start project:currency
+echo 	x2e	C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing\end_apps	end project:kb.listing
+
+
+REM separator
+echo.
 
 :end
 
