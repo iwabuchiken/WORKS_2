@@ -13,6 +13,7 @@ set choice_e="e"
 set choice_f="f"
 set choice_l="l"
 set choice_m="m"
+set choice_n="n"
 set choice_p="p"
 set choice_q1="q1"
 set choice_r="r"
@@ -87,14 +88,25 @@ REM ******************************
 REM ******************************
 REM 	m.bat
 REM ******************************
-) else if "%param%"==%choice_m% (
+) else if "%param%"==%choice_n% (
 
-	echo param is %choice_m%!
+	echo param is %choice_n%!
 	
-	echo starting ... C:\WORKS_2\batches\m.bat
-	
-	m
+	echo starting ... C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 
+	echo %%2 is '%2'
+REM 	set msg=`C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb`
+	
+REM 	echo msg is '%msg%'
+	
+REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
+REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb | clip
+	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
+	
+REM 	echo pasting...
+REM 	
+REM 	paste
+	
 	goto end
 
 REM ******************************
@@ -193,7 +205,8 @@ echo 	e	C:\WORKS_2\batches\e.bat	git pull
 echo 	f	C:\WORKS_2\batches\f.bat	start %%cd%%
 echo 	l	C:\WORKS_2\batches\l.bat	lispbox.bat
 echo 	m	C:\WORKS_2\batches\m.bat	copy gmail address
-
+echo 	n	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb	gen random string
+echo 		^<usage^> c n ^[num of chars, dflt = 4^]
 echo 	p	C:\WORKS_2\batches\p.bat	g push origin master
 echo 	q1	C:\WORKS_2\batches\q1.bat	
 echo 			C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
