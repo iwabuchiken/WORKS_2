@@ -22,6 +22,8 @@ set choice_t="t"
 
 set choice_x1="x1"
 set choice_x2e="x2e"
+set choice_x3s="x3s"
+set choice_x3e="x3e"
 
 REM *******************************
 REM 
@@ -189,7 +191,7 @@ REM 	echo clip the template ---^> complete
 	goto end
 
 REM ******************************
-REM 	start : project : fx
+REM 	start : project : kb.listing
 REM 	at : 2019/04/02
 REM ******************************
 ) else if "%param%"==%choice_x2e% (
@@ -198,6 +200,35 @@ REM ******************************
 	
 	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
 	end_apps
+
+	goto end
+
+REM ******************************
+REM 	start : project : kb.listing
+REM 	at : 2019/04/02
+REM ******************************
+) else if "%param%"==%choice_x3s% (
+
+	echo param is %choice_x3s%!
+
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo start_apps.bat
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	start_apps.bat
+
+	goto end
+
+REM ******************************
+REM 	end : project : kb.listing
+REM 	at : 2019/04/03 13:26:15
+REM ******************************
+) else if "%param%"==%choice_x3e% (
+
+	echo param is %choice_x3e%!
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	end_apps.bat
 
 	goto end
 
@@ -250,6 +281,11 @@ echo.
 echo 	x1	C:\WORKS_2\Utils\shortcuts\proj_FX\main.bat	start project:currency
 echo 	x2e	C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing\end_apps	end project:kb.listing
 
+echo 	x3s	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds\start_apps.bat	start project:n.o.birds
+
+echo 	x3e C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds\end_apps.bat	end project:n.o.birds
+
+echo.
 
 REM separator
 echo.
