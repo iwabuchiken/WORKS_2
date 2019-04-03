@@ -37,6 +37,9 @@ def gen_random_string
     ####################
     dfltOf_NumOf_Random_String = 4
     
+    # set to default
+    numOf_Random_String = dfltOf_NumOf_Random_String
+    
     ####################
     # step : 0.2
     #   args
@@ -59,15 +62,15 @@ def gen_random_string
       
         numOf_Random_String = arg_NumOf_String.to_i
         
-#        puts
-#        puts "[#{__LINE__}] numOf_Random_String ==> set anew : #{numOf_Random_String.to_s}"
+        puts
+        puts "[#{__LINE__}] numOf_Random_String ==> set anew : #{numOf_Random_String.to_s}"
       
       else#if (condition)
       
         numOf_Random_String = dfltOf_NumOf_Random_String
 
-#        puts
-#        puts "[#{__LINE__}] numOf_Random_String ==> use default : #{dfltOf_NumOf_Random_String.to_s}"
+        puts
+        puts "[#{__LINE__}] numOf_Random_String ==> use default : #{dfltOf_NumOf_Random_String.to_s}"
         
       
       end#if (condition)
