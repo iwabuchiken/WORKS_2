@@ -20,10 +20,22 @@ set choice_r="r"
 set choice_s="s"
 set choice_t="t"
 
-set choice_x1="x1"
+REM : fx
+set choice_x1s="x1s"
+set choice_x1s_or_1="fx"
+set choice_x1e="x1e"
+
+set choice_x2s="x2s"
 set choice_x2e="x2e"
 set choice_x3s="x3s"
 set choice_x3e="x3e"
+
+REM langs
+set choice_x4s="x4s"
+set choice_x4s_or_1="lang"
+
+set choice_x5s="x5s"
+set choice_x5e="x5e"
 
 REM *******************************
 REM 
@@ -175,9 +187,9 @@ REM ******************************
 REM 	start : project : fx
 REM 	at : 2019/04/02
 REM ******************************
-) else if "%param%"==%choice_x1% (
+) else if "%param%"==%choice_x1s% (
 
-	echo param is %choice_x1%!
+	echo param is %choice_x1s%!
 	
 REM template
 REM 	clip < C:\WORKS_2\Utils\shortcuts\proj_FX\template.txt
@@ -187,8 +199,33 @@ REM 	echo clip the template ---^> complete
 	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 	main.bat
 
-	
 	goto end
+
+) else if "%param%"==%choice_x1s_or_1% (
+
+	echo param is %choice_x1s_or_1%!
+	
+REM template
+REM 	clip < C:\WORKS_2\Utils\shortcuts\proj_FX\template.txt
+REM 	
+REM 	echo clip the template ---^> complete
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+	main.bat
+
+	goto end
+
+REM ******************************
+REM 	end : project : fx
+REM 	at : 2019/04/04 06:43:15
+REM ******************************
+) else if "%param%"==%choice_x1e% (
+
+	echo param is %choice_x1e%!
+	
+	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
+	
+	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
 
 REM ******************************
 REM 	start : project : kb.listing
@@ -207,6 +244,19 @@ REM ******************************
 REM 	start : project : kb.listing
 REM 	at : 2019/04/02
 REM ******************************
+) else if "%param%"==%choice_x2s% (
+
+	echo param is %choice_x2s%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	main.bat
+
+	goto end
+
+REM ******************************
+REM 	start : project : n.o.birds
+REM 	at : 2019/04/02
+REM ******************************
 ) else if "%param%"==%choice_x3s% (
 
 	echo param is %choice_x3s%!
@@ -220,7 +270,7 @@ REM ******************************
 	goto end
 
 REM ******************************
-REM 	end : project : kb.listing
+REM 	end : project : n.o. birds
 REM 	at : 2019/04/03 13:26:15
 REM ******************************
 ) else if "%param%"==%choice_x3e% (
@@ -230,6 +280,62 @@ REM ******************************
 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	end_apps.bat
 
+	goto end
+
+REM ******************************
+REM 	end : project : langs
+REM 	at : 2019/04/03 13:26:15
+REM ******************************
+REM ) else if "%param%"==%choice_x4s% (
+REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
+) else if "%param%"==%choice_x4s% (
+
+	echo param is %choice_x4s%!
+	
+	pushd "C:\Program Files (x86)\Google\Chrome\Application"
+	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT"
+	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	
+	goto end
+
+) else if "%param%"==%choice_x4s_or_1% (
+
+	echo param is %choice_x4s_or_1%!
+	
+	pushd "C:\Program Files (x86)\Google\Chrome\Application"
+	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT"
+	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	
+	goto end
+
+REM ******************************
+REM 	start : project : dtm
+REM 	at : 2019/04/03 13:26:15
+REM ******************************
+) else if "%param%"==%choice_x5s% (
+
+	echo param is %choice_x5s%!
+	
+
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
+	start_apps.bat
+	
+	goto end
+
+REM ******************************
+REM 	end : project : dtm
+REM 	at : 2019/04/05 10:09:06
+REM ******************************
+) else if "%param%"==%choice_x5e% (
+
+	echo param is %choice_x5e%!
+	
+
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
+	end_apps.bat
+	
 	goto end
 
 REM ******************************
@@ -265,27 +371,46 @@ REM ******************************
 :show_message
 echo ^<Options^>
 echo 	a	C:\WORKS_2\a.bat	set variables
-echo 	e	C:\WORKS_2\batches\e.bat	git pull
-echo 	f	C:\WORKS_2\batches\f.bat	start %%cd%%
-echo 	l	C:\WORKS_2\batches\l.bat	lispbox.bat
-echo 	m	C:\WORKS_2\batches\m.bat	copy gmail address
-echo 	n	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb	gen random string
+echo 	e	git pull	C:\WORKS_2\batches\e.bat
+echo 	f	start %%cd%%	C:\WORKS_2\batches\f.bat
+echo.
+
+echo 	l	lispbox.bat	C:\WORKS_2\batches\l.bat
+echo 	m	copy gmail address	C:\WORKS_2\batches\m.bat
+echo 	n	gen random string	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 echo 		^<usage^> c n ^[num of chars, dflt = 4^]
-echo 	p	C:\WORKS_2\batches\p.bat	g push origin master
-echo 	q1	C:\WORKS_2\batches\q1.bat	
-echo 			C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-echo 	r	-------------------	sakura .gitignore
-echo 	s	C:\WORKS_2\batches\s.bat	start gitk
+echo.
+
+echo 	p	g push origin master	C:\WORKS_2\batches\p.bat
+echo 	q1	clip	C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload	C:\WORKS_2\batches\q1.bat
+
+echo 	r	sakura .gitignore
+echo.
+
+echo 	s	start gitk	C:\WORKS_2\batches\s.bat
 echo 	t	"git tag -a code-cleanup."
 echo.
-echo 	x1	C:\WORKS_2\Utils\shortcuts\proj_FX\main.bat	start project:currency
-echo 	x2e	C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing\end_apps	end project:kb.listing
 
-echo 	x3s	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds\start_apps.bat	start project:n.o.birds
-
-echo 	x3e C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds\end_apps.bat	end project:n.o.birds
-
+echo 	------------------------
+echo 	x1s	start	 currency (or, %choice_x1s_or_1%)
+echo 	x1e	end	 currency
 echo.
+
+echo 	x2s	start	 kb.listing
+echo 	x2e	end	 kb.listing
+echo.
+
+echo 	x3s	start	 n.o.birds
+echo 	x3e	end	 n.o.birds
+echo.
+
+echo 	x4s	start	 langs (or, %choice_x4s_or_1%)
+echo.
+
+echo 	x5s	start	dtm
+echo 	x5e	end	dtm
+echo.
+
 
 REM separator
 echo.
