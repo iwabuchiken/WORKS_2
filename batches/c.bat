@@ -24,10 +24,13 @@ REM : fx
 set choice_x1s="x1s"
 set choice_x1s_or_1="fx"
 set choice_x1e="x1e"
+set choice_x1e_or_1="fxe"
 
 set choice_x2s="x2s"
+set choice_x2s_or_1="list"
 set choice_x2e="x2e"
 set choice_x3s="x3s"
+set choice_x3s_or_1="birds"
 set choice_x3e="x3e"
 
 REM langs
@@ -227,6 +230,18 @@ REM ******************************
 	
 	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
 
+	goto end
+	
+) else if "%param%"==%choice_x1e_or_1% (
+
+	echo param is %choice_x1e_or_1%!
+	
+	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
+	
+	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
+
+	goto end
+
 REM ******************************
 REM 	start : project : kb.listing
 REM 	at : 2019/04/02
@@ -253,6 +268,15 @@ REM ******************************
 
 	goto end
 
+) else if "%param%"==%choice_x2s_or_1% (
+
+	echo param is %choice_x2s_or_1%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	main.bat
+
+	goto end
+
 REM ******************************
 REM 	start : project : n.o.birds
 REM 	at : 2019/04/02
@@ -260,6 +284,22 @@ REM ******************************
 ) else if "%param%"==%choice_x3s% (
 
 	echo param is %choice_x3s%!
+
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo start_apps.bat
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	start_apps.bat
+
+	goto end
+
+REM ******************************
+REM 	end : project : n.o.birds
+REM 	at : 2019/04/08 10:09:00
+REM ******************************
+) else if "%param%"==%choice_x3s_or_1% (
+
+	echo param is %choice_x3s_or_1%!
 
 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	echo start_apps.bat
@@ -293,8 +333,10 @@ REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 	echo param is %choice_x4s%!
 	
 	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT"
+	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
 	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 	
 	goto end
@@ -393,14 +435,14 @@ echo.
 
 echo 	------------------------
 echo 	x1s	start	 currency (or, %choice_x1s_or_1%)
-echo 	x1e	end	 currency
+echo 	x1e	end	 currency (or, %choice_x1e_or_1%)
 echo.
 
-echo 	x2s	start	 kb.listing
+echo 	x2s	start	 kb.listing (or, %choice_x2s_or_1%)
 echo 	x2e	end	 kb.listing
 echo.
 
-echo 	x3s	start	 n.o.birds
+echo 	x3s	start	 n.o.birds (or, "birds")
 echo 	x3e	end	 n.o.birds
 echo.
 

@@ -24,4 +24,4 @@ REM start open_folder.bat
 
 REM pause
 
-exit
+REM exit
