@@ -29,16 +29,31 @@ set choice_x1e_or_1="fxe"
 set choice_x2s="x2s"
 set choice_x2s_or_1="list"
 set choice_x2e="x2e"
+set choice_x2e_or_1="liste"
 set choice_x3s="x3s"
 set choice_x3s_or_1="birds"
 set choice_x3e="x3e"
+set choice_x3e_or_1="birdse"
 
 REM langs
 set choice_x4s="x4s"
 set choice_x4s_or_1="lang"
+set choice_x4s_or_2="langgen"
 
 set choice_x5s="x5s"
 set choice_x5e="x5e"
+
+REM kb.convert
+set choice_x6s="x6s"
+set choice_x6s_or_1="conv"
+set choice_x6e="x6e"
+set choice_x6e_or_1="conve"
+
+REM dessin
+set choice_x7s="x7s"
+set choice_x7s_or_1="dessin"
+set choice_x7e="x7e"
+set choice_x7e_or_1="dessine"
 
 REM *******************************
 REM 
@@ -243,13 +258,28 @@ REM ******************************
 	goto end
 
 REM ******************************
-REM 	start : project : kb.listing
+REM 	end : project : kb.listing
 REM 	at : 2019/04/02
 REM ******************************
 ) else if "%param%"==%choice_x2e% (
 
 	echo param is %choice_x2e%!
 	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	echo end_apps
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	end_apps
+
+	goto end
+
+) else if "%param%"==%choice_x2e_or_1% (
+
+	echo param is %choice_x2e_or_1%!
+	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	echo end_apps
+
 	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
 	end_apps
 
@@ -276,6 +306,109 @@ REM ******************************
 	main.bat
 
 	goto end
+
+REM ******************************
+REM 	start : project : kb.convert
+REM 	at : 2019/04/10 08:17:27
+REM ******************************
+) else if "%param%"==%choice_x6s% (
+
+	echo param is %choice_x6s%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	echo start_conv.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	start_conv.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x6s_or_1% (
+
+	echo param is %choice_x6s_or_1%!
+	
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	echo start_conv.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	start_conv.bat
+
+REM closing
+	goto end
+
+REM ******************************
+REM 	start : project : dessin
+REM 	at : 2019/04/11 10:47:22
+REM ******************************
+) else if "%param%"==%choice_x7s% (
+
+	echo param is %choice_x7s%!
+
+REM message
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	start_apps.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x7s_or_1% (
+
+	echo param is %choice_x7s_or_1%!
+	
+REM message
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	start_apps.bat
+
+REM closing
+	goto end
+
+REM ******************************
+REM 	end : project : kb.convert
+REM 	at : 2019/04/10 08:17:27
+REM ******************************
+) else if "%param%"==%choice_x6e% (
+
+	echo param is %choice_x6e%!
+
+REM set msg="itune\nbrowser page\nopened emails (if any\nfolder"7
+	set msg="dddd"
+
+	REM echo %msg%
+	echo 	^<close^>
+	echo 	1. itune
+	echo 	2. browser page
+	echo 	3. opened emails (if any^)
+	echo 	4. folder
+
+	goto end
+
+) else if "%param%"==%choice_x6e_or_1% (
+
+	echo param is %choice_x6e_or_1%!
+	
+REM set msg="itune\nbrowser page\nopened emails (if any\nfolder"
+
+	echo 	^<close^>
+	echo 	1. itune
+	echo 	2. browser page
+	echo 	3. opened emails (if any^)
+	echo 	4. folder
+
+	goto end
+
 
 REM ******************************
 REM 	start : project : n.o.birds
@@ -317,13 +450,28 @@ REM ******************************
 
 	echo param is %choice_x3e%!
 	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo end_apps.bat
+
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	end_apps.bat
+
+	goto end
+	
+) else if "%param%"==%choice_x3e_or_1% (
+
+	echo param is %choice_x3e_or_1%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo end_apps.bat
+
 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	end_apps.bat
 
 	goto end
 
 REM ******************************
-REM 	end : project : langs
+REM 	start : project : langs
 REM 	at : 2019/04/03 13:26:15
 REM ******************************
 REM ) else if "%param%"==%choice_x4s% (
@@ -336,8 +484,14 @@ REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
 	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
 	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+	start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+	start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+	
 	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
 	
 	goto end
 
@@ -346,9 +500,32 @@ REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 	echo param is %choice_x4s_or_1%!
 	
 	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT"
+	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
 	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+	start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+	start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+	
+	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	goto end
+
+REM ******************************
+REM 	start : project : langs : gen words set
+REM 	at : 2019/04/09 11:42:13
+REM ******************************
+) else if "%param%"==%choice_x4s_or_2% (
+
+	echo param is %choice_x4s_or_2%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\
+	echo python gen_sentence_elements.py
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\
+	python gen_sentence_elements.py
 	
 	goto end
 
@@ -434,27 +611,35 @@ echo 	t	"git tag -a code-cleanup."
 echo.
 
 echo 	------------------------
-echo 	x1s	start	 currency (or, %choice_x1s_or_1%)
-echo 	x1e	end	 currency (or, %choice_x1e_or_1%)
+
+echo 	currency	%choice_x1s_or_1%, x1s	---^> start
+echo 	currency	%choice_x1e_or_1%, x1s	---^> end
+REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1%)
+REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1%)
 echo.
 
-echo 	x2s	start	 kb.listing (or, %choice_x2s_or_1%)
-echo 	x2e	end	 kb.listing
+echo 	dessin	%choice_x7s_or_1%, x7s	---^> start
+echo 	dessin	%choice_x7e_or_1%, x7s	---^> end
 echo.
 
-echo 	x3s	start	 n.o.birds (or, "birds")
-echo 	x3e	end	 n.o.birds
+echo 	dtm	%choice_x5s_or_1%, x5s	---^> start
+echo 	dtm	%choice_x5e_or_1%, x5s	---^> end
 echo.
 
-echo 	x4s	start	 langs (or, %choice_x4s_or_1%)
+echo 	kb.listing	%choice_x2s_or_1%, x2s	---^> start
+echo 	kb.listing	%choice_x2e_or_1%, x2s	---^> end
 echo.
 
-echo 	x5s	start	dtm
-echo 	x5e	end	dtm
+echo 	kb.convert	%choice_x6s_or_1%, x6s	---^> start
+echo 	kb.convert	%choice_x6e_or_1%, x6s	---^> end
 echo.
 
+echo 	langs	%choice_x4s_or_1%, x4s	---^> start
+echo 	gen words set	%choice_x4s_or_2%
+echo.
 
-REM separator
+echo 	n.o.birds	%choice_x3s_or_1%, x3s	---^> start
+echo 	n.o.birds	%choice_x3e_or_1%, x3s	---^> end
 echo.
 
 :end

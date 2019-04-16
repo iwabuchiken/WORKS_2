@@ -8,6 +8,8 @@ start chrome.exe http://127.0.0.1:8000/curr/tester_BuyUps_SellLows/?command=BUSL
 REM start chrome.exe "https://docs.google.com/spreadsheets/d/1Ym3coCzSEFtAoD9s-0bAZSefk78iwrZi7FkPetSvrhA/edit#gid=825137147"
 start chrome.exe https://docs.google.com/spreadsheets/d/1WaDo7NtOAd1Y_xQVBfblzWC69vtcwXaP4XTmrHzNBaI/edit#gid=2061370789
 
+start chrome.exe "https://docs.google.com/document/d/12lQ01G31qTscFcqMRzyqn085v0vKVVEwvii8NxcIMfs/edit"
+
 REM pushd "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited"
 REM start terminal.exe
 

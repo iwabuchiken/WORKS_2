@@ -31,6 +31,7 @@ set path_ws_others="o"
 set path_ws_others_prog="o1"
 REM set path_ws_others_prog_D-7_2_2_VIRTUAL="o1"
 set path_ws_others_bk="ob"
+set path_ws_others_jve="oj"
 
 set path_ws_processing="p"
 
@@ -252,6 +253,20 @@ REM ******************************
 	echo changing to ... C:\WORKS_2\WS\WS_Others.prog
 	
 	pushd C:\WORKS_2\WS\WS_Others.prog
+
+	goto end
+
+REM ******************************
+REM path_ws_others_jve
+REM 	at : 2019/04/09 11:37:08
+REM ******************************
+) else if "%param%"==%path_ws_others_jve% (
+
+	echo param is %path_ws_others_jve%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.JVEMV6
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6
 
 	goto end
 
@@ -504,6 +519,8 @@ echo.
 echo 	o	C:\WORKS_2\WS\WS_Others
 echo 	o1	C:\WORKS_2\WS\WS_Others.prog
 echo 	ob	C:\WORKS_2\WS\WS_Others.ob
+echo 	oj	C:\WORKS_2\WS\WS_Others.JVEMV6
+echo.
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
 echo 	q2	C:\Users\user\AppData\Roaming\MetaQuotes\Terminal\5D28BD404C024725A623256D5EEF0486\MQL4	(dell latitude)
