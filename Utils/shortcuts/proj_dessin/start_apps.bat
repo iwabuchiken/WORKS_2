@@ -8,5 +8,6 @@ start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_
 start chrome.exe "http://benfranklin.chips.jp/WS/WS_Others/free/UH8G6E_CE/1_X/1_14/main.(1.14~).php?url="
 start chrome.exe "https://docs.google.com/spreadsheets/d/1OE_IpBD4vvzJDP2gUhWn9TSk6GvSQmK5vVF5PzX3K1g/edit#gid=1831205079"
 start chrome.exe "https://docs.google.com/document/d/1vvFG_DP4Gl5h5Tlcc1EVouFv5EXE5z7oIgmxiPaJTiM/edit"
+start chrome.exe "https://mail.google.com/mail/ca/u/0/#search/label%3Ainbox-myself+dessin"
 
 REM exit

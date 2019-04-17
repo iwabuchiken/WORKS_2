@@ -379,6 +379,13 @@ REM 	echo changing to ... C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 	echo changing to ... C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 	
 REM 	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
+
+	pushd "C:\Program Files (x86)\Google\Chrome\Application"
+
+	echo opening browser...
+	
+	start chrome.exe  "http://127.0.0.1:8000/im/"
+
 	pushd C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 	
 	echo starting server ...
@@ -386,7 +393,7 @@ REM 	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 	echo.
 	
 	echo http://127.0.0.1:8000/im/
-	
+
 	start_env.bat && start_server.bat
 
 	goto end
