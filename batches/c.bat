@@ -6,6 +6,13 @@ REM 	prep: symbol to each path
 REM 
 REM *******************************
 
+REM *******************************
+REM 	steps : add new keyword (20190419_070617)
+REM 		1. set XXX="YYY"
+REM 		2. add : "else if" block
+REM 		3. add : help lines
+REM *******************************
+
 set help="h"
 
 set choice_a="a"
@@ -14,6 +21,8 @@ set choice_f="f"
 set choice_l="l"
 set choice_m="m"
 set choice_n="n"
+set choice_nn="nn"
+
 set choice_p="p"
 set choice_q1="q1"
 set choice_r="r"
@@ -28,8 +37,10 @@ set choice_x1e_or_1="fxe"
 
 set choice_x2s="x2s"
 set choice_x2s_or_1="list"
+set choice_x2s_or_2="ks"
 set choice_x2e="x2e"
 set choice_x2e_or_1="liste"
+set choice_x2e_or_2="ke"
 set choice_x3s="x3s"
 set choice_x3s_or_1="birds"
 set choice_x3s_or_2="xb"
@@ -155,6 +166,54 @@ REM 	echo msg is '%msg%'
 REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb | clip
 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
+	
+REM 	echo pasting...
+REM 	
+REM 	paste
+	
+	goto end
+
+REM ******************************
+REM 	"nn"
+REM 	gen_random_numbers.py
+REM 	at : 2019/04/19 09:06:19
+REM ******************************
+) else if "%param%"==%choice_nn% (
+
+	echo param is %choice_nn%!
+	
+REM 	echo starting ... gen_random_numbers.py (C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang)
+REM 	echo starting ... gen_random_numbers.py (C:\WORKS_2)
+	echo starting ... gen_random_numbers.py ^(C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang^)
+	
+REM 	echo %%2 is '%2'
+	
+	echo "nn starting..."
+	
+	echo args are ... %1 %2 %3 %4
+REM 	echo or, %*
+	
+REM 	echo C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\gen_random_numbers.py %2 %3 %4
+	
+	echo changing directory...
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	echo executing...
+REM 	echo gen_random_numbers.py %2 %3 %4
+	echo python gen_random_numbers.py %2 %3 %4
+	python gen_random_numbers.py %2 %3 %4
+	REM python gen_random_numbers.py %2 %3 %4 | clip
+REM 	gen_random_numbers.py %2 %3 %4
+REM 	start gen_random_numbers.py %2 %3 %4
+REM 	gen_random_numbers.py /k %2 %3 %4
+	
+REM 	pause
+	
+REM 	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\gen_random_numbers.py %2 %3 %4
+	
+REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
 	
 REM 	echo pasting...
 REM 	
@@ -303,6 +362,18 @@ REM ******************************
 
 	goto end
 
+) else if "%param%"==%choice_x2e_or_2% (
+
+	echo param is %choice_x2e_or_2%!
+	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	echo end_apps
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	end_apps
+
+	goto end
+
 REM ******************************
 REM 	start : project : kb.listing
 REM 	at : 2019/04/02
@@ -319,6 +390,15 @@ REM ******************************
 ) else if "%param%"==%choice_x2s_or_1% (
 
 	echo param is %choice_x2s_or_1%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	main.bat
+
+	goto end
+
+) else if "%param%"==%choice_x2s_or_2% (
+
+	echo param is %choice_x2s_or_2%!
 	
 	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
 	main.bat
@@ -658,6 +738,8 @@ echo 	l	lispbox.bat	C:\WORKS_2\batches\l.bat
 echo 	m	copy gmail address	C:\WORKS_2\batches\m.bat
 echo 	n	gen random string	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 echo 		^<usage^> c n ^[num of chars, dflt = 4^]
+
+echo 	nn	gen random numbers	gen_random_numbers.py
 echo.
 
 echo 	p	g push origin master	C:\WORKS_2\batches\p.bat
@@ -688,8 +770,8 @@ echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
 echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
 echo.
 
-echo 	kb.listing	%choice_x2s_or_1:"=% , x2s	---^> start
-echo 	kb.listing	%choice_x2e_or_1:"=% , x2s	---^> end
+echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
+echo 	kb.listing	%choice_x2e_or_1:"=% , %choice_x2e_or_2:"=% , x2s	---^> end
 echo.
 
 echo 	kb.convert	%choice_x6s_or_1:"=% , x6s	---^> start
