@@ -16,6 +16,7 @@ REM *******************************
 set help="h"
 
 set choice_a="a"
+set choice_c="c"
 set choice_e="e"
 set choice_f="f"
 set choice_l="l"
@@ -57,17 +58,22 @@ set choice_x4s_or_3="xl"
 set choice_x5s="x5s"
 set choice_x5e="x5e"
 
-REM kb.convert
+REM kb.convert *************************************
 set choice_x6s="x6s"
 set choice_x6s_or_1="conv"
 set choice_x6e="x6e"
 set choice_x6e_or_1="conve"
 
-REM dessin
+REM ************************************* dessin
+REM  dessin : start
 set choice_x7s="x7s"
 set choice_x7s_or_1="dessin"
+set choice_x7s_or_2="ds"
+
+REM  dessin : end
 set choice_x7e="x7e"
 set choice_x7e_or_1="dessine"
+set choice_x7e_or_2="de"
 
 REM *******************************
 REM 
@@ -78,21 +84,8 @@ REM set param=%1
 
 set param=%1
 
-echo param is ... '%param%'
-
-REM *******************************
-REM 
-REM 	modify: parameters
-REM 
-REM *******************************
-REM if "%param%"==%choice_x3s_or_2% (
-
-REM set param=%choice_x3s_or_1%
-REM 	
-REM 	echo param ... modified : %param%
-REM 	echo choice_x3s_or_1 is ... %choice_x3s_or_1%
-REM 	
-REM )
+REM echo param is ... '%param%'
+echo param is ---^> '%param%'
 
 
 REM ******************************
@@ -105,6 +98,19 @@ if "%param%"==%choice_a% (
 	echo starting ... C:\WORKS_2\a.bat
 	
 	a
+
+	goto end
+	
+REM ******************************
+REM 	sakura C:\WORKS_2\batches\c.bat
+REM ******************************
+) else if "%param%"==%choice_c% (
+
+	echo param is %choice_c%!
+	
+	echo starting ... sakura C:\WORKS_2\batches\c.bat
+	
+	start sakura C:\WORKS_2\batches\c.bat
 
 	goto end
 	
@@ -473,6 +479,21 @@ REM exec
 REM closing
 	goto end
 
+) else if "%param%"==%choice_x7s_or_2% (
+
+	echo param is %choice_x7s_or_2%!
+	
+REM message
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	start_apps.bat
+
+REM closing
+	goto end
+
 REM ******************************
 REM 	end : project : kb.convert
 REM 	at : 2019/04/10 08:17:27
@@ -600,56 +621,77 @@ REM ) else if "%param%"==%choice_x4s% (
 REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 ) else if "%param%"==%choice_x4s% (
 
-	echo param is %choice_x4s%!
+	echo param --^> is %choice_x4s%!
 	
-	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
-	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
-	start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
-	start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
-	
-	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start.bat
+
+REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+REM start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
+REM start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+REM start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+REM start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+REM start chrome.exe "https://docs.google.com/document/d/1EWd6CKZptTbNfKgaCLR-hWeqSDDS8TTX1FQPjyjAdVQ/edit"
+REM 	
+REM echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
 	goto end
 
 ) else if "%param%"==%choice_x4s_or_1% (
 
 	echo param is %choice_x4s_or_1%!
-	
-	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
-	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
-	start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
-	start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
-	
-	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start.bat
+
+REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+REM start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
+REM start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+REM start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+REM start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+REM start chrome.exe "https://docs.google.com/document/d/1EWd6CKZptTbNfKgaCLR-hWeqSDDS8TTX1FQPjyjAdVQ/edit"
+REM 	
+REM 	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
 	goto end
 
 ) else if "%param%"==%choice_x4s_or_3% (
 
 	echo param is %choice_x4s_or_3%!
+
+REM 	echo exiting...
+REM 	goto end
+REM debug:20190502_161331
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
-	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
-	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
-	start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
-	start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+	echo pushd done...
 	
-	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
+	
+REM 	start start.bat
+
+REM 	goto end
+REM 	start.bat
+
+REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+REM start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
+REM start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+REM start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+REM start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+REM start chrome.exe "https://docs.google.com/document/d/1EWd6CKZptTbNfKgaCLR-hWeqSDDS8TTX1FQPjyjAdVQ/edit"	
+REM 	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
 	goto end
 
@@ -730,6 +772,9 @@ REM ******************************
 :show_message
 echo ^<Options^>
 echo 	a	C:\WORKS_2\a.bat	set variables
+
+echo 	c	sakura C:\WORKS_2\batches\c.bat
+
 echo 	e	git pull	C:\WORKS_2\batches\e.bat
 echo 	f	start %%cd%%	C:\WORKS_2\batches\f.bat
 echo.
@@ -762,8 +807,8 @@ REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1:"=%)
 REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1:"=%)
 echo.
 
-echo 	dessin	%choice_x7s_or_1:"=% , x7s	---^> start
-echo 	dessin	%choice_x7e_or_1:"=% , x7s	---^> end
+echo 	dessin	%choice_x7s_or_1:"=% , %choice_x7s_or_2:"=% , x7s	---^> start
+echo 	dessin	%choice_x7e_or_1:"=% , %choice_x7e_or_2:"=% , x7e	---^> end
 echo.
 
 echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
