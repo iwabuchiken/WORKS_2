@@ -9,9 +9,15 @@ REM start chrome.exe "https://docs.google.com/spreadsheets/d/1Ym3coCzSEFtAoD9s-0
 start chrome.exe https://docs.google.com/spreadsheets/d/1WaDo7NtOAd1Y_xQVBfblzWC69vtcwXaP4XTmrHzNBaI/edit#gid=2061370789
 
 REM https://docs.google.com/document/u/0/start chrome.exe "https://docs.google.com/document/d/12lQ01G31qTscFcqMRzyqn085v0vKVVEwvii8NxcIMfs/edit"
+
+REM "steps" doc
 start chrome.exe "https://docs.google.com/document/d/1nZdoNFVpp49XAqJG5fKDO22GOwcmW2BfbSCKmpGb3hc/edit"
 REM start chrome.exe "https://docs.google.com/document/u/0/"
 REM start chrome.exe "https://docs.google.com/document/u/0/?q=currency"
+
+
+
+REM docs::main page
 start chrome.exe "https://docs.google.com/document/u/0/?q=currency 44#8"
 
 REM pushd "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited"
