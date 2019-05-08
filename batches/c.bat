@@ -6,14 +6,24 @@ REM 	prep: symbol to each path
 REM 
 REM *******************************
 
+REM *******************************
+REM 	steps : add new keyword (20190419_070617)
+REM 		1. set XXX="YYY"
+REM 		2. add : "else if" block
+REM 		3. add : help lines
+REM *******************************
+
 set help="h"
 
 set choice_a="a"
+set choice_c="c"
 set choice_e="e"
 set choice_f="f"
 set choice_l="l"
 set choice_m="m"
 set choice_n="n"
+set choice_nn="nn"
+
 set choice_p="p"
 set choice_q1="q1"
 set choice_r="r"
@@ -28,17 +38,42 @@ set choice_x1e_or_1="fxe"
 
 set choice_x2s="x2s"
 set choice_x2s_or_1="list"
+set choice_x2s_or_2="ks"
 set choice_x2e="x2e"
+set choice_x2e_or_1="liste"
+set choice_x2e_or_2="ke"
 set choice_x3s="x3s"
 set choice_x3s_or_1="birds"
+set choice_x3s_or_2="xb"
 set choice_x3e="x3e"
+set choice_x3e_or_1="birdse"
+set choice_x3e_or_2="xbe"
 
 REM langs
 set choice_x4s="x4s"
 set choice_x4s_or_1="lang"
+set choice_x4s_or_2="langgen"
+set choice_x4s_or_3="xl"
 
 set choice_x5s="x5s"
 set choice_x5e="x5e"
+
+REM kb.convert *************************************
+set choice_x6s="x6s"
+set choice_x6s_or_1="conv"
+set choice_x6e="x6e"
+set choice_x6e_or_1="conve"
+
+REM ************************************* dessin
+REM  dessin : start
+set choice_x7s="x7s"
+set choice_x7s_or_1="dessin"
+set choice_x7s_or_2="ds"
+
+REM  dessin : end
+set choice_x7e="x7e"
+set choice_x7e_or_1="dessine"
+set choice_x7e_or_2="de"
 
 REM *******************************
 REM 
@@ -49,7 +84,9 @@ REM set param=%1
 
 set param=%1
 
-echo param is ... '%param%'
+REM echo param is ... '%param%'
+echo param is ---^> '%param%'
+
 
 REM ******************************
 REM 	a.bat
@@ -61,6 +98,19 @@ if "%param%"==%choice_a% (
 	echo starting ... C:\WORKS_2\a.bat
 	
 	a
+
+	goto end
+	
+REM ******************************
+REM 	sakura C:\WORKS_2\batches\c.bat
+REM ******************************
+) else if "%param%"==%choice_c% (
+
+	echo param is %choice_c%!
+	
+	echo starting ... sakura C:\WORKS_2\batches\c.bat
+	
+	start sakura C:\WORKS_2\batches\c.bat
 
 	goto end
 	
@@ -122,6 +172,54 @@ REM 	echo msg is '%msg%'
 REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb | clip
 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
+	
+REM 	echo pasting...
+REM 	
+REM 	paste
+	
+	goto end
+
+REM ******************************
+REM 	"nn"
+REM 	gen_random_numbers.py
+REM 	at : 2019/04/19 09:06:19
+REM ******************************
+) else if "%param%"==%choice_nn% (
+
+	echo param is %choice_nn%!
+	
+REM 	echo starting ... gen_random_numbers.py (C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang)
+REM 	echo starting ... gen_random_numbers.py (C:\WORKS_2)
+	echo starting ... gen_random_numbers.py ^(C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang^)
+	
+REM 	echo %%2 is '%2'
+	
+	echo "nn starting..."
+	
+	echo args are ... %1 %2 %3 %4
+REM 	echo or, %*
+	
+REM 	echo C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\gen_random_numbers.py %2 %3 %4
+	
+	echo changing directory...
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	echo executing...
+REM 	echo gen_random_numbers.py %2 %3 %4
+	echo python gen_random_numbers.py %2 %3 %4
+	python gen_random_numbers.py %2 %3 %4
+	REM python gen_random_numbers.py %2 %3 %4 | clip
+REM 	gen_random_numbers.py %2 %3 %4
+REM 	start gen_random_numbers.py %2 %3 %4
+REM 	gen_random_numbers.py /k %2 %3 %4
+	
+REM 	pause
+	
+REM 	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\gen_random_numbers.py %2 %3 %4
+	
+REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
 	
 REM 	echo pasting...
 REM 	
@@ -243,13 +341,40 @@ REM ******************************
 	goto end
 
 REM ******************************
-REM 	start : project : kb.listing
+REM 	end : project : kb.listing
 REM 	at : 2019/04/02
 REM ******************************
 ) else if "%param%"==%choice_x2e% (
 
 	echo param is %choice_x2e%!
 	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	echo end_apps
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	end_apps
+
+	goto end
+
+) else if "%param%"==%choice_x2e_or_1% (
+
+	echo param is %choice_x2e_or_1%!
+	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	echo end_apps
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	end_apps
+
+	goto end
+
+) else if "%param%"==%choice_x2e_or_2% (
+
+	echo param is %choice_x2e_or_2%!
+	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	echo end_apps
+
 	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
 	end_apps
 
@@ -276,6 +401,133 @@ REM ******************************
 	main.bat
 
 	goto end
+
+) else if "%param%"==%choice_x2s_or_2% (
+
+	echo param is %choice_x2s_or_2%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
+	main.bat
+
+	goto end
+
+REM ******************************
+REM 	start : project : kb.convert
+REM 	at : 2019/04/10 08:17:27
+REM ******************************
+) else if "%param%"==%choice_x6s% (
+
+	echo param is %choice_x6s%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	echo start_conv.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	start_conv.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x6s_or_1% (
+
+	echo param is %choice_x6s_or_1%!
+	
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	echo start_conv.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	start_conv.bat
+
+REM closing
+	goto end
+
+REM ******************************
+REM 	start : project : dessin
+REM 	at : 2019/04/11 10:47:22
+REM ******************************
+) else if "%param%"==%choice_x7s% (
+
+	echo param is %choice_x7s%!
+
+REM message
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	start_apps.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x7s_or_1% (
+
+	echo param is %choice_x7s_or_1%!
+	
+REM message
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	start_apps.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x7s_or_2% (
+
+	echo param is %choice_x7s_or_2%!
+	
+REM message
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\Utils\shortcuts\proj_dessin
+	start_apps.bat
+
+REM closing
+	goto end
+
+REM ******************************
+REM 	end : project : kb.convert
+REM 	at : 2019/04/10 08:17:27
+REM ******************************
+) else if "%param%"==%choice_x6e% (
+
+	echo param is %choice_x6e%!
+
+REM set msg="itune\nbrowser page\nopened emails (if any\nfolder"7
+	set msg="dddd"
+
+	REM echo %msg%
+	echo 	^<close^>
+	echo 	1. itune
+	echo 	2. browser page
+	echo 	3. opened emails (if any^)
+	echo 	4. folder
+
+	goto end
+
+) else if "%param%"==%choice_x6e_or_1% (
+
+	echo param is %choice_x6e_or_1%!
+	
+REM set msg="itune\nbrowser page\nopened emails (if any\nfolder"
+
+	echo 	^<close^>
+	echo 	1. itune
+	echo 	2. browser page
+	echo 	3. opened emails (if any^)
+	echo 	4. folder
+
+	goto end
+
 
 REM ******************************
 REM 	start : project : n.o.birds
@@ -309,6 +561,18 @@ REM ******************************
 
 	goto end
 
+) else if "%param%"==%choice_x3s_or_2% (
+
+	echo param is %choice_x3s_or_2%!
+
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo start_apps.bat
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	start_apps.bat
+
+	goto end
+
 REM ******************************
 REM 	end : project : n.o. birds
 REM 	at : 2019/04/03 13:26:15
@@ -317,38 +581,133 @@ REM ******************************
 
 	echo param is %choice_x3e%!
 	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo end_apps.bat
+
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	end_apps.bat
+
+	goto end
+	
+) else if "%param%"==%choice_x3e_or_1% (
+
+	echo param is %choice_x3e_or_1%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo end_apps.bat
+
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	end_apps.bat
+
+	goto end
+
+) else if "%param%"==%choice_x3e_or_2% (
+
+	echo param is %choice_x3e_or_2%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo end_apps.bat
+
 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	end_apps.bat
 
 	goto end
 
 REM ******************************
-REM 	end : project : langs
+REM 	start : project : langs
 REM 	at : 2019/04/03 13:26:15
 REM ******************************
 REM ) else if "%param%"==%choice_x4s% (
 REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 ) else if "%param%"==%choice_x4s% (
 
-	echo param is %choice_x4s%!
+	echo param --^> is %choice_x4s%!
 	
-	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
-	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
-	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
-	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start.bat
+
+REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+REM start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
+REM start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+REM start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+REM start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+REM start chrome.exe "https://docs.google.com/document/d/1EWd6CKZptTbNfKgaCLR-hWeqSDDS8TTX1FQPjyjAdVQ/edit"
+REM 	
+REM echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
 	goto end
 
 ) else if "%param%"==%choice_x4s_or_1% (
 
 	echo param is %choice_x4s_or_1%!
+
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	start.bat
+
+REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+REM start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
+REM start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+REM start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+REM start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+REM start chrome.exe "https://docs.google.com/document/d/1EWd6CKZptTbNfKgaCLR-hWeqSDDS8TTX1FQPjyjAdVQ/edit"
+REM 	
+REM 	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
-	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT"
-	start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
-	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+	goto end
+
+) else if "%param%"==%choice_x4s_or_3% (
+
+	echo param is %choice_x4s_or_3%!
+
+REM 	echo exiting...
+REM 	goto end
+REM debug:20190502_161331
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	echo pushd done...
+	
+	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
+	
+REM 	start start.bat
+
+REM 	goto end
+REM 	start.bat
+
+REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
+REM start chrome.exe "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ko&tl=ja"
+REM start chrome.exe "https://docs.google.com/spreadsheets/d/1F1YZqjlwgDSTMxS5HhAAbjPL8sx1g184xxQqbgwWhps/edit#gid=1486363973"
+REM start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=diary+K*&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
+REM start chrome.exe "https://docs.google.com/document/d/1XBlAyn1jrDdf-QcJrD6oXNI2efjbbCgISMt4UrjTTFI/edit"
+REM start chrome.exe "https://docs.google.com/document/d/1EWd6CKZptTbNfKgaCLR-hWeqSDDS8TTX1FQPjyjAdVQ/edit"	
+REM 	echo start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
+REM 	echo start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	goto end
+
+REM ******************************
+REM 	start : project : langs : gen words set
+REM 	at : 2019/04/09 11:42:13
+REM ******************************
+) else if "%param%"==%choice_x4s_or_2% (
+
+	echo param is %choice_x4s_or_2%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\
+	echo python gen_sentence_elements.py
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\
+	python gen_sentence_elements.py
 	
 	goto end
 
@@ -413,6 +772,9 @@ REM ******************************
 :show_message
 echo ^<Options^>
 echo 	a	C:\WORKS_2\a.bat	set variables
+
+echo 	c	sakura C:\WORKS_2\batches\c.bat
+
 echo 	e	git pull	C:\WORKS_2\batches\e.bat
 echo 	f	start %%cd%%	C:\WORKS_2\batches\f.bat
 echo.
@@ -421,6 +783,8 @@ echo 	l	lispbox.bat	C:\WORKS_2\batches\l.bat
 echo 	m	copy gmail address	C:\WORKS_2\batches\m.bat
 echo 	n	gen random string	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 echo 		^<usage^> c n ^[num of chars, dflt = 4^]
+
+echo 	nn	gen random numbers	gen_random_numbers.py
 echo.
 
 echo 	p	g push origin master	C:\WORKS_2\batches\p.bat
@@ -434,27 +798,37 @@ echo 	t	"git tag -a code-cleanup."
 echo.
 
 echo 	------------------------
-echo 	x1s	start	 currency (or, %choice_x1s_or_1%)
-echo 	x1e	end	 currency (or, %choice_x1e_or_1%)
+
+REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-strip-quotes-out-of-an-echoed-string-in-a-windows-batch-file#804782
+
+echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
+echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
+REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1:"=%)
+REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1:"=%)
 echo.
 
-echo 	x2s	start	 kb.listing (or, %choice_x2s_or_1%)
-echo 	x2e	end	 kb.listing
+echo 	dessin	%choice_x7s_or_1:"=% , %choice_x7s_or_2:"=% , x7s	---^> start
+echo 	dessin	%choice_x7e_or_1:"=% , %choice_x7e_or_2:"=% , x7e	---^> end
 echo.
 
-echo 	x3s	start	 n.o.birds (or, "birds")
-echo 	x3e	end	 n.o.birds
+echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
+echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
 echo.
 
-echo 	x4s	start	 langs (or, %choice_x4s_or_1%)
+echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
+echo 	kb.listing	%choice_x2e_or_1:"=% , %choice_x2e_or_2:"=% , x2s	---^> end
 echo.
 
-echo 	x5s	start	dtm
-echo 	x5e	end	dtm
+echo 	kb.convert	%choice_x6s_or_1:"=% , x6s	---^> start
+echo 	kb.convert	%choice_x6e_or_1:"=% , x6s	---^> end
 echo.
 
+echo 	langs	%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , x4s	---^> start
+echo 	gen words set	%choice_x4s_or_2:"=%
+echo.
 
-REM separator
+echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , x3s	---^> start
+echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
 echo.
 
 :end

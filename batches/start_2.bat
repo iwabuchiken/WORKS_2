@@ -9,6 +9,7 @@ pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM start chrome.exe "https://blog-001.west.edge.storage-yahoo.jp/res/blog-0d-04/kanaamihaiine/folder/1231521/69/39186969/img_0?1360839219"
 start chrome.exe 
 start chrome.exe http://127.0.0.1:8000/im/
+start chrome.exe "https://docs.google.com/spreadsheets/d/1PxFI8eUjzo-YpvrRLq9RnLHyMe66wq6FB8Hv3j6f4Gw/edit#gid=3881499"
 
 REM DEBUG
 REM exit
