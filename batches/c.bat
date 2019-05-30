@@ -42,9 +42,13 @@ set choice_x2s_or_2="ks"
 set choice_x2e="x2e"
 set choice_x2e_or_1="liste"
 set choice_x2e_or_2="ke"
+
+REM : birds
 set choice_x3s="x3s"
 set choice_x3s_or_1="birds"
 set choice_x3s_or_2="xb"
+set choice_x3s_or_3="bi"
+
 set choice_x3e="x3e"
 set choice_x3e_or_1="birdse"
 set choice_x3e_or_2="xbe"
@@ -54,6 +58,7 @@ set choice_x4s="x4s"
 set choice_x4s_or_1="lang"
 set choice_x4s_or_2="langgen"
 set choice_x4s_or_3="xl"
+set choice_x4s_or_4="la"
 
 set choice_x5s="x5s"
 set choice_x5e="x5e"
@@ -61,6 +66,8 @@ set choice_x5e="x5e"
 REM kb.convert *************************************
 set choice_x6s="x6s"
 set choice_x6s_or_1="conv"
+set choice_x6s_or_2="con"
+
 set choice_x6e="x6e"
 set choice_x6e_or_1="conve"
 
@@ -445,6 +452,21 @@ REM exec
 REM closing
 	goto end
 
+) else if "%param%"==%choice_x6s_or_2% (
+
+	echo param is %choice_x6s_or_2%!
+	
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	echo start_conv.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+	start_conv.bat
+
+REM closing
+	goto end
+
 REM ******************************
 REM 	start : project : dessin
 REM 	at : 2019/04/11 10:47:22
@@ -564,6 +586,18 @@ REM ******************************
 ) else if "%param%"==%choice_x3s_or_2% (
 
 	echo param is %choice_x3s_or_2%!
+
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo start_apps.bat
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	start_apps.bat
+
+	goto end
+
+) else if "%param%"==%choice_x3s_or_3% (
+
+	echo param is %choice_x3s_or_3%!
 
 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	echo start_apps.bat
@@ -695,6 +729,21 @@ REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
 	goto end
 
+) else if "%param%"==%choice_x4s_or_4% (
+
+	echo param is %choice_x4s_or_4%!
+
+REM 	echo exiting...
+REM 	goto end
+REM debug:20190502_161331
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	
+	echo pushd done...
+	
+	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
+	
+	goto end
+
 REM ******************************
 REM 	start : project : langs : gen words set
 REM 	at : 2019/04/09 11:42:13
@@ -819,15 +868,16 @@ echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
 echo 	kb.listing	%choice_x2e_or_1:"=% , %choice_x2e_or_2:"=% , x2s	---^> end
 echo.
 
-echo 	kb.convert	%choice_x6s_or_1:"=% , x6s	---^> start
+echo 	kb.convert	%choice_x6s_or_1:"=% , %choice_x6s_or_2:"=% , x6s	---^> start
 echo 	kb.convert	%choice_x6e_or_1:"=% , x6s	---^> end
 echo.
 
-echo 	langs	%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , x4s	---^> start
+echo 	langs	%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
+echo 		C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 echo 	gen words set	%choice_x4s_or_2:"=%
 echo.
 
-echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , x3s	---^> start
+echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , %choice_x3s_or_3:"=% , x3s	---^> start
 echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
 echo.
 

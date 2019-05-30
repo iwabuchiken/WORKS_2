@@ -5,8 +5,10 @@ REM 	browser
 REM ********************************
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
 
+REM : admin page
 REM "keyboard compositions 20180830_171322"
 start chrome.exe "https://docs.google.com/spreadsheets/d/1Rtg1H97HaTWcaIhOf4EtMqEvo6o-17d0Cf0CY5cuk9c/edit#gid=0"
+start chrome.exe "https://docs.zoho.com/sheet/open/ek7i4683eb5df87d04a23acef09182e7df623/sheets/list/ranges/E10"
 
 REM "â∫èëÇ´ / kb.listing / 20190415_070045"
 REM start chrome.exe "https://docs.google.com/document/d/1M6svHsVrsWf3uvmmPAIQLuylDpFUDkA5W6OX5-7zDgk/edit"
@@ -33,3 +35,4 @@ REM 	folder
 REM ********************************
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\domino\memos
 start C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload\
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\domino\memos\play_resources_20190418_130543
