@@ -24,3 +24,5 @@ REM ============================
 REM : fx / list of memos
 REM ============================
 start chrome.exe "https://docs.zoho.com/sheet/open/eovu1e1199284fd744d5eb3f86070b4f2abb6/sheets/%E3%82%B7%E3%83%BC%E3%83%881/ranges/C3"
+
+exit
