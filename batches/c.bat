@@ -33,15 +33,21 @@ set choice_t="t"
 REM : fx
 set choice_x1s="x1s"
 set choice_x1s_or_1="fx"
+set choice_x1s_or_2="fb"
+
 set choice_x1e="x1e"
 set choice_x1e_or_1="fxe"
 
+REM : kb
 set choice_x2s="x2s"
 set choice_x2s_or_1="list"
 set choice_x2s_or_2="ks"
+set choice_x2s_or_3="kd"
+
 set choice_x2e="x2e"
 set choice_x2e_or_1="liste"
 set choice_x2e_or_2="ke"
+set choice_x2e_or_3="kde"
 
 REM : birds
 set choice_x3s="x3s"
@@ -323,6 +329,17 @@ REM 	echo clip the template ---^> complete
 
 	goto end
 
+) else if "%param%"==%choice_x1s_or_2% (
+
+	echo param is %choice_x1s_or_2%!
+	
+	start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\log
+	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+	start_apps_browser.bat
+	
+
+	goto end
+
 REM ******************************
 REM 	end : project : fx
 REM 	at : 2019/04/04 06:43:15
@@ -386,6 +403,18 @@ REM ******************************
 	end_apps
 
 	goto end
+	
+) else if "%param%"==%choice_x2e_or_3% (
+
+	echo param is %choice_x2e_or_3%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
+	echo end_apps
+
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
+	end_apps
+
+	goto end
 
 REM ******************************
 REM 	start : project : kb.listing
@@ -415,6 +444,17 @@ REM ******************************
 	
 	pushd C:\WORKS_2\Utils\shortcuts\proj_Music.kb.listing
 	main.bat
+
+	goto end
+
+) else if "%param%"==%choice_x2s_or_3% (
+
+	echo param is %choice_x2s_or_3%!
+	
+	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
+	
+	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
+	start_apps.bat
 
 	goto end
 
@@ -852,6 +892,8 @@ REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-st
 
 echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
 echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
+echo 	currency	%choice_x1s_or_2:"=% ---^> start browser
+
 REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1:"=%)
 REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1:"=%)
 echo.
@@ -870,6 +912,11 @@ echo.
 
 echo 	kb.convert	%choice_x6s_or_1:"=% , %choice_x6s_or_2:"=% , x6s	---^> start
 echo 	kb.convert	%choice_x6e_or_1:"=% , x6s	---^> end
+echo.
+
+echo 	kb.dtm		%choice_x2s_or_3:"=% ---^> start
+
+echo 	kb.dtm		%choice_x2e_or_3:"=% ---^> end
 echo.
 
 echo 	langs	%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
