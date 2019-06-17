@@ -37,6 +37,7 @@ set choice_x1s_or_2="fb"
 
 set choice_x1e="x1e"
 set choice_x1e_or_1="fxe"
+set choice_x1e_or_2="fbe"
 
 REM : kb
 set choice_x2s="x2s"
@@ -87,6 +88,12 @@ REM  dessin : end
 set choice_x7e="x7e"
 set choice_x7e_or_1="dessine"
 set choice_x7e_or_2="de"
+
+REM ************************************* math : quaternion
+REM 	2019/06/12 13:28:13
+
+set choice_x8s="x8s"
+set choice_x8s_or_1="ma"
 
 REM *******************************
 REM 
@@ -335,8 +342,8 @@ REM 	echo clip the template ---^> complete
 	
 	start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\log
 	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
-	start_apps_browser.bat
-	
+REM 	start_apps_browser.bat
+	start_fb.bat
 
 	goto end
 
@@ -361,6 +368,19 @@ REM ******************************
 	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
 	
 	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
+
+	goto end
+
+) else if "%param%"==%choice_x1e_or_2% (
+
+	echo param is %choice_x1e_or_2%!
+	
+	echo pushd C:\WORKS_2\Utils\shortcuts\proj_FX	
+	echo end_fb.bat
+
+	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+	
+	end_fb.bat
 
 	goto end
 
@@ -697,8 +717,11 @@ REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 
 	echo param --^> is %choice_x4s%!
 	
+	echo %%2 is '%2'
+	
 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-	start.bat
+REM 	start.bat
+	start.bat %2
 
 REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
@@ -718,9 +741,13 @@ REM start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 ) else if "%param%"==%choice_x4s_or_1% (
 
 	echo param is %choice_x4s_or_1%!
-
+	
+	echo %%2 is %2
+	
 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-	start.bat
+	start.bat %2
+	
+REM 	start.bat
 
 REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"
@@ -739,20 +766,30 @@ REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 
 ) else if "%param%"==%choice_x4s_or_3% (
 
-	echo param is %choice_x4s_or_3%!
+REM 	echo param is %choice_x4s_or_3%!
+
+	echo param --^> is %choice_x4s%!
+	
+	echo %%2 is '%2'
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM 	start.bat
+	start.bat %2
+
 
 REM 	echo exiting...
 REM 	goto end
 REM debug:20190502_161331
-	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+
+REM 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
-	echo pushd done...
+REM 	echo pushd done...
 	
-	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
+REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
 	
 REM 	start start.bat
 
-REM 	goto end
+ 	goto end
 REM 	start.bat
 
 REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
@@ -771,16 +808,25 @@ REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 
 ) else if "%param%"==%choice_x4s_or_4% (
 
-	echo param is %choice_x4s_or_4%!
+REM 	echo param is %choice_x4s_or_4%!
+
+	echo param --^> is %choice_x4s%!
+	
+	echo %%2 is '%2'
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+REM 	start.bat
+	start.bat %2
 
 REM 	echo exiting...
 REM 	goto end
 REM debug:20190502_161331
-	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+
+REM 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 	
-	echo pushd done...
+REM 	echo pushd done...
 	
-	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
+REM 	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\start.bat
 	
 	goto end
 
@@ -826,6 +872,40 @@ REM ******************************
 	pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\4_dtm
 	end_apps.bat
 	
+	goto end
+
+REM ******************************
+REM 	start : project : math : quaternion
+REM 	at : 2019/06/12 13:38:00
+REM ******************************
+) else if "%param%"==%choice_x8s% (
+
+	echo param is %choice_x8s%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\27_\15_quaternion
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\27_\15_quaternion
+	start_apps.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x8s_or_1% (
+
+	echo param is %choice_x8s_or_1%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\27_\15_quaternion
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\27_\15_quaternion
+	start_apps.bat
+
+REM closing
 	goto end
 
 REM ******************************
@@ -892,7 +972,10 @@ REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-st
 
 echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
 echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
-echo 	currency	%choice_x1s_or_2:"=% ---^> start browser
+echo 			C:\WORKS_2\Utils\shortcuts\proj_FX
+echo 	curr.fb		%choice_x1s_or_2:"=% ---^> start mini-project
+echo 	curr.fbe	%choice_x1e_or_2:"=% ---^> end mini-project
+
 
 REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1:"=%)
 REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1:"=%)
@@ -902,9 +985,9 @@ echo 	dessin	%choice_x7s_or_1:"=% , %choice_x7s_or_2:"=% , x7s	---^> start
 echo 	dessin	%choice_x7e_or_1:"=% , %choice_x7e_or_2:"=% , x7e	---^> end
 echo.
 
-echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
-echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
-echo.
+REM echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
+REM echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
+REM echo.
 
 echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
 echo 	kb.listing	%choice_x2e_or_1:"=% , %choice_x2e_or_2:"=% , x2s	---^> end
@@ -919,13 +1002,18 @@ echo 	kb.dtm		%choice_x2s_or_3:"=% ---^> start
 echo 	kb.dtm		%choice_x2e_or_3:"=% ---^> end
 echo.
 
-echo 	langs	%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
-echo 		C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+echo 	langs		%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
+echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+echo				he hebrew / ko korean / ar arabic / ru russian
+
 echo 	gen words set	%choice_x4s_or_2:"=%
 echo.
 
 echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , %choice_x3s_or_3:"=% , x3s	---^> start
 echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
+echo.
+
+echo 	math.qua	%choice_x8s:"=% , %choice_x8s_or_1:"=% ---^> start
 echo.
 
 :end

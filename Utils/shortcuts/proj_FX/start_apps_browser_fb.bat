@@ -31,4 +31,9 @@ REM : time calc
 REM ============================
 start chrome.exe "http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php"
 
+REM ============================
+REM : memos
+REM ============================
+start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=44%235.2.3&RBs_AND_OR_Memo=AND&RBs_AND_OR_File_Name=AND"
+
 REM exit
