@@ -95,6 +95,15 @@ REM 	2019/06/12 13:28:13
 set choice_x8s="x8s"
 set choice_x8s_or_1="ma"
 
+REM ************************************* physics : spinors
+REM 	2019/06/27 13:46:45
+
+set choice_x9s="x9s"
+set choice_x9s_or_1="ph"
+
+set choice_x9e="x9e"
+set choice_x9e_or_1="phe"
+
 REM *******************************
 REM 
 REM 	get: parameters
@@ -909,6 +918,74 @@ REM closing
 	goto end
 
 REM ******************************
+REM 	start : project : physics : spinors : "ph"
+REM 	at : 2019/06/27 13:47:33
+REM ******************************
+) else if "%param%"==%choice_x9s% (
+
+	echo param is %choice_x9s%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	start_apps.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x9s_or_1% (
+
+	echo param is %choice_x9s_or_1%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	echo start_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	start_apps.bat
+
+REM closing
+	goto end
+
+REM ******************************
+REM 	end : project : physics : spinors : "phe"
+REM 	at : 2019/06/27 15:37:09
+REM ******************************
+) else if "%param%"==%choice_x9e% (
+
+	echo param is %choice_x9e%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	echo end_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	end_apps.bat
+
+REM closing
+	goto end
+
+) else if "%param%"==%choice_x9e_or_1% (
+
+	echo param is %choice_x9e_or_1%!
+
+REM message
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	echo end_apps.bat
+	
+REM exec
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\VX7GLZ\28_\3CVF
+	end_apps.bat
+
+REM closing
+	goto end
+
+REM ******************************
 REM 	s.bat
 REM ******************************
 ) else if "%param%"==%choice_s% (
@@ -1014,6 +1091,12 @@ echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
 echo.
 
 echo 	math.qua	%choice_x8s:"=% , %choice_x8s_or_1:"=% ---^> start
+echo.
+
+echo 	phys.spinors (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
+echo.
+
+echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> start
 echo.
 
 :end

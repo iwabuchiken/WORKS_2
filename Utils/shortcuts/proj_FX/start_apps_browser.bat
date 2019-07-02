@@ -19,7 +19,8 @@ REM ============================
 REM : docs::main page
 REM ============================
 REM start chrome.exe "https://writer.zoho.com/documents"
-start chrome.exe "https://writer.zoho.com/writer/open/euwhm1e43a251c02f46ffb8656bd1ee5a117f"
+REM start chrome.exe "https://writer.zoho.com/writer/open/euwhm1e43a251c02f46ffb8656bd1ee5a117f"
+start chrome.exe "https://docs.google.com/document/d/1Q8su40nnVkEVDu7PIrylRIGcrfusFJStxQnNchSH3Ns/edit"
 
 REM ============================
 REM : fx / list of memos
