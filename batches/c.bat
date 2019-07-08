@@ -98,6 +98,15 @@ set choice_x8s_or_1="ma"
 REM ************************************* physics : spinors
 REM 	2019/06/27 13:46:45
 
+REM set choice_x9s="x9s"
+REM set choice_x9s_or_1="ph"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
+
+REM ************************************* physics : twistor
+REM 	2019/07/05 16:50:38
+
 set choice_x9s="x9s"
 set choice_x9s_or_1="ph"
 
@@ -1081,7 +1090,7 @@ echo.
 
 echo 	langs		%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
 echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-echo				he hebrew / ko korean / ar arabic / ru russian
+echo				he hebrew / ko korean / ar arabic / ru russian / gr greek(ancient) / qu quran
 
 echo 	gen words set	%choice_x4s_or_2:"=%
 echo.
@@ -1093,10 +1102,12 @@ echo.
 echo 	math.qua	%choice_x8s:"=% , %choice_x8s_or_1:"=% ---^> start
 echo.
 
-echo 	phys.spinors (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
+REM echo 	phys.spinors (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
+echo 	phys.twistor (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
 echo.
 
-echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> start
+REM echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
+echo 	phys.twistor (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
 echo.
 
 :end

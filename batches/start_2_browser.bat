@@ -4,11 +4,11 @@ REM *************************
 REM 	browser
 REM *************************
 REM taskkill /im chrome.exe
-taskkill /f /im chrome.exe
+REM taskkill /f /im chrome.exe
 
 REM pause
 
-taskkill /f /im firefox.exe
+REM taskkill /f /im firefox.exe
 
 goto tor
 
