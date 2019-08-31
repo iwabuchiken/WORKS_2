@@ -34,6 +34,7 @@ REM : fx
 set choice_x1s="x1s"
 set choice_x1s_or_1="fx"
 set choice_x1s_or_2="fb"
+set choice_x1s_or_3="fxp"
 
 set choice_x1e="x1e"
 set choice_x1e_or_1="fxe"
@@ -362,6 +363,15 @@ REM 	echo clip the template ---^> complete
 	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 REM 	start_apps_browser.bat
 	start_fb.bat
+
+	goto end
+
+) else if "%param%"==%choice_x1s_or_3% (
+
+	echo param is %choice_x1s_or_3%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+	start_mt4.bat
 
 	goto end
 
@@ -1059,9 +1069,12 @@ REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-st
 echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
 echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
 echo 			C:\WORKS_2\Utils\shortcuts\proj_FX
+echo.
 echo 	curr.fb		%choice_x1s_or_2:"=% ---^> start mini-project
 echo 	curr.fbe	%choice_x1e_or_2:"=% ---^> end mini-project
-
+echo.
+echo 	curr.mt4	%choice_x1s_or_3:"=% ---^> start mt4
+REM echo 	curr.fbe	%choice_x1e_or_3:"=% ---^> end mini-project
 
 REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1:"=%)
 REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1:"=%)
@@ -1097,6 +1110,7 @@ echo.
 
 echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , %choice_x3s_or_3:"=% , x3s	---^> start
 echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
+echo 	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 echo.
 
 echo 	math.qua	%choice_x8s:"=% , %choice_x8s_or_1:"=% ---^> start

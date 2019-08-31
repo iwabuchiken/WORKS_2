@@ -16,7 +16,7 @@ REM ============================
 REM : STEPS
 REM ============================
 REM start launcher.exe "https://writer.zoho.com/writer/open/c3c6h3e4c8811639e443a83c2e8d1f9fcf243"
-start launcher.exe "https://writer.zoho.com/writer/open/c3c6hda6afa45fa7d4ecf84a07cc29029a635"
+REM start launcher.exe "https://writer.zoho.com/writer/open/c3c6hda6afa45fa7d4ecf84a07cc29029a635"
 
 REM ============================
 REM : docs::main page
@@ -24,7 +24,7 @@ REM ============================
 REM start launcher.exe "https://writer.zoho.com/documents"
 REM start launcher.exe "https://writer.zoho.com/writer/open/euwhm1e43a251c02f46ffb8656bd1ee5a117f"
 REM start launcher.exe "https://docs.google.com/document/d/1Q8su40nnVkEVDu7PIrylRIGcrfusFJStxQnNchSH3Ns/edit"
-start launcher.exe "https://docs.google.com/document/d/1N_Ag5CEGBToF44dI3ded2h4PisNB35XDEKlHl5wwuP8/edit"
+REM start launcher.exe "https://docs.google.com/document/d/1N_Ag5CEGBToF44dI3ded2h4PisNB35XDEKlHl5wwuP8/edit"
 
 REM ============================
 REM : fx / list of memos

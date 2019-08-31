@@ -1,6 +1,12 @@
 @echo off
 
 REM *************************
+REM 	taskkill : chrome
+REM 	at : 2019/08/25 21:55:18
+REM *************************
+taskkill /f /im chrome.exe
+
+REM *************************
 REM 	
 REM *************************
 start taskmgr.exe
