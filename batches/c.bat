@@ -1069,6 +1069,9 @@ REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-st
 echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
 echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
 echo 			C:\WORKS_2\Utils\shortcuts\proj_FX
+echo 			C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\ops\44_8.5\
+echo 			python 44_8.5_build-result-csv-data.py
+
 echo.
 echo 	curr.fb		%choice_x1s_or_2:"=% ---^> start mini-project
 echo 	curr.fbe	%choice_x1e_or_2:"=% ---^> end mini-project
