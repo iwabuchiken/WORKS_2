@@ -1,4 +1,13 @@
 @echo off
+REM ************************* entries
+REM 	taskkill : chrome	2019/08/25 21:55:18
+REM 	taskmgr.exe
+REM 	mailer
+REM 	dirs
+REM 	command prompt
+REM 	browser
+REM 	vlc
+REM *************************
 
 REM *************************
 REM 	taskkill : chrome
@@ -35,6 +44,13 @@ REM *************************
 pushd "C:\WORKS_2\batches"
 
 start start_2_browser.bat
+
+REM *************************
+REM 	vlc.exe
+REM 	at : 2019/10/07 08:37:26
+REM *************************
+pushd C:\Users\iwabuchiken\VLC
+start vlc.exe
 
 REM debug
 REM goto end

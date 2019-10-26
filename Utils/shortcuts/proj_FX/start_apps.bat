@@ -1,5 +1,18 @@
 REM @ECHO OFF
 
+REM ===================================== entries
+REM 	browser
+REM 	folders
+REM 	files	at : 2019/05/19 15:47:23
+REM 	openoffice
+REM 	doc
+REM 	Eclipse
+REM 	mt4
+REM 	git
+REM 	console
+REM =====================================
+
+
 REM =====================================
 REM 	browser
 REM =====================================
@@ -35,7 +48,7 @@ REM =====================================
 REM 	folders
 REM =====================================
 start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\log
-start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\csv_raw
+REM start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\csv_raw
 REM start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
 REM start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
 

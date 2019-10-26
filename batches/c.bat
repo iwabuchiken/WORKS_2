@@ -114,6 +114,16 @@ set choice_x9s_or_1="ph"
 set choice_x9e="x9e"
 set choice_x9e_or_1="phe"
 
+REM ************************************* guitar
+REM 	2019/10/23 12:12:32
+
+set choice_x10s="x10s"
+set choice_x10s_or_1="gt"
+set choice_x10s_or_2="gg"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
+
 REM *******************************
 REM 
 REM 	get: parameters
@@ -393,9 +403,11 @@ REM ******************************
 
 	echo param is %choice_x1e_or_1%!
 	
-	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
+REM 	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
+	echo r o1 && p && r q && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
 	
-	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
+REM 	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
+	r o1 && p && r q && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
 
 	goto end
 
@@ -663,11 +675,13 @@ REM ******************************
 
 	echo param is %choice_x3s_or_1%!
 
-	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
-	echo start_apps.bat
+	goto birds
+
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+REM 	echo start_apps.bat
 	
-	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
-	start_apps.bat
+REM 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+REM 	start_apps.bat
 
 	goto end
 
@@ -675,6 +689,8 @@ REM ******************************
 
 	echo param is %choice_x3s_or_2%!
 
+	goto birds
+	
 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	echo start_apps.bat
 	
@@ -687,6 +703,8 @@ REM ******************************
 
 	echo param is %choice_x3s_or_3%!
 
+	goto birds
+	
 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	echo start_apps.bat
 	
@@ -1004,6 +1022,33 @@ REM exec
 REM closing
 	goto end
 
+REM ****************************** guitar
+REM 	start : guitar
+REM 	at : 2019/10/23 12:14:47
+REM ******************************
+) else if "%param%"==%choice_x10s% (
+
+	echo param is %choice_x10s%!
+
+REM message
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM 	echo start_guitar.new.bat
+	
+	goto exec_guitar_start
+
+) else if "%param%"==%choice_x10s_or_1% (
+
+	echo param is %choice_x10s_or_1%!
+
+	goto exec_guitar_start
+
+) else if "%param%"==%choice_x10s_or_2% (
+
+	echo param is %choice_x10s_or_2%!
+
+	goto exec_guitar_start
+
+
 REM ******************************
 REM 	s.bat
 REM ******************************
@@ -1033,6 +1078,17 @@ REM ******************************
 	goto show_message
 		
 )
+
+REM 20190924_232911
+:birds
+
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo start_apps.bat
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	start_apps.bat
+
+	goto end
 
 :show_message
 echo ^<Options^>
@@ -1127,5 +1183,30 @@ REM echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
 echo 	phys.twistor (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
 echo.
 
+
+echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
+echo.
+
+
+goto end
+
+
+REM ****************************** guitar
+REM 	start : guitar
+
+:exec_guitar_start
+
+echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+echo start_guitar.new.bat
+
+pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+start_guitar.new.bat
+
+goto end
+
+
+REM ****************************** end
+REM 	end
+REM ******************************
 :end
 
