@@ -124,6 +124,14 @@ set choice_x10s_or_2="gg"
 REM set choice_x9e="x9e"
 REM set choice_x9e_or_1="phe"
 
+REM ************************************* visual arts
+REM 	2019/10/27 16:54:16
+
+set choice_x11s="x11s"
+set choice_x11s_or_1="va"
+set choice_x11s_or_2="pa"
+
+
 REM *******************************
 REM 
 REM 	get: parameters
@@ -1048,6 +1056,32 @@ REM 	echo start_guitar.new.bat
 
 	goto exec_guitar_start
 
+REM ****************************** visual arts
+REM 	start : visual arts
+REM 	at : 2019/10/27 16:56:53
+REM ******************************
+) else if "%param%"==%choice_x11s% (
+
+	echo param is %choice_x11s%!
+
+REM message
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_visual arts
+REM 	echo start_visual arts.new.bat
+	
+	goto exec_visual_arts_start
+
+) else if "%param%"==%choice_x11s_or_1% (
+
+	echo param is %choice_x11s_or_1%!
+
+	goto exec_visual_arts_start
+
+) else if "%param%"==%choice_x11s_or_2% (
+
+	echo param is %choice_x11s_or_2%!
+
+	goto exec_visual_arts_start
+
 
 REM ******************************
 REM 	s.bat
@@ -1187,6 +1221,9 @@ echo.
 echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
 echo.
 
+REM : visual arts
+echo 	visual-arts (start)	%choice_x11s:"=% , %choice_x11s_or_1:"=% , %choice_x11s_or_2:"=% ---^> start
+echo.
 
 goto end
 
@@ -1201,6 +1238,31 @@ echo start_guitar.new.bat
 
 pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
 start_guitar.new.bat
+
+goto end
+
+
+REM ****************************** exec_visual_arts_start
+REM 	start : guitar
+REM 	2019/10/27 16:58:42
+REM ****************************** exec_visual_arts_start
+:exec_visual_arts_start
+
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\start_visual-arts.bat
+
+REM call "C:\WORKS_2\Programs\GIMP 2\bin\gimp-2.8.exe"	#=> the following apps don't start
+
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts
+
+REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\log_46#6.odt
+
+REM "C:\WORKS_2\Programs\GIMP 2\bin\gimp-2.8.exe"
+
+REM echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM echo start_guitar.new.bat
+
+REM pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM start_guitar.new.bat
 
 goto end
 
