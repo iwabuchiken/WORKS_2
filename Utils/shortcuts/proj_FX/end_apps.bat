@@ -1,7 +1,7 @@
 taskkill /im wish.exe
 taskkill /im sakura.exe
 REM taskkill /im soffice.exe
-taskkill /f /im soffice.bin
+REM taskkill /f /im soffice.bin
 
 taskkill /im calc.exe
 REM taskkill /im terminal.exe

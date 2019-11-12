@@ -75,6 +75,8 @@ REM 	at : 2019/08/14 10:07:31
 REM =====================================
 pushd C:\WORKS_2\WS\WS_Others.prog
 start log_fx.odt
+start log_fx.^(main^).ods
+
 
 REM =====================================
 REM 	Eclipse

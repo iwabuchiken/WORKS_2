@@ -24,6 +24,8 @@ set choice_m="m"
 set choice_n="n"
 set choice_nn="nn"
 
+set choice_of="of"
+
 set choice_p="p"
 set choice_q1="q1"
 set choice_r="r"
@@ -130,6 +132,16 @@ REM 	2019/10/27 16:54:16
 set choice_x11s="x11s"
 set choice_x11s_or_1="va"
 set choice_x11s_or_2="pa"
+
+REM ************************************* keyboard
+REM 	2019/11/07 15:40:47
+
+set choice_x12s="x12s"
+set choice_x12s_or_1="kb"
+set choice_x12s_or_2="kk"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
 
 
 REM *******************************
@@ -281,6 +293,23 @@ REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
 REM 	echo pasting...
 REM 	
 REM 	paste
+	
+	goto end
+
+REM ******************************
+REM 	"of"
+REM 	gen_random_numbers.py
+REM 	at : 2019/04/19 09:06:19
+REM ******************************
+) else if "%param%"==%choice_of% (
+
+	echo param is %choice_of%!
+	
+	echo taskkill /f /im soffice.bin
+	
+	taskkill /f /im soffice.bin
+	
+	echo executing...
 	
 	goto end
 
@@ -1082,6 +1111,32 @@ REM 	echo start_visual arts.new.bat
 
 	goto exec_visual_arts_start
 
+REM ****************************** keyboard
+REM 	start : keyboard
+REM 	at : 2019/11/07 15:42:47
+REM ******************************
+) else if "%param%"==%choice_x12s% (
+
+	echo param is %choice_x12s%!
+
+REM message
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_keyboard
+REM 	echo start_keyboard.new.bat
+	
+	goto exec_keyboard_start
+
+) else if "%param%"==%choice_x12s_or_1% (
+
+	echo param is %choice_x12s_or_1%!
+
+	goto exec_keyboard_start
+
+) else if "%param%"==%choice_x12s_or_2% (
+
+	echo param is %choice_x12s_or_2%!
+
+	goto exec_keyboard_start
+
 
 REM ******************************
 REM 	s.bat
@@ -1142,6 +1197,9 @@ echo 		^<usage^> c n ^[num of chars, dflt = 4^]
 echo 	nn	gen random numbers	gen_random_numbers.py
 echo.
 
+echo 	of	taskkill /f /im soffice.bin
+echo.
+
 echo 	p	g push origin master	C:\WORKS_2\batches\p.bat
 echo 	q1	clip	C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload	C:\WORKS_2\batches\q1.bat
 
@@ -1181,6 +1239,9 @@ REM echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
 REM echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
 REM echo.
 
+echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
+echo.
+
 echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
 echo 	kb.listing	%choice_x2e_or_1:"=% , %choice_x2e_or_2:"=% , x2s	---^> end
 echo.
@@ -1194,6 +1255,11 @@ echo 	kb.dtm		%choice_x2s_or_3:"=% ---^> start
 echo 	kb.dtm		%choice_x2e_or_3:"=% ---^> end
 echo.
 
+echo 	keyboard (start)	%choice_x12s:"=% , %choice_x12s_or_1:"=% , %choice_x12s_or_2:"=% ---^> start
+echo.
+
+
+
 echo 	langs		%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
 echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 echo				he hebrew / ko korean / ar arabic / ru russian / gr greek(ancient) / qu quran
@@ -1203,7 +1269,7 @@ echo.
 
 echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , %choice_x3s_or_3:"=% , x3s	---^> start
 echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
-echo 	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 echo.
 
 echo 	math.qua	%choice_x8s:"=% , %choice_x8s_or_1:"=% ---^> start
@@ -1217,16 +1283,14 @@ REM echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
 echo 	phys.twistor (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
 echo.
 
-
-echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
-echo.
-
 REM : visual arts
 echo 	visual-arts (start)	%choice_x11s:"=% , %choice_x11s_or_1:"=% , %choice_x11s_or_2:"=% ---^> start
 echo.
 
 goto end
 
+REM ************************************************* EXECS
+REM *************************************************
 
 REM ****************************** guitar
 REM 	start : guitar
@@ -1243,26 +1307,20 @@ goto end
 
 
 REM ****************************** exec_visual_arts_start
-REM 	start : guitar
+REM 	start : visual_arts
 REM 	2019/10/27 16:58:42
 REM ****************************** exec_visual_arts_start
 :exec_visual_arts_start
 
 start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\start_visual-arts.bat
 
-REM call "C:\WORKS_2\Programs\GIMP 2\bin\gimp-2.8.exe"	#=> the following apps don't start
+REM ****************************** exec_keyboard_start
+REM 	start : keyboard
+REM 	2019/11/07 15:44:38
+REM ****************************** exec_keyboard_start
+:exec_keyboard_start
 
-REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts
-
-REM start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\log_46#6.odt
-
-REM "C:\WORKS_2\Programs\GIMP 2\bin\gimp-2.8.exe"
-
-REM echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
-REM echo start_guitar.new.bat
-
-REM pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
-REM start_guitar.new.bat
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\start_keyboard.bat
 
 goto end
 
