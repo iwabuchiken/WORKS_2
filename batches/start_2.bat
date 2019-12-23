@@ -49,8 +49,9 @@ REM *************************
 REM 	vlc.exe
 REM 	at : 2019/10/07 08:37:26
 REM *************************
-pushd C:\Users\iwabuchiken\VLC
-start vlc.exe
+REM REM at : 2019/12/16 07:33:29
+REM pushd C:\Users\iwabuchiken\VLC
+REM start vlc.exe
 
 REM debug
 REM goto end

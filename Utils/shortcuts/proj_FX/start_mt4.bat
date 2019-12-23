@@ -1,4 +1,12 @@
 REM @ECHO OFF
+REM ============================
+REM : mt4
+REM : mt4 : editor
+REM : folders
+REM : log
+REM : git
+REM ============================
+
 
 REM ============================
 REM : mt4
@@ -24,7 +32,8 @@ REM ============================
 REM : log
 REM 	
 REM ============================
-pushd C:\WORKS_2\WS\WS_Others.prog
+REM pushd C:\WORKS_2\WS\WS_Others.prog
+pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\44_currency
 start log_fx.odt
 
 REM ============================

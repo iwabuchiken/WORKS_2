@@ -73,7 +73,8 @@ REM =====================================
 REM 	doc
 REM 	at : 2019/08/14 10:07:31
 REM =====================================
-pushd C:\WORKS_2\WS\WS_Others.prog
+REM pushd C:\WORKS_2\WS\WS_Others.prog
+pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\44_currency
 start log_fx.odt
 start log_fx.^(main^).ods
 
@@ -108,7 +109,7 @@ pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 REM start start_command_prompot.(1).bat
 REM start "start_command_prompot.(1).bat"
 call "start_command_prompot.(1).bat"
-call start_command_prompot.(2).bat
+REM call start_command_prompot.(2).bat
 
 
 
