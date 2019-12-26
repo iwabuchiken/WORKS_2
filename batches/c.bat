@@ -1287,6 +1287,11 @@ REM : visual arts
 echo 	visual-arts (start)	%choice_x11s:"=% , %choice_x11s_or_1:"=% , %choice_x11s_or_2:"=% ---^> start
 echo.
 
+echo 	------------------------ [memos]
+echo.
+echo		count console lines ==^>	type *.EXT ^| find /c /v ""
+echo.
+
 goto end
 
 REM ************************************************* EXECS
