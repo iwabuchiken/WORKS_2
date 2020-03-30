@@ -7,12 +7,19 @@ REM start C:\WORKS\Programs\MuyseScore\MuseScore_2.3.1\bin\MuseScore
 REM pushd C:\WORKS\Programs\FileZilla\FileZilla_FTP_Client
 REM start filezilla.exe
 
+REM ============================
+REM 	mailer
+REM ============================
 pushd "C:\Program Files\Mozilla Thunderbird"
 start thunderbird.exe
 
-
+REM ============================
+REM 	browser
+REM ============================
+taskkill /f /im chrome.exe
 pushd "C:\Program Files (x86)\Google\Chrome\Application"
-start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
+start chrome.exe "http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2?filter_memo=kb&RBs_AND_OR_Memo=AND&sort=file_name&direction=desc"
 start chrome.exe "https://docs.google.com/spreadsheets/d/1Rtg1H97HaTWcaIhOf4EtMqEvo6o-17d0Cf0CY5cuk9c/edit#gid=0"
 REM start chrome.exe http://benfranklin.chips.jp/cake_apps/Cake_IFM11/images/index_2
 REM start chrome.exe http://www.shamisen.info/chogen.koto1.09/newpage3.html#nogi
@@ -32,6 +39,9 @@ REM start chrome.exe http://media.io/
 
 rem start chrome.exe http://benfranklin.chips.jp/PHP_server/D-2/time_calc.php
 
+REM ============================
+REM 	musescore
+REM ============================
 REM ************************************
 REM 	musescore
 REM ************************************
@@ -61,6 +71,9 @@ REM pushd C:\WORKS_2\WS\WS_Music
 REM start s2
 REM s2
 
+REM ============================
+REM 	folders
+REM ============================
 start C:\WORKS_2\WS\WS_Others.Art
 
 REM start "C:\Program Files\Mozilla Thunderbird\thunderbird.exe"
@@ -70,3 +83,8 @@ REM TRM start thunderbird.exe
 REM start C:\WORKS\Programs\freeware\SplitPhotos\SplitPhotos
 
 REM start chrome.exe https://www.google.com/calendar/render?tab=ic#g%7Cmonth-3+22845+22882+22874
+
+REM ============================
+REM 	text files
+REM ============================
+C:\WORKS_2\Programs\sakura\sakura.exe C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\kb.txt
