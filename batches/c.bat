@@ -18,6 +18,9 @@ set help="h"
 set choice_a="a"
 set choice_c="c"
 set choice_e="e"
+
+set choice_en="en"
+
 set choice_f="f"
 set choice_l="l"
 set choice_m="m"
@@ -31,6 +34,8 @@ set choice_q1="q1"
 set choice_r="r"
 set choice_s="s"
 set choice_t="t"
+
+set choice_x="x"
 
 REM : fx
 set choice_x1s="x1s"
@@ -196,6 +201,17 @@ REM ******************************
 
 	goto end
 	
+REM ******************************
+REM 	e.bat
+REM ******************************
+) else if "%param%"==%choice_en% (
+
+	echo param is %choice_en%!
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	end_lang %2
+
+	goto end
 
 REM ******************************
 REM 	f.bat
@@ -367,6 +383,20 @@ REM ******************************
 	echo git tag -l "code-cleanup.XXX*"
 	
 	C:\WORKS_2\t.bat
+	
+	goto end
+
+REM ******************************
+REM 	x	start xampp
+REM 	at : 2020/01/09 13:57:37
+REM ******************************
+) else if "%param%"==%choice_x% (
+
+	echo pushd C:\xampp_5.6
+	echo start xampp-control.exe
+	
+pushd C:\xampp_5.6
+start xampp-control.exe
 	
 	goto end
 
@@ -1208,6 +1238,7 @@ echo.
 
 echo 	s	start gitk	C:\WORKS_2\batches\s.bat
 echo 	t	"git tag -a code-cleanup."
+echo 	x	start xampp
 echo.
 
 echo 	------------------------
@@ -1263,6 +1294,7 @@ echo.
 echo 	langs		%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
 echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 echo				he hebrew / ko korean / ar arabic / ru russian / gr greek(ancient) / qu quran
+echo				%choice_en:"=% 	---^> end
 
 echo 	gen words set	%choice_x4s_or_2:"=%
 echo.

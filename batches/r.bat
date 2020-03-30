@@ -25,6 +25,10 @@ set path_C_ImageProg="i"
 set path_ws_hacking="k"
 set path_ws_lollipop_server="l"
 set path_ws_music="m"
+
+REM 2020/02/21 08:41:49
+set path_ws_others_jvemv6_miscs="mi"
+
 set path_cake_nr5="n"
 
 set path_ws_others="o"
@@ -109,7 +113,17 @@ REM 	echo changing to ... C:\WORKS_2\WS\FM_2
 	pushd C:\WORKS_2\WS\WS_Music
 
 	goto end
+
+) else if "%param%"==%path_ws_others_jvemv6_miscs% (
+
+	echo param is %path_ws_others_jvemv6_miscs%!
 	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\tmp_37_miscs
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\tmp_37_miscs
+
+	goto end
+
 REM ******************************
 REM path_ws_art
 REM ******************************
@@ -544,6 +558,10 @@ echo 	i	C:\WORKS_2\WS\Eclipse_Luna\C_ImageProg
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
 echo 	l	C:\WORKS_2\WS\WS_Lollipop_server_files
 echo 	m	C:\WORKS_2\WS\WS_Music
+
+REM 2020/02/21 08:44:27
+echo 	mi	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\tmp_37_miscs
+
 echo 	n	C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
 echo.
 echo 	o	C:\WORKS_2\WS\WS_Others

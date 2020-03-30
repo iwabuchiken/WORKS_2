@@ -23,8 +23,8 @@ start taskmgr.exe
 REM *************************
 REM 	mailer
 REM *************************
-pushd "C:\Program Files (x86)\Mozilla Thunderbird"
-start thunderbird
+REM pushd "C:\Program Files (x86)\Mozilla Thunderbird"
+REM start thunderbird
 
 REM *************************
 REM 	dirs
@@ -36,7 +36,7 @@ REM 	command prompt
 REM *************************
 pushd C:\WORKS_2
 
-start C:\WORKS_2\batches\start_command_prompts
+start C:\WORKS_2\batches\start_command_prompts.bat
 
 REM *************************
 REM 	browser

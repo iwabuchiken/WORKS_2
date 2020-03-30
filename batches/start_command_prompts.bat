@@ -1,5 +1,5 @@
 pushd C:\WORKS_2\batches
-start start_command_prompt.d.bat
+REM start start_command_prompt.d.bat
 start start_command_prompot
 
 exit
