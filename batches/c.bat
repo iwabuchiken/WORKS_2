@@ -18,11 +18,16 @@ set help="h"
 set choice_a="a"
 set choice_c="c"
 set choice_e="e"
+
+set choice_en="en"
+
 set choice_f="f"
 set choice_l="l"
 set choice_m="m"
 set choice_n="n"
 set choice_nn="nn"
+
+set choice_of="of"
 
 set choice_p="p"
 set choice_q1="q1"
@@ -30,10 +35,13 @@ set choice_r="r"
 set choice_s="s"
 set choice_t="t"
 
+set choice_x="x"
+
 REM : fx
 set choice_x1s="x1s"
 set choice_x1s_or_1="fx"
 set choice_x1s_or_2="fb"
+set choice_x1s_or_3="fxp"
 
 set choice_x1e="x1e"
 set choice_x1e_or_1="fxe"
@@ -98,11 +106,48 @@ set choice_x8s_or_1="ma"
 REM ************************************* physics : spinors
 REM 	2019/06/27 13:46:45
 
+REM set choice_x9s="x9s"
+REM set choice_x9s_or_1="ph"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
+
+REM ************************************* physics : twistor
+REM 	2019/07/05 16:50:38
+
 set choice_x9s="x9s"
 set choice_x9s_or_1="ph"
 
 set choice_x9e="x9e"
 set choice_x9e_or_1="phe"
+
+REM ************************************* guitar
+REM 	2019/10/23 12:12:32
+
+set choice_x10s="x10s"
+set choice_x10s_or_1="gt"
+set choice_x10s_or_2="gg"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
+
+REM ************************************* visual arts
+REM 	2019/10/27 16:54:16
+
+set choice_x11s="x11s"
+set choice_x11s_or_1="va"
+set choice_x11s_or_2="pa"
+
+REM ************************************* keyboard
+REM 	2019/11/07 15:40:47
+
+set choice_x12s="x12s"
+set choice_x12s_or_1="kb"
+set choice_x12s_or_2="kk"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
+
 
 REM *******************************
 REM 
@@ -156,6 +201,17 @@ REM ******************************
 
 	goto end
 	
+REM ******************************
+REM 	e.bat
+REM ******************************
+) else if "%param%"==%choice_en% (
+
+	echo param is %choice_en%!
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+	end_lang %2
+
+	goto end
 
 REM ******************************
 REM 	f.bat
@@ -257,6 +313,23 @@ REM 	paste
 	goto end
 
 REM ******************************
+REM 	"of"
+REM 	gen_random_numbers.py
+REM 	at : 2019/04/19 09:06:19
+REM ******************************
+) else if "%param%"==%choice_of% (
+
+	echo param is %choice_of%!
+	
+	echo taskkill /f /im soffice.bin
+	
+	taskkill /f /im soffice.bin
+	
+	echo executing...
+	
+	goto end
+
+REM ******************************
 REM 	p.bat
 REM ******************************
 ) else if "%param%"==%choice_p% (
@@ -314,6 +387,20 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM 	x	start xampp
+REM 	at : 2020/01/09 13:57:37
+REM ******************************
+) else if "%param%"==%choice_x% (
+
+	echo pushd C:\xampp_5.6
+	echo start xampp-control.exe
+	
+pushd C:\xampp_5.6
+start xampp-control.exe
+	
+	goto end
+
+REM ******************************
 REM 	start : project : fx
 REM 	at : 2019/04/02
 REM ******************************
@@ -356,6 +443,15 @@ REM 	start_apps_browser.bat
 
 	goto end
 
+) else if "%param%"==%choice_x1s_or_3% (
+
+	echo param is %choice_x1s_or_3%!
+	
+	pushd C:\WORKS_2\Utils\shortcuts\proj_FX
+	start_mt4.bat
+
+	goto end
+
 REM ******************************
 REM 	end : project : fx
 REM 	at : 2019/04/04 06:43:15
@@ -374,9 +470,11 @@ REM ******************************
 
 	echo param is %choice_x1e_or_1%!
 	
-	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
+REM 	echo r o1 ^&^& p ^&^& pushd C:\WORKS_2\Utils\shortcuts\proj_FX ^&^& end_apps.bat
+	echo r o1 && p && r q && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
 	
-	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
+REM 	r o1 && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
+	r o1 && p && r q && p && pushd C:\WORKS_2\Utils\shortcuts\proj_FX && end_apps.bat
 
 	goto end
 
@@ -644,11 +742,13 @@ REM ******************************
 
 	echo param is %choice_x3s_or_1%!
 
-	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
-	echo start_apps.bat
+	goto birds
+
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+REM 	echo start_apps.bat
 	
-	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
-	start_apps.bat
+REM 	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+REM 	start_apps.bat
 
 	goto end
 
@@ -656,6 +756,8 @@ REM ******************************
 
 	echo param is %choice_x3s_or_2%!
 
+	goto birds
+	
 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	echo start_apps.bat
 	
@@ -668,6 +770,8 @@ REM ******************************
 
 	echo param is %choice_x3s_or_3%!
 
+	goto birds
+	
 	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 	echo start_apps.bat
 	
@@ -985,6 +1089,85 @@ REM exec
 REM closing
 	goto end
 
+REM ****************************** guitar
+REM 	start : guitar
+REM 	at : 2019/10/23 12:14:47
+REM ******************************
+) else if "%param%"==%choice_x10s% (
+
+	echo param is %choice_x10s%!
+
+REM message
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM 	echo start_guitar.new.bat
+	
+	goto exec_guitar_start
+
+) else if "%param%"==%choice_x10s_or_1% (
+
+	echo param is %choice_x10s_or_1%!
+
+	goto exec_guitar_start
+
+) else if "%param%"==%choice_x10s_or_2% (
+
+	echo param is %choice_x10s_or_2%!
+
+	goto exec_guitar_start
+
+REM ****************************** visual arts
+REM 	start : visual arts
+REM 	at : 2019/10/27 16:56:53
+REM ******************************
+) else if "%param%"==%choice_x11s% (
+
+	echo param is %choice_x11s%!
+
+REM message
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_visual arts
+REM 	echo start_visual arts.new.bat
+	
+	goto exec_visual_arts_start
+
+) else if "%param%"==%choice_x11s_or_1% (
+
+	echo param is %choice_x11s_or_1%!
+
+	goto exec_visual_arts_start
+
+) else if "%param%"==%choice_x11s_or_2% (
+
+	echo param is %choice_x11s_or_2%!
+
+	goto exec_visual_arts_start
+
+REM ****************************** keyboard
+REM 	start : keyboard
+REM 	at : 2019/11/07 15:42:47
+REM ******************************
+) else if "%param%"==%choice_x12s% (
+
+	echo param is %choice_x12s%!
+
+REM message
+REM 	echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_keyboard
+REM 	echo start_keyboard.new.bat
+	
+	goto exec_keyboard_start
+
+) else if "%param%"==%choice_x12s_or_1% (
+
+	echo param is %choice_x12s_or_1%!
+
+	goto exec_keyboard_start
+
+) else if "%param%"==%choice_x12s_or_2% (
+
+	echo param is %choice_x12s_or_2%!
+
+	goto exec_keyboard_start
+
+
 REM ******************************
 REM 	s.bat
 REM ******************************
@@ -1015,6 +1198,17 @@ REM ******************************
 		
 )
 
+REM 20190924_232911
+:birds
+
+	echo pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	echo start_apps.bat
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
+	start_apps.bat
+
+	goto end
+
 :show_message
 echo ^<Options^>
 echo 	a	C:\WORKS_2\a.bat	set variables
@@ -1033,6 +1227,9 @@ echo 		^<usage^> c n ^[num of chars, dflt = 4^]
 echo 	nn	gen random numbers	gen_random_numbers.py
 echo.
 
+echo 	of	taskkill /f /im soffice.bin
+echo.
+
 echo 	p	g push origin master	C:\WORKS_2\batches\p.bat
 echo 	q1	clip	C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload	C:\WORKS_2\batches\q1.bat
 
@@ -1041,6 +1238,7 @@ echo.
 
 echo 	s	start gitk	C:\WORKS_2\batches\s.bat
 echo 	t	"git tag -a code-cleanup."
+echo 	x	start xampp
 echo.
 
 echo 	------------------------
@@ -1050,9 +1248,15 @@ REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-st
 echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
 echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
 echo 			C:\WORKS_2\Utils\shortcuts\proj_FX
+echo 			C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\ops\44_8.5\
+echo 			python 44_8.5_build-result-csv-data.py
+
+echo.
 echo 	curr.fb		%choice_x1s_or_2:"=% ---^> start mini-project
 echo 	curr.fbe	%choice_x1e_or_2:"=% ---^> end mini-project
-
+echo.
+echo 	curr.mt4	%choice_x1s_or_3:"=% ---^> start mt4
+REM echo 	curr.fbe	%choice_x1e_or_3:"=% ---^> end mini-project
 
 REM echo 	currency	end ===^>   x1e (or, %choice_x1e_or_1:"=%)
 REM echo 	x1e	end ===^>  currency (or, %choice_x1e_or_1:"=%)
@@ -1065,6 +1269,9 @@ echo.
 REM echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
 REM echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
 REM echo.
+
+echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
+echo.
 
 echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
 echo 	kb.listing	%choice_x2e_or_1:"=% , %choice_x2e_or_2:"=% , x2s	---^> end
@@ -1079,25 +1286,84 @@ echo 	kb.dtm		%choice_x2s_or_3:"=% ---^> start
 echo 	kb.dtm		%choice_x2e_or_3:"=% ---^> end
 echo.
 
+echo 	keyboard (start)	%choice_x12s:"=% , %choice_x12s_or_1:"=% , %choice_x12s_or_2:"=% ---^> start
+echo.
+
+
+
 echo 	langs		%choice_x4s_or_1:"=% , %choice_x4s_or_3:"=% , %choice_x4s_or_4:"=% , x4s	---^> start
 echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
-echo				he hebrew / ko korean / ar arabic / ru russian
+echo				he hebrew / ko korean / ar arabic / ru russian / gr greek(ancient) / qu quran
+echo				%choice_en:"=% 	---^> end
 
 echo 	gen words set	%choice_x4s_or_2:"=%
 echo.
 
 echo 	n.o.birds	%choice_x3s_or_1:"=% , %choice_x3s_or_2:"=% , %choice_x3s_or_3:"=% , x3s	---^> start
 echo 	n.o.birds	%choice_x3e_or_1:"=% , %choice_x3e_or_2:"=% , x3s	---^> end
+echo 			C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\52_nature-observation\7_birds
 echo.
 
 echo 	math.qua	%choice_x8s:"=% , %choice_x8s_or_1:"=% ---^> start
 echo.
 
-echo 	phys.spinors (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
+REM echo 	phys.spinors (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
+echo 	phys.twistor (start)	%choice_x9s:"=% , %choice_x9s_or_1:"=% ---^> start
 echo.
 
-echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> start
+REM echo 	phys.spinors (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
+echo 	phys.twistor (end)	%choice_x9e:"=% , %choice_x9e_or_1:"=% ---^> end
 echo.
 
+REM : visual arts
+echo 	visual-arts (start)	%choice_x11s:"=% , %choice_x11s_or_1:"=% , %choice_x11s_or_2:"=% ---^> start
+echo.
+
+echo 	------------------------ [memos]
+echo.
+echo		count console lines ==^>	type *.EXT ^| find /c /v ""
+echo.
+
+goto end
+
+REM ************************************************* EXECS
+REM *************************************************
+
+REM ****************************** guitar
+REM 	start : guitar
+
+:exec_guitar_start
+
+echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+echo start_guitar.new.bat
+
+pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+start_guitar.new.bat
+
+goto end
+
+
+REM ****************************** exec_visual_arts_start
+REM 	start : visual_arts
+REM 	2019/10/27 16:58:42
+REM ****************************** exec_visual_arts_start
+:exec_visual_arts_start
+
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\6_visual-arts\start_visual-arts.bat
+
+REM ****************************** exec_keyboard_start
+REM 	start : keyboard
+REM 	2019/11/07 15:44:38
+REM ****************************** exec_keyboard_start
+:exec_keyboard_start
+
+start C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb\start_keyboard.bat
+
+goto end
+
+
+REM ****************************** end
+REM 	end
+REM ******************************
 :end
 

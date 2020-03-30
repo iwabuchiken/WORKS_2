@@ -25,6 +25,10 @@ set path_C_ImageProg="i"
 set path_ws_hacking="k"
 set path_ws_lollipop_server="l"
 set path_ws_music="m"
+
+REM 2020/02/21 08:41:49
+set path_ws_others_jvemv6_miscs="mi"
+
 set path_cake_nr5="n"
 
 set path_ws_others="o"
@@ -32,6 +36,7 @@ set path_ws_others_prog="o1"
 REM set path_ws_others_prog_D-7_2_2_VIRTUAL="o1"
 set path_ws_others_bk="ob"
 set path_ws_others_jve="oj"
+set path_ws_others_miscs="om"
 
 set path_ws_processing="p"
 
@@ -108,7 +113,17 @@ REM 	echo changing to ... C:\WORKS_2\WS\FM_2
 	pushd C:\WORKS_2\WS\WS_Music
 
 	goto end
+
+) else if "%param%"==%path_ws_others_jvemv6_miscs% (
+
+	echo param is %path_ws_others_jvemv6_miscs%!
 	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\tmp_37_miscs
+	
+	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\tmp_37_miscs
+
+	goto end
+
 REM ******************************
 REM path_ws_art
 REM ******************************
@@ -271,6 +286,20 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_ws_others_miscs
+REM 	at : 2019/04/09 11:37:08
+REM ******************************
+) else if "%param%"==%path_ws_others_miscs% (
+
+	echo param is %path_ws_others_miscs%!
+	
+	echo changing to ... C:\WORKS_2\WS\WS_Others.miscs
+	
+	pushd C:\WORKS_2\WS\WS_Others.miscs
+
+	goto end
+
+REM ******************************
 REM path_ws_others_bk
 REM ******************************
 ) else if "%param%"==%path_ws_others_bk% (
@@ -383,10 +412,16 @@ REM 	pushd C:\WORKS_2\WS\WS_Others\prog\D-7\2_2\VIRTUAL
 REM 	pushd "C:\Program Files\Mozilla Firefox"	
 REM 	echo opening browser^(firefox^)...
 REM 	start firefox.exe  "http://127.0.0.1:8000/im/"
-	
-	pushd "C:\Program Files (x86)\Google\Chrome\Application"
-	echo opening browser^(chrome^)...
-	start chrome.exe  "http://127.0.0.1:8000/im/"
+
+REM : chrome	
+REM 	pushd "C:\Program Files (x86)\Google\Chrome\Application"
+REM 	echo opening browser^(chrome^)...
+REM 	start chrome.exe  "http://127.0.0.1:8000/im/"
+
+REM : opera
+	pushd "C:\WORKS_2\Programs\opera"
+	echo opening browser^(opera^)...
+	start launcher.exe "http://127.0.0.1:8000/im/"
 		
 	pushd C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 	
@@ -523,12 +558,17 @@ echo 	i	C:\WORKS_2\WS\Eclipse_Luna\C_ImageProg
 echo 	k	C:\WORKS_2\WS\Eclipse_Luna\Hacking
 echo 	l	C:\WORKS_2\WS\WS_Lollipop_server_files
 echo 	m	C:\WORKS_2\WS\WS_Music
+
+REM 2020/02/21 08:44:27
+echo 	mi	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\tmp_37_miscs
+
 echo 	n	C:\WORKS_2\WS\Eclipse_Luna\Cake_NR5
 echo.
 echo 	o	C:\WORKS_2\WS\WS_Others
 echo 	o1	C:\WORKS_2\WS\WS_Others.prog
 echo 	ob	C:\WORKS_2\WS\WS_Others.ob
 echo 	oj	C:\WORKS_2\WS\WS_Others.JVEMV6
+echo 	om	C:\WORKS_2\WS\WS_Others.miscs
 echo.
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)

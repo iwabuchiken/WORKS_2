@@ -1,8 +1,21 @@
 REM @ECHO OFF
 
-REM *************************************
+REM ===================================== entries
 REM 	browser
-REM *************************************
+REM 	folders
+REM 	files	at : 2019/05/19 15:47:23
+REM 	openoffice
+REM 	doc
+REM 	Eclipse
+REM 	mt4
+REM 	git
+REM 	console
+REM =====================================
+
+
+REM =====================================
+REM 	browser
+REM =====================================
 
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 start start_apps_browser.bat
@@ -31,62 +44,72 @@ REM start chrome.exe "https://docs.google.com/document/u/0/?q=currency 44#8"
 REM pushd "C:\Program Files (x86)\MT4 Gaitame Finest Company Limited"
 REM start terminal.exe
 
-REM *************************************
+REM =====================================
 REM 	folders
-REM *************************************
+REM =====================================
 start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\log
-start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\csv_raw
+REM start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\csv_raw
 REM start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4
-start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
+REM start C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\B9B5D4C0EA7B43E1F3A680F94F757B3D\MQL4
 
 REM conf folder
 start C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\conf
 
-REM *************************************
+REM =====================================
 REM 	files
 REM 	at : 2019/05/19 15:47:23
-REM *************************************
+REM =====================================
 REM conf
 REM sakura "C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\conf\busl_3__sec-13.conf"
 REM sakura "C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL\Admin_Projects\curr\data\conf\busl_3__sec-14.conf"
 
-REM *************************************
+REM =====================================
 REM 	openoffice
-REM *************************************
+REM =====================================
 pushd "C:\WORKS_2\Programs\OpenOffice 4\program"
-start soffice.exe
+REM start soffice.exe
 
-REM *************************************
+REM =====================================
+REM 	doc
+REM 	at : 2019/08/14 10:07:31
+REM =====================================
+REM pushd C:\WORKS_2\WS\WS_Others.prog
+pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\44_currency
+start log_fx.odt
+start log_fx.^(main^).ods
+
+
+REM =====================================
 REM 	Eclipse
-REM *************************************
+REM =====================================
 REM pushd C:\WORKS_2\Programs\eclipse\neon_java_for_python
 pushd C:\WORKS_2\Programs\eclipse\eclipse_luna-php,python
 start eclipse
 
-REM *************************************
+REM =====================================
 REM 	mt4
-REM *************************************
+REM =====================================
 pushd C:\Program Files (x86)\MT4 Gaitame Finest Company Limited
 REM pushd "C:\Program Files (x86)\EZInvest Securities"
 start terminal.exe
 start metaeditor.exe
 
-REM *************************************
+REM =====================================
 REM 	git
-REM *************************************
+REM =====================================
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 start start_git
 
 REM start start_git.bat
 
-REM *************************************
+REM =====================================
 REM 	console
-REM *************************************
+REM =====================================
 pushd C:\WORKS_2\Utils\shortcuts\proj_FX
 REM start start_command_prompot.(1).bat
 REM start "start_command_prompot.(1).bat"
 call "start_command_prompot.(1).bat"
-call start_command_prompot.(2).bat
+REM call start_command_prompot.(2).bat
 
 
 

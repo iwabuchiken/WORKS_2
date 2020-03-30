@@ -1,4 +1,19 @@
 @echo off
+REM ************************* entries
+REM 	taskkill : chrome	2019/08/25 21:55:18
+REM 	taskmgr.exe
+REM 	mailer
+REM 	dirs
+REM 	command prompt
+REM 	browser
+REM 	vlc
+REM *************************
+
+REM *************************
+REM 	taskkill : chrome
+REM 	at : 2019/08/25 21:55:18
+REM *************************
+taskkill /f /im chrome.exe
 
 REM *************************
 REM 	
@@ -8,8 +23,8 @@ start taskmgr.exe
 REM *************************
 REM 	mailer
 REM *************************
-pushd "C:\Program Files (x86)\Mozilla Thunderbird"
-start thunderbird
+REM pushd "C:\Program Files (x86)\Mozilla Thunderbird"
+REM start thunderbird
 
 REM *************************
 REM 	dirs
@@ -21,7 +36,7 @@ REM 	command prompt
 REM *************************
 pushd C:\WORKS_2
 
-start C:\WORKS_2\batches\start_command_prompts
+start C:\WORKS_2\batches\start_command_prompts.bat
 
 REM *************************
 REM 	browser
@@ -29,6 +44,14 @@ REM *************************
 pushd "C:\WORKS_2\batches"
 
 start start_2_browser.bat
+
+REM *************************
+REM 	vlc.exe
+REM 	at : 2019/10/07 08:37:26
+REM *************************
+REM REM at : 2019/12/16 07:33:29
+REM pushd C:\Users\iwabuchiken\VLC
+REM start vlc.exe
 
 REM debug
 REM goto end
