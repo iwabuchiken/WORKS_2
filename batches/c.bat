@@ -22,6 +22,10 @@ set choice_e="e"
 set choice_en="en"
 
 set choice_f="f"
+
+REM 2020”N5ŒŽ4“ú15:56:46
+set choice_fx="fx"
+
 set choice_l="l"
 set choice_m="m"
 set choice_n="n"
@@ -225,7 +229,19 @@ REM ******************************
 	f
 
 	goto end
+
+REM ******************************
+REM 	f.bat
+REM ******************************
+) else if "%param%"==%choice_fx% (
+
+	echo param is %choice_fx%!
 	
+	echo starting ... C:\Users\iwabuchiken\Desktop\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+	
+	C:\Users\iwabuchiken\Desktop\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+
+	goto end
 
 REM ******************************
 REM 	l.bat
@@ -1216,6 +1232,7 @@ echo 	a	C:\WORKS_2\a.bat	set variables
 echo 	c	sakura C:\WORKS_2\batches\c.bat
 
 echo 	e	git pull	C:\WORKS_2\batches\e.bat
+
 echo 	f	start %%cd%%	C:\WORKS_2\batches\f.bat
 echo.
 
@@ -1269,6 +1286,10 @@ echo.
 REM echo 	dtm		%choice_x5s_or_1:"=% , x5s	---^> start
 REM echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
 REM echo.
+
+echo 	fx	start %choice_fx:"=%
+echo.
+
 
 echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
 echo.
