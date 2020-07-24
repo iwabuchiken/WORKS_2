@@ -26,6 +26,9 @@ set choice_f="f"
 REM 2020”N5ŒŽ4“ú15:56:46
 set choice_fx="fx"
 
+REM 2020”N5ŒŽ28“ú8:00:20
+set choice_im="im"
+
 set choice_l="l"
 set choice_m="m"
 set choice_n="n"
@@ -237,9 +240,9 @@ REM ******************************
 
 	echo param is %choice_fx%!
 	
-	echo starting ... C:\Users\iwabuchiken\Desktop\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+	echo starting ... C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
 	
-	C:\Users\iwabuchiken\Desktop\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+	C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
 
 	goto end
 
@@ -253,6 +256,26 @@ REM ******************************
 	echo starting ... C:\WORKS_2\batches\l.bat
 	
 	l
+
+	goto end
+
+REM ===========================
+REM 	cake_ifm11
+REM 	2020”N5ŒŽ28“ú8:01:32
+REM ===========================
+) else if "%param%"==%choice_im% (
+
+	echo param is %choice_im%!
+	
+	echo starting ... C:\WORKS_2\WS\WS_Cake_IFM11\commands
+	
+start C:\WORKS_2\WS\WS_Cake_IFM11\commands
+REM start "0-1) start xampp, filezilla, open folder, open files.bat"
+REM start "0-1_start xampp, filezilla, open folder, open files.bat"
+REM start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\0-1_start xampp, filezilla, open folder, open files.bat"
+pushd C:\WORKS_2\WS\WS_Cake_IFM11\commands
+REM start "0-1_start xampp, filezilla, open folder, open files.bat"
+"0-1_start xampp, filezilla, open folder, open files.bat"
 
 	goto end
 
@@ -1292,6 +1315,10 @@ echo.
 
 
 echo 	guitar (start)	%choice_x10s:"=% , %choice_x10s_or_1:"=% , %choice_x10s_or_2:"=% ---^> start
+echo 			C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+echo.
+
+echo 	cake_ifm (start)	%choice_im:"=% ---^> start
 echo.
 
 echo 	kb.listing	%choice_x2s_or_1:"=% , %choice_x2s_or_2:"=% , x2s	---^> start
@@ -1355,11 +1382,17 @@ REM 	start : guitar
 
 :exec_guitar_start
 
-echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
-echo start_guitar.new.bat
+REM echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM echo start_guitar.new.bat
 
-pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
-start_guitar.new.bat
+echo pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+echo start_keyboard.bat
+
+pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
+start_keyboard.bat
+
+REM pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
+REM start_guitar.new.bat
 
 goto end
 
