@@ -1,5 +1,15 @@
 @ECHO OFF
 
+rem : test : 2020”N12ŒŽ12“ú10:56:49
+@echo on
+echo starting... start r dd
+start r dd
+
+rem pause
+
+exit
+
+
 set temp=%1
 
 REM set char_django_server="d"

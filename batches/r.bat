@@ -50,6 +50,7 @@ set path_mt4_B9B5D4C0EA7B43E1F3A680F94F757B3D="q4"
 set path_ws_research="r"
 
 set path_sound_programming_c="s"
+set path_shortcut_docs="s1"
 
 set path_upload_cake_image_files="u"
 
@@ -229,6 +230,19 @@ rem 	echo changing to ... C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 	echo changing to ... C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
 	
 	pushd C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
+
+	goto end
+
+REM ******************************
+REM path_shortcut_docs
+REM ******************************
+) else if "%param%"==%path_shortcut_docs% (
+
+	echo param is %path_shortcut_docs%!
+	
+	echo changing to ... C:\WORKS_2\shortcuts_docs
+	
+	pushd C:\WORKS_2\shortcuts_docs
 
 	goto end
 
@@ -583,6 +597,7 @@ echo 	r	C:\WORKS_2\WS\WS_Research
 
 rem echo 	s	C:\WORKS_2\WS\Eclipse_Neon\Sound_Programming_in_C
 echo 	s	C:\WORKS_2\WS\Eclipse_Luna\C_SoundProg
+echo 	s1	C:\WORKS_2\shortcuts_docs
 echo 	u	C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 echo 		/cake_apps/images/ifm11
 echo.

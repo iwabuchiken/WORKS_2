@@ -155,6 +155,15 @@ set choice_x12s_or_2="kk"
 REM set choice_x9e="x9e"
 REM set choice_x9e_or_1="phe"
 
+REM ************************************* keyboard
+REM 	2019/11/07 15:40:47
+
+set choice_x13s="x13s"
+set choice_x13s_or_1="co"
+
+REM set choice_x9e="x9e"
+REM set choice_x9e_or_1="phe"
+
 
 REM *******************************
 REM 
@@ -1221,6 +1230,29 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM 	s.bat
+REM ******************************
+) else if "%param%"==%choice_x13s% (
+
+	echo param is %choice_x13s%!
+	
+	echo starting ... C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\start_music-composition.bat
+
+call C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\start_music-composition.bat
+
+	goto end
+
+) else if "%param%"==%choice_x13s_or_1% (
+
+	echo param is %choice_x13s%!
+	
+	echo starting ... C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\start_music-composition.bat
+
+call C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\start_music-composition.bat
+
+	goto end
+
+REM ******************************
 REM help
 REM ******************************
 ) else if "%param%"==%help% (
@@ -1284,6 +1316,9 @@ echo.
 echo 	------------------------
 
 REM ref 20190417_143120 https://stackoverflow.com/questions/804646/how-do-you-strip-quotes-out-of-an-echoed-string-in-a-windows-batch-file#804782
+echo 	composition	%choice_x13s_or_1:"=% , %choice_x13s:"=%	---^> start
+echo.
+
 
 echo 	currency	%choice_x1s_or_1:"=% , x1s	---^> start
 echo 	currency	%choice_x1e_or_1:"=% , x1s	---^> end
