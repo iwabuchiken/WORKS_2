@@ -5,6 +5,11 @@ REM 	set : vars
 rem 	2020年12月30日0:20:17
 REM ==============================
 
+rem : 2021年1月17日12:02:40
+set opt_c="c"
+
+
+
 set opt_r_d2="d2"
 set opt_r_dr="dr"
 
@@ -18,6 +23,13 @@ set opt_r_1="r1"
 rem : 2021年1月8日11:45:16
 rem : 43_linguis
 set opt_r_2="r2"
+
+rem : 2021年1月16日14:10:55
+rem : 68_theoretical-physics
+set opt_r_3="r3"
+
+rem : 2021年1月25日0:44:15
+set opt_t="t"
 
 set opt_w="w"
 set opt_h="h"
@@ -124,6 +136,69 @@ REM ==============================
 
 "C:\WORKS_2\shortcuts_docs\start_log_JVE_43.[theme=linguistics].bat"
 
+REM ==============================
+REM 	if-case : "opt_r_3" ==> start : res.linguis
+rem 	2021年1月16日14:12:12
+REM ==============================
+) else if "%param%"==%opt_r_3% (
+
+	echo param is %opt_r_3%!
+	
+	echo.
+
+	echo starting res.68_theoretical-physics ....
+	echo.
+	
+	echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[theme=theoretical-physics].bat
+
+"C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[theme=theoretical-physics].bat"
+
+REM ==============================
+REM 	if-case : "opt_t" ==> start : res.linguis
+rem 	2021年1月25日0:44:49
+REM ==============================
+) else if "%param%"==%opt_t% (
+
+	echo param is %opt_t%!
+	
+	echo.
+
+	echo starting "t"
+	echo.
+	
+rem 	echo C:\WORKS_2\t.bat
+set arg="a && t && exit"
+
+	rem echo C:\WORKS_2\t_and_exit.bat
+echo start %windir%\system32\cmd.exe /k %arg%
+
+rem C:\WORKS_2\t_and_exit.bat
+rem call C:\WORKS_2\t.bat
+rem start C:\WORKS_2\t.bat
+
+rem start C:\Users\iwabuchiken\Desktop\apps\"Command Prompt.lnk" /k %arg%
+
+start %windir%\system32\cmd.exe /k %arg%
+
+REM ==============================
+REM 	if-case : "opt_c" ==> start : res.linguis
+rem 	2021年1月17日12:04:12
+REM ==============================
+) else if "%param%"==%opt_c% (
+
+	echo param is %opt_c%!
+	
+	echo.
+
+	echo starting "2-0 -0)_close-apps.txt"
+	echo.
+	
+	echo 	"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0.1)_close-apps.starter.bat"
+
+rem call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
+rem start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
+rem C:\WORKS_2\Programs\sakura\sakura.exe "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
+"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0.1)_close-apps.starter.bat"
 
 REM ==============================
 REM 	if-case : "h" ==> show help
@@ -133,6 +208,8 @@ REM ==============================
 
 echo ^<Options^>
 
+echo 	%opt_c%	start "2-0 -0)_close-apps.txt"
+	
 echo 	d2	start django server : http://127.0.0.1:8000/im/
 
 echo 	%opt_r_dr%	drink-alcohol
@@ -146,6 +223,13 @@ echo 	%opt_fm%	start freemind
 echo 	%opt_r_1%	start 67_theology
 
 echo 	%opt_r_2%	start res.43_linguistics
+
+echo 	%opt_r_3%	start res.68_theoretical-physics
+
+echo 	%opt_t%	C:\WORKS_2\t.bat
+	
+rem echo 	%opt_c%	start 2-0 -0^)_close-apps.txt
+
 
 echo.
 echo 	sakura C:\WORKS_2\batches\s.bat
@@ -162,7 +246,29 @@ REM ==============================
 	echo.
 	
 	echo starting gitk...
+
+	echo.
+	echo ^<Options^>
 	
+	echo 	%opt_c%	start "2-0 -0)_close-apps.txt"
+
+	echo 	d2	start django server : http://127.0.0.1:8000/im/
+
+	echo 	%opt_r_dr%	drink-alcohol
+
+	echo 	h	show help
+
+	echo 	%opt_w%	edit s.bat file
+
+	echo 	%opt_fm%	start freemind
+
+	echo 	%opt_r_1%	start 67_theology
+
+	echo 	%opt_r_2%	start res.43_linguistics
+
+	echo.
+	echo 	sakura C:\WORKS_2\batches\s.bat
+
 	echo.
 	
 start gitk
