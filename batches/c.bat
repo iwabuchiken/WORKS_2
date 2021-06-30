@@ -247,11 +247,13 @@ REM 	f.bat
 REM ******************************
 ) else if "%param%"==%choice_fx% (
 
-	echo param is %choice_fx%!
-	
-	echo starting ... C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
-	
-	C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+echo param is %choice_fx%!
+
+echo starting ... C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+
+C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
+
+rem sakura C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
 
 	goto end
 
@@ -304,7 +306,7 @@ REM 	echo msg is '%msg%'
 	
 REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb
 REM 	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb | clip
-	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2
+	C:\WORKS_2\Utils\gen_random_string.20190402_105313.rb %2 %3 %4
 	
 REM 	echo pasting...
 REM 	
@@ -1346,6 +1348,7 @@ REM echo 	dtm		%choice_x5e_or_1:"=% , x5s	---^> end
 REM echo.
 
 echo 	fx	start %choice_fx:"=%
+echo 			C:\WORKS_2\shortcuts_docs\start_log_JVE_44_10_2.[fx-php-tester].bat
 echo.
 
 

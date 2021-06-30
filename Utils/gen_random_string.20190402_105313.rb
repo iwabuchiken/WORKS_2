@@ -166,9 +166,79 @@ def get_time_label(type = "serial")
   
 end
 
-def exec
+###############################
+#	2021”N2ŒŽ3“ú9:28:32
+#	<usage>
+#	c n n 4 ==> gen 4 integers
+###############################
+def gen_random_integer
+	
+	puts "ARGV.length = #{ARGV.length}"
+	
+	p ARGV
+	
+	# validate : argument --> numeric?
+	numOf_Integers = 1
+	
+	#ref https://stackoverflow.com/questions/8616360/how-to-check-if-a-variable-is-a-number-or-a-string
+	#if ARGV.length > 1 and ARGV[1].is_a? Numeric
+	if ARGV.length > 1 and (ARGV[1].to_i).is_a? Numeric
+		# message
+		puts "[#{__FILE__} : #{__LINE__}]\n ARGV[1] is #{ARGV[1]}"
+		
+		#puts "gen #{ARGV[1]} integers"
+		puts "[#{__LINE__}] gen #{ARGV[1].to_i} integers"
+		
+		# set num
+		numOf_Integers = ARGV[1].to_i
+		
+		# message
+		puts "[#{__LINE__}] numOf_Integers set to --> #{numOf_Integers}"
+		
+		# gen integers
+		strOf_Integers = ""
+		
+		numOf_Integers.times do
+			
+			#ref https://stackoverflow.com/questions/198460/how-to-get-a-random-number-in-ruby
+			strOf_Integers += rand(0..9).to_s
+		
+		end#numOf_Integers.times do
+		
+		# show
+		puts "[#{__LINE__}] strOf_Integers = \n#{strOf_Integers}"
+		
+	else#if ARGV.length > 1 and ARGV[1].is_a? Numeric
+		
+		puts "[#{__LINE__}] using the defalut number : numOf_Integers = #{numOf_Integers}"
+		
+	end#if ARGV.length > 1 and ARGV[1].is_a? Numeric
+	
+	# get : how many integers
+	
+	
+end#def gen_random_integer
 
-  gen_random_string
+
+def exec
+  
+  if ARGV.length > 0 and ARGV[0] == "n"
+  
+  	p ARGV
+  	
+  	gen_random_integer
+  
+  else#if ARGV.length > 0 and ARGV[0] == "n"
+  	
+  	#puts "[#{__LINE__}]\n ARGV.length = #{ARGV.length}"
+  	
+  	#puts "no"
+  	
+  	gen_random_string
+  	
+  end#if ARGV.length > 0 and ARGV[0] == "n"
+  
+  #gen_random_string
     
 end#exec
 

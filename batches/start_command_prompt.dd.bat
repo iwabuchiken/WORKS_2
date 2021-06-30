@@ -3,7 +3,10 @@
 rem : test : 2020”N12ŒŽ12“ú10:56:49
 @echo on
 echo starting... start r dd
-start r dd
+
+rem : modified : 2021”N6ŒŽ5“ú8:26:43
+start C:\WORKS_2\batches\r.bat dd
+rem start r dd
 
 rem pause
 
