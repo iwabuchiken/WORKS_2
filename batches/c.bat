@@ -878,13 +878,13 @@ REM ) else if "%param%"==%choice_x4s% (
 REM ) else if "%param%"==%choice_x4s% or "%param%"==%choice_x4s_or_1% (
 ) else if "%param%"==%choice_x4s% (
 
-	echo param --^> is %choice_x4s%!
-	
-	echo %%2 is '%2'
-	
-	pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
+echo param --^> is %choice_x4s%!
+
+echo %%2 is '%2'
+
+pushd C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang
 REM 	start.bat
-	start.bat %2
+start.bat %2
 
 REM pushd "C:\Program Files (x86)\Google\Chrome\Application"
 REM start chrome.exe  "https://translate.google.co.jp/?hl=ja&tab=iT#view=home&op=translate&sl=ja&tl=ko"

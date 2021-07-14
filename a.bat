@@ -76,7 +76,11 @@ REM PATH=%PATH%;%IRFAN_BIN_HOME%;
 
 ECHO Setting a var: PYTHON_HOME=C:\WORKS_2\Programs\Python\Python_3.5.1
 SET PYTHON_HOME=C:\WORKS_2\Programs\Python\Python_3.5.1
-PATH=%PATH%;%PYTHON_HOME%;
+
+rem : modify : 20210714_084840
+rem : C:\WORKS_2\Programs\Python\Python_3.5.1\python.exe ==> preceeding that in panda3d python path.
+rem PATH=%PATH%;%PYTHON_HOME%;
+PATH=%PYTHON_HOME%;%PATH%;
 
 REM ECHO Setting a var: FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin
 REM SET FFMPEG_HOME=C:\WORKS_2\Programs\ffmpeg-20161227-0ff8c6b-win64-static\bin

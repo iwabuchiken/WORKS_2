@@ -503,14 +503,21 @@ REM ==============================
 
 echo param is %opt_r_8%!
 
+echo param for %opt_r_8% : %2
+
 echo.
 
 echo starting start_log_%stringof_opt_r_8:"=%.bat ....
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
 
-C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+
+
+rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+
+rem C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
 
 
 REM ==============================
@@ -1118,6 +1125,8 @@ echo.
 
 echo 	%opt_r_8:"=%	start %stringof_opt_r_8:"=%
 echo 		C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+echo 		full		start all
+echo 		no-option	files only
 echo.
 
 echo 	%opt_t:"=%	C:\WORKS_2\t.bat ^(in a new window^)
