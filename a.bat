@@ -90,7 +90,15 @@ REM ECHO Setting a var: LISPBOX_HOME=C:\WORKS_2\Programs\lispbox-0.7
 REM SET LISPBOX_HOME=C:\WORKS_2\Programs\lispbox-0.7
 REM PATH=%PATH%;%LISPBOX_HOME%;
 
+rem ====================
+rem 	20210718_214406
+rem 	prompt --> setup
+rem ====================
+echo.
+echo setting prompt... : C:\WORKS_2\WS\WS_Others.JVEMV6 (21:41:52.24)
+prompt $p$s$c$t$f$_$s$s$G
 
+echo.
 
 ECHO.
 ECHO Setting aliases for git

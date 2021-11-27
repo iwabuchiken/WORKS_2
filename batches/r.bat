@@ -38,6 +38,10 @@ set path_ws_others_bk="ob"
 set path_ws_others_jve="oj"
 set path_ws_others_miscs="om"
 
+rem 2021”N11ŒŽ10“ú9:55:01
+set path_ws_others_miscs_2="om2"
+set dpath_om2="C:\WORKS_2\WS\WS_Others.miscs_20211102_112807"
+
 set path_ws_processing="p"
 
 set path_mt4="q"
@@ -314,6 +318,22 @@ REM ******************************
 	goto end
 
 REM ******************************
+REM path_ws_others_miscs_2
+REM 	at : 2021”N11ŒŽ10“ú9:53:09
+REM ******************************
+) else if "%param%"==%path_ws_others_miscs_2% (
+
+	echo param is %path_ws_others_miscs_2%!
+	
+	echo changing to ... %dpath_om2%
+	
+	pushd %dpath_om2:"=%
+
+	goto end
+
+rem path_ws_others_miscs_2
+
+REM ******************************
 REM path_ws_others_bk
 REM ******************************
 ) else if "%param%"==%path_ws_others_bk% (
@@ -583,6 +603,8 @@ echo 	o1	C:\WORKS_2\WS\WS_Others.prog
 echo 	ob	C:\WORKS_2\WS\WS_Others.ob
 echo 	oj	C:\WORKS_2\WS\WS_Others.JVEMV6
 echo 	om	C:\WORKS_2\WS\WS_Others.miscs
+echo 	om2	%dpath_om2:"=%
+
 echo.
 echo 	p	C:\WORKS_2\WS\WS_Processing
 echo 	q	C:\Users\iwabuchiken\AppData\Roaming\MetaQuotes\Terminal\34B08C83A5AAE27A4079DE708E60511E\MQL4	(mouse computer)
@@ -602,6 +624,12 @@ echo 	u	C:\WORKS_2\WS\WS_Cake_IFM11\iphone_to_upload
 echo 		/cake_apps/images/ifm11
 echo.
 echo 	w	C:\WORKS_2
+
+rem discrete dir paths
+echo.
+echo 	---------------------------- dir paths
+echo 	C:\WORKS_2\shortcuts_docs
+echo.
 
 :end
 

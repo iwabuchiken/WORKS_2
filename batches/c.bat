@@ -1429,6 +1429,9 @@ echo start_keyboard.bat
 pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\8_kb
 start_keyboard.bat
 
+rem 2021”N9ŒŽ4“ú18:09:36
+rem sakura start_keyboard.bat
+
 REM pushd C:\WORKS_2\WS\WS_Others.Art\JVEMV6\46_art\11_guitar
 REM start_guitar.new.bat
 

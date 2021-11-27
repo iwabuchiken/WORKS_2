@@ -139,8 +139,25 @@ set fname_batch_b111=start_log_%stringof_opt_b111:"=%.bat
 
 rem : 2021年6月23日15:19:20
 set opt_b114="b114"
-set stringof_opt_b114="JVE_64.[114_hirata]"
+rem set stringof_opt_b114="JVE_64.[114_hirata]"
+set stringof_opt_b114="JVE_64_114_hirata"
 set fname_batch_b114=start_log_%stringof_opt_b114:"=%.bat
+
+rem : 2021年10月2日9:43:31
+set opt_b128="b128"
+set stringof_opt_b128="JVE_64.[128_honda]"
+set fname_batch_b128=start_log_%stringof_opt_b128:"=%.bat
+
+rem : 2021年10月4日15:40:00
+set opt_b130="b130"
+set stringof_opt_b130="JVE_64_130_eki"
+set fname_batch_b130=start_log_%stringof_opt_b130:"=%.bat
+
+rem : 2021年11月10日0:27:47
+rem set opt_b114="b114"
+rem set stringof_opt_b114="JVE_64_114_hirata"
+rem set fname_batch_b114=start_log_%stringof_orem pt_b114:"=%.bat
+
 
 
 rem : 2021年2月28日0:14:42
@@ -196,6 +213,8 @@ rem : 2021年1月16日14:10:55
 rem : 68_theoretical-physics
 set opt_r_3="r3"
 
+set opt_r_3_short="3"
+
 rem : 2021年3月14日16:58:53
 rem : JVE_70.[CO2]
 set opt_r_4="r4"
@@ -218,6 +237,22 @@ rem : 2021年4月20日11:19:26
 rem : JVE_83.[ai]
 set opt_r_8="r8"
 set stringof_opt_r_8="JVE_72.[read]"
+
+set opt_r_8_short="8"
+
+rem : 2021年7月18日16:37:57
+set opt_r_9="r9"
+set stringof_opt_r_9="JVE_57-2_physics-engine"
+rem : 2021年9月19日14:50:10
+rem : 76_physics
+set opt_r_10="r10"
+set stringof_opt_r_10="JVE_76_physics"
+
+set opt_r_10_short="10"
+
+set fpath_bat_opt_r_10="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+
+echo set opt string ==^> comp... : %opt_r_10_short%
 
 rem : 2021年1月25日0:44:15
 set opt_t="t"
@@ -428,6 +463,67 @@ rem start "C:\WORKS_2\shortcuts_docs\start_log_JVE_68_tp.bat"
 rem sakura "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
 
 REM ==============================
+REM 	if-case : "opt_r_3_short" ==> start : res.linguis
+rem 	2021年9月24日16:52:29
+REM ==============================
+) else if "%param%"==%opt_r_3_short% (
+
+echo param is %opt_r_3_short%!
+echo.
+
+echo starting res.68_theoretical-physics ....
+echo.
+
+echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat
+
+call "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
+
+
+REM ==============================
+REM 	if-case : "opt_r_10" ==> start : res.linguis
+rem 	2021年1月16日14:12:12
+REM ==============================
+) else if "%param%"==%opt_r_10% (
+
+echo param is %opt_r_10%!
+
+echo.
+
+echo starting res.76_physics ....
+echo.
+
+rem set fpath_bat="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+
+rem echo 	%fpath_bat%
+echo 	batch file is ...%fpath_bat_opt_r_10%
+
+rem call %fpath_bat:"=%
+call %fpath_bat_opt_r_10:"=%
+
+rem call "C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+
+REM ==============================
+REM 	if-case : "opt_r_10_short" ==> start : res.linguis
+rem 	2021年9月24日15:15:47
+REM ==============================
+) else if "%param%"==%opt_r_10_short% (
+
+echo param is %opt_r_10_short%!
+echo.
+
+echo starting res.76_physics ....
+echo.
+
+rem set fpath_bat="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+
+rem echo 	%fpath_bat%
+echo 	%fpath_bat_opt_r_10%
+
+rem call %fpath_bat:"=%
+call %fpath_bat_opt_r_10:"=%
+
+
+REM ==============================
 REM 	if-case : "opt_r_4" ==> start : res.linguis
 rem 	2021年1月16日14:12:12
 REM ==============================
@@ -518,6 +614,44 @@ C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
 rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
 
 rem C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+
+REM ==============================
+REM 	if-case : "opt_r_8_short" ==> start : 
+rem 	2021年5月31日0:34:48
+REM ==============================
+) else if "%param%"==%opt_r_8_short% (
+
+echo param is %opt_r_8_short%!
+
+echo param for %opt_r_8_short% : %2
+echo.
+
+echo starting start_log_%stringof_opt_r_8:"=%.bat ....
+echo.
+
+echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+
+C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+
+
+rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8_short:"=%.bat
+
+REM ==============================
+REM 	if-case : "opt_r_9" ==> start : 
+rem 	2021年7月18日16:39:06
+REM ==============================
+) else if "%param%"==%opt_r_9% (
+
+echo param is %opt_r_9%!
+
+echo.
+
+echo starting start_log_%stringof_opt_r_9:"=%.bat ....
+echo.
+
+rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat %2
+
+C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat
 
 
 REM ==============================
@@ -998,6 +1132,65 @@ echo 	"C:\WORKS_2\shortcuts_docs\%stringof_opt_b114:"=%"
 
 rem opt_b114
 
+REM ==============================
+REM 	if-case : "opt_b128" ==> start : 
+rem 	2021年6月23日15:20:12
+REM ==============================
+) else if "%param%"==%opt_b128% (
+
+echo param is %opt_b128%!
+
+echo.
+
+echo starting %stringof_opt_b128%
+echo.
+
+echo 	"C:\WORKS_2\shortcuts_docs\%stringof_opt_b128:"=%"
+
+"C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_b128:"=%.bat"
+
+rem opt_b128
+
+
+REM ==============================
+REM 	if-case : "opt_b130" ==> start : 
+rem 	2021年10月4日15:40:58
+REM ==============================
+) else if "%param%"==%opt_b130% (
+
+echo param is %opt_b130%!
+
+echo.
+
+echo starting %stringof_opt_b130%
+echo.
+
+echo 	"C:\WORKS_2\shortcuts_docs\%stringof_opt_b130:"=%"
+
+"C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_b130:"=%.bat"
+
+rem opt_b130
+
+
+REM ==============================
+REM 	if-case : "opt_b114" ==> start : 
+rem 	2021年11月10日0:29:13
+REM ==============================
+) else if "%param%"==%opt_b114% (
+
+echo param is %opt_b114%!
+
+echo.
+
+echo starting %stringof_opt_b114%
+echo.
+
+echo 	"C:\WORKS_2\shortcuts_docs\%stringof_opt_b114:"=%"
+
+rem "C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_b114:"=%.bat"
+
+rem opt_b114
+
 rem : ADDITION POINT
 
 REM ==============================
@@ -1061,6 +1254,14 @@ echo 	%opt_b114:"=%	start %stringof_opt_b114:"=%
 
 echo.
 
+echo 	%opt_b128:"=%	start %stringof_opt_b128:"=%
+
+echo 	%opt_b130:"=%	start %stringof_opt_b130:"=%
+
+echo.
+
+
+
 echo 	%opt_bl%	start %stringof_opt_bl%
 
 echo.
@@ -1099,6 +1300,9 @@ echo 	%opt_m%	start_jve_[46#13].[theme=compositions]
 echo.
 
 echo 	------------------------ o~z
+echo.
+
+echo 	------------------------ r
 
 echo 	%opt_r_1:"=%	start 67_theology
 echo.
@@ -1106,7 +1310,7 @@ echo.
 echo 	%opt_r_2:"=%	start res.43_linguistics
 echo.
 
-echo 	%opt_r_3:"=%	start res.68_theoretical-physics
+echo 	%opt_r_3:"=%,%opt_r_3_short:"=%	start res.68_theoretical-physics
 echo.
 
 echo.
@@ -1117,17 +1321,30 @@ echo.
 echo 	%opt_r_5:"=%	start JVE_71.[logic]
 echo.
 
+echo 	    --------------------------- 6~
+
 echo 	%opt_r_6:"=%	start %stringof_opt_r_6:"=%
 echo.
 
 echo 	%opt_r_7:"=%	start %stringof_opt_r_7:"=%
 echo.
 
-echo 	%opt_r_8:"=%	start %stringof_opt_r_8:"=%
+echo 	%opt_r_8:"=%,%opt_r_8_short:"=%	start %stringof_opt_r_8:"=%
 echo 		C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
 echo 		full		start all
 echo 		no-option	files only
 echo.
+
+echo 	%opt_r_9:"=%	start %stringof_opt_r_9:"=%
+echo 		C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat
+echo.
+
+echo 	%opt_r_10:"=%,%opt_r_10_short:"=%	start %stringof_opt_r_10:"=%
+
+
+echo.
+
+echo 	------------------------ t~
 
 echo 	%opt_t:"=%	C:\WORKS_2\t.bat ^(in a new window^)
 	
@@ -1149,11 +1366,39 @@ echo 	%opt_a1:"=%	start %stringof_opt_a1:"=%
 echo.
 echo.
 
+rem ref : https://stackoverflow.com/questions/8797983/can-a-windows-batch-file-determine-its-own-file-name
+echo this file : %~nx0, %~pnx0, %1, %cd%
+echo this file : %~f0
+
 
 echo 	------------------------ others
 echo.
 
 echo 	sakura C:\WORKS_2\batches\s.bat
+
+echo.
+
+echo 	------------------------ files
+echo.
+
+echo 	C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
+echo.
+echo 	"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
+echo.
+echo 	C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+echo.
+
+rem : add : 2021年11月23日14:59:35
+echo 	C:\WORKS_2\shortcuts_docs\log_JVE_64_ALL.log
+echo.
+
+echo.
+echo ------------------------ strings
+echo 	taskkill /f /im firefox.exe
+echo.
+echo 	taskkill /f /im tor.exe
+echo.
+
 
 
 REM ==============================
