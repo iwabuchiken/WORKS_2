@@ -122,12 +122,18 @@ git config --global credential.helper wincred
 
 rem ===============================
 rem 20211201_012035
+rem 	color
 rem ref : https://www.computerhope.com/color.htrem ref : https://docs.microsoft.com/en-us/windrem ref : https://stackoverflow.com/questions/12572718/how-to-change-text-color-of-cmd-with-windows-batch-script-every-1-second
 rem ===============================
 rem color 1a
 color 0e
 rem color 1e
 
+rem ===============================
+rem 	20211201_082327
+rem 	move dir
+rem ===============================
+r w
 
 goto :end
 

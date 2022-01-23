@@ -158,7 +158,12 @@ rem set opt_b114="b114"
 rem set stringof_opt_b114="JVE_64_114_hirata"
 rem set fname_batch_b114=start_log_%stringof_orem pt_b114:"=%.bat
 
+rem : 2022年1月6日13:25:25
+set opt_s1="s1"
 
+rem : 2022年1月8日22:15:14
+rem : process texts : chinese
+set opt_s2="s2"
 
 rem : 2021年2月28日0:14:42
 rem "bl" ==> JVE_64.[66_sekimon]
@@ -251,6 +256,16 @@ set stringof_opt_r_10="JVE_76_physics"
 set opt_r_10_short="10"
 
 set fpath_bat_opt_r_10="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+
+rem : 2021年11月30日16:22:11
+rem : JVE_64_ALL
+set opt_r_11="r11"
+set stringof_opt_r_11="JVE_64_ALL"
+
+set opt_r_11_short="11"
+
+set fpath_bat_opt_r_11="C:\WORKS_2\shortcuts_docs\start_log_JVE_64_ALL.bat"
+
 
 echo set opt string ==^> comp... : %opt_r_10_short%
 
@@ -522,6 +537,18 @@ echo 	%fpath_bat_opt_r_10%
 rem call %fpath_bat:"=%
 call %fpath_bat_opt_r_10:"=%
 
+REM ==============================
+REM 	if-case : "opt_r_11_short" ==> start : res.linguis
+rem 	2021年9月24日15:15:47
+REM ==============================
+) else if "%param%"==%opt_r_11_short% (
+
+echo param is %opt_r_11_short%!
+echo.
+
+echo 	%fpath_bat_opt_r_11%
+
+call %fpath_bat_opt_r_11:"=%
 
 REM ==============================
 REM 	if-case : "opt_r_4" ==> start : res.linguis
@@ -1191,6 +1218,45 @@ rem "C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_b114:"=%.bat"
 
 rem opt_b114
 
+REM ==============================
+REM 	if-case : "opt_s1" ==> start : 
+rem 	2022年1月6日13:26:47
+REM ==============================
+) else if "%param%"==%opt_s1% (
+
+
+echo param is %opt_s1%!
+
+
+rem set stringof_opt_s1_fpath_batch="C:\\WORKS_2\\WS\\WS_Others.JVEMV6\\JVEMV6\\70_co2\\start_process-texts-for-reading_korean.bat"
+
+echo starting : start_process-texts-for-reading_korean.bat
+rem echo.
+
+start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\70_co2\start_process-texts-for-reading_korean.bat
+rem start %stringof_opt_s1_fpath_batch%
+REM %stringof_opt_s1_fpath_batch%
+
+REM ==============================
+REM 	if-case : "opt_s2" ==> start : 
+rem 	2022年1月8日22:16:09
+REM ==============================
+) else if "%param%"==%opt_s2% (
+
+
+echo param is %opt_s2%!
+
+
+rem set stringof_opt_s2_fpath_batch="C:\\WORKS_2\\WS\\WS_Others.JVEMV6\\JVEMV6\\70_co2\\start_process-texts-for-reading_korean.bat"
+
+echo starting : start_process-texts-for-reading_chinese.bat
+rem echo.
+
+start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\70_co2\start_process-texts-for-reading_chinese.bat
+rem start %stringof_opt_s2_fpath_batch%
+REM %stringof_opt_s2_fpath_batch%
+
+rem XXX
 rem : ADDITION POINT
 
 REM ==============================
@@ -1341,6 +1407,9 @@ echo.
 
 echo 	%opt_r_10:"=%,%opt_r_10_short:"=%	start %stringof_opt_r_10:"=%
 
+echo.
+
+echo 	%opt_r_11:"=%,%opt_r_11_short:"=%	start %stringof_opt_r_11:"=%
 
 echo.
 
@@ -1368,7 +1437,13 @@ echo.
 
 rem ref : https://stackoverflow.com/questions/8797983/can-a-windows-batch-file-determine-its-own-file-name
 echo this file : %~nx0, %~pnx0, %1, %cd%
-echo this file : %~f0
+rem echo ^%^~n^x^0 : %~nx0
+echo ％～nx0	: %~nx0
+echo ％～f0	: %~f0
+echo ％～pnx0	: %~pnx0
+echo "％cd％"	: %cd%
+echo "％1"	: %1
+rem echo this file : %~f0
 
 
 echo 	------------------------ others
@@ -1377,6 +1452,11 @@ echo.
 echo 	sakura C:\WORKS_2\batches\s.bat
 
 echo.
+
+echo 	C:\WORKS_2\start_a.bat
+
+echo.
+
 
 echo 	------------------------ files
 echo.
@@ -1389,8 +1469,32 @@ echo 	C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 echo.
 
 rem : add : 2021年11月23日14:59:35
-echo 	C:\WORKS_2\shortcuts_docs\log_JVE_64_ALL.log
+echo 	C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
 echo.
+
+rem : add : 2021年12月12日16:51:44
+echo 	C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
+echo.
+
+rem : add : 2021年11月23日14:59:35
+echo 	"C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
+echo 	sakura "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
+echo.
+
+rem : add : 2021年12月8日8:46:52
+echo  C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
+echo.
+
+rem : add : 2021年12月8日8:46:52
+echo  C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+echo.
+
+rem : add : 2021年12月22日23:58:50
+echo  C:\Users\iwabuchiken\Desktop\start_server_8000.bat
+echo.
+
+
+
 
 echo.
 echo ------------------------ strings
@@ -1400,6 +1504,13 @@ echo 	taskkill /f /im tor.exe
 echo.
 
 
+echo ------------------------ commands
+
+echo 	s1	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\70_co2\start_process-texts-for-reading_korean.bat
+echo.
+
+echo 	s2	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\70_co2\start_process-texts-for-reading_chinese.bat
+echo.
 
 REM ==============================
 REM 	if-case : default ==> gitk
