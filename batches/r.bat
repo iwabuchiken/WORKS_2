@@ -453,9 +453,11 @@ REM 	echo opening browser^(chrome^)...
 REM 	start chrome.exe  "http://127.0.0.1:8000/im/"
 
 REM : opera
-	pushd "C:\WORKS_2\Programs\opera"
-	echo opening browser^(opera^)...
-	start launcher.exe "http://127.0.0.1:8000/im/"
+
+rem : 2022”N3ŒŽ7“ú9:17:55 : start browser --> off
+rem 	pushd "C:\WORKS_2\Programs\opera"
+rem 	echo opening browser^(opera^)...
+rem 	start launcher.exe "http://127.0.0.1:8000/im/"
 		
 	pushd C:\WORKS_2\WS\WS_Others.prog\prog\D-7\2_2\VIRTUAL
 	

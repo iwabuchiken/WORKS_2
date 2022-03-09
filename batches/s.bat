@@ -182,6 +182,13 @@ set stringof_opt_br="browser : opera"
 rem : 2021年1月17日12:02:40
 set opt_c="c"
 
+rem : 2022年2月18日9:58:16
+rem : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+set opt_c1="c1"
+
+rem : 2022年2月18日10:15:17
+rem : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
+set opt_c2="c2"
 
 set opt_r_d2="d2"
 
@@ -752,6 +759,38 @@ rem call "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
 rem start "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
 rem C:\WORKS_2\Programs\sakura\sakura.exe "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
 "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0.1)_close-apps.starter.bat"
+
+REM ==============================
+REM 	if-case : "opt_c1" ==> start : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+rem 	2022年2月18日10:00:49
+REM ==============================
+) else if "%param%"==%opt_c1% (
+
+	echo param is %opt_c1%!
+	
+	echo.
+
+	echo starting "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods"
+	echo.
+	
+call "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods"
+rem start "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods"
+
+REM ==============================
+REM 	if-case : "opt_c2" ==> start : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
+rem 	2022年2月18日10:16:27
+REM ==============================
+) else if "%param%"==%opt_c2% (
+
+	echo param is %opt_c2%!
+	
+	echo.
+
+	echo starting "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
+	echo.
+	
+call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
+
 
 REM ==============================
 REM 	if-case : "opt_a1" ==> start
@@ -1339,6 +1378,7 @@ echo 	%opt_br:"=%	start %stringof_opt_br:"=%
 echo.
 
 echo 	%opt_c:"=%	start "2-0 -0)_close-apps.txt"
+rem echo 	%opt_c1:"=%	start "2-0 -0)_close-apps.txt"
 	
 echo 	d2	start django server : http://127.0.0.1:8000/im/
 
@@ -1419,7 +1459,7 @@ echo 	%opt_t:"=%	C:\WORKS_2\t.bat ^(in a new window^)
 	
 echo 	%opt_w:"=%	edit s.bat file
 
-rem echo 	%opt_c%	start 2-0 -0^)_close-apps.txt
+rem echo 	%opt_c1%	start 2-0 -0^)_close-apps.txt
 
 
 echo.
@@ -1449,11 +1489,11 @@ rem echo this file : %~f0
 echo 	------------------------ others
 echo.
 
-echo 	sakura C:\WORKS_2\batches\s.bat
+echo sakura C:\WORKS_2\batches\s.bat
 
 echo.
 
-echo 	C:\WORKS_2\start_a.bat
+echo C:\WORKS_2\start_a.bat
 
 echo.
 
@@ -1461,50 +1501,61 @@ echo.
 echo 	------------------------ files
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
+echo C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
 echo.
-echo 	"C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
+echo "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
 echo.
-echo 	C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+echo 		==^> s c
+echo.
+
+echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 echo.
 
 rem : add : 2021年11月23日14:59:35
-echo 	C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
+echo C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
 echo.
 
 rem : add : 2021年12月12日16:51:44
-echo 	C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
+echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
 echo.
 
 rem : add : 2021年11月23日14:59:35
-echo 	"C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
-echo 	sakura "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
+echo "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
+echo sakura "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
 echo.
 
 rem : add : 2021年12月8日8:46:52
-echo  C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
+echo C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
+echo.
+echo 		==^> s c2
 echo.
 
 rem : add : 2021年12月8日8:46:52
-echo  C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
+echo C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
 echo.
+echo 		==^> s c1
+echo.
+
 
 rem : add : 2021年12月22日23:58:50
-echo  C:\Users\iwabuchiken\Desktop\start_server_8000.bat
+echo C:\Users\iwabuchiken\Desktop\start_server_8000.bat
+echo.
+
+rem : add : 2022年2月8日23:51:51
+echo C:\WORKS_2\shortcuts_docs\log_JVE_46-6-8_japanese-art.log
 echo.
 
 
 
-
 echo.
-echo ------------------------ strings
-echo 	taskkill /f /im firefox.exe
+echo 	------------------------ strings
+echo taskkill /f /im firefox.exe
 echo.
-echo 	taskkill /f /im tor.exe
+echo taskkill /f /im tor.exe
 echo.
 
 
-echo ------------------------ commands
+echo 	------------------------ commands
 
 echo 	s1	start C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\70_co2\start_process-texts-for-reading_korean.bat
 echo.

@@ -102,8 +102,18 @@ echo.
 
 ECHO.
 ECHO Setting aliases for git
-ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
-			status -^> s, commit -^> c
+
+rem : updating : 2022年3月1日8:20:24
+rem ECHO 	=^> checkout -^> co, push -^> p, add -^> a, log -^> l,^
+rem 			status -^> s, commit -^> c
+ECHO 	checkout -^> co
+echo 	push	-^> p
+echo 	log	-^> l
+echo 	status	-^> s
+echo 	commit	-^> c
+echo.
+
+
 git config --global alias.co checkout
 git config --global alias.p push
 git config --global alias.a add
