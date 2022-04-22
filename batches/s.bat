@@ -273,6 +273,15 @@ set opt_r_11_short="11"
 
 set fpath_bat_opt_r_11="C:\WORKS_2\shortcuts_docs\start_log_JVE_64_ALL.bat"
 
+rem : 2022”N4ŒŽ13“ú15:50:38
+rem : JVE_46-6-8_japanese-art
+set opt_r_12="r12"
+set stringof_opt_r_12="JVE_46-6-8_japanese-art"
+
+set opt_r_12_short="12"
+
+set fpath_bat_opt_r_12="C:\WORKS_2\shortcuts_docs\start_JVE_46-6-8_japanese-art.bat"
+
 
 echo set opt string ==^> comp... : %opt_r_10_short%
 
@@ -556,6 +565,21 @@ echo.
 echo 	%fpath_bat_opt_r_11%
 
 call %fpath_bat_opt_r_11:"=%
+
+REM ==============================
+REM 	if-case : "opt_r_12_short" ==> start : res.linguis
+rem 	2022”N4ŒŽ13“ú15:52:27
+REM ==============================
+) else if "%param%"==%opt_r_12_short% (
+
+echo param is %opt_r_12_short%!
+echo.
+
+echo 	%fpath_bat_opt_r_12%
+
+call %fpath_bat_opt_r_12:"=%
+
+
 
 REM ==============================
 REM 	if-case : "opt_r_4" ==> start : res.linguis
@@ -1308,62 +1332,62 @@ echo ^<Options^>
 
 echo 	------------------------ b
 
-echo 	%opt_b66:"=%	start %stringof_opt_b66:"=%
+rem echo 	%opt_b66:"=%	start %stringof_opt_b66:"=%
 
-echo 	%opt_b68:"=%	start %stringof_opt_b68:"=%
+rem echo 	%opt_b68:"=%	start %stringof_opt_b68:"=%
 
-echo 	%opt_b78:"=%	start %stringof_opt_b78:"=%
+rem echo 	%opt_b78:"=%	start %stringof_opt_b78:"=%
 
-echo 	%opt_b1:"=%	start "JVE_64.[book=myoukounin]"
+rem echo 	%opt_b1:"=%	start "JVE_64.[book=myoukounin]"
 
-echo 	%opt_b85:"=%	start "JVE_64.[85_topika]"
+rem echo 	%opt_b85:"=%	start "JVE_64.[85_topika]"
 
-echo.
+rem echo.
 
-echo 	%opt_b3:"=%	start "JVE_64.[86_seiyou]"
+rem echo 	%opt_b3:"=%	start "JVE_64.[86_seiyou]"
 
-echo 	%opt_b89:"=%	start %stringof_opt_b89:"=%
+rem echo 	%opt_b89:"=%	start %stringof_opt_b89:"=%
 
-echo 	%opt_b90:"=%	start %stringof_opt_b90:"=%
+rem echo 	%opt_b90:"=%	start %stringof_opt_b90:"=%
 
-echo.
+rem echo.
 
-echo 	%opt_91:"=%	start %stringof_opt_91:"=%
+rem echo 	%opt_91:"=%	start %stringof_opt_91:"=%
 
-echo 	%opt_b93:"=%	start %stringof_opt_b93:"=%
+rem echo 	%opt_b93:"=%	start %stringof_opt_b93:"=%
 
-echo 	%opt_b94:"=%	start %stringof_opt_b94:"=%
+rem echo 	%opt_b94:"=%	start %stringof_opt_b94:"=%
 
-echo.
+rem echo.
 
-echo 	%opt_b95:"=%	start %stringof_opt_b95:"=%
+rem echo 	%opt_b95:"=%	start %stringof_opt_b95:"=%
 
-echo 	%opt_b99:"=%	start %stringof_opt_b99:"=%
+rem echo 	%opt_b99:"=%	start %stringof_opt_b99:"=%
 
-echo 	%opt_b100:"=%	start %stringof_opt_b100:"=%
+rem echo 	%opt_b100:"=%	start %stringof_opt_b100:"=%
 
-echo.
+rem echo.
 
-echo 	%opt_b101:"=%	start %stringof_opt_b101:"=%
+rem echo 	%opt_b101:"=%	start %stringof_opt_b101:"=%
 
-echo 	%opt_b102:"=%	start %stringof_opt_b102:"=%
+rem echo 	%opt_b102:"=%	start %stringof_opt_b102:"=%
 
-echo.
+rem echo.
 
-echo 	%opt_b108:"=%	start %stringof_opt_b108:"=%
+rem echo 	%opt_b108:"=%	start %stringof_opt_b108:"=%
 
-echo 	%opt_b111:"=%	start %stringof_opt_b111:"=%
+rem echo 	%opt_b111:"=%	start %stringof_opt_b111:"=%
 
-echo 	%opt_b114:"=%	start %stringof_opt_b114:"=%
+rem echo 	%opt_b114:"=%	start %stringof_opt_b114:"=%
 
 
-echo.
+rem echo.
 
-echo 	%opt_b128:"=%	start %stringof_opt_b128:"=%
+rem echo 	%opt_b128:"=%	start %stringof_opt_b128:"=%
 
-echo 	%opt_b130:"=%	start %stringof_opt_b130:"=%
+rem echo 	%opt_b130:"=%	start %stringof_opt_b130:"=%
 
-echo.
+rem echo.
 
 
 
@@ -1410,11 +1434,11 @@ echo.
 
 echo 	------------------------ r
 
-echo 	%opt_r_1:"=%	start 67_theology
-echo.
+rem echo 	%opt_r_1:"=%	start 67_theology
+rem echo.
 
-echo 	%opt_r_2:"=%	start res.43_linguistics
-echo.
+rem echo 	%opt_r_2:"=%	start res.43_linguistics
+rem echo.
 
 echo 	%opt_r_3:"=%,%opt_r_3_short:"=%	start res.68_theoretical-physics
 echo.
@@ -1424,16 +1448,16 @@ echo.
 echo 	%opt_r_4:"=%	start JVE_70.[CO2]
 echo.
 
-echo 	%opt_r_5:"=%	start JVE_71.[logic]
-echo.
+rem echo 	%opt_r_5:"=%	start JVE_71.[logic]
+rem echo.
 
 echo 	    --------------------------- 6~
 
-echo 	%opt_r_6:"=%	start %stringof_opt_r_6:"=%
-echo.
+rem echo 	%opt_r_6:"=%	start %stringof_opt_r_6:"=%
+rem echo.
 
-echo 	%opt_r_7:"=%	start %stringof_opt_r_7:"=%
-echo.
+rem echo 	%opt_r_7:"=%	start %stringof_opt_r_7:"=%
+rem echo.
 
 echo 	%opt_r_8:"=%,%opt_r_8_short:"=%	start %stringof_opt_r_8:"=%
 echo 		C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
@@ -1441,9 +1465,9 @@ echo 		full		start all
 echo 		no-option	files only
 echo.
 
-echo 	%opt_r_9:"=%	start %stringof_opt_r_9:"=%
-echo 		C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat
-echo.
+rem echo 	%opt_r_9:"=%	start %stringof_opt_r_9:"=%
+rem echo 		C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat
+rem echo.
 
 echo 	%opt_r_10:"=%,%opt_r_10_short:"=%	start %stringof_opt_r_10:"=%
 
@@ -1452,6 +1476,12 @@ echo.
 echo 	%opt_r_11:"=%,%opt_r_11_short:"=%	start %stringof_opt_r_11:"=%
 
 echo.
+
+rem : 2022”N4ŒŽ13“ú15:53:15
+echo 	%opt_r_12:"=%,%opt_r_12_short:"=%	start %stringof_opt_r_12:"=%
+
+echo.
+
 
 echo 	------------------------ t~
 

@@ -1,3 +1,4 @@
+@echo off
 REM =============================
 REM 	update history
 REM 	2021”N11ŒŽ18“ú9:56:07
@@ -7,7 +8,7 @@ REM add : option "h"
 REM 
 REM 
 
-@echo off
+rem @echo off
 
 rem start C:\WORKS_2\WS\WS_Music
 
