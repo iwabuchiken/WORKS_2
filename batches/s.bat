@@ -307,6 +307,10 @@ set param=%1
 
 echo param is ... '%param%'
 
+echo.
+
+echo dispatching...
+echo.
 
 REM ==============================
 REM 	if-case : "d2"
@@ -829,12 +833,19 @@ rem 	2022年4月26日0:43:15
 REM ==============================
 ) else if "%param%"==%opt_c3% (
 
-	echo param is %opt_c3%!
-	
-	echo.
+echo param is %opt_c3%!
+echo.
 
-	echo starting "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
-	echo.
+rem //2022年6月16日10:05:20
+set fpath_List="G:\photo-books\list-of-books.txt"
+
+echo path --- set : %fpath_List%
+
+rem echo starting "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
+
+rem //2022年6月16日10:04:15
+echo starting %fpath_List%
+echo.
 	
 rem call "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt" //=> console halts
 
@@ -847,7 +858,8 @@ rem echo yes && echo. && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.
 
 rem : 2022年4月29日16:18:44
 rem :  //=> console halts NOT
-C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
+C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && %fpath_List%
+rem C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
 
 REM ==============================
 REM 	if-case : "opt_c4" ==> start : C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
@@ -1641,6 +1653,10 @@ echo 	------------------------ strings
 echo taskkill /f /im firefox.exe
 echo.
 echo taskkill /f /im tor.exe
+echo.
+
+rem //2022年6月15日17:32:44
+echo taskkill /f /im browser.exe
 echo.
 
 

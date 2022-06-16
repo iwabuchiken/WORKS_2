@@ -29,6 +29,7 @@ REM 	2020年6月9日21:27:29
 REM =============================
 ) else if "%param%"=="c" (
 
+echo opening : C:\WORKS_2\WS\WS_Cake_IFM11\commands
 start C:\WORKS_2\WS\WS_Cake_IFM11\commands
 
 REM =============================
@@ -37,6 +38,8 @@ REM 	2020年6月9日21:38:46
 REM =============================
 ) else if "%param%"=="d" (
 
+echo opening : C:\WORKS_2\Downloads
+echo.
 start C:\WORKS_2\Downloads
 
 REM =============================
@@ -45,6 +48,8 @@ REM 	2020年6月15日8:50:09
 REM =============================
 ) else if "%param%"=="i" (
 
+echo opening : C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+echo.
 start C:\WORKS_2\WS\WS_Cake_IFM11\iphone
 
 REM =============================
@@ -54,6 +59,7 @@ REM =============================
 ) else if "%param%"=="s" (
 
 echo opening folder : C:\WORKS_2\shortcuts_docs
+echo.
 
 start C:\WORKS_2\shortcuts_docs
 
@@ -63,6 +69,9 @@ REM 	2020年6月9日21:39:29
 REM =============================
 ) else if "%param%"=="t" (
 
+echo opening : C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+echo.
+
 start C:\WORKS_2\WS\WS_Cake_IFM11\tmp
 
 REM =============================
@@ -70,6 +79,9 @@ REM 	C:\WORKS_2
 REM 	2020年6月9日21:27:29
 REM =============================
 ) else if "%param%"=="w" (
+
+echo opening : C:\WORKS_2
+echo.
 
 start C:\WORKS_2
 
