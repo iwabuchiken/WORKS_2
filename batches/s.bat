@@ -190,14 +190,6 @@ rem : 2022年2月18日10:15:17
 rem : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
 set opt_c2="c2"
 
-rem : 2022年4月26日0:42:21
-rem : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
-set opt_c3="c3"
-
-rem : 2022年4月29日16:21:28
-rem : C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
-set opt_c4="c4"
-
 set opt_r_d2="d2"
 
 rem : 2021年2月17日12:54:54
@@ -307,10 +299,6 @@ set param=%1
 
 echo param is ... '%param%'
 
-echo.
-
-echo dispatching...
-echo.
 
 REM ==============================
 REM 	if-case : "d2"
@@ -826,59 +814,6 @@ REM ==============================
 	echo.
 	
 call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
-
-REM ==============================
-REM 	if-case : "opt_c3" ==> start : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
-rem 	2022年4月26日0:43:15
-REM ==============================
-) else if "%param%"==%opt_c3% (
-
-echo param is %opt_c3%!
-echo.
-
-rem //2022年6月16日10:05:20
-set fpath_List="G:\photo-books\list-of-books.txt"
-
-echo path --- set : %fpath_List%
-
-rem echo starting "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
-
-rem //2022年6月16日10:04:15
-echo starting %fpath_List%
-echo.
-	
-rem call "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt" //=> console halts
-
-rem C:\WORKS_2\start_a.bat && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
-
-rem : 2022年4月29日16:13:41
-rem C:\WORKS_2\t.bat && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt" //=> console halts NOT
-
-rem echo yes && echo. && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt" //=> console halts
-
-rem : 2022年4月29日16:18:44
-rem :  //=> console halts NOT
-C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && %fpath_List%
-rem C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && "C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
-
-REM ==============================
-REM 	if-case : "opt_c4" ==> start : C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
-rem 	2022年4月29日16:22:54
-REM ==============================
-) else if "%param%"==%opt_c4% (
-
-echo param is %opt_c4%!
-
-echo.
-
-echo starting "C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log"
-echo.
-
-
-rem : 2022年4月29日16:23:40
-rem :  //=> console halts NOT
-C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && "C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log"
-
 
 
 REM ==============================
@@ -1603,21 +1538,15 @@ echo.
 echo 		==^> s c
 echo.
 
-rem : add : 2021年12月12日16:51:44
-rem : add : shortcut
-echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
-echo.
-echo 		==^> s c4
-echo.
-
-
 echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
-echo.
-echo 		==^> s c3
 echo.
 
 rem : add : 2021年11月23日14:59:35
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
+echo.
+
+rem : add : 2021年12月12日16:51:44
+echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
 echo.
 
 rem : add : 2021年11月23日14:59:35
@@ -1658,6 +1587,7 @@ echo.
 rem //2022年6月15日17:32:44
 echo taskkill /f /im browser.exe
 echo.
+
 
 
 echo 	------------------------ commands
