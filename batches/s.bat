@@ -283,7 +283,7 @@ set opt_r_12_short="12"
 set fpath_bat_opt_r_12="C:\WORKS_2\shortcuts_docs\start_JVE_46-6-8_japanese-art.bat"
 
 
-rem echo set opt string ==^> comp... : %opt_r_10_short%
+echo set opt string ==^> comp... : %opt_r_10_short%
 
 rem : 2021年1月25日0:44:15
 set opt_t="t"
@@ -812,32 +812,8 @@ REM ==============================
 
 	echo starting "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
 	echo.
-		
-call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
-
-REM ==============================
-REM 	if-case : "opt_c3" ==> start : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
-rem 	2022年6月16日10:49:03
-REM ==============================
-) else if "%param%"==%opt_c3% (
-
-echo param is %opt_c3%!
-echo.
-
-set fpath_Books=G:\photo-books\list-of-books.txt
-rem set fpath_Books="C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
-
-echo %fpath_Books:"=%
-rem echo %fpath_Books%
-
-echo starting %fpath_Books%
-echo.
 	
-C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath_Books%
-rem C:\WORKS_2\Programs\sakura\sakura.exe %fpath_Books%
-rem call %fpath_Books%
-rem call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
-
+call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
 
 
 REM ==============================
@@ -1352,8 +1328,6 @@ rem 	2020年12月30日0:22:36
 REM ==============================
 ) else if "%param%"==%opt_h% (
 
-echo param is 'h'
-
 echo ^<Options^>
 
 echo 	------------------------ b
@@ -1567,10 +1541,6 @@ echo.
 echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 echo.
 
-rem //2022年6月16日10:47:30
-echo 		==^> s c3
-echo.
-
 rem : add : 2021年11月23日14:59:35
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
 echo.
@@ -1578,6 +1548,12 @@ echo.
 rem : add : 2021年12月12日16:51:44
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
 echo.
+
+rem //2022年6月20日23:19:14
+
+echo 		==^> s c3
+echo.
+
 
 rem : add : 2021年11月23日14:59:35
 echo "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
@@ -1614,11 +1590,11 @@ echo.
 echo taskkill /f /im tor.exe
 echo.
 
+rem //2022年6月20日23:18:01
+
 rem //2022年6月15日17:32:44
 echo taskkill /f /im browser.exe
 echo.
-
-
 
 echo 	------------------------ commands
 
