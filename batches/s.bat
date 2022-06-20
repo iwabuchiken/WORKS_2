@@ -2,23 +2,23 @@
 
 REM ==============================
 REM 	set : vars
-rem 	2020”N12ŒŽ30“ú0:20:17
+rem 	2020å¹´12æœˆ30æ—¥0:20:17
 REM ==============================
 
 REM ==============================
 REM 	set : vars : read books
-rem 	2021”N3ŒŽ4“ú13:40:46
+rem 	2021å¹´3æœˆ4æ—¥13:40:46
 REM ==============================
 
 rem ------------------
-rem : 2021”N6ŒŽ23“ú13:28:45
+rem : 2021å¹´6æœˆ23æ—¥13:28:45
 rem "a1" ==> JVE_46.[5_free-painting]
 set opt_a1="a1"
 rem set stringof_opt_b89="JVE_46.[5_free-painting]"
 set stringof_opt_a1="JVE_46.[5_free-painting]"
 
 
-rem : 2021”N1ŒŽ27“ú16:34:03
+rem : 2021å¹´1æœˆ27æ—¥16:34:03
 rem "b1" ==> JVE_64.[book=myoukounin]
 set opt_b1="b1"
 
@@ -27,20 +27,20 @@ rem 	DUP : "set" line
 rem 	edit
 rem 	
 rem 	
-rem : 2021”N1ŒŽ28“ú0:35:37
+rem : 2021å¹´1æœˆ28æ—¥0:35:37
 rem "b1" ==> JVE_64.[85_topika]
 set opt_b85="b85"
 
-rem : 2021”N1ŒŽ29“ú17:19:17
+rem : 2021å¹´1æœˆ29æ—¥17:19:17
 rem "b1" ==> JVE_64.[86_seiyou]
 set opt_b3="b3"
 
-rem : 2021”N2ŒŽ9“ú7:37:26
+rem : 2021å¹´2æœˆ9æ—¥7:37:26
 rem "b1" ==> JVE_64.[90_oritaku]
 set opt_b90="b90"
 set stringof_opt_b90="JVE_64.[90_oritaku]"
 
-rem : 2021”N2ŒŽ9“ú13:03:20
+rem : 2021å¹´2æœˆ9æ—¥13:03:20
 rem "b89" ==> JVE_64.[91_oona]
 set opt_b89="b89"
 rem set stringof_opt_b89="JVE_64.[89_oona]"
@@ -49,21 +49,21 @@ set stringof_opt_b89="JVE_64.[89_okina]"
 rem set fname_batch_b89="start_log_JVE_64.[91_oona].bat
 set fname_batch_b89=start_log_%stringof_opt_b89:"=%.bat
 
-rem : 2021”N2ŒŽ16“ú23:34:52
+rem : 2021å¹´2æœˆ16æ—¥23:34:52
 rem "b91" ==> JVE_64.[91_laiki_lakuki]
 set opt_91="b91"
 set stringof_opt_91="JVE_64.[91_laiki_lakuki]"
 
 set fname_batch_91=start_log_%stringof_opt_91:"=%.bat
 
-rem : 2021”N2ŒŽ18“ú9:48:22
+rem : 2021å¹´2æœˆ18æ—¥9:48:22
 rem "b94" ==> JVE_64.[94_kinshiroku]
 set opt_b94="b94"
 set stringof_opt_b94="JVE_64.[94_kinshiroku]"
 
 set fname_batch_b94=start_log_%stringof_opt_b94:"=%.bat
 
-rem : 2021”N2ŒŽ26“ú14:11:06
+rem : 2021å¹´2æœˆ26æ—¥14:11:06
 rem "b68" ==> JVE_64.[68_daigaku]
 set opt_b68="b68"
 set stringof_opt_b68="JVE_64.[68_daigaku]"
@@ -71,128 +71,128 @@ set stringof_opt_b68="JVE_64.[68_daigaku]"
 set fname_batch_b68=start_log_%stringof_opt_b68:"=%.bat
 
 
-rem : 2021”N2ŒŽ18“ú16:31:17
+rem : 2021å¹´2æœˆ18æ—¥16:31:17
 rem "b78" ==> JVE_64.[78_goedel]
 set opt_b78="b78"
 set stringof_opt_b78="JVE_64.[78_goedel]"
 
 set fname_batch_b78=start_log_%stringof_opt_b78:"=%.bat
 
-rem : 2021”N2ŒŽ23“ú8:27:10
+rem : 2021å¹´2æœˆ23æ—¥8:27:10
 rem "b93" ==> JVE_64.[93_laiki_gakuki]
 set opt_b93="b93"
 set stringof_opt_b93="JVE_64.[93_laiki_gakuki]"
 
 set fname_batch_b93=start_log_%stringof_opt_b93:"=%.bat
 
-rem : 2021”N2ŒŽ23“ú19:19:32
+rem : 2021å¹´2æœˆ23æ—¥19:19:32
 rem "b95" ==> JVE_64.[95_inaka]
 set opt_b95="b95"
 set stringof_opt_b95="JVE_64.[95_inaka]"
 
 set fname_batch_b95=start_log_%stringof_opt_b95:"=%.bat
 
-rem : 2021”N2ŒŽ28“ú0:14:42
+rem : 2021å¹´2æœˆ28æ—¥0:14:42
 rem "b66" ==> JVE_64.[66_sekimon]
 set opt_b66="b66"
 set stringof_opt_b66="JVE_64.[66_sekimon]"
 
 set fname_batch_b66=start_log_%stringof_opt_b66:"=%.bat
 
-rem : 2021”N3ŒŽ4“ú13:41:28
+rem : 2021å¹´3æœˆ4æ—¥13:41:28
 rem "b99" ==> JVE_64.[66_sekimon]
 set opt_b99="b99"
 set stringof_opt_b99="JVE_64.[99_chuuyou]"
 
 set fname_batch_b99=start_log_%stringof_opt_b99:"=%.bat
 
-rem : 2021”N3ŒŽ4“ú13:41:28
+rem : 2021å¹´3æœˆ4æ—¥13:41:28
 rem "b100" ==> JVE_64.[66_sekimon]
 set opt_b100="b100"
 set stringof_opt_b100="JVE_64.[100_rantou]"
 
 set fname_batch_b100=start_log_%stringof_opt_b100:"=%.bat
 
-rem : 2021”N3ŒŽ4“ú13:41:28
+rem : 2021å¹´3æœˆ4æ—¥13:41:28
 set opt_b101="b101"
 set stringof_opt_b101="JVE_64.[101_banzan_shuugi]"
 
 set fname_batch_b101=start_log_%stringof_opt_b101:"=%.bat
 
 
-rem : 2021”N3ŒŽ12“ú23:01:20
+rem : 2021å¹´3æœˆ12æ—¥23:01:20
 set opt_b102="b102"
 set stringof_opt_b102="JVE_64.[102_banzan_wakumon]"
 
 set fname_batch_b102=start_log_%stringof_opt_b102:"=%.bat
 
-rem : 2021”N4ŒŽ29“ú0:08:35
+rem : 2021å¹´4æœˆ29æ—¥0:08:35
 set opt_b108="b108"
 set stringof_opt_b108="JVE_64.[108_imayou_heta]"
 
 set fname_batch_b108=start_log_%stringof_opt_b108:"=%.bat
 
-rem : 2021”N6ŒŽ12“ú0:28:58
+rem : 2021å¹´6æœˆ12æ—¥0:28:58
 set opt_b111="b111"
 set stringof_opt_b111="JVE_64.[111_ujishuui]"
 set fname_batch_b111=start_log_%stringof_opt_b111:"=%.bat
 
-rem : 2021”N6ŒŽ23“ú15:19:20
+rem : 2021å¹´6æœˆ23æ—¥15:19:20
 set opt_b114="b114"
 rem set stringof_opt_b114="JVE_64.[114_hirata]"
 set stringof_opt_b114="JVE_64_114_hirata"
 set fname_batch_b114=start_log_%stringof_opt_b114:"=%.bat
 
-rem : 2021”N10ŒŽ2“ú9:43:31
+rem : 2021å¹´10æœˆ2æ—¥9:43:31
 set opt_b128="b128"
 set stringof_opt_b128="JVE_64.[128_honda]"
 set fname_batch_b128=start_log_%stringof_opt_b128:"=%.bat
 
-rem : 2021”N10ŒŽ4“ú15:40:00
+rem : 2021å¹´10æœˆ4æ—¥15:40:00
 set opt_b130="b130"
 set stringof_opt_b130="JVE_64_130_eki"
 set fname_batch_b130=start_log_%stringof_opt_b130:"=%.bat
 
-rem : 2021”N11ŒŽ10“ú0:27:47
+rem : 2021å¹´11æœˆ10æ—¥0:27:47
 rem set opt_b114="b114"
 rem set stringof_opt_b114="JVE_64_114_hirata"
 rem set fname_batch_b114=start_log_%stringof_orem pt_b114:"=%.bat
 
-rem : 2022”N1ŒŽ6“ú13:25:25
+rem : 2022å¹´1æœˆ6æ—¥13:25:25
 set opt_s1="s1"
 
-rem : 2022”N1ŒŽ8“ú22:15:14
+rem : 2022å¹´1æœˆ8æ—¥22:15:14
 rem : process texts : chinese
 set opt_s2="s2"
 
-rem : 2021”N2ŒŽ28“ú0:14:42
+rem : 2021å¹´2æœˆ28æ—¥0:14:42
 rem "bl" ==> JVE_64.[66_sekimon]
 set opt_bl="bl"
 set stringof_opt_bl="book-reading log"
 
 REM ==============================
 REM 	set : vars : "c" ~
-rem 	2021”N3ŒŽ4“ú13:40:46
+rem 	2021å¹´3æœˆ4æ—¥13:40:46
 REM ==============================
 
-rem : 2021”N1ŒŽ6“ú23:35:00
+rem : 2021å¹´1æœˆ6æ—¥23:35:00
 set opt_br="br"
 set stringof_opt_br="browser : opera"
 
-rem : 2021”N1ŒŽ17“ú12:02:40
+rem : 2021å¹´1æœˆ17æ—¥12:02:40
 set opt_c="c"
 
-rem : 2022”N2ŒŽ18“ú9:58:16
+rem : 2022å¹´2æœˆ18æ—¥9:58:16
 rem : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
 set opt_c1="c1"
 
-rem : 2022”N2ŒŽ18“ú10:15:17
+rem : 2022å¹´2æœˆ18æ—¥10:15:17
 rem : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
 set opt_c2="c2"
 
 set opt_r_d2="d2"
 
-rem : 2021”N2ŒŽ17“ú12:54:54
+rem : 2021å¹´2æœˆ17æ—¥12:54:54
 rem "di" ==> diary
 set opt_di="di"
 
@@ -200,62 +200,62 @@ set command_line_di="C:\WORKS_2\shortcuts_docs\start_diary.bat"
 
 set opt_r_dr="dr"
 
-rem : 2021”N1ŒŽ6“ú23:35:00
+rem : 2021å¹´1æœˆ6æ—¥23:35:00
 set opt_fm="fm"
 
-rem : 2021”N5ŒŽ9“ú15:14:06
+rem : 2021å¹´5æœˆ9æ—¥15:14:06
 set opt_fi="fi"
 
-rem : 2021”N3ŒŽ4“ú13:46:21
+rem : 2021å¹´3æœˆ4æ—¥13:46:21
 set opt_gi="gi"
 
-rem : 2021”N2ŒŽ15“ú9:50:41
+rem : 2021å¹´2æœˆ15æ—¥9:50:41
 set opt_m="m"
 
 
-rem : 2021”N1ŒŽ8“ú11:36:29
+rem : 2021å¹´1æœˆ8æ—¥11:36:29
 rem : theolo
 set opt_r_1="r1"
 
-rem : 2021”N1ŒŽ8“ú11:45:16
+rem : 2021å¹´1æœˆ8æ—¥11:45:16
 rem : 43_linguis
 set opt_r_2="r2"
 
-rem : 2021”N1ŒŽ16“ú14:10:55
+rem : 2021å¹´1æœˆ16æ—¥14:10:55
 rem : 68_theoretical-physics
 set opt_r_3="r3"
 
 set opt_r_3_short="3"
 
-rem : 2021”N3ŒŽ14“ú16:58:53
+rem : 2021å¹´3æœˆ14æ—¥16:58:53
 rem : JVE_70.[CO2]
 set opt_r_4="r4"
 
-rem : 2021”N3ŒŽ20“ú15:03:58
+rem : 2021å¹´3æœˆ20æ—¥15:03:58
 rem : JVE_71.[logic]
 set opt_r_5="r5"
 
-rem : 2021”N4ŒŽ17“ú12:16:45
+rem : 2021å¹´4æœˆ17æ—¥12:16:45
 rem : JVE_73.[ai]
 set opt_r_6="r6"
 set stringof_opt_r_6="JVE_73.[ai]"
 
-rem : 2021”N4ŒŽ20“ú11:19:26
+rem : 2021å¹´4æœˆ20æ—¥11:19:26
 rem : JVE_73.[ai]
 set opt_r_7="r7"
 set stringof_opt_r_7="JVE_74.[dyslexia]"
 
-rem : 2021”N4ŒŽ20“ú11:19:26
+rem : 2021å¹´4æœˆ20æ—¥11:19:26
 rem : JVE_83.[ai]
 set opt_r_8="r8"
 set stringof_opt_r_8="JVE_72.[read]"
 
 set opt_r_8_short="8"
 
-rem : 2021”N7ŒŽ18“ú16:37:57
+rem : 2021å¹´7æœˆ18æ—¥16:37:57
 set opt_r_9="r9"
 set stringof_opt_r_9="JVE_57-2_physics-engine"
-rem : 2021”N9ŒŽ19“ú14:50:10
+rem : 2021å¹´9æœˆ19æ—¥14:50:10
 rem : 76_physics
 set opt_r_10="r10"
 set stringof_opt_r_10="JVE_76_physics"
@@ -264,7 +264,7 @@ set opt_r_10_short="10"
 
 set fpath_bat_opt_r_10="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
 
-rem : 2021”N11ŒŽ30“ú16:22:11
+rem : 2021å¹´11æœˆ30æ—¥16:22:11
 rem : JVE_64_ALL
 set opt_r_11="r11"
 set stringof_opt_r_11="JVE_64_ALL"
@@ -273,7 +273,7 @@ set opt_r_11_short="11"
 
 set fpath_bat_opt_r_11="C:\WORKS_2\shortcuts_docs\start_log_JVE_64_ALL.bat"
 
-rem : 2022”N4ŒŽ13“ú15:50:38
+rem : 2022å¹´4æœˆ13æ—¥15:50:38
 rem : JVE_46-6-8_japanese-art
 set opt_r_12="r12"
 set stringof_opt_r_12="JVE_46-6-8_japanese-art"
@@ -283,9 +283,9 @@ set opt_r_12_short="12"
 set fpath_bat_opt_r_12="C:\WORKS_2\shortcuts_docs\start_JVE_46-6-8_japanese-art.bat"
 
 
-echo set opt string ==^> comp... : %opt_r_10_short%
+rem echo set opt string ==^> comp... : %opt_r_10_short%
 
-rem : 2021”N1ŒŽ25“ú0:44:15
+rem : 2021å¹´1æœˆ25æ—¥0:44:15
 set opt_t="t"
 
 set opt_w="w"
@@ -293,7 +293,7 @@ set opt_h="h"
 
 REM ==============================
 REM 	set : params
-rem 	2020”N12ŒŽ30“ú0:20:40
+rem 	2020å¹´12æœˆ30æ—¥0:20:40
 REM ==============================
 set param=%1
 
@@ -302,7 +302,7 @@ echo param is ... '%param%'
 
 REM ==============================
 REM 	if-case : "d2"
-rem 	2020”N12ŒŽ30“ú0:21:08
+rem 	2020å¹´12æœˆ30æ—¥0:21:08
 REM ==============================
 if "%param%"==%opt_r_d2% (
 
@@ -316,7 +316,7 @@ start r d2
 
 REM ==============================
 REM 	if-case : "d2"
-rem 	2020”N12ŒŽ30“ú0:21:08
+rem 	2020å¹´12æœˆ30æ—¥0:21:08
 REM ==============================
 ) else if "%param%"==%opt_di% (
 
@@ -332,7 +332,7 @@ start %command_line_di:"=%
 
 REM ==============================
 REM 	if-case : "opt_r_dr" ==> drink-alcohol
-rem 	2021”N1ŒŽ5“ú0:33:08
+rem 	2021å¹´1æœˆ5æ—¥0:33:08
 REM ==============================
 ) else if "%param%"==%opt_r_dr% (
 
@@ -346,7 +346,7 @@ C:\WORKS_2\shortcuts_docs\start_log_[drink-alcohol].bat
 
 REM ==============================
 REM 	if-case : "opt_r_dr" ==> drink-alcohol
-rem 	2021”N1ŒŽ5“ú0:33:08
+rem 	2021å¹´1æœˆ5æ—¥0:33:08
 REM ==============================
 ) else if "%param%"==%opt_w% (
 
@@ -362,7 +362,7 @@ start C:\WORKS_2\Programs\sakura\sakura.exe C:\WORKS_2\batches\s.bat
 
 REM ==============================
 REM 	if-case : "opt_fm" ==> start freemind
-rem 	2021”N1ŒŽ6“ú23:37:29
+rem 	2021å¹´1æœˆ6æ—¥23:37:29
 REM ==============================
 ) else if "%param%"==%opt_fm% (
 
@@ -377,7 +377,7 @@ C:\WORKS_2\Programs\FreeMind_1.0.1\FreeMind.exe
 
 REM ==============================
 REM 	if-case : "opt_fi" ==> start freemind
-rem 	2021”N5ŒŽ9“ú15:16:31
+rem 	2021å¹´5æœˆ9æ—¥15:16:31
 REM ==============================
 ) else if "%param%"==%opt_fi% (
 
@@ -392,7 +392,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_gi" ==> start : gimp
-rem 	2021”N3ŒŽ4“ú13:46:53
+rem 	2021å¹´3æœˆ4æ—¥13:46:53
 REM ==============================
 ) else if "%param%"==%opt_gi% (
 
@@ -419,7 +419,7 @@ rem C:\WORKS_2\Programs\FreeMind_1.0.1\FreeMind.exe
 
 REM ==============================
 REM 	if-case : "opt_m" ==> start_jve_[46#13].[theme=compositions]
-rem 	2021”N2ŒŽ15“ú9:52:40
+rem 	2021å¹´2æœˆ15æ—¥9:52:40
 REM ==============================
 ) else if "%param%"==%opt_m% (
 
@@ -433,7 +433,7 @@ C:\WORKS_2\shortcuts_docs\start_jve_[46#13].[theme^=compositions].bat
 
 REM ==============================
 REM 	if-case : "opt_r_1" ==> start : res.theology
-rem 	2021”N1ŒŽ6“ú23:37:29
+rem 	2021å¹´1æœˆ6æ—¥23:37:29
 REM ==============================
 ) else if "%param%"==%opt_r_1% (
 
@@ -450,7 +450,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_r_2" ==> start : res.linguis
-rem 	2021”N1ŒŽ8“ú11:47:13
+rem 	2021å¹´1æœˆ8æ—¥11:47:13
 REM ==============================
 ) else if "%param%"==%opt_r_2% (
 
@@ -467,7 +467,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_r_3" ==> start : res.linguis
-rem 	2021”N1ŒŽ16“ú14:12:12
+rem 	2021å¹´1æœˆ16æ—¥14:12:12
 REM ==============================
 ) else if "%param%"==%opt_r_3% (
 
@@ -495,7 +495,7 @@ rem sakura "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
 
 REM ==============================
 REM 	if-case : "opt_r_3_short" ==> start : res.linguis
-rem 	2021”N9ŒŽ24“ú16:52:29
+rem 	2021å¹´9æœˆ24æ—¥16:52:29
 REM ==============================
 ) else if "%param%"==%opt_r_3_short% (
 
@@ -512,7 +512,7 @@ call "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
 
 REM ==============================
 REM 	if-case : "opt_r_10" ==> start : res.linguis
-rem 	2021”N1ŒŽ16“ú14:12:12
+rem 	2021å¹´1æœˆ16æ—¥14:12:12
 REM ==============================
 ) else if "%param%"==%opt_r_10% (
 
@@ -535,7 +535,7 @@ rem call "C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
 
 REM ==============================
 REM 	if-case : "opt_r_10_short" ==> start : res.linguis
-rem 	2021”N9ŒŽ24“ú15:15:47
+rem 	2021å¹´9æœˆ24æ—¥15:15:47
 REM ==============================
 ) else if "%param%"==%opt_r_10_short% (
 
@@ -555,7 +555,7 @@ call %fpath_bat_opt_r_10:"=%
 
 REM ==============================
 REM 	if-case : "opt_r_11_short" ==> start : res.linguis
-rem 	2021”N9ŒŽ24“ú15:15:47
+rem 	2021å¹´9æœˆ24æ—¥15:15:47
 REM ==============================
 ) else if "%param%"==%opt_r_11_short% (
 
@@ -568,7 +568,7 @@ call %fpath_bat_opt_r_11:"=%
 
 REM ==============================
 REM 	if-case : "opt_r_12_short" ==> start : res.linguis
-rem 	2022”N4ŒŽ13“ú15:52:27
+rem 	2022å¹´4æœˆ13æ—¥15:52:27
 REM ==============================
 ) else if "%param%"==%opt_r_12_short% (
 
@@ -583,7 +583,7 @@ call %fpath_bat_opt_r_12:"=%
 
 REM ==============================
 REM 	if-case : "opt_r_4" ==> start : res.linguis
-rem 	2021”N1ŒŽ16“ú14:12:12
+rem 	2021å¹´1æœˆ16æ—¥14:12:12
 REM ==============================
 ) else if "%param%"==%opt_r_4% (
 
@@ -600,7 +600,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_r_5" ==> start : res.linguis
-rem 	2021”N3ŒŽ20“ú15:05:30
+rem 	2021å¹´3æœˆ20æ—¥15:05:30
 REM ==============================
 ) else if "%param%"==%opt_r_5% (
 
@@ -617,7 +617,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_r_6" ==> start : 
-rem 	2021”N4ŒŽ17“ú12:19:03
+rem 	2021å¹´4æœˆ17æ—¥12:19:03
 REM ==============================
 ) else if "%param%"==%opt_r_6% (
 
@@ -634,7 +634,7 @@ C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_6:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_7" ==> start : 
-rem 	2021”N4ŒŽ17“ú12:19:03
+rem 	2021å¹´4æœˆ17æ—¥12:19:03
 REM ==============================
 ) else if "%param%"==%opt_r_7% (
 
@@ -651,7 +651,7 @@ C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_7:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_8" ==> start : 
-rem 	2021”N5ŒŽ31“ú0:34:48
+rem 	2021å¹´5æœˆ31æ—¥0:34:48
 REM ==============================
 ) else if "%param%"==%opt_r_8% (
 
@@ -675,7 +675,7 @@ rem C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_8_short" ==> start : 
-rem 	2021”N5ŒŽ31“ú0:34:48
+rem 	2021å¹´5æœˆ31æ—¥0:34:48
 REM ==============================
 ) else if "%param%"==%opt_r_8_short% (
 
@@ -696,7 +696,7 @@ rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8_short:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_9" ==> start : 
-rem 	2021”N7ŒŽ18“ú16:39:06
+rem 	2021å¹´7æœˆ18æ—¥16:39:06
 REM ==============================
 ) else if "%param%"==%opt_r_9% (
 
@@ -714,7 +714,7 @@ C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_t" ==> start : res.linguis
-rem 	2021”N1ŒŽ25“ú0:44:49
+rem 	2021å¹´1æœˆ25æ—¥0:44:49
 REM ==============================
 ) else if "%param%"==%opt_t% (
 
@@ -743,7 +743,7 @@ start %windir%\system32\cmd.exe /k %arg%
 
 REM ==============================
 REM 	if-case : "opt_br" ==> start : res.linguis
-rem 	2021”N5ŒŽ23“ú15:10:34
+rem 	2021å¹´5æœˆ23æ—¥15:10:34
 REM ==============================
 ) else if "%param%"==%opt_br% (
 
@@ -766,7 +766,7 @@ echo %cmd_string%
 
 REM ==============================
 REM 	if-case : "opt_c" ==> start : res.linguis
-rem 	2021”N1ŒŽ17“ú12:04:12
+rem 	2021å¹´1æœˆ17æ—¥12:04:12
 REM ==============================
 ) else if "%param%"==%opt_c% (
 
@@ -786,7 +786,7 @@ rem C:\WORKS_2\Programs\sakura\sakura.exe "C:\WORKS_2\WS\WS_Cake_IFM11\commands\
 
 REM ==============================
 REM 	if-case : "opt_c1" ==> start : C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
-rem 	2022”N2ŒŽ18“ú10:00:49
+rem 	2022å¹´2æœˆ18æ—¥10:00:49
 REM ==============================
 ) else if "%param%"==%opt_c1% (
 
@@ -802,7 +802,7 @@ rem start "C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods"
 
 REM ==============================
 REM 	if-case : "opt_c2" ==> start : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
-rem 	2022”N2ŒŽ18“ú10:16:27
+rem 	2022å¹´2æœˆ18æ—¥10:16:27
 REM ==============================
 ) else if "%param%"==%opt_c2% (
 
@@ -812,13 +812,37 @@ REM ==============================
 
 	echo starting "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
 	echo.
-	
+		
 call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
+
+REM ==============================
+REM 	if-case : "opt_c3" ==> start : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+rem 	2022å¹´6æœˆ16æ—¥10:49:03
+REM ==============================
+) else if "%param%"==%opt_c3% (
+
+echo param is %opt_c3%!
+echo.
+
+set fpath_Books=G:\photo-books\list-of-books.txt
+rem set fpath_Books="C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt"
+
+echo %fpath_Books:"=%
+rem echo %fpath_Books%
+
+echo starting %fpath_Books%
+echo.
+	
+C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath_Books%
+rem C:\WORKS_2\Programs\sakura\sakura.exe %fpath_Books%
+rem call %fpath_Books%
+rem call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
+
 
 
 REM ==============================
 REM 	if-case : "opt_a1" ==> start
-rem 	2021”N6ŒŽ23“ú13:31:16
+rem 	2021å¹´6æœˆ23æ—¥13:31:16
 REM ==============================
 ) else if "%param%"==%opt_a1% (
 
@@ -864,7 +888,7 @@ rem  	echo 	"C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_a1:"=%.bat"
 
 REM ==============================
 REM 	if-case : "opt_b1" ==> start : res.linguis
-rem 	2021”N1ŒŽ27“ú16:41:00
+rem 	2021å¹´1æœˆ27æ—¥16:41:00
 REM ==============================
 ) else if "%param%"==%opt_b1% (
 
@@ -883,7 +907,7 @@ C:\WORKS_2\shortcuts_docs\start_log_JVE_64.[book^=myoukounin].bat
 
 REM ==============================
 REM 	if-case : "opt_b85" ==> start : res.linguis
-rem 	2021”N1ŒŽ27“ú16:41:00
+rem 	2021å¹´1æœˆ27æ—¥16:41:00
 REM ==============================
 ) else if "%param%"==%opt_b85% (
 
@@ -902,7 +926,7 @@ C:\WORKS_2\shortcuts_docs\start_log_JVE_64.[85_topika].bat
 
 REM ==============================
 REM 	if-case : "opt_b3" ==> start : res.linguis
-rem 	2021”N1ŒŽ29“ú17:20:49
+rem 	2021å¹´1æœˆ29æ—¥17:20:49
 REM ==============================
 ) else if "%param%"==%opt_b3% (
 
@@ -919,7 +943,7 @@ C:\WORKS_2\shortcuts_docs\start_log_JVE_64.[86_seiyou].bat
 
 REM ==============================
 REM 	if-case : "opt_b90" ==> start : 
-rem 	2021”N2ŒŽ9“ú7:40:17
+rem 	2021å¹´2æœˆ9æ—¥7:40:17
 REM ==============================
 ) else if "%param%"==%opt_b90% (
 
@@ -941,7 +965,7 @@ rem C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_b90%.bat
 
 REM ==============================
 REM 	if-case : "opt_b89" ==> start : res.linguis
-rem 	2021”N2ŒŽ9“ú13:06:15
+rem 	2021å¹´2æœˆ9æ—¥13:06:15
 REM ==============================
 ) else if "%param%"==%opt_b89% (
 
@@ -959,7 +983,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_91" ==> start : res.linguis
-rem 	2021”N2ŒŽ16“ú23:47:38
+rem 	2021å¹´2æœˆ16æ—¥23:47:38
 REM ==============================
 ) else if "%param%"==%opt_91% (
 
@@ -976,7 +1000,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b94" ==> start : res.linguis
-rem 	2021”N2ŒŽ16“ú23:47:38
+rem 	2021å¹´2æœˆ16æ—¥23:47:38
 REM ==============================
 ) else if "%param%"==%opt_b94% (
 
@@ -993,7 +1017,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b78" ==> start : 
-rem 	2021”N2ŒŽ18“ú16:32:46
+rem 	2021å¹´2æœˆ18æ—¥16:32:46
 REM ==============================
 ) else if "%param%"==%opt_b78% (
 
@@ -1010,7 +1034,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b93" ==> start : 
-rem 	2021”N2ŒŽ18“ú16:32:46
+rem 	2021å¹´2æœˆ18æ—¥16:32:46
 REM ==============================
 ) else if "%param%"==%opt_b93% (
 
@@ -1027,7 +1051,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b95" ==> start : 
-rem 	2021”N2ŒŽ18“ú16:32:46
+rem 	2021å¹´2æœˆ18æ—¥16:32:46
 REM ==============================
 ) else if "%param%"==%opt_b95% (
 
@@ -1044,7 +1068,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b68" ==> start : 
-rem 	2021”N2ŒŽ18“ú16:32:46
+rem 	2021å¹´2æœˆ18æ—¥16:32:46
 REM ==============================
 ) else if "%param%"==%opt_b68% (
 
@@ -1061,7 +1085,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b66" ==> start : 
-rem 	2021”N2ŒŽ18“ú16:32:46
+rem 	2021å¹´2æœˆ18æ—¥16:32:46
 REM ==============================
 ) else if "%param%"==%opt_b66% (
 
@@ -1078,7 +1102,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_bl" ==> start : 
-rem 	2021”N3ŒŽ3“ú8:32:40
+rem 	2021å¹´3æœˆ3æ—¥8:32:40
 REM ==============================
 ) else if "%param%"==%opt_bl% (
 
@@ -1102,7 +1126,7 @@ start %fpath_sheet:"=%
 
 REM ==============================
 REM 	if-case : "opt_b99" ==> start : 
-rem 	2021”N3ŒŽ4“ú13:42:30
+rem 	2021å¹´3æœˆ4æ—¥13:42:30
 REM ==============================
 ) else if "%param%"==%opt_b99% (
 
@@ -1119,7 +1143,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b100" ==> start : 
-rem 	2021”N3ŒŽ4“ú13:42:30
+rem 	2021å¹´3æœˆ4æ—¥13:42:30
 REM ==============================
 ) else if "%param%"==%opt_b100% (
 
@@ -1136,7 +1160,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b101" ==> start : 
-rem 	2021”N3ŒŽ4“ú13:42:30
+rem 	2021å¹´3æœˆ4æ—¥13:42:30
 REM ==============================
 ) else if "%param%"==%opt_b101% (
 
@@ -1153,7 +1177,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b102" ==> start : 
-rem 	2021”N3ŒŽ4“ú13:42:30
+rem 	2021å¹´3æœˆ4æ—¥13:42:30
 REM ==============================
 ) else if "%param%"==%opt_b102% (
 
@@ -1170,7 +1194,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b108" ==> start : 
-rem 	2021”N4ŒŽ29“ú0:09:35
+rem 	2021å¹´4æœˆ29æ—¥0:09:35
 REM ==============================
 ) else if "%param%"==%opt_b108% (
 
@@ -1187,7 +1211,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b111" ==> start : 
-rem 	2021”N4ŒŽ29“ú0:09:35
+rem 	2021å¹´4æœˆ29æ—¥0:09:35
 REM ==============================
 ) else if "%param%"==%opt_b111% (
 
@@ -1205,7 +1229,7 @@ REM ==============================
 
 REM ==============================
 REM 	if-case : "opt_b114" ==> start : 
-rem 	2021”N6ŒŽ23“ú15:20:12
+rem 	2021å¹´6æœˆ23æ—¥15:20:12
 REM ==============================
 ) else if "%param%"==%opt_b114% (
 
@@ -1224,7 +1248,7 @@ rem opt_b114
 
 REM ==============================
 REM 	if-case : "opt_b128" ==> start : 
-rem 	2021”N6ŒŽ23“ú15:20:12
+rem 	2021å¹´6æœˆ23æ—¥15:20:12
 REM ==============================
 ) else if "%param%"==%opt_b128% (
 
@@ -1244,7 +1268,7 @@ rem opt_b128
 
 REM ==============================
 REM 	if-case : "opt_b130" ==> start : 
-rem 	2021”N10ŒŽ4“ú15:40:58
+rem 	2021å¹´10æœˆ4æ—¥15:40:58
 REM ==============================
 ) else if "%param%"==%opt_b130% (
 
@@ -1264,7 +1288,7 @@ rem opt_b130
 
 REM ==============================
 REM 	if-case : "opt_b114" ==> start : 
-rem 	2021”N11ŒŽ10“ú0:29:13
+rem 	2021å¹´11æœˆ10æ—¥0:29:13
 REM ==============================
 ) else if "%param%"==%opt_b114% (
 
@@ -1283,7 +1307,7 @@ rem opt_b114
 
 REM ==============================
 REM 	if-case : "opt_s1" ==> start : 
-rem 	2022”N1ŒŽ6“ú13:26:47
+rem 	2022å¹´1æœˆ6æ—¥13:26:47
 REM ==============================
 ) else if "%param%"==%opt_s1% (
 
@@ -1302,7 +1326,7 @@ REM %stringof_opt_s1_fpath_batch%
 
 REM ==============================
 REM 	if-case : "opt_s2" ==> start : 
-rem 	2022”N1ŒŽ8“ú22:16:09
+rem 	2022å¹´1æœˆ8æ—¥22:16:09
 REM ==============================
 ) else if "%param%"==%opt_s2% (
 
@@ -1324,9 +1348,11 @@ rem : ADDITION POINT
 
 REM ==============================
 REM 	if-case : "h" ==> show help
-rem 	2020”N12ŒŽ30“ú0:22:36
+rem 	2020å¹´12æœˆ30æ—¥0:22:36
 REM ==============================
 ) else if "%param%"==%opt_h% (
+
+echo param is 'h'
 
 echo ^<Options^>
 
@@ -1477,7 +1503,7 @@ echo 	%opt_r_11:"=%,%opt_r_11_short:"=%	start %stringof_opt_r_11:"=%
 
 echo.
 
-rem : 2022”N4ŒŽ13“ú15:53:15
+rem : 2022å¹´4æœˆ13æ—¥15:53:15
 echo 	%opt_r_12:"=%,%opt_r_12_short:"=%	start %stringof_opt_r_12:"=%
 
 echo.
@@ -1508,11 +1534,11 @@ echo.
 rem ref : https://stackoverflow.com/questions/8797983/can-a-windows-batch-file-determine-its-own-file-name
 echo this file : %~nx0, %~pnx0, %1, %cd%
 rem echo ^%^~n^x^0 : %~nx0
-echo “`nx0	: %~nx0
-echo “`f0	: %~f0
-echo “`pnx0	: %~pnx0
-echo "“cd“"	: %cd%
-echo "“1"	: %1
+echo ï¼…ï½žnx0	: %~nx0
+echo ï¼…ï½žf0	: %~f0
+echo ï¼…ï½žpnx0	: %~pnx0
+echo "ï¼…cdï¼…"	: %cd%
+echo "ï¼…1"	: %1
 rem echo this file : %~f0
 
 
@@ -1541,37 +1567,41 @@ echo.
 echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 echo.
 
-rem : add : 2021”N11ŒŽ23“ú14:59:35
+rem //2022å¹´6æœˆ16æ—¥10:47:30
+echo 		==^> s c3
+echo.
+
+rem : add : 2021å¹´11æœˆ23æ—¥14:59:35
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
 echo.
 
-rem : add : 2021”N12ŒŽ12“ú16:51:44
+rem : add : 2021å¹´12æœˆ12æ—¥16:51:44
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
 echo.
 
-rem : add : 2021”N11ŒŽ23“ú14:59:35
+rem : add : 2021å¹´11æœˆ23æ—¥14:59:35
 echo "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
 echo sakura "C:\WORKS_2\Downloads\passwords - Sheet1 (3).csv"
 echo.
 
-rem : add : 2021”N12ŒŽ8“ú8:46:52
+rem : add : 2021å¹´12æœˆ8æ—¥8:46:52
 echo C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
 echo.
 echo 		==^> s c2
 echo.
 
-rem : add : 2021”N12ŒŽ8“ú8:46:52
+rem : add : 2021å¹´12æœˆ8æ—¥8:46:52
 echo C:\WORKS_2\WS\Eclipse_Luna\Cake_IFM11\lib\others\entries.ods
 echo.
 echo 		==^> s c1
 echo.
 
 
-rem : add : 2021”N12ŒŽ22“ú23:58:50
+rem : add : 2021å¹´12æœˆ22æ—¥23:58:50
 echo C:\Users\iwabuchiken\Desktop\start_server_8000.bat
 echo.
 
-rem : add : 2022”N2ŒŽ8“ú23:51:51
+rem : add : 2022å¹´2æœˆ8æ—¥23:51:51
 echo C:\WORKS_2\shortcuts_docs\log_JVE_46-6-8_japanese-art.log
 echo.
 
@@ -1584,7 +1614,7 @@ echo.
 echo taskkill /f /im tor.exe
 echo.
 
-rem //2022”N6ŒŽ15“ú17:32:44
+rem //2022å¹´6æœˆ15æ—¥17:32:44
 echo taskkill /f /im browser.exe
 echo.
 
@@ -1600,7 +1630,7 @@ echo.
 
 REM ==============================
 REM 	if-case : default ==> gitk
-rem 	2020”N12ŒŽ30“ú0:21:30
+rem 	2020å¹´12æœˆ30æ—¥0:21:30
 REM ==============================
 ) else (
 
@@ -1640,7 +1670,7 @@ start gitk
 
 rem pause
 
-rem : debug 2020”N12ŒŽ30“ú0:13:23
+rem : debug 2020å¹´12æœˆ30æ—¥0:13:23
 goto end
 
 start gitk

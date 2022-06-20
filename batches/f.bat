@@ -16,6 +16,14 @@ set param=%1
 
 echo param is ... '%param%'
 
+REM =============================
+REM 	set param strings
+REM 	2022”N6ŒŽ16“ú17:38:36
+REM =============================
+set opt_m="m"
+set opt_m_dpath="G:\"
+set opt_m_String="G:\ ^(mypassport^)"
+
 if "%param%"=="" (
 
 
@@ -85,6 +93,19 @@ echo.
 
 start C:\WORKS_2
 
+REM =============================
+REM 	G:\ (mypassport)
+REM 	2022”N6ŒŽ16“ú17:39:15
+REM =============================
+) else if "%param%"==%opt_m% (
+
+echo opening : %opt_m_String:"=%
+rem echo opening : G:\ ^(mypassport^)
+echo.
+
+start %opt_m_dpath:"=%
+rem start %opt_m%
+
 
 REM =============================
 REM 	show options
@@ -134,6 +155,9 @@ echo.
 echo		c	C:\WORKS_2\WS\WS_Cake_IFM11\commands
 echo		d	C:\WORKS_2\Downloads
 echo		i	C:\WORKS_2\WS\WS_Cake_IFM11\iphone
+echo		m	G:\ ^(mypassport^)
+echo.
+
 echo		s	C:\WORKS_2\shortcuts_docs
 echo		t	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
 echo		w	C:\WORKS_2
