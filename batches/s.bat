@@ -190,6 +190,12 @@ rem : 2022年2月18日10:15:17
 rem : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods
 set opt_c2="c2"
 
+rem : //2022年6月22日8:11:06
+rem : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+set opt_c3="c3"
+
+
+
 set opt_r_d2="d2"
 
 rem : 2021年2月17日12:54:54
@@ -814,6 +820,25 @@ REM ==============================
 	echo.
 	
 call "C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\9_prog_lang\diary.ods"
+
+REM ==============================
+REM 	if-case : "opt_c3" ==> start : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+rem 	2022年6月22日8:13:01
+REM ==============================
+) else if "%param%"==%opt_c3% (
+
+echo param is %opt_c3%!
+
+echo.
+
+set fpath="G:\photo-books\list-of-books.txt"
+
+echo starting %fpath%
+echo.
+
+C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath%
+
+rem call C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath%
 
 
 REM ==============================
@@ -1541,17 +1566,18 @@ echo.
 echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
 echo.
 
+rem //2022年6月20日23:19:14
+
+echo 		==^> s c3
+echo.
+
+
 rem : add : 2021年11月23日14:59:35
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
 echo.
 
 rem : add : 2021年12月12日16:51:44
 echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
-echo.
-
-rem //2022年6月20日23:19:14
-
-echo 		==^> s c3
 echo.
 
 
