@@ -14,6 +14,7 @@ rem start C:\WORKS_2\WS\WS_Music
 
 set param=%1
 
+echo this file is : C:\WORKS_2\batches\f.bat
 echo param is ... '%param%'
 
 REM =============================
@@ -23,6 +24,30 @@ REM =============================
 set opt_m="m"
 set opt_m_dpath="G:\"
 set opt_m_String="G:\ ^(mypassport^)"
+
+REM =============================
+REM 	set param strings : t2
+REM 	2022年6月26日10:59:10
+REM =============================
+set opt_t2="t2"
+set opt_t2_dpath="G:\tmp.20220507_191202"
+set opt_t2_String="open HD folder : %opt_t2_dpath:"=%"
+rem if "%param%"=="%opt_t2%" (
+if "%param%"==%opt_t2% (
+echo param is : "%opt_t2%"
+) else (
+echo param is NOT: "%opt_t2%"
+)
+
+
+REM =============================
+REM 	set param strings : z
+REM 	2022年6月26日10:49:32
+REM =============================
+set opt_z="z"
+set opt_z_dpath="C:\WORKS_2\batches\f.bat"
+set opt_z_String="edit f.bat"
+
 
 if "%param%"=="" (
 
@@ -83,6 +108,31 @@ echo.
 start C:\WORKS_2\WS\WS_Cake_IFM11\tmp
 
 REM =============================
+REM 	G:\tmp.20220507_191202
+REM 	2022年6月26日11:02:16
+REM =============================
+rem ) else if "%param%"=="%opt_t2%" (
+) else if "%param%"==%opt_t2% (
+
+echo else-if clause starting...
+
+echo param is : %opt_t2%
+rem echo param is : "%opt_t2%"
+
+
+echo opening : %opt_t2_dpath:"=%
+echo.
+
+start %opt_t2_dpath:"=%
+
+goto end
+
+
+rem start C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+
+
+
+REM =============================
 REM 	C:\WORKS_2
 REM 	2020年6月9日21:27:29
 REM =============================
@@ -92,6 +142,19 @@ echo opening : C:\WORKS_2
 echo.
 
 start C:\WORKS_2
+
+REM =============================
+REM 	C:\WORKS_2\batches\f.bat
+REM 	2022年6月26日10:51:52
+REM =============================
+) else if "%param%"==%opt_z% (
+
+echo starting : %opt_z_String:"=%
+
+echo.
+
+start C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %opt_z_dpath:"=%
+
 
 REM =============================
 REM 	G:\ (mypassport)
@@ -160,7 +223,9 @@ echo.
 
 echo		s	C:\WORKS_2\shortcuts_docs
 echo		t	C:\WORKS_2\WS\WS_Cake_IFM11\tmp
+echo		%opt_t2:"=%	%opt_t2_String:"=%
 echo		w	C:\WORKS_2
+echo		z	%opt_z_String:"=% ( %opt_z_dpath:"=% )
 
 echo.
 echo		コンピューター\HUAWEI P30 lite\内部ストレージ\Music

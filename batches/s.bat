@@ -1,5 +1,9 @@
 @echo off
 
+rem ================== resources / 2022年8月21日14:45:12
+rem C:\WORKS_2\start_a.bat
+rem ================== 
+
 REM ==============================
 REM 	set : vars
 rem 	2020年12月30日0:20:17
@@ -196,13 +200,23 @@ set opt_c3="c3"
 
 
 
+set opt_c4="c4"
+
+rem //2022年8月21日14:40:41
+rem : C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat
+set opt_c5="c5"
+
+
+
+
 set opt_r_d2="d2"
 
 rem : 2021年2月17日12:54:54
 rem "di" ==> diary
 set opt_di="di"
 
-set command_line_di="C:\WORKS_2\shortcuts_docs\start_diary.bat"
+set command_line_di="C:\WORKS_2\shortcuts_docs\log_files\start_diary.bat"
+rem set command_line_di="C:\WORKS_2\shortcuts_docs\start_diary.bat"
 
 set opt_r_dr="dr"
 
@@ -268,7 +282,7 @@ set stringof_opt_r_10="JVE_76_physics"
 
 set opt_r_10_short="10"
 
-set fpath_bat_opt_r_10="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+set fpath_bat_opt_r_10="C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_76-physics.bat"
 
 rem : 2021年11月30日16:22:11
 rem : JVE_64_ALL
@@ -277,7 +291,7 @@ set stringof_opt_r_11="JVE_64_ALL"
 
 set opt_r_11_short="11"
 
-set fpath_bat_opt_r_11="C:\WORKS_2\shortcuts_docs\start_log_JVE_64_ALL.bat"
+set fpath_bat_opt_r_11="C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_64_ALL.bat"
 
 rem : 2022年4月13日15:50:38
 rem : JVE_46-6-8_japanese-art
@@ -484,20 +498,20 @@ echo.
 echo starting res.68_theoretical-physics ....
 echo.
 
-rem 	echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[theme=theoretical-physics].bat
-echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat
+rem 	echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[theme=theoretical-physics].bat
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat
 
 
-rem "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
+rem "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat"
 
-rem start "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
+rem start "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat"
 
-call "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
+call "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat"
 
-rem start "C:\WORKS_2\shortcuts_docs\start_log_JVE_68_tp.bat"
+rem start "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68_tp.bat"
 
 
-rem sakura "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
+rem sakura "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat"
 
 REM ==============================
 REM 	if-case : "opt_r_3_short" ==> start : res.linguis
@@ -511,9 +525,9 @@ echo.
 echo starting res.68_theoretical-physics ....
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat
 
-call "C:\WORKS_2\shortcuts_docs\start_log_JVE_68.[tp].bat"
+call "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_68.[tp].bat"
 
 
 REM ==============================
@@ -529,7 +543,7 @@ echo.
 echo starting res.76_physics ....
 echo.
 
-rem set fpath_bat="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+rem set fpath_bat="C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_76-physics.bat"
 
 rem echo 	%fpath_bat%
 echo 	batch file is ...%fpath_bat_opt_r_10%
@@ -537,7 +551,7 @@ echo 	batch file is ...%fpath_bat_opt_r_10%
 rem call %fpath_bat:"=%
 call %fpath_bat_opt_r_10:"=%
 
-rem call "C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+rem call "C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_76-physics.bat"
 
 REM ==============================
 REM 	if-case : "opt_r_10_short" ==> start : res.linguis
@@ -551,13 +565,16 @@ echo.
 echo starting res.76_physics ....
 echo.
 
-rem set fpath_bat="C:\WORKS_2\shortcuts_docs\start_log_JVE_76-physics.bat"
+rem set fpath_bat="C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_76-physics.bat"
+
+rem sakura C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_76-physics.bat
 
 rem echo 	%fpath_bat%
 echo 	%fpath_bat_opt_r_10%
 
 rem call %fpath_bat:"=%
-call %fpath_bat_opt_r_10:"=%
+rem call %fpath_bat_opt_r_10:"=%
+start %fpath_bat_opt_r_10:"=%
 
 REM ==============================
 REM 	if-case : "opt_r_11_short" ==> start : res.linguis
@@ -600,9 +617,9 @@ REM ==============================
 	echo starting start_log_JVE_70.[CO2].bat ....
 	echo.
 	
-	echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_70.[CO2].bat
+	echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_70.[CO2].bat
 
-"C:\WORKS_2\shortcuts_docs\start_log_JVE_70.[CO2].bat"
+"C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_70.[CO2].bat"
 
 REM ==============================
 REM 	if-case : "opt_r_5" ==> start : res.linguis
@@ -617,9 +634,9 @@ REM ==============================
 	echo starting start_log_JVE_71.[logic].bat ....
 	echo.
 	
-	echo 	C:\WORKS_2\shortcuts_docs\start_log_JVE_71.[logic].bat
+	echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_71.[logic].bat
 
-"C:\WORKS_2\shortcuts_docs\start_log_JVE_71.[logic].bat"
+"C:\WORKS_2\shortcuts_docs\log_files\start_log_JVE_71.[logic].bat"
 
 REM ==============================
 REM 	if-case : "opt_r_6" ==> start : 
@@ -634,9 +651,9 @@ echo.
 echo starting start_log_%stringof_opt_r_6:"=%.bat ....
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_6:"=%.bat
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_6:"=%.bat
 
-C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_6:"=%.bat
+C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_6:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_7" ==> start : 
@@ -651,9 +668,9 @@ echo.
 echo starting start_log_%stringof_opt_r_7:"=%.bat ....
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_7:"=%.bat
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_7:"=%.bat
 
-C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_7:"=%.bat
+C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_7:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_8" ==> start : 
@@ -670,14 +687,14 @@ echo.
 echo starting start_log_%stringof_opt_r_8:"=%.bat ....
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8:"=%.bat %2
 
-C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8:"=%.bat %2
 
 
-rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+rem echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8:"=%.bat
 
-rem C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat
+rem C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_8_short" ==> start : 
@@ -693,12 +710,12 @@ echo.
 echo starting start_log_%stringof_opt_r_8:"=%.bat ....
 echo.
 
-echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8:"=%.bat %2
 
-C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8:"=%.bat %2
+C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8:"=%.bat %2
 
 
-rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_8_short:"=%.bat
+rem echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_8_short:"=%.bat
 
 REM ==============================
 REM 	if-case : "opt_r_9" ==> start : 
@@ -713,9 +730,9 @@ echo.
 echo starting start_log_%stringof_opt_r_9:"=%.bat ....
 echo.
 
-rem echo 	C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat %2
+rem echo 	C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_9:"=%.bat %2
 
-C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_r_9:"=%.bat
+C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_r_9:"=%.bat
 
 
 REM ==============================
@@ -831,7 +848,8 @@ echo param is %opt_c3%!
 
 echo.
 
-set fpath="G:\photo-books\list-of-books.txt"
+rem set fpath="G:\photo-books\list-of-books.txt"
+set fpath="G:\photo-books_HD\list-of-books.txt"
 
 echo starting %fpath%
 echo.
@@ -840,6 +858,47 @@ C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.ba
 
 rem call C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath%
 
+REM ==============================
+REM 	if-case : "opt_c4" ==> start : C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+rem 	2022年8月10日1:01:48
+REM ==============================
+) else if "%param%"==%opt_c4% (
+
+echo param is %opt_c4%!
+
+echo.
+
+set fpath="C:\WORKS_2\shortcuts_docs\log_files\log_jap-flute_shino.log"
+
+echo starting %fpath%
+echo.
+
+C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath%
+
+REM ==============================
+REM 	if-case : "opt_c5" ==> start : C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat
+rem 	2022年8月21日14:41:34
+REM ==============================
+) else if "%param%"==%opt_c5% (
+
+echo param is %opt_c5%!
+
+echo.
+
+rem : //2022年10月5日18:16:42
+rem : log file
+C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe "C:\WORKS_2\shortcuts_docs\log_files\log_jap-flute_shino.log"
+
+set fpath="C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat"
+
+echo starting %fpath%
+echo.
+
+%fpath%
+
+rem C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath%
+
+rem sakura "C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat"
 
 REM ==============================
 REM 	if-case : "opt_a1" ==> start
@@ -884,7 +943,7 @@ echo "s.bat" leaving; calling the batch file...
 
 rem %fpath_batch:"=%
 
-rem  	echo 	"C:\WORKS_2\shortcuts_docs\start_log_%stringof_opt_a1:"=%.bat"
+rem  	echo 	"C:\WORKS_2\shortcuts_docs\log_files\start_log_%stringof_opt_a1:"=%.bat"
 
 
 REM ==============================
@@ -1554,16 +1613,36 @@ echo.
 
 
 echo 	------------------------ files
+rem //2022年9月10日22:49:15
+echo sakura G:\log_lista-filmov.html
 echo.
 
-echo C:\WORKS_2\shortcuts_docs\log_jap-flute_shino.log
+rem //2022年8月21日14:39:34 / compo
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat
+
+echo 		==^> s c5
+
 echo.
+
+echo.
+
+echo 	C:\WORKS_2\shortcuts_docs\log_files\start_lang_ancient_greek.bat
+echo.
+
+
+echo C:\WORKS_2\shortcuts_docs\log_files\log_jap-flute_shino.log
+echo.
+echo 		==^> s c4
+echo.
+
 echo "C:\WORKS_2\WS\WS_Cake_IFM11\commands\2-0 -0)_close-apps.txt"
 echo.
 echo 		==^> s c
 echo.
 
-echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+rem echo C:\WORKS_2\WS\WS_Cake_IFM11\photo-books\list-of-books.txt
+rem //2022年7月27日10:01:43
+echo G:\photo-books_HD\list-of-books.txt
 echo.
 
 rem //2022年6月20日23:19:14
@@ -1573,11 +1652,11 @@ echo.
 
 
 rem : add : 2021年11月23日14:59:35
-echo C:\WORKS_2\shortcuts_docs\log-session_JVE_64_ALL.log
+echo C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_64_ALL.log
 echo.
 
 rem : add : 2021年12月12日16:51:44
-echo C:\WORKS_2\shortcuts_docs\log-session_JVE_READ_ALL.log
+echo C:\WORKS_2\shortcuts_docs\log_files\log-session_JVE_READ_ALL.log
 echo.
 
 
@@ -1604,7 +1683,12 @@ echo C:\Users\iwabuchiken\Desktop\start_server_8000.bat
 echo.
 
 rem : add : 2022年2月8日23:51:51
-echo C:\WORKS_2\shortcuts_docs\log_JVE_46-6-8_japanese-art.log
+echo C:\WORKS_2\shortcuts_docs\log_files\log_JVE_46-6-8_japanese-art.log
+echo.
+
+rem : add : 2022年7月6日19:03:06
+echo "C:\WORKS_2\WS\FM_2_20171104_225946\Projects\JVEMV6\37_miscs\21_math-physics\4_knot-theory.mm"
+
 echo.
 
 
@@ -1679,3 +1763,4 @@ start gitk
 
 
 :end
+
