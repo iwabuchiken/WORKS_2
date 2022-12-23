@@ -206,6 +206,9 @@ rem //2022年8月21日14:40:41
 rem : C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat
 set opt_c5="c5"
 
+rem //2022年12月24日1:03:49
+rem : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF_20221220_010422.ods
+set opt_c6="c6"
 
 
 
@@ -899,6 +902,24 @@ echo.
 rem C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\Programs\sakura\sakura.exe %fpath%
 
 rem sakura "C:\WORKS_2\shortcuts_docs\log_files\start_music-composition_v2.bat"
+
+REM ==============================
+REM 	if-case : "opt_c6" ==> start : C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF_20221220_010422.ods
+rem 	2022年12月24日1:09:25
+REM ==============================
+) else if "%param%"==%opt_c6% (
+
+echo param is %opt_c6%!
+
+echo.
+
+rem : //2022年12月24日1:10:09
+rem : ods file
+echo starting ods file...
+echo.
+
+C:\WORKS_2\shortcuts_docs\t.20220429_161510.buffer-file-for-list-of-books.txt.bat && C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF_20221220_010422.ods
+
 
 REM ==============================
 REM 	if-case : "opt_a1" ==> start
@@ -1615,6 +1636,13 @@ echo.
 echo 	------------------------ files
 rem //2022年9月10日22:49:15
 echo sakura G:\log_lista-filmov.html
+echo.
+
+rem //2022年12月24日1:12:37 / liquor
+echo 	C:\WORKS_2\WS\WS_Others.JVEMV6\JVEMV6\37_miscs\26_non-numbered\1MPF_20221220_010422.ods
+
+echo 		==^> s c6
+
 echo.
 
 rem //2022年8月21日14:39:34 / compo
