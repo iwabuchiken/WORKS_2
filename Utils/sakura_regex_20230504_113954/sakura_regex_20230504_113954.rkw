@@ -1,0 +1,22 @@
+﻿// 正規表現キーワード Ver1
+RxKey[000]=RK6,/\d+\.\d+\.\d+/k
+RxKey[001]=RK1,/\d+\.\d+/k
+RxKey[002]=URL,/(?<=")(\b[a-zA-Z]:|\B\\\\)[^"\r\n]*/k
+RxKey[003]=URL,/(\b[a-zA-Z]:\\|\B\\\\)[\w\-_.\\\/$%~]*/k
+RxKey[004]=RK3,/\-{3}/k
+RxKey[005]=RK4,/(\d+)\]/k
+RxKey[006]=RK5,/\w+_*\d*.py/k
+RxKey[007]=RK4,/\d{4}-\d{2}-\d{2}/k
+RxKey[008]=RK7,/\d{2}-\d{2}-\d{2}_\d{3}/k
+RxKey[009]=RK8,/\#+/k
+RxKey[010]=RK9,/\(step .+\)/k
+RxKey[011]=RK7,/={5,}/k
+RxKey[012]=RK7,/\/\/.+$/k
+RxKey[013]=RK7,/\/\*.+\*\//k
+RxKey[014]=RK8,/%[^\-].+?%/k
+RxKey[015]=KW7,/==>/k
+RxKey[016]=KW7,/-->/k
+RxKey[017]=RKA,/@@@/k
+RxKey[018]=RK7,/\*+/k
+RxKey[019]=RK9,/.+\]\]/k
+RxKey[020]=KW3,/<==/k

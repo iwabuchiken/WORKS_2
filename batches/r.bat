@@ -563,6 +563,22 @@ REM ******************************
 
 	goto show_message
 
+REM ******************************
+REM 	path --> designated
+REM 	2023”N5ŒŽ30“ú1:20:16
+REM ******************************
+REM ) else if "%param%"<>"" (
+) else if NOT "%param%"=="" (
+	
+echo param... unknown : %param%
+	
+echo trying to change the dir to : %param%
+
+pushd %param%
+
+REM 	goto show_message
+
+
 ) else (
 
 	echo "no param"
